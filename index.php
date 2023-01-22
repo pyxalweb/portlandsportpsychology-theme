@@ -14,6 +14,16 @@
 
 get_header();
 ?>
+	<section id="site-masthead" class="masthead masthead--video" role="complementary" aria-label="Decorative looping video">
+        <div class="content-overlay homepage | animate-scroll-fade-in" data-delay="4">
+            <h1>heading goes here</h1>
+        </div>
+
+        <video autoplay muted loop playsinline>
+            <!--<source src="<?php //echo (LOADVIDEOSEXTERNALLY && awsUseS3 ? awsURL . 'RyqvobpDop/' : ''); ?>videos/homepage.mp4" type="video/mp4" /> -->
+            <source src="<?php echo get_template_directory_uri(); ?>/videos/homepage.mp4" type="video/mp4" />
+		</video>
+    </section>
 
 	<main id="primary" class="site-main">
 

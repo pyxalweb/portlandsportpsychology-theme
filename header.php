@@ -19,7 +19,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class('preload'); ?>>
 <?php wp_body_open(); ?>
 
 <header id="site-header" class="header">
@@ -33,9 +33,23 @@
 		<nav class="nav-traditional" aria-label="Main Navigation">
             <ul>
 				<li class="nav-item">
-					<a href="#" class="nav-link">Test Link</a>
+					<a href="#" class="nav-link">Pages</a>
 				</li>
-                <?php // include("inc-site-navigation.php"); ?>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Blog</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Features</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Shop</a>
+				</li>
             </ul>
         </nav>
 
@@ -50,15 +64,29 @@
         <nav class="mobile-nav" aria-label="Main Navigation Mobile">
             <ul>
 				<li class="nav-item">
-					<a href="#" class="nav-link">Test Link</a>
+					<a href="#" class="nav-link">Pages</a>
 				</li>
-                <?php // include("inc-site-navigation.php"); ?>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Blog</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Features</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Shop</a>
+				</li>
             </ul>
         </nav>
     </div>
 </header>
 
-<div id="page" class="site">
+
 	<?php /*
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
