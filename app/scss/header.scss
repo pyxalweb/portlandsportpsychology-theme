@@ -3,19 +3,14 @@
 // ***********************************
 .header {
   display: flex;
+  position: sticky;
+  inset: 0 auto auto auto;
   width: 100%;
+  height: 6.25em;
   background-color: var(--c-white);
   color: var(--c-black);
-
-  a {
-    color: var(--c-medium-grey);
-    text-decoration: none;
-    transition: all 0.5s;
-
-    &:is(:hover, :focus) {
-      color: var(red);
-    }
-  }
+  box-shadow: 1px 1px 5px rgb(0 0 0 / 0.175);
+  z-index: 10000;
 }
 
 
@@ -27,6 +22,7 @@
 .header__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 
@@ -54,10 +50,20 @@
 // ***********************************
 //  Navigation Menu - Traditional
 // ***********************************
+
+%nav-1 {
+  color: var(--c-grey-300);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .nav-traditional {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 100%;
+  height: 100%;
   position: relative;
 
   @media (max-width: $vw-500) {
@@ -72,18 +78,38 @@
   >ul {
     display: flex;
     justify-content: flex-end;
-    gap: min(3em, 5vw);
+    gap: min(2.5em, 5vw);
+    height: 100%;
 
     >li {
       display: flex;
       align-items: center;
+      position: relative;
 
       >a {
-        @extend %link-underline;
+        @extend %nav-1;
+        display: inline-block;
+        width: fit-content;
         padding-block: 2.3em;
-        text-transform: uppercase;
-        color: var(--c-medium-grey);
-        font-size: var(--fs-200);
+        transition: all var(--t-medium);
+
+        &:after {
+          content: '';
+          display: block;
+          border-bottom: 2px solid var(--c-primary);
+          transform: scaleX(0);
+          // opacity: 0;
+          transform-origin: 0% 50%;
+          transition: transform var(--t-fast);
+        }
+
+        &:hover,
+        &:focus {
+          &:after {
+            transform: scaleX(1);
+            // opacity: 1;
+          }
+        }
       }
 
       &.nav-hide {
@@ -93,17 +119,24 @@
       >ul {
         display: none;
         position: absolute;
-        inset: var(--nav-dropdown-top) 0 auto auto;
+        inset: var(--nav-dropdown-top) auto auto 0;
         white-space: nowrap;
 
         >li {
-          background-color: var(--c-secondary);
+          background-color: var(--c-white);
+          border-bottom: 1px solid var(--c-grey-100);
 
           >a {
+            @extend %nav-1;
             display: block;
             width: 100%;
             padding: 1em;
-            text-transform: uppercase;
+            transition: all var(--t-fast);
+
+            &:hover,
+            &:focus {
+              background-color: var(--c-grey-100);
+            }
           }
         }
       }
@@ -111,9 +144,17 @@
       &:hover,
       &:focus,
       &.is-focused {
+        >a {
+          &:after {
+            transform: scaleX(1);
+            // opacity: 1;
+          }
+        }
+
         >ul {
           display: flex;
           flex-direction: column;
+          z-index: 1;
         }
       }
     }
@@ -161,7 +202,7 @@
   .line-bottom {
     transition: all 0.5s;
     transform-origin: center center;
-    stroke: var(--c-white);
+    stroke: var(--c-primary);
   }
 
   .line-top {
@@ -211,6 +252,30 @@
 // ***********************************
 //  Navigation Menu - Overlay
 // ***********************************
+%nav-2 {
+  color: var(--c-grey-100);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:is(:hover, :focus) {
+    color: var(--c-white);
+  }
+}
+
+%nav-3 {
+  color: var(--c-grey-200);
+  font-size: var(--fs-200);
+  font-weight: var(--fw-600);
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:is(:hover, :focus) {
+    color: var(--c-white);
+  }
+}
+
 .overlay-nav {
   width: 320px;
   height: 100vh;
@@ -220,8 +285,8 @@
   transform: translateX(100%);
   overflow: hidden;
   z-index: 30000;
-  background-color: var(--c-secondary);
-  transition: all var(--t-long);
+  background-color: var(--c-black);
+  transition: all var(--t-medium);
   outline: none;
 
   @media (max-width: $vw-200) {
@@ -243,16 +308,23 @@
       flex-direction: column;
       justify-content: space-between;
       height: auto;
-      padding-inline: 2em 1em;
       list-style: none;
 
       >li {
+        margin-inline: 1em;
+
         >a {
+          @extend %nav-2;
           display: flex;
-          justify-content: space-between;
-          width: 100%;
-          padding-block: 0.65em;
+          justify-content: center;
+          padding: 1em;
           position: relative;
+          border-bottom: 1px solid var(--c-grey-400);
+          transition: all var(--t-medium);
+
+          &:is(:hover, :focus) {
+            border-color: var(--c-primary);
+          }
 
           .dropdown-toggle {
             position: absolute;
@@ -263,16 +335,20 @@
             height: 44px;
             line-height: 44px;
             text-align: center;
+            color: var(--c-grey-100);
+            transition: transform var(--t-medium);
 
             &:before {
-              content: '\E800';
+              content: '\E807';
               font-family: 'icons';
             }
 
             &.show {
-              &:before {
-                content: '\E803';
-              }
+              transform: translateY(-50%) rotate(90deg);
+            }
+
+            &:is(:hover, :focus) {
+              color: var(--c-white);
             }
           }
         }
@@ -282,19 +358,29 @@
         }
 
         >ul {
-          display: none;
-          padding-left: 1em;
           list-style: none;
+          overflow: hidden;
+          max-height: 0;
+          opacity: 0;
+          transition: all var(--t-medium);
 
           &.show {
-            display: block;
+            max-height: 100%;
+            opacity: 1;
           }
 
           >li {
             >a {
-              display: block;
-              width: 100%;
-              padding-block: 0.65em;
+              @extend %nav-3;
+              display: flex;
+              justify-content: center;
+              padding: 1em;
+              border-bottom: 1px solid var(--c-grey-400);
+              transition: all var(--t-medium);
+
+              &:is(:hover, :focus) {
+                border-color: var(--c-primary);
+              }
             }
           }
         }
@@ -307,9 +393,9 @@
 
 
 // **************************************************
-//  Mobile Booking
+//  Thumb CTA
 // **************************************************
-.booking-mobile {
+.thumb-cta {
   display: none;
   position: fixed;
   inset: auto auto 0 auto;

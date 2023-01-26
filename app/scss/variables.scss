@@ -5,7 +5,7 @@
   --root-font-size: 16px;
 
   --ff-primary: 'Raleway', sans-serif;
-  --ff-secondary: 'Lora', serif;
+  // --ff-secondary: 'Lora', serif;
 
   --fs-100: 0.8125rem; // 13
   --fs-200: 0.875rem; // 14
@@ -17,18 +17,23 @@
   --fs-800: 1.5rem; // 24
   --fs-900: 1.625rem; // 26
   --fs-1000: 2.375rem; // 38
+  --fs-1100: 6rem; // 96
 
+  --fw-100: 100; // thin
+  --fw-200: 200; // extra light
+  --fw-300: 300; // light
   --fw-400: 400; // regular
   --fw-500: 500; // medium
   --fw-600: 600; // semi-bold
   --fw-700: 700; // bold
   --fw-800: 800; // extra-bold
+  --fw-900: 900; // black
 
   --lh-300: 1.25;
   --lh-400: 1.5;
   --lh-500: 2;
 
-  --header-height: 0;
+  --masthead-height: 0;
   --nav-dropdown-top: 0;
 
 
@@ -37,16 +42,15 @@
   // ***********************************
   //  colors
   // ***********************************
-  --c-primary: #B27B0D;
-  --c-secondary: #1D1916;
-  --c-secondary-rgb: 29 25 22;
-  --c-tertiary: red;
-  --c-fourth: red;
+  --c-primary: #CE2724;
+  --c-secondary: #DA3939;
+  --c-tertiary: #B27B0D;
   --c-black: #000;
   --c-white: #fff;
-  --c-light-grey: #F0F0F0;
-  --c-medium-grey: #969696;
-  --c-dark-grey: #555555;
+  --c-grey-100: #EFEFEF;
+  --c-grey-200: #BFBFBF;
+  --c-grey-300: #767676;
+  --c-grey-400: #626262;
 
 
 
@@ -85,8 +89,8 @@
   // ***********************************
   //  Transitions
   // ***********************************
-  --t-medium: 0.3s;
-  --t-long: 0.5s;
+  --t-fast: 0.3s;
+  --t-medium: 0.5s;
   --t-slow: 1s;
 }
 // end :root

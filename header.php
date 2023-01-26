@@ -26,36 +26,19 @@
 	<div class="header__container | content width-lg">
 		<div class="header__logo">
             <a href="/">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/logo.png" width="120" height="14" alt="Portland Sport Psychology">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/logo.svg" width="283" height="73" alt="Portland Sport Psychology">
             </a>
         </div>
 
 		<nav class="nav-traditional" aria-label="Main Navigation">
-            <ul>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Pages</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Portfolio</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Blog</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Gallery</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Features</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Shop</a>
-				</li>
-            </ul>
+			<ul>
+				<?php include('inc-navigation.php'); ?>
+			</ul>
         </nav>
 
 		<div class="header__nav">
             <a class="overlay-nav-toggle" href="#" aria-label="Toggle Navigation Menu">
-                <?php include("assets/icon-navigation.svg"); ?>
+                <?php include('assets/icon-navigation.svg'); ?>
             </a>
         </div>
 	</div>
@@ -63,28 +46,15 @@
 	<div class="overlay-nav">
         <nav class="mobile-nav" aria-label="Main Navigation Mobile">
             <ul>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Pages</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Portfolio</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Blog</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Gallery</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Features</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Shop</a>
-				</li>
+				<?php include('inc-navigation.php'); ?>
             </ul>
         </nav>
     </div>
 </header>
+
+<div class="thumb-cta">
+    <a href="#">Learn More</a>
+</div>
 
 
 	<?php /*

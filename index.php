@@ -15,53 +15,20 @@
 get_header();
 ?>
 	<section id="site-masthead" class="masthead masthead--video" role="complementary" aria-label="Decorative looping video">
-        <div class="content-overlay homepage | animate-scroll-fade-in" data-delay="4">
-            <h1>heading goes here</h1>
+        <div class="content-overlay homepage | animate-scroll-fade-in" data-delay="0">
+            <h1>Elliott Waksman</h1>
         </div>
 
         <video autoplay muted loop playsinline>
-            <!--<source src="<?php //echo (LOADVIDEOSEXTERNALLY && awsUseS3 ? awsURL . 'RyqvobpDop/' : ''); ?>videos/homepage.mp4" type="video/mp4" /> -->
             <source src="<?php echo get_template_directory_uri(); ?>/videos/homepage.mp4" type="video/mp4" />
 		</video>
     </section>
 
-	<main id="primary" class="site-main">
+	<main id="site-content" class="site-content">
+		<p>main</p>
 
-		<?php
-		if ( have_posts() ) :
-
-			if ( is_home() && ! is_front_page() ) :
-				?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
-				<?php
-			endif;
-
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
-
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
-
-	</main><!-- #main -->
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu. Praesent fringilla justo sed est gravida, id tincidunt nulla ullamcorper. Etiam molestie efficitur velit, a tristique purus dapibus sit amet. Vivamus id ante quam. Cras imperdiet, purus sit amet sagittis convallis, est ante rutrum risus, vitae aliquet lorem nunc a sapien. Suspendisse eleifend rhoncus dolor, sed volutpat felis maximus nec. Phasellus nec lobortis nisl. Phasellus porta, neque nec auctor faucibus, nisl sapien facilisis metus, nec commodo arcu odio tincidunt massa. Aliquam sit amet ultricies elit, nec cursus ex.<br><br>Vivamus bibendum hendrerit bibendum. Proin a nisl ultricies, condimentum augue et, rhoncus nisl. Aliquam at dignissim lorem, vel posuere ipsum. Nulla lobortis risus in congue hendrerit. Etiam dignissim porttitor tellus, sit amet dignissim velit commodo quis. Fusce hendrerit dui iaculis lacus pellentesque luctus. Sed vulputate purus dolor, sit amet malesuada dolor euismod non. Fusce egestas tristique porta.</p>
+	</main>
 
 <?php
-get_sidebar();
 get_footer();

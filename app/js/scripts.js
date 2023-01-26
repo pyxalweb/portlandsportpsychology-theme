@@ -319,16 +319,23 @@ overlayDropdowns()
 
 
 // ***********************************
-// Masthead Slideshow Height
+// Masthead Height
 // ***********************************
-
-// ternary operators
-// if the element is null (undefined and doesnt exist in DOM) then set its offsetHeight value to 0
-const headerHeight = header != null ? header.offsetHeight : 0 // get header height
-
 const setMastheadHeight = () => {
-    // set '--header-height' CSS variable value
-    root.style.setProperty('--header-height', headerHeight + 'px')
+    // ternary operators
+    // if the element is null (undefined and doesnt exist in DOM) then set its offsetHeight value to 0
+    const headerHeight = header != null ? header.offsetHeight : 0 // get header height
+
+    // get viewport height
+    const viewportHeight = window.innerHeight;
+
+    // calculate masthead height
+    const mastheadHeight = viewportHeight - headerHeight
+
+    // apply masthead height value to masthead element
+    if (mastheadContainer) {
+        root.style.setProperty('--masthead-height', mastheadHeight + 'px')
+    };
 }
 setMastheadHeight()
 

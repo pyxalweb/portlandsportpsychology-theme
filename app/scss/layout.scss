@@ -24,17 +24,17 @@ body {
 //  Text Style Guide
 // ***********************************
 
-// default text
+// text - default
 %text-1 {
   font-family: var(--ff-primary);
   font-size: var(--fs-400);
   font-weight: var(--fw-400);
   line-height: var(--lh-500);
-  color: var(--c-dark-grey);
+  color: var(--c-grey-400);
 }
 .text-1 { @extend %text-1; }
 
-// gold text
+// text - primary color
 %text-2 {
   font-family: var(--ff-primary);
   font-size: var(--fs-400);
@@ -45,21 +45,23 @@ body {
 }
 .text-2 { @extend %text-2; }
 
-// white text
+// heading - large font-size
 %text-3 {
   font-family: var(--ff-primary);
-  font-size: var(--fs-400);
+  font-size: clamp(var(--fs-800), 5vw, var(--fs-1000));
   font-weight: var(--fw-500);
   line-height: var(--lh-400);
-  color: var(--c-white);
-  text-transform: uppercase;
+  color: var(--c-secondary);
 }
 .text-3 { @extend %text-3; }
+.text-3--h1 h1 { @extend %text-3; }
+.text-3--h2 h2 { @extend %text-3; }
+.text-3--h3 h3 { @extend %text-3; }
 
-// heading - large font size
+// heading - small font-size
 %text-4 {
-  font-family: var(--ff-secondary);
-  font-size: clamp(var(--fs-800), 5vw, var(--fs-1000));
+  font-family: var(--ff-primary);
+  font-size: clamp(var(--fs-700), 5vw, var(--fs-900));
   font-weight: var(--fw-500);
   line-height: var(--lh-400);
   color: var(--c-secondary);
@@ -69,53 +71,21 @@ body {
 .text-4--h2 h2 { @extend %text-4; }
 .text-4--h3 h3 { @extend %text-4; }
 
-// heading - large font size - white
-%text-5 {
-  font-family: var(--ff-secondary);
-  font-size: var(--fs-1000);
-  font-weight: var(--fw-500);
-  line-height: var(--lh-400);
-  color: var(--c-white);
-}
-.text-5 { @extend %text-5; }
-.text-5--h1 h1 { @extend %text-5; }
-.text-5--h2 h2 { @extend %text-5; }
-.text-5--h3 h3 { @extend %text-5; }
-
-// heading - small font-size
-%text-6 {
-  font-family: var(--ff-secondary);
-  font-size: clamp(var(--fs-700), 5vw, var(--fs-900));
-  font-weight: var(--fw-500);
-  line-height: var(--lh-400);
-  color: var(--c-secondary);
-}
-.text-6 { @extend %text-6; }
-.text-6--h1 h1 { @extend %text-6; }
-.text-6--h2 h2 { @extend %text-6; }
-.text-6--h3 h3 { @extend %text-6; }
-
-// bold text
-%text-7 {
-  font-family: var(--ff-primary);
-  font-size: var(--fs-400);
-  font-weight: var(--fw-700);
-  line-height: var(--lh-400);
-  color: var(--c-black);
-  text-transform: uppercase;
-}
-.text-2 { @extend %text-7; }
-
-
-
-
-// ***********************************
-//  Site Text
-// ***********************************
-
-// main element
+// affects the 'main.site-content' element only
 .site-content {
   @extend %text-1;
+
+  h1 {
+    @extend %text-3;
+  }
+
+  h2 {
+    @extend %text-4;
+  }
+
+  h3 {
+    @extend %text-4;
+  }
 
   strong {
     font-weight: var(--fw-700);
@@ -124,141 +94,21 @@ body {
   em {
     font-style: italic;
   }
-}
 
-// default text
-.text-df {
-  h1 {
-    @extend %text-4;
-  }
-
-  h2 {
-    @extend %text-4;
-  }
-}
-
-// default text - interior
-.interior {
-  .text-df {
-    h1,
-    h2 {
-      margin-bottom: 0.25em;
-    }
-  }
-}
-
-
-
-
-// ***********************************
-// Text Underline
-// ***********************************
-.text-underline {
-  h1, h2, h3, h4 {
-    margin-bottom: 0.9em;
-
-    &:after {
-      content: '';
-      display: block;
-      width: 100px;
-      height: 2px;
-      background-color: var(--c-tertiary);
-      margin-inline: auto;
-      margin-top: 0.7em;
-    }
-  }
-}
-
-
-
-
-// ***********************************
-// Link Underline
-// ***********************************
-%link-underline {
-  display: inline-block;
-  width: fit-content;
-
-  &:after {
-    content: '';
-    display: block;
-    border-bottom: 2px solid var(--c-primary);
-    // transform: scaleX(0);
-    opacity: 0;
-    transform-origin: 0% 50%;
-    transition: opacity var(--t-medium);
-  }
-
-  &:hover,
-  &:focus {
-    &:after {
-      // transform: scaleX(1);
-      opacity: 1;
-    }
-  }
-}
-
-.link-underline {
-  @extend %link-underline;
-}
-
-
-
-
-// ***********************************
-// Text Paragraph First
-// ***********************************
-.text-paragraph-first {
-  display: flex;
-  flex-direction: column;
-
-  >* {
-    order: 2;
-  }
-
-  >p {
-    order: 1;
-
-    @extend %text-2;
-  }
-
-  &.text-paragraph-first--dark {
-    >p {
-      @extend %text-3;
-    }
-
-    h2 {
-      @extend %text-5;
-    }
-  }
-}
-
-
-
-
-// ***********************************
-//  Default links
-// ***********************************
-a {
-  color: var(--c-primary);
-
-  &:hover,
-  &:focus {
-    text-decoration: none;
-  }
-}
-
-
-
-
-// ***********************************
-//  Content Lists
-// ***********************************
-.content {
   ul {
     margin-left: 1em;
   }
+
+  a {
+    color: var(--c-primary);
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
 }
+
 
 
 
@@ -272,7 +122,7 @@ a {
   text-transform: uppercase;
   display: block;
   width: fit-content;
-  transition: all var(--t-medium);
+  transition: all var(--t-fast);
   cursor: pointer;
 }
 
@@ -292,48 +142,11 @@ a {
   }
 }
 
-.button--remove-styling {
-  border: none;
-}
-
-.button--wide {
-  padding-inline: 3.25em;
-}
-
-%button-dark {
-  color: var(--c-white);
-  background:rgb(var(--c-secondary-rgb) / 0.85);
-}
-
-.button--dark {
-  @extend %button-dark;
-}
-
-.buttons-row {
-  display: flex;
-  gap: 1em;
-
-  @media (max-width: $vw-300) {
-    flex-direction: column;
-    width: fit-content;
-  }
-
-  >a {
-    flex-grow: 0;
-    flex-shrink: 1;
-
-    @media (max-width: $vw-300) {
-      width: 100%;
-      text-align: center;
-    }
-  }
-}
-
 
 
 
 // ***********************************
-//  Social
+//  Icons
 // ***********************************
 .social {
   list-style: none;
@@ -349,9 +162,6 @@ a {
 .social__facebook a:before { content: '\f09a'; }
 .social__instagram a:before { content: '\f16d'; }
 .social__twitter a:before { content: '\f099'; }
-
-
-
 
 .icon {
   display: flex;
@@ -374,5 +184,43 @@ a {
 .icon--phone {
   &:before {
     content: '\E815';
+  }
+}
+
+
+
+
+// ***********************************
+//  Masthead
+// ***********************************
+.masthead {
+  display: grid;
+  place-items: center;
+  position: relative;
+  height: 100%;
+
+  >* {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  video {
+    z-index: -1;
+    display: block;
+    width: 100%;
+    height: var(--masthead-height);
+    max-height: 710px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+}
+
+.content-overlay {
+  h1 {
+    font-family: var(--ff-primary);
+    font-size: clamp(var(--fs-800), 5vw, var(--fs-1100));
+    font-weight: var(--fw-800);
+    line-height: var(--lh-400);
+    color: var(--c-black);
   }
 }
