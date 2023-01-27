@@ -2,7 +2,7 @@
 //  Layout Scripts
 // ***********************************
 // Created by Alex Winter for LET Group
-// Last Modified: 2023-01-22 by AW
+// Last Modified: 2023-01-26 by AW
 
 
 
@@ -20,7 +20,6 @@ const headerLogo = document.querySelectorAll('.header__logo path')
 const headerMenu = document.querySelectorAll('.menu-hamburger line')
 
 /**** masthead ****/
-const mastheadHomepage = document.querySelector('.homepage .masthead--video video')
 const mastheadContainer = document.querySelector('#site-masthead')
 
 /**** nav traditional ****/

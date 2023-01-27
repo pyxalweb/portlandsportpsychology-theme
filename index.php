@@ -15,8 +15,23 @@
 get_header();
 ?>
 	<section id="site-masthead" class="masthead masthead--video" role="complementary" aria-label="Decorative looping video">
-        <div class="content-overlay homepage | animate-scroll-fade-in" data-delay="0">
-            <h1>Elliott Waksman</h1>
+        <div class="masthead__overlay homepage | animate-scroll-fade-in" data-delay="0">
+            <div class="masthead__overlay__box">
+                <div class="masthead__overlay__heading">
+                    <h1>Elliott Waksman</h1>
+                </div>
+                <div class="masthead__overlay__subtext">
+                    <p>MA, CMPC</p>
+                    <p>Speaker • Author • Consultant</p>
+                </div>
+                <div class="masthead__overlay__text">
+                    <p>Improve your focus, confidence, and performance on the field. Schedule your sport psychology consultation today!</p>
+                </div>
+                <div class="masthead__overlay__buttons">
+                    <a href="#" class="button">Schedule Consultation</a>
+                    <a href="#" class="button">Waksman's Workbook</a>
+                </div>
+            </div>
         </div>
 
         <video autoplay muted loop playsinline>
