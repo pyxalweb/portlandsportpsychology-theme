@@ -34,7 +34,7 @@ body {
 }
 .text-1 { @extend %text-1; }
 
-// text - primary color
+// text - primary color and bold
 %text-2 {
   font-family: var(--ff-primary);
   font-size: var(--fs-400);
@@ -84,6 +84,15 @@ body {
 .text-5--h2 h2 { @extend %text-5; }
 .text-5--h3 h3 { @extend %text-5; }
 
+// text - medium font-size and bold
+%text-6 {
+  font-family: var(--ff-primary);
+  font-size: clamp(var(--fs-400), 3vw, var(--fs-700));
+  font-weight: var(--fw-600);
+  line-height: var(--lh-400);
+  color: var(--c-black);
+}
+
 // affects the 'main.site-content' element only
 .site-content {
   @extend %text-1;
@@ -129,29 +138,106 @@ body {
 // ***********************************
 //  Buttons
 // ***********************************
-%button-defaults {
+%text-button-1 {
   font-size: var(--fs-400);
+  font-weight: var(--fw-600);
   text-decoration: none;
   text-transform: uppercase;
+}
+
+%button-defaults {
+  @extend %text-button-1;
+  text-align: center;
   display: block;
   width: fit-content;
-  transition: all var(--t-fast);
+  border-radius: 2em;
   cursor: pointer;
+  transition: all var(--t-fast);
 }
 
 .button {
   @extend %button-defaults;
-  color: var(--c-secondary);
-  background-color: var(--c-white);
-  border: 2px solid var(--c-primary);
+  color: var(--c-white);
+  background-color: var(--c-black);
   position: relative;
-  padding-block: 0.75em;
+  padding-block: 1em;
   padding-inline: 2.15em;
+  position: relative;
 
   &:hover,
   &:focus {
-    color: var(--c-white);
     background-color: var(--c-primary);
+  }
+}
+
+
+
+
+// **************************************************
+//  Thumb CTA
+// **************************************************
+.thumb-cta {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  inset: auto auto 0 auto;
+  width: 100%;
+  display: flex;
+  background-color: var(--c-grey-400);
+  text-align: center;
+  z-index: 9999;
+  transition: all var(--t-medium);
+
+  @media (max-width: $vw-200) {
+    flex-direction: column;
+  }
+  
+  a {
+    @extend %text-button-1;
+    color: var(--c-white);
+    background-color: var(--c-black);
+    display: block;
+    width: 100%;
+    padding: 1em;
+    transition: all var(--t-fast);
+
+    &:first-of-type {
+      border-right: 1px solid var(--c-grey-400);
+
+      @media (max-width: $vw-200) {
+        border: none;
+        border-bottom: 1px solid var(--c-grey-400);
+      }
+    }
+
+    &:last-of-type {
+      border-left: 1px solid var(--c-grey-400);
+
+      @media (max-width: $vw-200) {
+        border: none;
+        border-top: 1px solid var(--c-grey-400);
+      }
+    }
+
+    &:hover,
+    &:focus {
+      background-color: var(--c-primary);
+
+      &:first-of-type {
+        border-color: var(--c-primary);
+      }
+
+      &:last-of-type {
+        border-color: var(--c-primary);
+      }
+    }
+  }
+
+  @media (max-width: $vw-400) {
+    &.scrolled {
+      opacity: 1;
+      visibility: visible;
+    }
   }
 }
 
@@ -231,9 +317,13 @@ body {
 .masthead__overlay {
   width: 100%;
   max-width: fit-content;
-  padding: 3em;
-  background-color: rgb(255 255 255 / 0.25);
-  border: 2px solid var(--c-grey-100);
+  padding: clamp(1.5em, 3.5vw, 3em);
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12.7px);
+  -webkit-backdrop-filter: blur(12.7px);
+  border: 1px solid rgba(255, 255, 255, 0.31);
+  border-radius: 2em;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .masthead__overlay__box {
@@ -245,6 +335,7 @@ body {
 
 .masthead__overlay__heading {
   @extend %text-5;
+  text-align: center;
 }
 
 .masthead__overlay__subtext {
@@ -252,17 +343,36 @@ body {
   display: flex;
   justify-content: space-between;
   padding-inline: 0.25em;
-  padding-bottom: 1em;
-  border-bottom: 2px solid var(--c-grey-200);
+
+  @media (max-width: $vw-400) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .masthead__overlay__text {
-  font-family: var(--ff-primary);
-  font-size: var(--fs-700);
-  font-weight: var(--fw-600);
-  line-height: var(--lh-400);
-  color: var(--c-black);
-
+  @extend %text-6;
   text-align: center;
   padding-inline: 0.25em;
+  margin-block: 1em;
+
+  @media (max-width: $vw-400) {
+    padding-inline: 0;
+    margin-block: 0;
+  }
+}
+
+.masthead__overlay__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+
+  @media (max-width: $vw-400) {
+    flex-direction: column;
+    align-items: center;
+
+    >* {
+      width: 100%;
+    }
+  }
 }

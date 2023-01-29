@@ -388,37 +388,3 @@
     }
   }
 }
-
-
-
-
-// **************************************************
-//  Thumb CTA
-// **************************************************
-.thumb-cta {
-  display: none;
-  position: fixed;
-  inset: auto auto 0 auto;
-  width: 100%;
-  background-color: var(--c-primary);
-  text-align: center;
-  z-index: 9999;
-  
-  a {
-    color: var(--c-white);
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-    width: 100%;
-    padding: 1.5em 1em;
-
-    &:hover,
-    &:focus {
-      background-color: var(--c-primary-alt);
-    }
-  }
-
-  @media (max-width: 680px) {
-    display: block;
-  }
-}

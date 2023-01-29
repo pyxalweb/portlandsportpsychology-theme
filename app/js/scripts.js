@@ -2,7 +2,7 @@
 //  Layout Scripts
 // ***********************************
 // Created by Alex Winter for LET Group
-// Last Modified: 2023-01-26 by AW
+// Last Modified: 2023-01-29 by AW
 
 
 
@@ -338,6 +338,30 @@ const setMastheadHeight = () => {
 }
 setMastheadHeight()
 
+
+
+
+// ***********************************
+//  Thumb CTA
+// ***********************************
+const thumbCTA = () => {
+    const element = document.querySelector('.thumb-cta')
+
+    setTimeout(function() {
+        window.addEventListener('scroll', () => {
+            const mastheadHeight = mastheadContainer.offsetHeight
+
+            if (window.scrollY > mastheadHeight) {
+                element.classList.add('scrolled')
+                console.log('more')
+            } else {
+                element.classList.remove('scrolled')
+                console.log('less')
+            }
+        })
+    }, 1000)
+}
+thumbCTA();
 
 
 

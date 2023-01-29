@@ -53,7 +53,8 @@
 </header>
 
 <div class="thumb-cta">
-    <a href="#">Learn More</a>
+    <a href="#">Schedule Consultation</a>
+	<a href="#">Waksman's Workbook</a>
 </div>
 
 
