@@ -23,3 +23,44 @@ main.site-content {
 
 
 
+// ***********************************
+//  Even Columns
+// ***********************************
+.even-columns {
+  display: grid;
+  gap: clamp(1em, 3vw, 3em);
+
+  >* {
+    
+  }
+}
+
+.even-columns--three {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.even-columns--four {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+
+// ***********************************
+//  Callout CTAs
+// ***********************************
+.callout-ctas {
+  
+}
+
+.callout-ctas__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-bottom: 1em;
+  border-bottom: 2px solid var(--c-grey-100);
+
+  img {
+    order: 0;
+  }
+}

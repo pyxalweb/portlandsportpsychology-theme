@@ -45,23 +45,23 @@
 // ***********************************
 // .mbl-7 { margin-block: 7em; }
 // .mbl-6 { margin-block: 6em; }
-// .mbl-5 { margin-block: 5em; }
+.mbl-5 { margin-block: 5em; }
 // .mbl-4 { margin-block: 4em; }
 // .mbl-3 { margin-block: 3em; }
 // .mbl-2 { margin-block: 2em; }
 // .mbl-1 { margin-block: 1em; }
 // .mbl-0 { margin-block: 0em; }
 
-// @media (max-width: $vw-400) {
+@media (max-width: $vw-400) {
 //   .mbl-vw400-7 { margin-block: 7em; }
 //   .mbl-vw400-6 { margin-block: 6em; }
 //   .mbl-vw400-5 { margin-block: 5em; }
 //   .mbl-vw400-4 { margin-block: 4em; }
-//   .mbl-vw400-3 { margin-block: 3em; }
+  .mbl-vw400-3 { margin-block: 3em; }
 //   .mbl-vw400-2 { margin-block: 2em; }
 //   .mbl-vw400-1 { margin-block: 1em; }
 //   .mbl-vw400-0 { margin-block: 0em; }
-// }
+}
 
 
 

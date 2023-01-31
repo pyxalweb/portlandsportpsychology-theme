@@ -61,10 +61,10 @@ body {
 // heading - small font-size
 %text-4 {
   font-family: var(--ff-primary);
-  font-size: clamp(var(--fs-700), 5vw, var(--fs-900));
-  font-weight: var(--fw-500);
+  font-size: clamp(var(--fs-500), 5vw, var(--fs-700));
+  font-weight: var(--fw-600);
   line-height: var(--lh-400);
-  color: var(--c-secondary);
+  color: var(--c-black);
 }
 .text-4 { @extend %text-4; }
 .text-4--h1 h1 { @extend %text-4; }
