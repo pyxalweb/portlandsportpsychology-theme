@@ -3,6 +3,11 @@ html {
   scroll-padding-top: var(--scroll-padding, 145px);
 }
 
+body {
+  position: relative;
+  background-color: var(--c-white);
+}
+
 
 
 
@@ -83,12 +88,10 @@ html {
 // ***********************************
 
 body {
-  position: relative;
   font-family: var(--ff-primary);
   font-size: var(--root-font-size);
   font-weight: var(--fw-400);
   color: var(--c-black);
-  background-color: var(--c-white);
 }
 
 //  Page Elements
@@ -124,10 +127,11 @@ ul, ol {
 
 a {
   color: var(--c-primary);
+  text-decoration: none;
 
   &:hover,
   &:focus {
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 
@@ -137,7 +141,6 @@ a {
   font-size: var(--fs-400);
   font-weight: var(--fw-600);
   line-height: var(--lh-400);
-  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -159,10 +162,12 @@ a {
   padding-block: 1em;
   padding-inline: 2.15em;
   position: relative;
+  text-decoration: none;
 
   &:hover,
   &:focus {
     background-color: var(--c-primary);
+    text-decoration: none;
   }
 }
 

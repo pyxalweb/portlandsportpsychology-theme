@@ -57,10 +57,20 @@ main.site-content {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  padding-bottom: 1em;
-  border-bottom: 2px solid var(--c-grey-100);
 
   img {
     order: 0;
   }
+}
+
+.callout-ctas__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-bottom: 1em;
+  border-bottom: 2px solid var(--c-grey-100);
+}
+
+.callout-ctas__link {
+
 }

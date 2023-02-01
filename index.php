@@ -42,28 +42,47 @@ get_header();
 	<main id="site-content" class="site-content">
         <div class="content width-df | callout-ctas even-columns even-columns--four | mbl-5 mbl-vw400-3 | animate-scroll-fade-in visible" data-delay="0.5" data-scroller="90%">
             <div class="callout-ctas__item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-brain.svg" alt="" width="51" height="57">
-                <h2>Individual Sessions</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
-                <a href="/" class="button">Learn More</a>
+                <div class="callout-ctas__text">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-brain.svg" alt="" width="51" height="57">
+                    <h2>Individual Sessions</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
+                </div>
+                <div class="callout-ctas__link">
+                    <a href="/">Learn More</a>
+                </div>
             </div>
 
             <div class="callout-ctas__item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-clipboard.svg" alt="" width="54" height="57">
-                <h2>Team Workshops</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
+                <div class="callout-ctas__text">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-clipboard.svg" alt="" width="54" height="57">
+                    <h2>Team Workshops</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
+                </div>
+                <div class="callout-ctas__link">
+                    <a href="/">Learn More</a>
+                </div>
             </div>
 
             <div class="callout-ctas__item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-parents.svg" alt="" width="52" height="57">
-                <h2>Parenting Workshops</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
+                <div class="callout-ctas__text">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-parents.svg" alt="" width="52" height="57">
+                    <h2>Parenting Workshops</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
+                </div>
+                <div class="callout-ctas__link">
+                    <a href="/">Learn More</a>
+                </div>
             </div>
 
             <div class="callout-ctas__item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-mentor.svg" alt="" width="52" height="57">
-                <h2>Student Mentoring</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
+                <div class="callout-ctas__text">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-mentor.svg" alt="" width="52" height="57">
+                    <h2>Student Mentoring</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
+                </div>
+                <div class="callout-ctas__link">
+                    <a href="/">Learn More</a>
+                </div>
             </div>
         </div>
 
