@@ -45,6 +45,7 @@ get_header();
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-brain.svg" alt="" width="51" height="57">
                 <h2>Individual Sessions</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
+                <a href="/" class="button">Learn More</a>
             </div>
 
             <div class="callout-ctas__item">

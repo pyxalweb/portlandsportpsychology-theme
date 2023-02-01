@@ -7,20 +7,6 @@ html {
 
 
 // ***********************************
-//  Body
-// ***********************************
-body {
-  position: relative;
-  font-family: var(--ff-primary);
-  font-size: var(--root-font-size);
-  color: var(--c-black);
-  background-color: var(--c-white);
-}
-
-
-
-
-// ***********************************
 //  Text Style Guide
 // ***********************************
 
@@ -93,54 +79,64 @@ body {
   color: var(--c-black);
 }
 
-// affects the 'main.site-content' element only
-.site-content {
+//  Body
+// ***********************************
+
+body {
+  position: relative;
+  font-family: var(--ff-primary);
+  font-size: var(--root-font-size);
+  font-weight: var(--fw-400);
+  color: var(--c-black);
+  background-color: var(--c-white);
+}
+
+//  Page Elements
+// ***********************************
+
+main {
   @extend %text-1;
+}
 
-  h1 {
-    @extend %text-3;
-  }
+h1 {
+  @extend %text-3;
+}
 
-  h2 {
-    @extend %text-4;
-  }
+h2 {
+  @extend %text-4;
+}
 
-  h3 {
-    @extend %text-4;
-  }
+h3 {
+  @extend %text-4;
+}
 
-  strong {
-    font-weight: var(--fw-700);
-  }
+strong {
+  font-weight: var(--fw-700);
+}
 
-  em {
-    font-style: italic;
-  }
+em {
+  font-style: italic;
+}
 
-  ul {
-    margin-left: 1em;
-  }
+ul, ol {
+  margin-left: 1em;
+}
 
-  a {
-    color: var(--c-primary);
+a {
+  color: var(--c-primary);
 
-    &:hover,
-    &:focus {
-      text-decoration: none;
-    }
+  &:hover,
+  &:focus {
+    text-decoration: none;
   }
 }
 
-
-
-
-
-// ***********************************
 //  Buttons
 // ***********************************
 %text-button-1 {
   font-size: var(--fs-400);
   font-weight: var(--fw-600);
+  line-height: var(--lh-400);
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -334,8 +330,11 @@ body {
 }
 
 .masthead__overlay__heading {
-  @extend %text-5;
   text-align: center;
+
+  h1 {
+    @extend %text-5;
+  }
 }
 
 .masthead__overlay__subtext {
