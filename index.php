@@ -40,7 +40,7 @@ get_header();
     </section>
 
 	<main id="site-content" class="site-content">
-        <div class="content width-df | callout-ctas even-columns even-columns--four | mbl-5 mbl-vw400-3 | animate-scroll-fade-in visible" data-delay="0.5" data-scroller="90%">
+        <div class="content width-df | callout-ctas even-columns even-columns--four even-columns--two--vw500 even-columns--one-vw200 even-columns--gap-5-vw200 | mbl-5 mbl-vw400-3 | animate-scroll-fade-in visible" data-delay="0.5" data-scroller="90%">
             <div class="callout-ctas__item">
                 <div class="callout-ctas__text">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-brain.svg" alt="" width="51" height="57">
@@ -48,7 +48,7 @@ get_header();
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
                 </div>
                 <div class="callout-ctas__link">
-                    <a href="/">Learn More</a>
+                    <a href="/" aria-label="Learn more about Individual Sessions">Learn More</a>
                 </div>
             </div>
 
@@ -59,7 +59,7 @@ get_header();
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
                 </div>
                 <div class="callout-ctas__link">
-                    <a href="/">Learn More</a>
+                    <a href="/" aria-label="Learn more about Team Workshops">Learn More</a>
                 </div>
             </div>
 
@@ -70,7 +70,7 @@ get_header();
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
                 </div>
                 <div class="callout-ctas__link">
-                    <a href="/">Learn More</a>
+                    <a href="/" aria-label="Learn more about Parenting Workshops">Learn More</a>
                 </div>
             </div>
 
@@ -81,7 +81,27 @@ get_header();
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
                 </div>
                 <div class="callout-ctas__link">
-                    <a href="/">Learn More</a>
+                    <a href="/" aria-label="Learn more about Student Mentoring">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wide | mbl-5 mbl-vw400-3 bg-grey-100">
+            <div class="content width-df | split-content even-columns even-columns--two even-columns--one-vw200 even-columns--gap-0-vw200">
+                <div class="split-content__text | pbl-5 pbl-vw400-3">
+                    <div>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-light-bulb.svg" alt="" width="39" height="57">
+                        <h2>Elliott Waksman</h2>
+                        <div class="sub-text">
+                            <p>Waksman helps student-athletes play better and find more enjoyment in their sport.</p>
+                        </div>
+                        <p>Sport psychology techniques are life skills that every student-athlete can apply to improve their game and quality of life. Confidence, commitment, composure, courage, teamwork, and goal setting are arguably the most important aspects of youth sports and are topics Waksman often addresses in his sessions.</p>
+                        <a href="/" aria-label="Learn more about Elliott Waksman" class="button">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="split-content__image | pb-3-vw200">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/elliott-waksman.jpg" alt="Elliott Waksman - Sport Psychologist in Portland, Oregon">
                 </div>
             </div>
         </div>
