@@ -33,6 +33,25 @@ main.site-content {
 
 .even-columns--two {
   grid-template-columns: repeat(2, 1fr);
+
+  &--reverse {
+    grid-auto-flow: column;
+
+    > *:nth-child(1) {
+      grid-column: 2;
+    }
+
+    > *:nth-child(2) {
+      grid-column: 1;
+    }
+
+    @media (max-width: $vw-200) {
+      > *:nth-child(1),
+      > *:nth-child(2) {
+        grid-column: 1;
+      }
+    }
+  }
 }
 
 .even-columns--three {
@@ -100,9 +119,31 @@ main.site-content {
 }
 
 .callout-ctas__link {
-  @media (max-width: $vw-200) {
-    text-align: center;
+  a {
+    @media (max-width: $vw-200) {
+      margin-inline: auto;
+    }
   }
+}
+
+
+
+
+// ***********************************
+//  Background Grey Swoop
+// ***********************************
+.bg-grey-swoop-01 {
+  background: url(../assets/bg-grey-swoop-01.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-grey-swoop-02 {
+  background: url(../assets/bg-grey-swoop-02.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 
@@ -147,11 +188,21 @@ main.site-content {
     height: 100%;
     max-height: 760px;
     object-fit: cover;
+  }
 
-    @media (max-width: $vw-200) {
-      border-radius: 100%;
-      aspect-ratio: 1;
-      object-position: center -3em; // top
+  &--scale-down {
+    img {
+      object-fit: scale-down;
+    }
+  }
+
+  &--circle--mobile {
+    img {
+      @media (max-width: $vw-200) {
+        border-radius: 100%;
+        aspect-ratio: 1;
+        object-position: center -3em; // top
+      }
     }
   }
 }
@@ -162,9 +213,7 @@ main.site-content {
 // ***********************************
 //  Sub Text
 // ***********************************
-.sub-text {
-  @extend %text-7;
-
+.gap-line {
   &:after {
     content: '';
     display: block;
@@ -176,5 +225,27 @@ main.site-content {
     @media (max-width: $vw-200) {
       margin-inline: auto;
     }
+  }
+}
+
+
+
+
+// ***********************************
+//  Points
+// ***********************************
+.points {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.points__item {
+  display: flex;
+  gap: clamp(1em, 3vw, 3em);
+  align-items: start;
+
+  @media (max-width: $vw-200) {
+    flex-direction: column;
   }
 }

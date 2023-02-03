@@ -78,7 +78,7 @@ body {
 // text - medium font-size and bold
 %text-6 {
   font-family: var(--ff-primary);
-  font-size: clamp(var(--fs-500), 5vw, var(--fs-1100));
+  font-size: clamp(var(--fs-900), 5vw, var(--fs-1100));
   font-weight: var(--fw-800);
   line-height: var(--lh-300);
   color: var(--c-black);
@@ -138,7 +138,7 @@ ul, ol {
 }
 
 a {
-  color: var(--c-primary);
+  color: var(--c-black);
   text-decoration: none;
 
   &:hover,
