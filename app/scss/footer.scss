@@ -3,16 +3,14 @@
 // ***********************************
 .footer {
   width: 100%;
-  background-color: var(--c-secondary);
+  background-color: var(--c-grey-500);
   color: var(--c-white);
 
   h2 {
-    font-family: var(--ff-primary);
-    font-size: var(--fs-600);
-    font-weight: var(--fw-500);
-    line-height: var(--lh-400);
+    @extend %text-4;
+    line-height: 1;
     color: var(--c-white);
-    text-transform: uppercase;
+    margin-bottom: 0.5em;
   }
 
   a {
@@ -20,6 +18,7 @@
     text-decoration: none;
 
     &:is(:hover, :focus) {
+      color: var(--c-primary);
       text-decoration: underline;
     }
   }
@@ -35,25 +34,25 @@
 
 
 // ***********************************
+//  Footer Flex
+// ***********************************
+.footer__flex {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+
+
+
+// ***********************************
 //  Container
 // ***********************************
 .footer__container {
   display: flex;
   flex-direction: column;
   gap: 5em;
-  padding-top: 4.5em;
-  padding-bottom: 2em;
-  padding-inline: 2em;
-
-  @media (max-width: $vw-700) {
-    padding-top: 3em;
-    padding-bottom: 4.5em;
-    gap: 2em;
-  }
-
-  @media (max-width: 680px) {
-    padding-bottom: 6em;
-  }
+  padding-top: 5em;
 }
 
 
@@ -70,26 +69,33 @@
     flex-direction: column;
     text-align: center;
   }
-
-  h2 {
-    margin-bottom: 0.35em;
-
-    @media (max-width: $vw-700) {
-      display: none;
-    }
-  }
 }
 
 
 
 
 // ***********************************
-//  Logo
+//  Address
 // ***********************************
-.footer__logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+// .footer__address {
+  
+// }
+
+
+
+
+// ***********************************
+//  Navigation
+// ***********************************
+.footer__nav {
+  ul {
+    margin: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 0.5em;
+    column-gap: 3em;
+  }
 }
 
 
@@ -99,19 +105,13 @@
 //  Social
 // ***********************************
 .footer__social {
-  margin-top: 2em;
-  
-  @media (max-width: $vw-700) {
-    margin-top: 1em;
-  }
-
   .social {
     display: flex;
-    justify-content: center;
+    margin: 0;
 
     a {
-      font-size: var(--fs-800);
-      color: var(--c-primary);
+      font-size: var(--fs-1000);
+      color: var(--c-white);
       text-decoration: none;
       transition: color var(--t-medium);
       display: flex;
@@ -122,84 +122,9 @@
 
       &:hover,
       &:focus {
-        color: var(--c-white);
+        color: var(--c-red);
       }
     }
-  }
-}
-
-
-
-
-// ***********************************
-//  Address
-// ***********************************
-.footer__address {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  line-height: 2;
-
-  img {
-    @media (max-width: $vw-400) {
-      margin-inline: auto;
-    }
-  }
-
-  a {
-    color: var(--c-black);
-    text-decoration: none;
-  }
-}
-
-
-
-
-// ***********************************
-//  Navigation
-// ***********************************
-.footer__nav {
-  @media (max-width: $vw-700) {
-    display: none;
-  }
-
-  ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 4em;
-    row-gap: 0.75em;
-    margin-left: 0;
-
-    a {
-      font-weight: var(--vw-400);
-      text-transform: none;
-    }
-  }
-
-  li {
-    &.footer__nav__hide {
-      display: none;
-    }
-  }
-}
-
-
-
-
-// ***********************************
-//  Booking
-// ***********************************
-.footer__booking {
-  @media (max-width: $vw-700) {
-    display: none;
-  }
-
-  .button-3 {
-    max-width: 200px;
   }
 }
 
@@ -210,5 +135,13 @@
 //  Links
 // ***********************************
 .footer__links {
+  background-color: var(--c-black);
   text-align: center;
+}
+
+
+
+
+.footer__links__container {
+  padding-block: 2em;
 }

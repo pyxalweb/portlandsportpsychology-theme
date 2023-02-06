@@ -40,12 +40,12 @@ get_header();
     </section>
 
 	<main id="site-content" class="site-content">
-        <section class="content width-df | callout-ctas even-columns even-columns--four even-columns--two--vw500 even-columns--one-vw200 even-columns--gap-5-vw200 | mbl-5 mbl-vw400-3 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <section class="content width-df | callout-ctas even-columns even-columns--four even-columns--two--vw500 even-columns--one-vw200 even-columns--gap-5-vw200 | mbl-7 mbl-vw400-3 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
             <div class="callout-ctas__item">
                 <div class="callout-ctas__text">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-brain.svg" alt="" width="51" height="57">
                     <h2>Individual Sessions</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
+                    <p>Individual sessions are one-on-one coaching for athletes to develop a personalized mental game plan for peak performance.</p>
                 </div>
                 <div class="callout-ctas__link">
                     <a href="/" aria-label="Learn more about Individual Sessions" class="button">Learn More</a>
@@ -56,7 +56,7 @@ get_header();
                 <div class="callout-ctas__text">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-clipboard.svg" alt="" width="54" height="57">
                     <h2>Team Workshops</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
+                    <p>Team workshops are dynamic presentations with interactive activities to strengthen the team's culture, resolve issues, and improve communication.</p>
                 </div>
                 <div class="callout-ctas__link">
                     <a href="/" aria-label="Learn more about Team Workshops" class="button">Learn More</a>
@@ -67,7 +67,7 @@ get_header();
                 <div class="callout-ctas__text">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-parents.svg" alt="" width="52" height="57">
                     <h2>Parenting Workshops</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
+                    <p>Parenting workshops provide practical tips for communicating before and after games, and introduce success strategies to support student-athletes.</p>
                 </div>
                 <div class="callout-ctas__link">
                     <a href="/" aria-label="Learn more about Parenting Workshops" class="button">Learn More</a>
@@ -78,7 +78,7 @@ get_header();
                 <div class="callout-ctas__text">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-mentor.svg" alt="" width="52" height="57">
                     <h2>Student Mentoring</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu.</p>
+                    <p>Student mentoring is approved mentorship to earn certified consultant status through the Association for Applied Sport Psychology (AASP).</p>
                 </div>
                 <div class="callout-ctas__link">
                     <a href="/" aria-label="Learn more about Student Mentoring" class="button">Learn More</a>
@@ -86,7 +86,7 @@ get_header();
             </div>
         </section>
 
-        <section class="content-wide | mbl-5 mbl-vw400-3 bg-grey-100 bg-grey-swoop-01 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <section class="content-wide | mbl-7 mbl-vw400-3 bg-grey-100 bg-grey-swoop-01 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
             <div class="content width-df | split-content even-columns even-columns--two even-columns--one-vw200 even-columns--gap-0-vw200">
                 <div class="split-content__text | pbl-5 pbl-vw400-3 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
                     <div>
@@ -106,7 +106,29 @@ get_header();
             </div>
         </section>
 
-        <section class="content-wide | mbl-5 mbl-vw400-3 bg-grey-100 bg-grey-swoop-02 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <section class="content width-df | horizontal-content horizontal-content--1-2 horizontal-content--1-vw300 | mbl-7 mbl-vw400-3 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+            <div class="horizontal-content__item | gap-line">
+                <h2>Experienced & Trusted</h2>
+            </div>
+
+            <div class="horizontal-content__item | list-boxes">
+                <div class="mb-1">
+                    <p>Elliott Waksman is a well-renowned sport pyschologist in the Portland metro area. A few organizations he's worked with include:</p>
+                </div>
+                <ul>
+                    <li>Nike</li>
+                    <li>University of Portland</li>
+                    <li>Portland State University</li>
+                    <li>Jesuit High School</li>
+                    <li>Willamette University</li>
+                    <li>Lincoln High School</li>
+                    <li>Oregon Athletic Coaches</li>
+                    <li><a href="/">And Many More...</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="content-wide | mt-7 mt-vw400-3 bg-grey-100 bg-grey-swoop-02 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
             <div class="content width-df | split-content even-columns even-columns--two even-columns--two--reverse even-columns--one-vw200 even-columns--gap-0-vw200">
                 <div class="split-content__text | pbl-5 pbl-vw400-3 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                     <div>
@@ -147,14 +169,6 @@ get_header();
                 </div>
             </div>
         </section>
-
-        <!--
-        <div class="content">
-            <p>main</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo iaculis semper. Morbi et posuere nunc, eu venenatis arcu. Praesent fringilla justo sed est gravida, id tincidunt nulla ullamcorper. Etiam molestie efficitur velit, a tristique purus dapibus sit amet. Vivamus id ante quam. Cras imperdiet, purus sit amet sagittis convallis, est ante rutrum risus, vitae aliquet lorem nunc a sapien. Suspendisse eleifend rhoncus dolor, sed volutpat felis maximus nec. Phasellus nec lobortis nisl. Phasellus porta, neque nec auctor faucibus, nisl sapien facilisis metus, nec commodo arcu odio tincidunt massa. Aliquam sit amet ultricies elit, nec cursus ex.<br><br>Vivamus bibendum hendrerit bibendum. Proin a nisl ultricies, condimentum augue et, rhoncus nisl. Aliquam at dignissim lorem, vel posuere ipsum. Nulla lobortis risus in congue hendrerit. Etiam dignissim porttitor tellus, sit amet dignissim velit commodo quis. Fusce hendrerit dui iaculis lacus pellentesque luctus. Sed vulputate purus dolor, sit amet malesuada dolor euismod non. Fusce egestas tristique porta.</p>
-        </div>
-        -->
 	</main>
 
 <?php

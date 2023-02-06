@@ -173,7 +173,6 @@ a {
   position: relative;
   padding-block: 1em;
   padding-inline: 2.15em;
-  position: relative;
   text-decoration: none;
 
   &:hover,
@@ -274,6 +273,7 @@ a {
 .social__facebook a:before { content: '\f09a'; }
 .social__instagram a:before { content: '\f16d'; }
 .social__twitter a:before { content: '\f099'; }
+.social__linkedin a:before { content: '\e80a'; }
 
 .icon {
   display: flex;

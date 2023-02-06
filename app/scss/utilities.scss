@@ -46,9 +46,9 @@
 // ***********************************
 //  margin-block
 // ***********************************
-// .mbl-7 { margin-block: 7em; }
+.mbl-7 { margin-block: 7em; }
 // .mbl-6 { margin-block: 6em; }
-.mbl-5 { margin-block: 5em; }
+// .mbl-5 { margin-block: 5em; }
 // .mbl-4 { margin-block: 4em; }
 // .mbl-3 { margin-block: 3em; }
 // .mbl-2 { margin-block: 2em; }
@@ -56,14 +56,14 @@
 // .mbl-0 { margin-block: 0em; }
 
 @media (max-width: $vw-400) {
-//   .mbl-vw400-7 { margin-block: 7em; }
-//   .mbl-vw400-6 { margin-block: 6em; }
-//   .mbl-vw400-5 { margin-block: 5em; }
-//   .mbl-vw400-4 { margin-block: 4em; }
-  .mbl-vw400-3 { margin-block: 3em; }
-//   .mbl-vw400-2 { margin-block: 2em; }
-//   .mbl-vw400-1 { margin-block: 1em; }
-//   .mbl-vw400-0 { margin-block: 0em; }
+// .mbl-vw400-7 { margin-block: 7em; }
+// .mbl-vw400-6 { margin-block: 6em; }
+// .mbl-vw400-5 { margin-block: 5em; }
+// .mbl-vw400-4 { margin-block: 4em; }
+.mbl-vw400-3 { margin-block: 3em; }
+// .mbl-vw400-2 { margin-block: 2em; }
+// .mbl-vw400-1 { margin-block: 1em; }
+// .mbl-vw400-0 { margin-block: 0em; }
 }
 
 
@@ -72,7 +72,7 @@
 // ***********************************
 //  margin-top
 // ***********************************
-// .mt-7 { margin-top: 7em; }
+.mt-7 { margin-top: 7em; }
 // .mt-6 { margin-top: 6em; }
 // .mt-5 { margin-top: 5em; }
 // .mt-4 { margin-top: 4em; }
@@ -80,6 +80,17 @@
 // .mt-2 { margin-top: 2em; }
 .mt-1 { margin-top: 1em; }
 // .mt-0 { margin-top: 0em; }
+
+@media (max-width: $vw-400) {
+// .mt-vw400-7 { margin-top: 7em; }
+// .mt-vw400-6 { margin-top: 6em; }
+// .mt-vw400-5 { margin-top: 5em; }
+// .mt-vw400-4 { margin-top: 4em; }
+.mt-vw400-3 { margin-top: 3em; }
+// .mt-vw400-2 { margin-top: 2em; }
+// .mt-vw400-1 { margin-top: 1em; }
+// .mt-vw400-0 { margin-top: 0em; }
+}
 
 
 
@@ -93,7 +104,7 @@
 // .mb-4 { margin-bottom: 4em; }
 // .mb-3 { margin-bottom: 3em; }
 // .mb-2 { margin-bottom: 2em; }
-// .mb-1 { margin-bottom: 1em; }
+.mb-1 { margin-bottom: 1em; }
 // .mb-0 { margin-bottom: 0em; }
 
 
