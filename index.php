@@ -14,6 +14,7 @@
 
 get_header();
 ?>
+
 	<section id="site-masthead" class="masthead masthead--video" role="complementary" aria-label="Decorative looping video">
         <div class="masthead__overlay homepage | animate-scroll-fade-in" data-delay="0.5">
             <div class="masthead__overlay__box">
