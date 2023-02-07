@@ -4,6 +4,16 @@
 main.site-content {
   position: relative;
   overflow: hidden;
+
+  &.interior {
+    h1 {
+      @extend %text-6;
+    }
+  }
+
+  &.no-masthead {
+    margin-top: var(--header-height);
+  }
 }
 
 
@@ -18,6 +28,14 @@ main.site-content {
   width: min(var(--w-default), 100%);
   margin-inline: auto;
   padding-inline: 1em;
+
+  p {
+    margin-bottom: 1em;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
 }
 
 

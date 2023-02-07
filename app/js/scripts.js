@@ -332,9 +332,10 @@ const setMastheadHeight = () => {
     const mastheadHeight = viewportHeight - headerHeight
 
     // apply masthead height value to masthead element
-    if (mastheadContainer) {
+    
         root.style.setProperty('--masthead-height', mastheadHeight + 'px')
-    };
+        root.style.setProperty('--header-height', headerHeight + 'px')
+    
 }
 setMastheadHeight()
 

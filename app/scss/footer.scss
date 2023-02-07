@@ -14,12 +14,19 @@
   }
 
   a {
+    display: inline-block;
     color: var(--c-white);
     text-decoration: none;
 
-    &:is(:hover, :focus) {
-      color: var(--c-primary);
-      text-decoration: underline;
+    &:after {
+      @extend %link-underline;
+    }
+
+    &:hover,
+    &:focus {
+      &:after {
+        @extend %link-underline--hover;
+      }
     }
   }
 
@@ -150,7 +157,7 @@
 
       &:hover,
       &:focus {
-        color: var(--c-red);
+        color: var(--c-primary);
       }
     }
   }

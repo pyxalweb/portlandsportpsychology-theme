@@ -42,7 +42,7 @@ body {
   font-size: clamp(var(--fs-800), 5vw, var(--fs-1000));
   font-weight: var(--fw-500);
   line-height: var(--lh-400);
-  color: var(--c-secondary);
+  color: var(--c-primary);
 }
 .text-3 { @extend %text-3; }
 .text-3--h1 h1 { @extend %text-3; }
@@ -95,6 +95,19 @@ body {
   color: var(--c-primary);
 }
 .text-7 { @extend %text-7; }
+
+// heading - fairly large font-size
+%text-8 {
+  font-family: var(--ff-primary);
+  font-size: clamp(var(--fs-800), 5vw, var(--fs-1100));
+  font-weight: var(--fw-800);
+  line-height: var(--lh-200);
+  color: var(--c-black);
+}
+.text-5 { @extend %text-5; }
+.text-5--h1 h1 { @extend %text-5; }
+.text-5--h2 h2 { @extend %text-5; }
+.text-5--h3 h3 { @extend %text-5; }
 
 //  Body
 // ***********************************
@@ -180,6 +193,21 @@ a {
     background-color: var(--c-primary);
     text-decoration: none;
   }
+}
+
+%link-underline {
+  content: '';
+  display: block;
+  border-bottom: 2px solid var(--c-primary);
+  transform: scaleX(0);
+  // opacity: 0;
+  transform-origin: 0% 50%;
+  transition: transform var(--t-fast);
+}
+
+%link-underline--hover {
+  transform: scaleX(1);
+  // opacity: 1;
 }
 
 
@@ -310,20 +338,36 @@ a {
   place-items: center;
   position: relative;
   height: 100%;
+  margin-top: var(--header-height);
 
   >* {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
 
-  video {
+  .masthead__media {
     z-index: -1;
     display: block;
     width: 100%;
     height: var(--masthead-height);
-    max-height: 710px;
     object-fit: cover;
     opacity: 0.5;
+    background-color: var(--c-grey-200);
+  }
+
+  video {
+    max-height: 710px;
+  }
+
+  .photo {
+    max-height: 500px;
+    
+    img {
+      width: 1920px;
+      height: 100%;
+      object-fit: cover;
+      margin-inline: auto;
+    }
   }
 }
 
@@ -351,6 +395,22 @@ a {
 
   h1 {
     @extend %text-5;
+  }
+}
+
+.homepage {
+  .masthead__overlay__heading {
+    h1 {
+      @extend %text-5;
+    }
+  }
+}
+
+.interior {
+  .masthead__overlay__heading {
+    h1 {
+      @extend %text-8;
+    }
   }
 }
 
