@@ -193,7 +193,7 @@ main.site-content {
   flex-direction: column;
   justify-content: center;
 
-  >div {
+  .split-content__text__flex {
     display: flex;
     flex-direction: column;
     gap: 1.5em;
