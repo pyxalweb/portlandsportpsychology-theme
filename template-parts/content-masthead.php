@@ -1,5 +1,5 @@
-<section id="site-masthead" class="masthead masthead--video" role="complementary" aria-label="Decorative looping video">
-    <div class="masthead__overlay homepage | animate-scroll-fade-in" data-delay="0.5">
+<section id="site-masthead" class="masthead" role="complementary" aria-label="Page heading and decorative photo">
+    <div class="masthead__overlay interior | animate-scroll-fade-in" data-delay="0.5">
         <div class="masthead__overlay__box">
             <div class="masthead__overlay__heading">
                 <?php the_title( '<h1>', '</h1>' ); ?>

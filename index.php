@@ -1,21 +1,8 @@
 <?php
-/**
- * The main template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package psp
- */
-
 get_header();
 ?>
 
-<section id="site-masthead" class="masthead masthead--video" role="complementary" aria-label="Decorative looping video">
+<section id="site-masthead" class="masthead" role="complementary" aria-label="Page heading and decorative looping video">
     <div class="masthead__overlay homepage | animate-scroll-fade-in" data-delay="0.5">
         <div class="masthead__overlay__box">
             <div class="masthead__overlay__heading">
@@ -35,7 +22,7 @@ get_header();
         </div>
     </div>
 
-    <video class="masthead__media" autoplay muted loop playsinline>
+    <video class="masthead__media video" autoplay muted loop playsinline>
         <source src="<?php echo get_template_directory_uri(); ?>/videos/homepage.mp4" type="video/mp4" />
     </video>
 </section>
