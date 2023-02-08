@@ -13,8 +13,8 @@
 		if ($image):
 			$url = $image['url'];
 			$alt = $image['alt'];
-		endif;
 		?>
 		<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="1920" height="500">
+        <?php endif; ?>
 	</div>
 </section>

@@ -1,4 +1,4 @@
-<?php /* Template Name: About */ ?>
+<?php /* Template Name: Individual Sessions */ ?>
 
 <?php
 get_header();
