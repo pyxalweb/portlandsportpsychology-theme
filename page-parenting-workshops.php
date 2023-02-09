@@ -1,4 +1,4 @@
-<?php /* Template Name: Individual Sessions */ ?>
+<?php /* Template Name: Parenting Workshops */ ?>
 
 <?php
 get_header();
@@ -14,29 +14,6 @@ get_template_part( 'template-parts/content', 'masthead' );
 
 <main id="site-content" <?php post_class($class = 'site-content interior'); ?>>
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
-
-    <section class="content width-df | callout-ctas even-columns even-columns--three even-columns--two--vw500 even-columns--one-vw500 even-columns--gap-5-vw200 even-columns--center-vw500 | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="callout-ctas__item">
-            <div class="callout-ctas__text callout-ctas__text--box">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-light-bulb.svg" alt="" width="51" height="57">
-                <?php echo get_field('box_1'); ?>
-            </div>
-        </div>
-
-        <div class="callout-ctas__item">
-            <div class="callout-ctas__text callout-ctas__text--box">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-light-bulb.svg" alt="" width="54" height="57">
-                <?php echo get_field('box_2'); ?>
-            </div>
-        </div>
-
-        <div class="callout-ctas__item">
-            <div class="callout-ctas__text callout-ctas__text--box">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-light-bulb.svg" alt="" width="52" height="57">
-                <?php echo get_field('box_3'); ?>
-            </div>
-        </div>
-    </section>
 
     <section class="content width-df | split-content even-columns even-columns--two even-columns--one-vw200 | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="split-content__text | mb-1--h2">

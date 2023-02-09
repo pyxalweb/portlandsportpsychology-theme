@@ -7,16 +7,16 @@
     <a href="#" class="nav-link">Services</a>
     <ul class="nav-sub">
         <li class="nav-item">
-            <a href="#" class="nav-link">Individual Sessions</a>
+            <a href="/individual-sessions" class="nav-link">Individual Sessions</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link">Team Workshops</a>
+            <a href="/team-workshops" class="nav-link">Team Workshops</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link">Parenting Workshops</a>
+            <a href="/parenting-workshops" class="nav-link">Parenting Workshops</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link">Student Mentoring</a>
+            <a href="/student-mentoring" class="nav-link">Student Mentoring</a>
         </li>
     </ul>
 </li>
@@ -38,7 +38,7 @@
     </ul>
 </li>
 <li class="nav-item">
-    <a href="#" class="nav-link">About</a>
+    <a href="/about-elliott" class="nav-link">About</a>
 </li>
 <li class="nav-item">
     <a href="#" class="nav-link">Contact</a>

@@ -156,11 +156,13 @@ main.site-content {
 
   &--underline {
     border-bottom: 2px solid var(--c-grey-100);
+    margin-bottom: 0.5em;
   }
 
-  &--boxed {
+  &--box {
     border: 2px solid var(--c-grey-100);
     padding: 2em;
+    border-radius: 2em;
   }
 }
 
@@ -247,6 +249,12 @@ main.site-content {
       }
     }
   }
+
+  &--rounded {
+    img {
+      border-radius: 2em;
+    }
+  }
 }
 
 
@@ -326,11 +334,28 @@ main.site-content {
 //  List Boxes
 // ***********************************
 .list-boxes {
+  &--5 {
+    ul {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  
+  &--4 {
+    ul {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &--3 {
+    ul {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
   ul {
     list-style: none;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 1em;
     align-items: center;
 
@@ -383,18 +408,10 @@ main.site-content {
 
 
 // ***********************************
-//  Content List
+//  Border Boxes
 // ***********************************
-.content-list {
-  margin: 0;
-  margin-bottom: 1em;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 1em;
-
-  li {
-    border: 1px solid var(--c-grey-300);
-    padding: 1em;
-  }
+.border-box {
+  border: 2px solid var(--c-grey-100);
+  padding: 2em;
+  border-radius: 2em;
 }

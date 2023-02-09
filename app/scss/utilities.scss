@@ -94,7 +94,7 @@
 .mt-7 { margin-top: 7em; }
 // .mt-6 { margin-top: 6em; }
 // .mt-5 { margin-top: 5em; }
-// .mt-4 { margin-top: 4em; }
+.mt-4 { margin-top: 4em; }
 // .mt-3 { margin-top: 3em; }
 // .mt-2 { margin-top: 2em; }
 .mt-1 { margin-top: 1em; }
@@ -122,7 +122,7 @@
 // .mb-5 { margin-bottom: 5em; }
 // .mb-4 { margin-bottom: 4em; }
 // .mb-3 { margin-bottom: 3em; }
-// .mb-2 { margin-bottom: 2em; }
+.mb-2 { margin-bottom: 2em; }
 .mb-1 { margin-bottom: 1em; }
 // .mb-0 { margin-bottom: 0em; }
 
@@ -380,6 +380,17 @@
 // .g-2 { gap: 2em; }
 // .g-1 { gap: 1em; }
 // .g-0 { gap: 0em; }
+
+@media (max-width: $vw-200) {
+  // .g-vw200-7 { gap: 7em; }
+  // .g-vw200-6 { gap: 6em; }
+  // .g-vw200-5 { gap: 5em; }
+  // .g-vw200-4 { gap: 4em; }
+  // .g-vw200-3 { gap: 3em; }
+  // .g-vw200-2 { gap: 2em; }
+  // .g-vw200-1 { gap: 1em; }
+  // .g-vw200-0 { gap: 0em; }
+}
 
 
 

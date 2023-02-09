@@ -99,7 +99,7 @@ get_header();
             <h2>Experienced & Trusted</h2>
         </div>
 
-        <div class="horizontal-content__item | list-boxes">
+        <div class="horizontal-content__item | list-boxes list-boxes--4">
             <div class="mb-1">
                 <p>Elliott Waksman is a well-renowned sport pyschologist in the Portland metro area. A few organizations he's worked with include:</p>
             </div>
