@@ -1,7 +1,7 @@
 // ***********************************
 //  text-align
 // ***********************************
-// .ta-c { text-align: center; }
+.ta-c { text-align: center; }
 // .ta-r { text-align: right; }
 // .ta-l { text-align: left; }
 
@@ -14,7 +14,7 @@
 // ***********************************
 //  color
 // ***********************************
-// .c-primary { color: var(--c-primary); }
+.c-primary { color: var(--c-primary); }
 // .c-secondary { color: var(--c-secondary); }
 // .c-tertiary { color: var(--c-tertiary); }
 // .c-black { color: var(--c-black); }
@@ -23,6 +23,7 @@
 // .c-grey-200 { color: var(--c-grey-200); }
 // .c-grey-300 { color: var(--c-grey-300); }
 // .c-grey-400 { color: var(--c-grey-400); }
+// .c-grey-500 { color: var(--c-grey-500); }
 
 
 
@@ -39,6 +40,24 @@
 // .bg-grey-200 { background-color: var(--c-grey-200); }
 // .bg-grey-300 { background-color: var(--c-grey-300); }
 // .bg-grey-400 { background-color: var(--c-grey-400); }
+// .bg-grey-500 { background-color: var(--c-grey-500); }
+
+
+
+
+// ***********************************
+//  border
+// ***********************************
+// .b-2px-primary { border: 2px solid var(--c-primary); }
+// .b-2px-secondary { border: 2px solid var(--c-secondary); }
+// .b-2px-tertiary { border: 2px solid var(--c-tertiary); }
+// .b-2px-black { border: 2px solid var(--c-black); }
+// .b-2px-white { border: 2px solid var(--c-white); }
+.b-2px-grey-100 { border: 2px solid var(--c-grey-100); }
+// .b-2px-grey-200 { border: 2px solid var(--c-grey-200); }
+// .b-2px-grey-300 { border: 2px solid var(--c-grey-300); }
+// .b-2px-grey-400 { border: 2px solid var(--c-grey-400); }
+// .b-2px-grey-500 { border: 2px solid var(--c-grey-500); }
 
 
 
@@ -49,7 +68,7 @@
 .mbl-7 { margin-block: 7em; }
 // .mbl-6 { margin-block: 6em; }
 // .mbl-5 { margin-block: 5em; }
-// .mbl-4 { margin-block: 4em; }
+.mbl-4 { margin-block: 4em; }
 // .mbl-3 { margin-block: 3em; }
 // .mbl-2 { margin-block: 2em; }
 // .mbl-1 { margin-block: 1em; }
@@ -138,9 +157,9 @@
 // .p-7 { padding: 7em; }
 // .p-6 { padding: 6em; }
 // .p-5 { padding: 5em; }
-// .p-4 { padding: 4em; }
+.p-4 { padding: 4em; }
 // .p-3 { padding: 3em; }
-// .p-2 { padding: 2em; }
+.p-2 { padding: 2em; }
 // .p-1 { padding: 1em; }
 // .p-0 { padding: 0em; }
 

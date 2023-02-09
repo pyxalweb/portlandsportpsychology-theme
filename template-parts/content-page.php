@@ -1,4 +1,4 @@
-<section class="content width-df | mbl-7 mbl-vw400-3 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+<section class="content width-df | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
 	<?php
 	the_content();
 

@@ -11,14 +11,11 @@ get_template_part( 'template-parts/content', 'masthead' );
 ?>
 
 <main id="site-content" <?php post_class($class = 'site-content interior'); ?>>
-	<?php
-	get_template_part( 'template-parts/content', 'page' );
-	?>
+	<?php get_template_part( 'template-parts/content', 'page' ); ?>
 </main>
 
-<!-- #post-<?php the_ID(); ?> -->
-
 <?php
+get_template_part( 'template-parts/admin', 'meta' );
 get_template_part( 'template-parts/admin', 'edit' );
 ?>
 

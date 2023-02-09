@@ -28,9 +28,9 @@ get_header();
 </section>
 
 <main id="site-content" class="site-content">
-    <section class="content width-df | callout-ctas even-columns even-columns--four even-columns--two--vw500 even-columns--one-vw200 even-columns--gap-5-vw200 | mbl-7 mbl-vw400-3 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | callout-ctas even-columns even-columns--four even-columns--two--vw500 even-columns--one-vw200 even-columns--gap-5-vw200 even-columns--center-vw200 | mbl-7 mbl-vw400-3 | text-4--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="callout-ctas__item">
-            <div class="callout-ctas__text">
+            <div class="callout-ctas__text callout-ctas__text--underline">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-brain.svg" alt="" width="51" height="57">
                 <h2>Individual Sessions</h2>
                 <p>Individual sessions are one-on-one coaching for athletes to develop a personalized mental game plan for peak performance.</p>
@@ -41,7 +41,7 @@ get_header();
         </div>
 
         <div class="callout-ctas__item">
-            <div class="callout-ctas__text">
+            <div class="callout-ctas__text callout-ctas__text--underline">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-clipboard.svg" alt="" width="54" height="57">
                 <h2>Team Workshops</h2>
                 <p>Team workshops are dynamic presentations with interactive activities to strengthen the team's culture, resolve issues, and improve communication.</p>
@@ -52,7 +52,7 @@ get_header();
         </div>
 
         <div class="callout-ctas__item">
-            <div class="callout-ctas__text">
+            <div class="callout-ctas__text callout-ctas__text--underline">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-parents.svg" alt="" width="52" height="57">
                 <h2>Parenting Workshops</h2>
                 <p>Parenting workshops provide practical tips for communicating before and after games, and introduce success strategies to support student-athletes.</p>
@@ -63,7 +63,7 @@ get_header();
         </div>
 
         <div class="callout-ctas__item">
-            <div class="callout-ctas__text">
+            <div class="callout-ctas__text callout-ctas__text--underline">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-mentor.svg" alt="" width="52" height="57">
                 <h2>Student Mentoring</h2>
                 <p>Student mentoring is approved mentorship to earn certified consultant status through the Association for Applied Sport Psychology (AASP).</p>
@@ -77,7 +77,7 @@ get_header();
     <section class="content-wide | mbl-7 mbl-vw400-3 bg-grey-100 bg-grey-swoop-01 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="content width-df | split-content even-columns even-columns--two even-columns--one-vw200 even-columns--gap-0-vw200">
             <div class="split-content__text | pbl-5 pbl-vw400-3 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
-                <div class="split-content__text__flex">
+                <div class="split-content__text__flex | text-6--h2">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-light-bulb.svg" alt="" width="39" height="57">
                     <h2>Elliott Waksman</h2>
                     <div class="gap-line | text-7">
@@ -95,7 +95,7 @@ get_header();
     </section>
 
     <section class="content width-df | horizontal-content horizontal-content--1-2 horizontal-content--1-vw300 | mbl-7 mbl-vw400-3 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="horizontal-content__item | gap-line">
+        <div class="horizontal-content__item | gap-line | text-6--h2">
             <h2>Experienced & Trusted</h2>
         </div>
 
@@ -119,10 +119,10 @@ get_header();
     <section class="content-wide | mt-7 mt-vw400-3 bg-grey-100 bg-grey-swoop-02 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="content width-df | split-content even-columns even-columns--two even-columns--two--reverse even-columns--one-vw200 even-columns--gap-0-vw200">
             <div class="split-content__text | pbl-5 pbl-vw400-3 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
-                <div class="split-content__text__flex">
+                <div class="split-content__text__flex | text-6--h2">
                     <h2>Waksman's Workbook</h2>
                     
-                    <div class="points | mt-1">
+                    <div class="points | text-4--h3 | mt-1">
                         <div class="points__item">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-light-bulb.svg" alt="" width="39" height="57">
                             <div class="points__text">
