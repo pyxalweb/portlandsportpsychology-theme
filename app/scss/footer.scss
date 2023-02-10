@@ -61,7 +61,7 @@
   gap: 5em;
   padding-top: 5em;
 
-  @media (max-width: $vw-900) {
+  @media (max-width: $vw-700) {
     gap: 2em;
   }
 
@@ -80,7 +80,7 @@
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: $vw-900) {
+  @media (max-width: $vw-700) {
     flex-direction: column;
     text-align: center;
     gap: 3em;
@@ -94,7 +94,7 @@
 //  Address
 // ***********************************
 .footer__address {
-  @media (max-width: $vw-900) {
+  @media (max-width: $vw-700) {
     .icon {
       justify-content: center;
     }
@@ -112,11 +112,11 @@
     margin: 0;
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 0.5em;
     column-gap: 3em;
 
-    @media (max-width: $vw-900) {
+    @media (max-width: $vw-700) {
       grid-template-columns: repeat(2, 1fr);
       max-width: 380px;
       margin-inline: auto;
@@ -140,7 +140,7 @@
     display: flex;
     margin: 0;
 
-    @media (max-width: $vw-900) {
+    @media (max-width: $vw-700) {
       justify-content: center;
     }
 

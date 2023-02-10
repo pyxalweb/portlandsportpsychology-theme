@@ -8,7 +8,7 @@
 ?>
 <footer id="site-footer" class="footer">
 	<div class="footer__container">
-		<div class="footer__main | content width-md">
+		<div class="footer__main | content width-df">
 			<div class="footer__address footer__flex">
 				<h2>Elliott Waksman, MA, CMPC</h2>
 				<p>Certified Mental Performance Consultant</p>
