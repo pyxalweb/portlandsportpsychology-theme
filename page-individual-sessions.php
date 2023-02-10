@@ -15,7 +15,7 @@ get_template_part( 'template-parts/content', 'masthead' );
 <main id="site-content" <?php post_class($class = 'site-content interior'); ?>>
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
-    <section class="content width-df | callout-ctas even-columns even-columns--three even-columns--two--vw500 even-columns--one-vw500 even-columns--gap-5-vw200 even-columns--center-vw500 | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | callout-ctas even-columns even-columns--three even-columns--two--vw500 even-columns--one-vw500 even-columns--gap-2-vw200 even-columns--center-vw500 | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="callout-ctas__item">
             <div class="callout-ctas__text callout-ctas__text--box">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-light-bulb.svg" alt="" width="51" height="57">
@@ -46,7 +46,7 @@ get_template_part( 'template-parts/content', 'masthead' );
             </div>
         </div>
 
-        <div class="split-content__image split-content__image--circle--mobile split-content__image--rounded | pb-3-vw200">
+        <div class="split-content__image split-content__image--circle--mobile split-content__image--rounded">
             <?php
             $image = get_field('split_content_image_1');
             if ($image):

@@ -15,14 +15,14 @@ get_template_part( 'template-parts/content', 'masthead' );
 <main id="site-content" <?php post_class($class = 'site-content interior | mb-1--h2'); ?>>
     <?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-    <section class="content width-df | split-content even-columns even-columns--two even-columns--one-vw200 even-columns--gap-0-vw200 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="split-content__text | pbl-5 pbl-vw400-3">
+    <section class="content width-df | split-content even-columns even-columns--two even-columns--one-vw200 even-columns--gap-2-vw200 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="split-content__text">
             <div>
                 <?php echo get_field('split_content_text_1'); ?>
             </div>
         </div>
 
-        <div class="split-content__image split-content__image--circle--mobile split-content__image--rounded | pb-3-vw200">
+        <div class="split-content__image split-content__image--circle--mobile split-content__image--rounded">
             <?php
             $image = get_field('split_content_image_1');
             if ($image):
@@ -31,6 +31,20 @@ get_template_part( 'template-parts/content', 'masthead' );
             ?>
             <img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="1920" height="500">
             <?php endif; ?>
+        </div>
+    </section>
+
+    <section class="content width-df | split-content even-columns even-columns--two even-columns--two--reverse even-columns--one-vw200 even-columns--gap-2-vw200 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="split-content__text">
+            <div>
+                <?php echo get_field('split_content_text_2'); ?>
+            </div>
+        </div>
+
+        <div class="split-content__video split-content--bg">
+            <div class="video-embed">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5LVy1iWk54o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </div>
     </section>
 

@@ -74,7 +74,7 @@ get_header();
         </div>
     </section>
 
-    <section class="content-wide | mbl-7 mbl-vw400-3 bg-grey-100 bg-grey-swoop-01 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content-wide | mbl-7 mbl-vw400-3 bg-grey-swoop-01 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="content width-df | split-content even-columns even-columns--two even-columns--one-vw200 even-columns--gap-0-vw200">
             <div class="split-content__text | pbl-5 pbl-vw400-3 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
                 <div class="split-content__text__flex | text-6--h2">
@@ -116,7 +116,7 @@ get_header();
         </div>
     </section>
 
-    <section class="content-wide | mt-7 mt-vw400-3 bg-grey-100 bg-grey-swoop-02 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content-wide | mt-7 mt-vw400-3 bg-grey-swoop-02 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="content width-df | split-content even-columns even-columns--two even-columns--two--reverse even-columns--one-vw200 even-columns--gap-0-vw200">
             <div class="split-content__text | pbl-5 pbl-vw400-3 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                 <div class="split-content__text__flex | text-6--h2">
