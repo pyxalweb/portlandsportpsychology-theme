@@ -94,25 +94,33 @@ get_header();
         </div>
     </section>
 
-    <section class="content width-df | horizontal-content horizontal-content--1-2 horizontal-content--1-vw300 | mbl-7 mbl-vw400-3 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="horizontal-content__item | gap-line | text-6--h2">
-            <h2>Experienced & Trusted</h2>
+    <section class="content width-df | mbl-7 mbl-vw400-3 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="horizontal-content horizontal-content--1-2 horizontal-content--1-vw300">
+            <div class="horizontal-content__item | gap-line | text-6--h2">
+                <h2>Experienced & Trusted</h2>
+            </div>
+
+            <div class="horizontal-content__item | list-boxes list-boxes--4 list-boxes--rounded">
+                <div class="mb-1">
+                    <p>Elliott Waksman is a well-renowned sport pyschologist in the Portland metro area. A few organizations he's worked with include:</p>
+                </div>
+                <ul>
+                    <li>Nike</li>
+                    <li>University of Portland</li>
+                    <li>Portland State University</li>
+                    <li>Jesuit High School</li>
+                    <li>Willamette University</li>
+                    <li>Lincoln High School</li>
+                    <li>Oregon Athletic Coaches</li>
+                    <li><a href="/">And Many More...</a></li>
+                </ul>
+            </div>
         </div>
 
-        <div class="horizontal-content__item | list-boxes list-boxes--4">
-            <div class="mb-1">
-                <p>Elliott Waksman is a well-renowned sport pyschologist in the Portland metro area. A few organizations he's worked with include:</p>
-            </div>
-            <ul>
-                <li>Nike</li>
-                <li>University of Portland</li>
-                <li>Portland State University</li>
-                <li>Jesuit High School</li>
-                <li>Willamette University</li>
-                <li>Lincoln High School</li>
-                <li>Oregon Athletic Coaches</li>
-                <li><a href="/">And Many More...</a></li>
-            </ul>
+        <div class="testimonials | mbl-5 mbl-vw400-3 | text-4 ta-c">
+            <!-- <p>Elliott played a direct and significant role in our success this past season by helping to create a strong chemistry and providing our players with the tools to build their confidence and be prepared to face adversity.</p> -->
+
+            <p>I've been coaching for 15 years, and the number one thing athletes lack in their training is the practice of their mental game. Elliott immediately made an impact on how our players perceived sport psychology and how they worked on their mental toughness. Without a doubt, Elliott was a major part of our success this year. We set a school record with seven wins and four top five finishes.</p>
         </div>
     </section>
 

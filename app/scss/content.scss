@@ -402,34 +402,48 @@ main.site-content {
     }
   }
 
-  li {
-    font-size: var(--fs-400);
-    line-height: var(--lh-400);
-    padding: 1em;
-    border: 1px solid var(--c-grey-200);
-    border-radius: 2em;
-    text-align: center;
+  &.list-boxes--rounded {
+    li {
+      font-size: var(--fs-400);
+      line-height: var(--lh-400);
+      padding: 1em;
+      border: 1px solid var(--c-grey-200);
+      border-radius: 2em;
+      text-align: center;
 
-    &:has(a) {
-      border: none;
-      padding: 0;
+      &:has(a) {
+        border: none;
+        padding: 0;
 
-      a {
-        font-weight: var(--fw-600);
-        text-transform: uppercase;
-        background-color: var(--c-black);
-        border-radius: 2em;
-        color: var(--c-white);
-        display: block;
-        padding: 1em;
-        transition: all var(--t-fast);
+        a {
+          font-weight: var(--fw-600);
+          text-transform: uppercase;
+          background-color: var(--c-black);
+          border-radius: 2em;
+          color: var(--c-white);
+          display: block;
+          padding: 1em;
+          transition: all var(--t-fast);
 
-        &:hover,
-        &:focus {
-          background-color: var(--c-primary);
-          text-decoration: none;
+          &:hover,
+          &:focus {
+            background-color: var(--c-primary);
+            text-decoration: none;
+          }
         }
       }
+    }
+  }
+
+  &.list-boxes--underlined {
+    li {
+      font-size: var(--fs-400);
+      font-weight: var(--fw-700);
+      line-height: var(--lh-400);
+      text-align: center;
+      text-transform: uppercase;
+      padding-bottom: 1em;
+      border-bottom: 2px solid var(--c-grey-200);
     }
   }
 }
@@ -438,10 +452,47 @@ main.site-content {
 
 
 // ***********************************
-//  Border Boxes
+//  Text Wrap
+// ***********************************
+.text-wrap {
+  p {
+    border: 2px solid var(--c-primary);
+    border-radius: 0.5em;
+    background-color: var(--c-grey-100);
+    width: fit-content;
+    margin-inline: auto;
+    padding: 1em;
+  }
+}
+
+
+
+
+// ***********************************
 // ***********************************
 .border-box {
   border: 2px solid var(--c-grey-100);
   padding: 2em;
   border-radius: 2em;
+}
+
+
+
+
+// ***********************************
+//  Testimonials
+// ***********************************
+.testimonials {
+  font-style: italic;
+  line-height: 2;
+
+  p {
+    &:before,
+    &:after {
+      content: '"';
+      display: inline;
+      font-style: normal;
+      color: var(--c-grey-400);
+    }
+  }
 }
