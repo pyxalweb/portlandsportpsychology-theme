@@ -117,10 +117,23 @@ get_header();
             </div>
         </div>
 
-        <div class="testimonials | mbl-5 mbl-vw400-3 | text-4 ta-c">
-            <!-- <p>Elliott played a direct and significant role in our success this past season by helping to create a strong chemistry and providing our players with the tools to build their confidence and be prepared to face adversity.</p> -->
+        <div class="testimonials | content-slider slider-overlay arrows-default | mbl-5 mbl-vw400-3 | text-4 ta-c">
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <div class="glide__slides">
+                        <figure class="testimonials__item | glide__slide">
+                            <blockquote>I've been coaching for 15 years, and the number one thing athletes lack in their training is the practice of their mental game. Elliott immediately made an impact on how our players perceived sport psychology and how they worked on their mental toughness. Without a doubt, Elliott was a major part of our success this year. We set a school record with seven wins and four top five finishes.</blockquote>
+                            <figcaption>Patrick Daugherty, <cite>Head Golf Coach, Willamette University</cite></figcaption>
+                        </figure>
 
-            <p>I've been coaching for 15 years, and the number one thing athletes lack in their training is the practice of their mental game. Elliott immediately made an impact on how our players perceived sport psychology and how they worked on their mental toughness. Without a doubt, Elliott was a major part of our success this year. We set a school record with seven wins and four top five finishes.</p>
+                        <figure class="testimonials__item | glide__slide">
+                            <blockquote>Elliott played a direct and significant role in our success this past season by helping to create a strong chemistry and providing our players with the tools to build their confidence and be prepared to face adversity.</blockquote>
+                            <figcaption>Pat Coons, <cite>Head Boys Basketball Coach, Westview High School,
+            2010 Oregon Coach of the Year</cite></figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

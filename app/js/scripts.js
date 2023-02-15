@@ -2,7 +2,15 @@
 //  Layout Scripts
 // ***********************************
 // Created by Alex Winter for LET Group
-// Last Modified: 2023-01-29 by AW
+// Last Modified: 2023-02-13 by AW
+
+
+
+
+// ***********************************
+//  Imports
+// ***********************************
+import Glide, { Autoplay, Controls, Breakpoints, Swipe } from './glide.modular.esm.js' // glide.js
 
 
 
@@ -382,6 +390,30 @@ const scrollPaddingTop = () => {
     root.style.setProperty('--scroll-padding', headerHeight + 0 + 'px')
 }
 scrollPaddingTop()
+
+
+
+
+// ***********************************
+//  glide.js
+// ***********************************
+const glideElement = document.querySelector('.glide__slide')
+if (glideElement) {
+    // content slider
+    document.querySelectorAll('.content-slider .glide').forEach((element) => {
+        const slides = element.querySelector('.glide__slide')
+        if (slides) {
+            let slideshow = new Glide(element, {
+                type: 'slider', // 'slideshow'
+                bound: true,
+                perView: 1,
+                autoplay: 10000,
+                swipeThreshold: 40
+            })
+            slideshow.mount({ Autoplay, Controls, Swipe })
+        }
+    })
+}
 
 
 

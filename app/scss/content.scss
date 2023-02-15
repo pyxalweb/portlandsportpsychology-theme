@@ -486,7 +486,11 @@ main.site-content {
   font-style: italic;
   line-height: 2;
 
-  p {
+  figure {
+    margin: 0;
+  }
+
+  blockquote {
     &:before,
     &:after {
       content: '"';
@@ -494,5 +498,9 @@ main.site-content {
       font-style: normal;
       color: var(--c-grey-400);
     }
+  }
+
+  figcaption {
+    font-style: normal;
   }
 }
