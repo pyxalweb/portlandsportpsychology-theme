@@ -63,6 +63,40 @@
 
 
 // ***********************************
+//  border-top
+// ***********************************
+// .bt-2px-primary { border-top: 2px solid var(--c-primary); }
+// .bt-2px-secondary { border-top: 2px solid var(--c-secondary); }
+// .bt-2px-tertiary { border-top: 2px solid var(--c-tertiary); }
+// .bt-2px-black { border-top: 2px solid var(--c-black); }
+// .bt-2px-white { border-top: 2px solid var(--c-white); }
+.bt-2px-grey-100 { border-top: 2px solid var(--c-grey-100); }
+// .bt-2px-grey-200 { border-top: 2px solid var(--c-grey-200); }
+// .bt-2px-grey-300 { border-top: 2px solid var(--c-grey-300); }
+// .bt-2px-grey-400 { border-top: 2px solid var(--c-grey-400); }
+// .bt-2px-grey-500 { border-top: 2px solid var(--c-grey-500); }
+
+
+
+
+// ***********************************
+//  border-bottom
+// ***********************************
+// .bb-2px-primary { border-bottom: 2px solid var(--c-primary); }
+// .bb-2px-secondary { border-bottom: 2px solid var(--c-secondary); }
+// .bb-2px-tertiary { border-bottom: 2px solid var(--c-tertiary); }
+// .bb-2px-black { border-bottom: 2px solid var(--c-black); }
+// .bb-2px-white { border-bottom: 2px solid var(--c-white); }
+.bb-2px-grey-100 { border-bottom: 2px solid var(--c-grey-100); }
+// .bb-2px-grey-200 { border-bottom: 2px solid var(--c-grey-200); }
+// .bb-2px-grey-300 { border-bottom: 2px solid var(--c-grey-300); }
+// .bb-2px-grey-400 { border-bottom: 2px solid var(--c-grey-400); }
+// .bb-2px-grey-500 { border-bottom: 2px solid var(--c-grey-500); }
+
+
+
+
+// ***********************************
 //  margin-block
 // ***********************************
 .mbl-7 { margin-block: 7em; }
@@ -70,8 +104,8 @@
 .mbl-5 { margin-block: 5em; }
 .mbl-4 { margin-block: 4em; }
 // .mbl-3 { margin-block: 3em; }
-// .mbl-2 { margin-block: 2em; }
-// .mbl-1 { margin-block: 1em; }
+.mbl-2 { margin-block: 2em; }
+.mbl-1 { margin-block: 1em; }
 // .mbl-0 { margin-block: 0em; }
 
 @media (max-width: $vw-400) {
@@ -79,7 +113,7 @@
 // .mbl-vw400-6 { margin-block: 6em; }
 // .mbl-vw400-5 { margin-block: 5em; }
 // .mbl-vw400-4 { margin-block: 4em; }
-.mbl-vw400-3 { margin-block: 3em; }
+.mbl-3-vw400 { margin-block: 3em; }
 // .mbl-vw400-2 { margin-block: 2em; }
 // .mbl-vw400-1 { margin-block: 1em; }
 // .mbl-vw400-0 { margin-block: 0em; }
@@ -105,7 +139,7 @@
 // .mt-vw400-6 { margin-top: 6em; }
 // .mt-vw400-5 { margin-top: 5em; }
 // .mt-vw400-4 { margin-top: 4em; }
-.mt-vw400-3 { margin-top: 3em; }
+.mt-3-vw400 { margin-top: 3em; }
 // .mt-vw400-2 { margin-top: 2em; }
 // .mt-vw400-1 { margin-top: 1em; }
 // .mt-vw400-0 { margin-top: 0em; }
@@ -174,16 +208,16 @@
 .pbl-5 { padding-block: 5em; }
 // .pbl-4 { padding-block: 4em; }
 // .pbl-3 { padding-block: 3em; }
-// .pbl-2 { padding-block: 2em; }
-// .pbl-1 { padding-block: 1em; }
+.pbl-2 { padding-block: 2em; }
+.pbl-1 { padding-block: 1em; }
 // .pbl-0 { padding-block: 0em; }
 
 @media (max-width: $vw-400) {
 //   .pbl-vw400-7 { padding-block: 7em; }
 //   .pbl-vw400-6 { padding-block: 6em; }
 //   .pbl-vw400-5 { padding-block: 5em; }
-.pbl-vw400-4 { padding-block: 4em; }
-.pbl-vw400-3 { padding-block: 3em; }
+.pbl-4-vw400 { padding-block: 4em; }
+.pbl-3-vw400 { padding-block: 3em; }
 //   .pbl-vw400-2 { padding-block: 2em; }
 //   .pbl-vw400-1 { padding-block: 1em; }
 //   .pbl-vw400-0 { padding-block: 0em; }
@@ -218,7 +252,7 @@
 // .pb-8 { padding-bottom: 8em; }
 // .pb-7 { padding-bottom: 7em; }
 // .pb-6 { padding-bottom: 6em; }
-// .pb-5 { padding-bottom: 5em; }
+.pb-5 { padding-bottom: 5em; }
 // .pb-4 { padding-bottom: 4em; }
 // .pb-3 { padding-bottom: 3em; }
 // .pb-2 { padding-bottom: 2em; }
@@ -227,6 +261,10 @@
 
 @media (max-width: $vw-200) {
   .pb-3-vw200 { padding-bottom: 3em; }
+}
+
+@media (max-width: $vw-400) {
+  .pb-4-vw400 { padding-bottom: 4em; }
 }
 
 
@@ -380,17 +418,6 @@
 // .g-2 { gap: 2em; }
 // .g-1 { gap: 1em; }
 // .g-0 { gap: 0em; }
-
-@media (max-width: $vw-200) {
-  // .g-vw200-7 { gap: 7em; }
-  // .g-vw200-6 { gap: 6em; }
-  // .g-vw200-5 { gap: 5em; }
-  // .g-vw200-4 { gap: 4em; }
-  // .g-vw200-3 { gap: 3em; }
-  // .g-vw200-2 { gap: 2em; }
-  // .g-vw200-1 { gap: 1em; }
-  // .g-vw200-0 { gap: 0em; }
-}
 
 
 

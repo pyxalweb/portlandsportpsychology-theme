@@ -10,14 +10,7 @@
 	<div class="footer__container">
 		<div class="footer__main | content width-df">
 			<div class="footer__address footer__flex">
-				<h2>Elliott Waksman, MA, CMPC</h2>
-				<p>Certified Mental Performance Consultant</p>
-				<div class="icon icon--address">
-					<address>PO BOX 14044 Portland, OR 97293</address>
-				</div>
-				<div class="icon icon--phone">
-					<a href="tel:15033097215" aria-label="Phone: 5 0 3 3 0 9 7 2 1 5">(503) 309-7215</a>
-				</div>
+				<?php get_template_part( 'template-parts/content', 'info' ); ?>
 			</div>
 
 			<div class="footer__nav footer__flex">
@@ -29,11 +22,7 @@
 
 			<div class="footer__social">
 				<h2>Follow Me</h2>
-				<ul class="social">
-					<li class="social__linkedin">
-						<a href="https://www.linkedin.com/in/elliott-waksman/" target="_blank" rel="noopener" aria-label="LinkedIn"></a>
-					</li>
-				</ul>
+				<?php get_template_part( 'template-parts/content', 'social' ); ?>
 			</div>
 		</div>
 

@@ -79,7 +79,7 @@ get_template_part( 'template-parts/content', 'masthead' );
         </div>
     </section>
 
-    <section class="content-wide | bg-grey-swoop-01 mt-4 pbl-5 pbl-vw400-4 ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content-wide | bg-grey-swoop-01 mt-4 pbl-5 pbl-4-vw400 ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="content width-df | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
             <div class="list-boxes list-boxes--5 list-boxes--underlined | mb-4">
                 <?php echo get_field('list_items'); ?>
@@ -88,7 +88,7 @@ get_template_part( 'template-parts/content', 'masthead' );
             <div class="text-wrap | text-2">
                 <?php echo get_field('cost'); ?>
             </div>
-        </ul>
+        </div>
     </section>
 </main>
 

@@ -28,7 +28,7 @@ get_header();
 </section>
 
 <main id="site-content" class="site-content">
-    <section class="content width-df | callout-ctas even-columns even-columns--four even-columns--two--vw500 even-columns--one-vw200 even-columns--gap-5-vw200 even-columns--center-vw200 | mbl-7 mbl-vw400-3 | text-4--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | callout-ctas even-columns even-columns--four even-columns--two--vw500 even-columns--one-vw200 even-columns--gap-5-vw200 even-columns--center-vw200 | mbl-7 mbl-3-vw400 | text-4--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="callout-ctas__item">
             <div class="callout-ctas__text callout-ctas__text--underline">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-brain.svg" alt="" width="51" height="57">
@@ -74,9 +74,9 @@ get_header();
         </div>
     </section>
 
-    <section class="content-wide | mbl-7 mbl-vw400-3 bg-grey-swoop-01 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content-wide | mbl-7 mbl-3-vw400 bg-grey-swoop-01 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="content width-df | split-content even-columns even-columns--two even-columns--one-vw200 even-columns--gap-0-vw200">
-            <div class="split-content__text | pbl-5 pbl-vw400-3 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
+            <div class="split-content__text | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
                 <div class="split-content__text__flex | text-6--h2">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-light-bulb.svg" alt="" width="39" height="57">
                     <h2>Elliott Waksman</h2>
@@ -94,7 +94,7 @@ get_header();
         </div>
     </section>
 
-    <section class="content width-df | mbl-7 mbl-vw400-3 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="horizontal-content horizontal-content--1-2 horizontal-content--1-vw300">
             <div class="horizontal-content__item | gap-line | text-6--h2">
                 <h2>Experienced & Trusted</h2>
@@ -117,7 +117,7 @@ get_header();
             </div>
         </div>
 
-        <div class="testimonials | content-slider slider-overlay arrows-default | mbl-5 mbl-vw400-3 | text-4 ta-c">
+        <div class="testimonials | content-slider slider-overlay arrows-default | mbl-5 mbl-3-vw400 | text-4 ta-c">
             <div class="glide">
                 <div class="glide__track" data-glide-el="track">
                     <div class="glide__slides">
@@ -137,9 +137,9 @@ get_header();
         </div>
     </section>
 
-    <section class="content-wide | mt-7 mt-vw400-3 bg-grey-swoop-02 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content-wide | mt-7 mt-3-vw400 bg-grey-swoop-02 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="content width-df | split-content even-columns even-columns--two even-columns--two--reverse even-columns--one-vw200 even-columns--gap-0-vw200">
-            <div class="split-content__text | pbl-5 pbl-vw400-3 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
+            <div class="split-content__text | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                 <div class="split-content__text__flex | text-6--h2">
                     <h2>Waksman's Workbook</h2>
                     

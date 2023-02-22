@@ -1,7 +1,7 @@
 <!-- temp file until integrated into Wordpress -->
 
 <li class="nav-item">
-    <a href="#" class="nav-link">Waksman's Workbook</a>
+    <a href="/waksmans-workbook" class="nav-link">Waksman's Workbook</a>
 </li>
 <li class="nav-item">
     <a href="#" class="nav-link">Services</a>
@@ -41,5 +41,5 @@
     <a href="/about-elliott" class="nav-link">About</a>
 </li>
 <li class="nav-item">
-    <a href="#" class="nav-link">Contact</a>
+    <a href="/contact" class="nav-link">Contact</a>
 </li>

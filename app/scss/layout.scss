@@ -35,6 +35,9 @@ body {
   text-transform: uppercase;
 }
 .text-2 { @extend %text-2; }
+.text-2--h1 h1 { @extend %text-2; }
+.text-2--h2 h2 { @extend %text-2; }
+.text-2--h3 h3 { @extend %text-2; }
 
 // heading - large font-size
 %text-3 {
@@ -111,6 +114,20 @@ body {
 .text-5--h1 h1 { @extend %text-5; }
 .text-5--h2 h2 { @extend %text-5; }
 .text-5--h3 h3 { @extend %text-5; }
+
+// text - black color and bold
+%text-9 {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-700);
+  line-height: var(--lh-400);
+  color: var(--c-black);
+  text-transform: uppercase;
+}
+.text-9 { @extend %text-9; }
+.text-9--h1 h1 { @extend %text-9; }
+.text-9--h2 h2 { @extend %text-9; }
+.text-9--h3 h3 { @extend %text-9; }
 
 //  Body
 // ***********************************
