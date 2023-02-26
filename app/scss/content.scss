@@ -577,10 +577,6 @@ main.site-content {
   }
 }
 
-.contact__callout {
-  
-}
-
 .contact__callout__split {
   display: flex;
   column-gap: 1em;
@@ -596,5 +592,23 @@ main.site-content {
 
   @media (max-width: $vw-800) {
     
+  }
+}
+
+
+
+
+// ***********************************
+//  List Highlight
+// ***********************************
+.list-highlight {
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  li {
+    padding: 0.35em;
+    border-bottom: 1px solid var(--c-white);
   }
 }

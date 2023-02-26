@@ -19,7 +19,7 @@ get_template_part( 'template-parts/content', 'masthead' );
         <div class="split-content__text | mb-1--h2">
             <div>
                 <?php echo get_field('split_content_text_1'); ?>
-                <a href="#" class="button | mt-1">Schedule Consultation</a>
+                <a href="/contact" class="button | mt-1">Schedule Consultation</a>
             </div>
         </div>
 

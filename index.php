@@ -16,8 +16,8 @@ get_header();
                 <p>Improve your focus, confidence, and performance on the field. Schedule your sport psychology consultation today!</p>
             </div>
             <div class="masthead__overlay__buttons">
-                <a href="#" class="button">Schedule Consultation</a>
-                <a href="#" class="button">Waksman's Workbook</a>
+                <a href="/contact" class="button">Schedule Consultation</a>
+                <a href="/waksmans-workbook" class="button">Waksman's Workbook</a>
             </div>
         </div>
     </div>
@@ -36,7 +36,7 @@ get_header();
                 <p>Individual sessions are one-on-one coaching for athletes to develop a personalized mental game plan for peak performance.</p>
             </div>
             <div class="callout-ctas__link">
-                <a href="/" aria-label="Learn more about Individual Sessions" class="button">Learn More</a>
+                <a href="/individual-sessions" aria-label="Learn more about Individual Sessions" class="button">Learn More</a>
             </div>
         </div>
 
@@ -47,7 +47,7 @@ get_header();
                 <p>Team workshops are dynamic presentations with interactive activities to strengthen the team's culture, resolve issues, and improve communication.</p>
             </div>
             <div class="callout-ctas__link">
-                <a href="/" aria-label="Learn more about Team Workshops" class="button">Learn More</a>
+                <a href="/team-workshops" aria-label="Learn more about Team Workshops" class="button">Learn More</a>
             </div>
         </div>
 
@@ -58,7 +58,7 @@ get_header();
                 <p>Parenting workshops provide practical tips for communicating before and after games, and introduce success strategies to support student-athletes.</p>
             </div>
             <div class="callout-ctas__link">
-                <a href="/" aria-label="Learn more about Parenting Workshops" class="button">Learn More</a>
+                <a href="/parenting-workshops" aria-label="Learn more about Parenting Workshops" class="button">Learn More</a>
             </div>
         </div>
 
@@ -69,7 +69,7 @@ get_header();
                 <p>Student mentoring is approved mentorship to earn certified consultant status through the Association for Applied Sport Psychology (AASP).</p>
             </div>
             <div class="callout-ctas__link">
-                <a href="/" aria-label="Learn more about Student Mentoring" class="button">Learn More</a>
+                <a href="/student-mentoring" aria-label="Learn more about Student Mentoring" class="button">Learn More</a>
             </div>
         </div>
     </section>
@@ -84,7 +84,7 @@ get_header();
                         <p>Waksman helps student-athletes play better and find more enjoyment in their sport.</p>
                     </div>
                     <p>Sport psychology techniques are life skills that every student-athlete can apply to improve their game and quality of life. Confidence, commitment, composure, courage, teamwork, and goal setting are arguably the most important aspects of youth sports and are topics Waksman often addresses in his sessions.</p>
-                    <a href="/" aria-label="Learn more about Elliott Waksman" class="button">About Elliott</a>
+                    <a href="/about-elliott" aria-label="Learn more about Elliott Waksman" class="button">About Elliott</a>
                 </div>
             </div>
 
@@ -112,7 +112,7 @@ get_header();
                     <li>Willamette University</li>
                     <li>Lincoln High School</li>
                     <li>Oregon Athletic Coaches</li>
-                    <li><a href="/">And Many More...</a></li>
+                    <li><a href="/success-stories">And Many More...</a></li>
                 </ul>
             </div>
         </div>
