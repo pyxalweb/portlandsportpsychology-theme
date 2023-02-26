@@ -27,7 +27,7 @@
             <a href="#" class="nav-link">Parent Info</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link">Newsletter</a>
+            <a href="/newsletter" class="nav-link">Newsletter</a>
         </li>
         <li class="nav-item">
             <a href="#" class="nav-link">Press</a>
