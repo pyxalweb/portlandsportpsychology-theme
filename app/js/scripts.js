@@ -356,19 +356,38 @@ setMastheadHeight()
 const thumbCTA = () => {
     const element = document.querySelector('.thumb-cta')
 
-    setTimeout(function() {
-        window.addEventListener('scroll', () => {
-            const mastheadHeight = mastheadContainer.offsetHeight
+    if (element == null) {
+        return
+    }
 
-            if (window.scrollY > mastheadHeight) {
+    // display after scrolling beyond masthead
+    if (mastheadContainer) {
+        setTimeout(function() {
+            window.addEventListener('scroll', () => {
+                const mastheadHeight = mastheadContainer.offsetHeight
+
+                if (window.scrollY > mastheadHeight) {
+                    element.classList.add('scrolled')
+                    console.log('more')
+                } else {
+                    element.classList.remove('scrolled')
+                    console.log('less')
+                }
+            })
+        }, 1000)
+    }
+    // if there's no masthead element, display after scrolling down x percent of page
+    else {
+        const scrollPercentage = 0.25
+        let scrollTrigger = true
+
+        window.onscroll = function() {
+            if (scrollTrigger && window.pageYOffset / (document.documentElement.scrollHeight - window.innerHeight) > scrollPercentage) {
                 element.classList.add('scrolled')
-                console.log('more')
-            } else {
-                element.classList.remove('scrolled')
-                console.log('less')
+                scrollTrigger = false
             }
-        })
-    }, 1000)
+        };
+    }
 }
 thumbCTA();
 

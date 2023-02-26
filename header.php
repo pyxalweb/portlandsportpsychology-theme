@@ -15,7 +15,19 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class('preload'); ?>>
+<?php
+	// get the name of the Page Template
+	$template_path = get_post_meta(get_the_ID(), '_wp_page_template', true);
+	$templates = wp_get_theme()->get_page_templates();
+	if ($templates[$template_path] == 'No Masthead') { ?>
+		<body <?php body_class('preload no-masthead'); ?>>
+	<?php
+	} else {
+	?>
+		<body <?php body_class('preload'); ?>>
+	<?php
+	}
+?>
 <?php wp_body_open(); ?>
 
 <header id="site-header" class="header">

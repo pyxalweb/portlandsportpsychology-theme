@@ -1,4 +1,4 @@
-<?php /* Template Name: Contact - Thank You */ ?>
+<?php /* Template Name: No Masthead */ ?>
 
 <?php
 get_header();
