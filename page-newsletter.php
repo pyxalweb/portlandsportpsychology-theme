@@ -15,12 +15,14 @@ get_template_part( 'template-parts/content', 'masthead' );
 <main id="site-content" <?php post_class($class = 'site-content interior'); ?>>
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
-    <section class="content width-df | mbl-7 mbl-3-vw400 ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | mt-7 mb-2 mbl-3-vw400 ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <h2>Email Campaign Archive</h2>
+        <p>This is an archive of my email newsletter which contains tons of useful tips and ideas!</p>
+        <p class="mi-center-child"><a href="https://portlandsportpsychology.us7.list-manage.com/subscribe?u=f10ac0f336ab5bd2834618feb&id=e69e8f6e9d" target="_blank" class="button">Subcribe!</a></p>
     </section>
     
-    <section class="content width-xs | mbl-7 mbl-3-vw400 ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="link-list | mt-2 bg-grey-100 p-2">
+    <section class="content width-xs | mt-2 mb-7 mbl-3-vw400 ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="link-list | mbl-2 bg-grey-100 p-2">
             <ul>
                 <li><a href="/newsletter-archive/what-helps-student-athletes-thrive-long-term.html">What Helps Student-Athletes Thrive Long-Term</a></li>
 
@@ -63,6 +65,8 @@ get_template_part( 'template-parts/content', 'masthead' );
                 <li><a href="/newsletter-archive/a-unique-interview-about-preparing-for-the-big-stage.html">A Unique Interview About Preparing for the Big Stage</a></li>
             </ul>
         </div>
+
+        <p class="mi-center-child"><a href="https://portlandsportpsychology.us7.list-manage.com/subscribe?u=f10ac0f336ab5bd2834618feb&id=e69e8f6e9d" target="_blank" class="button">Subcribe!</a></p>
     </section>
 </main>
 
