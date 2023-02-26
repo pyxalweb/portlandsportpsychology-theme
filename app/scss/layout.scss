@@ -288,6 +288,7 @@ a {
     &:hover,
     &:focus {
       background-color: var(--c-primary);
+      text-decoration: none;
 
       &:first-of-type {
         border-color: var(--c-primary);

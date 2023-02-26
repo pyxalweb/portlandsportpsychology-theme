@@ -524,7 +524,6 @@ main.site-content {
 
 .contact__text {
   flex: 0 0 50%;
-  padding: 2em 0;
 
   @media (max-width: $vw-500) {
     flex: 1 1 100%;
@@ -538,13 +537,16 @@ main.site-content {
 }
 
 .contact__text__split {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 2em;
+  display: flex;
+  column-gap: 5vw;
 
-  @media (max-width: $vw-800) {
-    grid-template-columns: 1fr;
+  @media (max-width: $vw-200) {
+    flex-direction: column;
     row-gap: 1em;
+  }
+
+  >div {
+    flex: 0 1 auto;
   }
 
   h2, h3 {
@@ -572,5 +574,27 @@ main.site-content {
         }
       }
     }
+  }
+}
+
+.contact__callout {
+  
+}
+
+.contact__callout__split {
+  display: flex;
+  column-gap: 1em;
+
+  img {
+    flex: 0 1 auto;
+    height: 100%;
+  }
+
+  >div {
+    flex: 1 1 auto;
+  }
+
+  @media (max-width: $vw-800) {
+    
   }
 }
