@@ -630,3 +630,35 @@ main.site-content {
     border-bottom: 1px solid var(--c-white);
   }
 }
+
+.link-list {
+  .link-list__hide {
+    display: none;
+  }
+
+  .link-list__more {
+    @extend %text-button-1;
+    text-transform: none;
+    margin-inline: auto;
+    margin-top: 2em;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    transition: all var(--t-fast);
+    color: var(--c-grey-400);
+    background-color: var(--c-grey-200);
+    position: relative;
+    padding-block: 0.5em;
+    padding-inline: 2em;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: var(--c-white);
+      background-color: var(--c-primary);
+    }
+  }
+}

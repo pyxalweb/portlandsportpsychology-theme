@@ -368,10 +368,10 @@ const thumbCTA = () => {
 
                 if (window.scrollY > mastheadHeight) {
                     element.classList.add('scrolled')
-                    console.log('more')
+                    // console.log('more')
                 } else {
                     element.classList.remove('scrolled')
-                    console.log('less')
+                    // console.log('less')
                 }
             })
         }, 1000)
@@ -714,6 +714,60 @@ animateScrollSlideVertical.forEach((element) => {
 // ***********************************
 
 // ...
+
+
+
+
+// ***********************************
+//  Link List - Reduce
+// ***********************************
+const linkListReduce = () => {
+    // get all '.link-list' elements
+    const linkLists = document.querySelectorAll('.link-list')
+
+    // iterate over each '.link-list' element
+    linkLists.forEach((linkList) => {
+        // get the number of items to display
+        const dataReduce = linkList.dataset.reduce
+
+        // get all list item elements
+        const listItems = linkList.querySelectorAll('li')
+
+        // hide list items that exceed the display limit
+        listItems.forEach((item, index) => {
+            if (index >= dataReduce) {
+                item.classList.add('link-list__hide')
+            }
+        })
+
+        // get all '.link-list__more' elements
+        const moreButtons = linkList.querySelectorAll('.link-list__more')
+
+        // add click event listener to each '.link-list__more' element
+        moreButtons.forEach((button) => {
+            button.addEventListener('click', () => {
+                // show or hide additional list items depending on their current visibility
+                listItems.forEach((item, index) => {
+                    if (index >= dataReduce) {
+                        item.classList.toggle('link-list__hide')
+                    }
+                })
+
+                if (button.innerHTML === 'View More') {
+                    button.innerHTML = 'View Less'
+                } else {
+                    button.innerHTML = 'View More'
+                }
+
+                // smooth scroll to the top of the link-list element, accounting for the fixed header height
+                const headerHeight = parseInt(getComputedStyle(document.querySelector('.header')).getPropertyValue('--header-height')) * 16 // the '.header' height uses the 'em' unit which doesn't work when we use parseInt, so we must multiply by 16 (1em = 16px)
+                const linkListTop = linkList.getBoundingClientRect().top + window.pageYOffset - headerHeight - 32 // subtract a little extra so it isn't flush to the top
+                window.scrollTo({ top: linkListTop, behavior: 'smooth' })
+            })
+        })
+    })
+}
+linkListReduce();
 
 
 

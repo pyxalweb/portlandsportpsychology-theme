@@ -27,13 +27,10 @@
             <a href="#" class="nav-link">Parent Info</a>
         </li>
         <li class="nav-item">
-            <a href="/newsletter" class="nav-link">Newsletter</a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link">Press</a>
-        </li>
-        <li class="nav-item">
             <a href="#" class="nav-link">Success Stories</a>
+        </li>
+        <li class="nav-item">
+            <a href="/press" class="nav-link">Press</a>
         </li>
     </ul>
 </li>
