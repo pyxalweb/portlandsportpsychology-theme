@@ -56,6 +56,15 @@ get_template_part( 'template-parts/content', 'masthead' );
             <?php echo get_field('box_2'); ?>
         </div>
     </section>
+
+    <section class="content width-df | even-columns even-columns--two even-columns--one-vw500 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="border-box">
+            <?php echo get_field('box_3'); ?>
+        </div>
+        <div class="border-box">
+            <?php echo get_field('box_4'); ?>
+        </div>
+    </section>
 </main>
 
 <?php

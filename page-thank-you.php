@@ -28,19 +28,25 @@ endwhile;
         ?>
             <a href="/" class="button | mi-center">Return Home</a>
         <?php
-            // Waksman's Workbook - Thank You
+            // Waksman's Workbook - Thank You - Mail
             } elseif (is_page(164)) {
         ?>
             <div class="text-7 | mb-1 pt-2 bt-2px-grey-100">
                 Or you can pay via PayPal!
             </div>
 
-            <a href="#" class="button | mi-center">Pay Now</a>
+            <a href="#" class="button button--highlight | mi-center">Pay Now</a>
         <?php
-            // Waksman's Workbook - Thank You
+            // Waksman's Workbook - Thank You - PayPal
             } elseif (is_page(171)) {
         ?>
-            <a href="#" class="button | mi-center">Pay Now</a>
+            <a href="#" class="button button--highlight | mi-center">Pay Now</a>
+
+            <script>
+                setTimeout(() => {
+                    window.location.href = "https://google.com";
+                }, 10000)
+            </script>
         <?php
             }
         ?>

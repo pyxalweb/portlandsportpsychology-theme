@@ -171,11 +171,12 @@ ul, ol {
 }
 
 a {
-  color: var(--c-black);
+  color: var(--c-primary);
   text-decoration: none;
 
   &:hover,
   &:focus {
+    color: var(--c-secondary);
     text-decoration: underline;
   }
 }
@@ -218,6 +219,15 @@ a {
   &:focus {
     background-color: var(--c-primary);
     text-decoration: none;
+  }
+
+  &--highlight {
+    background-color: var(--c-primary);
+
+    &:hover,
+    &:focus {
+      background-color: var(--c-secondary);
+    }
   }
 }
 
