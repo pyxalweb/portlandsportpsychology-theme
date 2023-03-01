@@ -417,22 +417,35 @@ scrollPaddingTop()
 //  glide.js
 // ***********************************
 const glideElement = document.querySelector('.glide__slide')
+
 if (glideElement) {
     // content slider
-    document.querySelectorAll('.content-slider .glide').forEach((element) => {
-        const slides = element.querySelector('.glide__slide')
-        if (slides) {
-            let slideshow = new Glide(element, {
-                type: 'slider', // 'slideshow'
-                bound: true,
-                perView: 1,
-                autoplay: 10000,
-                swipeThreshold: 40
-            })
-            slideshow.mount({ Autoplay, Controls, Swipe })
+    document.querySelectorAll('.content-slider .glide').forEach((glide) => {
+        let slideshow = new Glide(glide, {
+            type: 'slider', // 'slideshow'
+            bound: true,
+            perView: 1,
+            autoplay: 10000,
+            swipeThreshold: 40
+        })
+
+        // generate pagination bullet for each slide
+        let glideIndex = glide.querySelectorAll('.glide__slide').length
+        let glideCount = 0;
+        while (glideCount < glideIndex) {
+            const bullet = document.createElement('button')
+            bullet.classList.add('glide__bullet')
+            bullet.setAttribute("data-glide-dir", '=' + glideCount)
+            const glideBullets = glide.querySelector('.glide__bullets')
+            glideBullets.appendChild(bullet)
+            glideCount++
         }
+
+        slideshow.mount({ Autoplay, Controls, Swipe })
     })
 }
+
+
 
 
 

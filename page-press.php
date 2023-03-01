@@ -137,6 +137,10 @@ get_template_part( 'template-parts/content', 'masthead' );
                         <li><a href="https://athletesacceleration.com/six-life-skills-child-always-learn-playing-sports/" target="_blank" rel="noopener">Six Life Skills your Child Should Always Learn from Playing Sports</a></li>
                         <li><a href="https://www.ncaa.org/sports/2013/12/17/probability-of-competing-beyond-high-school.aspx" target="_blank" rel="noopener">Probability of Competing Beyond High School</a></li>
                         <li><a href="https://www.psychologytoday.com/us/blog/the-power-imagination/201003/help-kids-visualize-victory-olympic-athletes-9-tools-achieve" target="_blank" rel="noopener">Help Kids Visualize Victory: 9 Tools to Achieve Sports Success</a></li>
+                        <li><a href="https://appliedsportpsych.org/resources/resources-for-athletes/the-3-c-s-of-being-a-captain/" target="_blank" rel="noopener">The 3 C's of Being a Captain</a></li>
+                        <li><a href="https://appliedsportpsych.org/resources/resources-for-athletes/glass-is-half-full-thinking/" target="_blank" rel="noopener">Glass is Half-Full Thinking</a></li>
+                        <li><a href="https://appliedsportpsych.org/resources/resources-for-athletes/dealing-with-anger-in-competition/" target="_blank" rel="noopener">Dealing With Anger in Competition</a></li>
+                        <li><a href="https://www.apa.org/monitor/2012/04/sport" target="_blank" rel="noopener">America's First Sport Psychologist</a></li>
                     </ul>
 
                     <button class="link-list__more">View More</button>

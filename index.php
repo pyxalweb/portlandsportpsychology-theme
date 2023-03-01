@@ -117,7 +117,7 @@ get_header();
             </div>
         </div>
 
-        <div class="testimonials | content-slider slider-overlay arrows-default | mbl-5 mbl-3-vw400 | text-4 ta-c">
+        <div class="testimonials | content-slider pagination-text | mbl-5 mbl-3-vw400 | text-4 ta-c">
             <div class="glide">
                 <div class="glide__track" data-glide-el="track">
                     <div class="glide__slides">
@@ -128,9 +128,16 @@ get_header();
 
                         <figure class="testimonials__item | glide__slide">
                             <blockquote>Elliott played a direct and significant role in our success this past season by helping to create a strong chemistry and providing our players with the tools to build their confidence and be prepared to face adversity.</blockquote>
-                            <figcaption>Pat Coons, <cite>Head Boys Basketball Coach, Westview High School,
-            2010 Oregon Coach of the Year</cite></figcaption>
+                            <figcaption>Pat Coons, <cite>Head Boys Basketball Coach, Westview High School, 2010 Oregon Coach of the Year</cite></figcaption>
                         </figure>
+
+                        <figure class="testimonials__item | glide__slide">
+                            <blockquote>Elliott played a major role helping Jesuit become the 2016 State Champions. We used his visualization audio track as a routine to mentally prepare for games. It was just as valuable as our pregame infield/outfield drills.</blockquote>
+                            <figcaption>Colin Griffin, <cite>Head Baseball Coach, Jesuit High School, 2016 Oregon Coach of the Year</cite></figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="glide__bullets" data-glide-el="controls[nav]">
                     </div>
                 </div>
             </div>
