@@ -291,6 +291,12 @@ a {
   }
 }
 
+
+
+
+// ***********************************
+//  Inline SVG
+// ***********************************
 .svg {
   svg {
     align-self: flex-start;
@@ -309,25 +315,6 @@ a {
       height: 57px;
     }
   }
-}
-
-
-
-
-// ***********************************
-//  Numbered Items
-// ***********************************
-.numbered-items {
-  list-style: none;
-  counter-reset: count;
-}
-
-.numbered-items li {
-  counter-increment: count;
-}
-
-.numbered-items li::before {
-  content: counter(count);
 }
 
 

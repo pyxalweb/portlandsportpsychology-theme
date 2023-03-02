@@ -118,6 +118,13 @@ get_template_part( 'template-parts/content', 'masthead' );
                 </div>
             </div>
         </div>
+
+        <div class="testimonials | content-slider pagination-text | mbl-5 mbl-3-vw400 | text-4 ta-c">
+            <figure class="testimonials__item">
+                <blockquote>Scott read and filled out your workbook and said it changed his life. He takes it with him to all his tournaments.</blockquote>
+                <figcaption>Alice, <cite>Sport Mother, La Salle High School, Milwaukie, Oregon</cite></figcaption>
+            </figure>
+        </div>
     </section>
 </main>
 

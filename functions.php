@@ -43,10 +43,4 @@ function load_inline_svg( $filename ) {
     return '';
 }
 
-
-
-
-
-
-
 ?>

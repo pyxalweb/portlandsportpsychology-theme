@@ -24,10 +24,10 @@
     <a href="#" class="nav-link">Resources</a>
     <ul class="nav-sub">
         <li class="nav-item">
-            <a href="#" class="nav-link">Parent Info</a>
+            <a href="/parent-info" class="nav-link">Parent Info</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link">Success Stories</a>
+            <a href="/success-stories" class="nav-link">Success Stories</a>
         </li>
         <li class="nav-item">
             <a href="/more-resources" class="nav-link">More Resources</a>

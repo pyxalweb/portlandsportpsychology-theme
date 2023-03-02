@@ -139,7 +139,7 @@
 //  margin-top
 // ***********************************
 .mt-7 { margin-top: 7em; }
-// .mt-6 { margin-top: 6em; }
+.mt-6 { margin-top: 6em; }
 // .mt-5 { margin-top: 5em; }
 .mt-4 { margin-top: 4em; }
 // .mt-3 { margin-top: 3em; }
@@ -172,6 +172,17 @@
 .mb-2 { margin-bottom: 2em; }
 .mb-1 { margin-bottom: 1em; }
 .mb-0 { margin-bottom: 0em; }
+
+@media (max-width: $vw-400) {
+// .mb-vw400-7 { margin-bottom: 7em; }
+// .mb-vw400-6 { margin-bottom: 6em; }
+// .mb-vw400-5 { margin-bottom: 5em; }
+// .mb-vw400-4 { margin-bottom: 4em; }
+.mb-3-vw400 { margin-bottom: 3em; }
+// .mb-vw400-2 { margin-bottom: 2em; }
+// .mb-vw400-1 { margin-bottom: 1em; }
+// .mb-vw400-0 { margin-bottom: 0em; }
+}
 
 
 

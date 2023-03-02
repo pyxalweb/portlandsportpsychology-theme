@@ -145,6 +145,11 @@ get_header();
                             <blockquote>Elliott played a major role helping Jesuit become the 2016 State Champions. We used his visualization audio track as a routine to mentally prepare for games. It was just as valuable as our pregame infield/outfield drills.</blockquote>
                             <figcaption>Colin Griffin, <cite>Head Baseball Coach, Jesuit High School, 2016 Oregon Coach of the Year</cite></figcaption>
                         </figure>
+
+                        <figure class="testimonials__item | glide__slide">
+                            <blockquote>Scott read and filled out your workbook and said it changed his life. He takes it with him to all his tournaments.</blockquote>
+                            <figcaption>Alice, <cite>Sport Mother, La Salle High School, Milwaukie, Oregon</cite></figcaption>
+                        </figure>
                     </div>
 
                     <div class="glide__bullets" data-glide-el="controls[nav]">
