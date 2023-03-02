@@ -30,7 +30,7 @@
             <a href="#" class="nav-link">Success Stories</a>
         </li>
         <li class="nav-item">
-            <a href="/press" class="nav-link">Press</a>
+            <a href="/more-resources" class="nav-link">More Resources</a>
         </li>
     </ul>
 </li>

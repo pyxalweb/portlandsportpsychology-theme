@@ -1,4 +1,4 @@
-<?php /* Template Name: Press */ ?>
+<?php /* Template Name: More Resources */ ?>
 
 <?php
 get_header();

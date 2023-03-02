@@ -16,8 +16,8 @@ get_header();
                 <p>Improve your focus, confidence, and performance on the field. Schedule your sport psychology consultation today!</p>
             </div>
             <div class="masthead__overlay__buttons">
-                <a href="/contact" class="button">Schedule Consultation</a>
-                <a href="/waksmans-workbook" class="button">Waksman's Workbook</a>
+                <a href="/contact" class="button button--highlight">Schedule Consultation</a>
+                <a href="/waksmans-workbook" class="button button--highlight">Waksman's Workbook</a>
             </div>
         </div>
     </div>
@@ -31,7 +31,9 @@ get_header();
     <section class="content width-df | callout-ctas even-columns even-columns--four even-columns--two--vw500 even-columns--one-vw200 even-columns--gap-5-vw200 even-columns--center-vw200 | mbl-7 mbl-3-vw400 | text-4--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="callout-ctas__item">
             <div class="callout-ctas__text callout-ctas__text--underline">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-brain.svg" alt="" width="51" height="57">
+                <div class="svg svg--57h | mi-center-vw200">
+                    <?php load_inline_svg('icon-brain.svg'); ?>
+                </div>
                 <h2>Individual Sessions</h2>
                 <p>Individual sessions are one-on-one coaching for athletes to develop a personalized mental game plan for peak performance.</p>
             </div>
@@ -42,7 +44,9 @@ get_header();
 
         <div class="callout-ctas__item">
             <div class="callout-ctas__text callout-ctas__text--underline">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-clipboard.svg" alt="" width="54" height="57">
+                <div class="svg svg--57h | mi-center-vw200">
+                    <?php load_inline_svg('icon-clipboard.svg'); ?>
+                </div>
                 <h2>Team Workshops</h2>
                 <p>Team workshops are dynamic presentations with interactive activities to strengthen the team's culture, resolve issues, and improve communication.</p>
             </div>
@@ -53,7 +57,9 @@ get_header();
 
         <div class="callout-ctas__item">
             <div class="callout-ctas__text callout-ctas__text--underline">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-parents.svg" alt="" width="52" height="57">
+                <div class="svg svg--57h | mi-center-vw200">
+                    <?php load_inline_svg('icon-parents.svg'); ?>
+                </div>
                 <h2>Parenting Workshops</h2>
                 <p>Parenting workshops provide practical tips for communicating before and after games, and introduce success strategies to support student-athletes.</p>
             </div>
@@ -64,7 +70,9 @@ get_header();
 
         <div class="callout-ctas__item">
             <div class="callout-ctas__text callout-ctas__text--underline">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-mentor.svg" alt="" width="52" height="57">
+                <div class="svg svg--57h | mi-center-vw200">
+                    <?php load_inline_svg('icon-mentor.svg'); ?>
+                </div>
                 <h2>Student Mentoring</h2>
                 <p>Student mentoring is approved mentorship to earn certified consultant status through the Association for Applied Sport Psychology (AASP).</p>
             </div>
@@ -78,7 +86,9 @@ get_header();
         <div class="content width-df | split-content even-columns even-columns--two even-columns--one-vw200 even-columns--gap-0-vw200">
             <div class="split-content__text | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
                 <div class="split-content__text__flex | text-6--h2">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-light-bulb.svg" alt="" width="39" height="57">
+                    <div class="svg svg--57h | mi-center-vw200">
+                        <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                    </div>
                     <h2>Elliott Waksman</h2>
                     <div class="gap-line | text-7">
                         <p>Waksman helps student-athletes play better and find more enjoyment in their sport.</p>
@@ -152,7 +162,9 @@ get_header();
                     
                     <div class="points | text-4--h3 | mt-1">
                         <div class="points__item">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-light-bulb.svg" alt="" width="39" height="57">
+                            <div class="svg svg--57h | mi-center-vw200">
+                                <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                            </div>
                             <div class="points__text">
                                 <h3>Improve Self-Confidence</h3>
                                 <p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.</p>
@@ -160,7 +172,9 @@ get_header();
                         </div>
 
                         <div class="points__item">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-light-bulb.svg" alt="" width="39" height="57">
+                            <div class="svg svg--57h | mi-center-vw200">
+                                <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                            </div>
                             <div class="points__text">
                                 <h3>Increase Motivation Levels</h3>
                                 <p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.</p>
@@ -168,7 +182,9 @@ get_header();
                         </div>
 
                         <div class="points__item">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-light-bulb.svg" alt="" width="39" height="57">
+                            <div class="svg svg--57h | mi-center-vw200">
+                                <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                            </div>
                             <div class="points__text">
                                 <h3>Success On & Off the Field</h3>
                                 <p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.</p>
@@ -176,7 +192,7 @@ get_header();
                         </div>
                     </div>
 
-                    <a href="/waksmans-workbook" aria-label="Order Waksman's Workbook Now" class="button">Order Now</a>
+                    <a href="/waksmans-workbook" aria-label="Order Waksman's Workbook Now" class="button button--highlight">Order Now</a>
                 </div>
             </div>
 

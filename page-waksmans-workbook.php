@@ -30,7 +30,9 @@ get_template_part( 'template-parts/content', 'masthead' );
                     
                     <div class="points | text-4--h3 | mt-1">
                         <div class="points__item">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-light-bulb.svg" alt="" width="39" height="57">
+                            <div class="svg svg--57h | mi-center-vw200">
+                                <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                            </div>
                             <div class="points__text">
                                 <h3>Improve Self-Confidence</h3>
                                 <p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.</p>
@@ -38,7 +40,9 @@ get_template_part( 'template-parts/content', 'masthead' );
                         </div>
 
                         <div class="points__item">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-light-bulb.svg" alt="" width="39" height="57">
+                            <div class="svg svg--57h | mi-center-vw200">
+                                <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                            </div>
                             <div class="points__text">
                                 <h3>Increase Motivation Levels</h3>
                                 <p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.</p>
@@ -46,7 +50,9 @@ get_template_part( 'template-parts/content', 'masthead' );
                         </div>
 
                         <div class="points__item">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/icon-light-bulb.svg" alt="" width="39" height="57">
+                            <div class="svg svg--57h | mi-center-vw200">
+                                <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                            </div>
                             <div class="points__text">
                                 <h3>Success On & Off the Field</h3>
                                 <p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.</p>
@@ -65,8 +71,8 @@ get_template_part( 'template-parts/content', 'masthead' );
     <section class="content width-df | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="mb-2 ta-c">
             <h2>Order Now!</h2>
-            <div class="text-3">
-                <p class="text-strike"><span>$30</span></p>
+            <div class="text-3 text-strike">
+                <p><span>$30</span></p>
             </div>
             <p>Free Shipping!</p>
         </div>

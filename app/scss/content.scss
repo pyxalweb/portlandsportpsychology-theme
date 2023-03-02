@@ -151,6 +151,21 @@ main.site-content {
 
 
 
+// ***********************************
+//  Flex Grid
+// ***********************************
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  
+  >* {
+    flex: 1 1 auto;
+  }
+}
+
+
+
+
 
 // ***********************************
 //  Callout CTAs
@@ -160,7 +175,8 @@ main.site-content {
   flex-direction: column;
   gap: 1em;
 
-  img {
+  img,
+  svg {
     order: 0;
   }
 }
@@ -328,6 +344,12 @@ main.site-content {
   @media (max-width: $vw-200) {
     flex-direction: column;
   }
+
+  .svg {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+  }
 }
 
 
@@ -407,9 +429,10 @@ main.site-content {
       font-size: var(--fs-400);
       line-height: var(--lh-400);
       padding: 1em;
-      border: 1px solid var(--c-grey-200);
+      border: 1px solid var(--c-secondary);
       border-radius: 2em;
       text-align: center;
+      color: var(--c-secondary);
 
       &:has(a) {
         border: none;
