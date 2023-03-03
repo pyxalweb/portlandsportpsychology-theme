@@ -44,7 +44,7 @@ get_template_part( 'template-parts/content', 'masthead' );
         </div>
     </section>
 
-    <section class="content width-df | split-content even-columns even-columns--two even-columns--one-vw200 | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | split-content even-columns even-columns--two even-columns--prioritize-text--vw800 even-columns--one-vw500 | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="split-content__text | mb-1--h2">
             <div>
                 <?php echo get_field('split_content_text_1'); ?>
@@ -69,7 +69,7 @@ get_template_part( 'template-parts/content', 'masthead' );
             </div>
         </div>
 
-        <div class="split-content__image split-content__image--circle--mobile split-content__image--rounded">
+        <div class="split-content__image split-content__image--rounded split-content__image--circle--mobile">
             <?php
             $image = get_field('split_content_image_1');
             if ($image):
