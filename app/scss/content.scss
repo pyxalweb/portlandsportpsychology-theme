@@ -763,7 +763,7 @@ main.site-content {
 
 
 // ***********************************
-//  
+//  Quotes
 // ***********************************
 .quotes {
   display: flex;
@@ -796,4 +796,62 @@ main.site-content {
       font-style: italic;
     }
   }
+}
+
+
+
+
+// ***********************************
+//  Contain
+// ***********************************
+.contain {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+// ***********************************
+//  List
+// ***********************************
+.list {
+  ul {
+    list-style: none;
+    width: fit-content;
+    background-color: var(--c-grey-100);
+    border-radius: 2em;
+    margin: 0;
+    padding: 2em;
+
+    li {
+      &:before {
+        content: '\E802';
+        font-family: 'icons';
+        color: var(--c-primary);
+        margin-right: 0.5em;
+      }
+    }
+  }
+}
+
+
+
+
+// ***********************************
+//  Sale
+// ***********************************
+.sale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  background-color: var(--c-grey-100);
+  border-radius: 2em;
+  padding: 2em;
+  text-align: center;
+  
+   p {
+    margin: 0;
+   }
 }

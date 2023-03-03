@@ -129,6 +129,20 @@ body {
 .text-9--h2 h2 { @extend %text-9; }
 .text-9--h3 h3 { @extend %text-9; }
 
+// text - grey color and very small
+%text-10 {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-200);
+  font-weight: var(--fw-400);
+  line-height: var(--lh-400);
+  color: var(--c-grey-300);
+  text-transform: uppercase;
+}
+.text-10 { @extend %text-10; }
+.text-10--h1 h1 { @extend %text-10; }
+.text-10--h2 h2 { @extend %text-10; }
+.text-10--h3 h3 { @extend %text-10; }
+
 //  Body
 // ***********************************
 

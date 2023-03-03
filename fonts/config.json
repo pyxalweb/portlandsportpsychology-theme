@@ -197,6 +197,20 @@
       "search": [
         "icon-quote-close"
       ]
+    },
+    {
+      "uid": "ccdb4eda039082d7d6827b7776ffa233",
+      "css": "logo-icon-black",
+      "code": 59394,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M500 1000C224 1000 0 776 0 500S224 0 500 0 1000 224 1000 500 776 1000 500 1000ZM500 160C312 160 160 312 160 500S312 840 500 840 840 688 840 500 688 160 500 160Z",
+        "width": 1001
+      },
+      "search": [
+        "logo-icon-black"
+      ]
     }
   ]
 }

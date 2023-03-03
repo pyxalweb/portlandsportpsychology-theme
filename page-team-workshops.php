@@ -71,23 +71,28 @@ get_template_part( 'template-parts/content', 'masthead' );
         </div>
     </section>
 
-    <section class="content-wide | bg-grey-swoop-01 mt-4 pbl-5 pbl-4-vw400 ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="content width-df | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-            <div class="list-boxes list-boxes--5 list-boxes--underlined | mb-4">
-                <?php echo get_field('list_items'); ?>
-            </div>
-
-            <div class="text-wrap | text-2">
-                <?php echo get_field('cost'); ?>
-            </div>
-        </div>
-    </section>
-
     <section class="content width-df | split-content even-columns even-columns--two even-columns--one-vw200 | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="split-content__text | mb-1--h2">
             <div>
                 <?php echo get_field('split_content_text_1'); ?>
-                <a href="/contact" class="button | mt-1">Schedule Consultation</a>
+
+                <div class="contain | mt-2">
+                    <div class="list">
+                        <?php echo get_field('list_items'); ?>
+                    </div>
+
+                    <div class="sale">
+                        <div class="text-2">
+                            <p><?php echo get_field('cost'); ?></p>
+                        </div>
+
+                        <a href="/contact" class="button button--highlight">Schedule Consultation</a>
+
+                        <div class="text-10">
+                            <p><?php echo get_field('travel_fees'); ?></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -123,7 +128,7 @@ get_template_part( 'template-parts/content', 'masthead' );
             <li>Lincoln High School</li>
             <li>Glendale Community College</li>
             <li>La Salle High School</li>
-            <li><a href="/team-workshops">And Many More...</a></li>
+            <li><a href="/success-stories">And Many More...</a></li>
         </ul>
     </section>
 </main>
