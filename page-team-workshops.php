@@ -102,6 +102,30 @@ get_template_part( 'template-parts/content', 'masthead' );
             <?php endif; ?>
         </div>
     </section>
+
+    <section class="content width-df | horizontal-content__item | list-boxes list-boxes--4 list-boxes--rounded | mt-6 mt-3-vw400 mb-7 mb-3-vw400">
+        <div class="mb-1 ta-c">
+            <p>Elliott Waksman is a well-renowned sport pyschologist in the Portland metro area. A few organizations he's worked with include:</p>
+        </div>
+        <ul>
+            <li>Portland State University</li>
+            <li>Nike</li>
+            <li>Willamette University</li>
+            <li>Lewis & Clark College</li>
+            <li>Portland City United Soccer Club</li>
+            <li>Vancouver Tennis Center</li>
+            <li>Skating Club of Oregon High School</li>
+            <li>Concordia University</li>
+            <li>Lakeridge High School</li>
+            <li>Athletes In Motion Baseball Club</li>
+            <li>Multnomah Athletic Club</li>
+            <li>Irvington Tennis Club</li>
+            <li>Lincoln High School</li>
+            <li>Glendale Community College</li>
+            <li>La Salle High School</li>
+            <li><a href="/team-workshops">And Many More...</a></li>
+        </ul>
+    </section>
 </main>
 
 <?php
