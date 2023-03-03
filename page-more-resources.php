@@ -15,6 +15,15 @@ get_template_part( 'template-parts/content', 'masthead' );
 <main id="site-content" <?php post_class($class = 'site-content interior'); ?>>
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
+    <section class="content width-df | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="ta-c">
+            <h2>Videos, Radio Shows, Articles, etc!</h2>
+            <div class="text-3 text-strike text-strike--hide-vw100">
+                <p><span>Learn More About Sport Psychology</span></p>
+            </div>
+        </div>
+    </section>
+
     <section class="content width-df | even-columns even-columns--two even-columns--one-vw500 | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div>
             <div class="link-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
