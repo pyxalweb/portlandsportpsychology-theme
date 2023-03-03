@@ -53,7 +53,55 @@ get_template_part( 'template-parts/content', 'masthead' );
             </div>
 
             <div class="link-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
-                <h2>Email Campaign Archive</h2>
+                <h2>More Articles & Videos</h2>
+                <p>Sport psychology related articles and videos that Elliott recommends.</p>
+
+                <div class="mbl-2 bg-grey-100 p-2">
+                    <ul>
+                        <li><a href="https://appliedsportpsych.org/resources/resources-for-parents/eight-tips-for-communicating-with-adolescent-athletes-immediately-after-the-game-win-or-loss/" target="_blank" rel="noopener">8 Tips for Communicating with Adolescent Athletes Immediately after the Game</a></li>
+                        <li><a href="https://appliedsportpsych.org/resources/resources-for-parents/keeping-perspective-in-youth-sport/" target="_blank" rel="noopener">Keeping Perspective in Youth Sports</a></li>
+                        <li><a href="https://athletesacceleration.com/six-life-skills-child-always-learn-playing-sports/" target="_blank" rel="noopener">Six Life Skills your Child Should Always Learn from Playing Sports</a></li>
+                        <li><a href="https://www.ncaa.org/sports/2013/12/17/probability-of-competing-beyond-high-school.aspx" target="_blank" rel="noopener">Probability of Competing Beyond High School</a></li>
+                        <li><a href="https://www.psychologytoday.com/us/blog/the-power-imagination/201003/help-kids-visualize-victory-olympic-athletes-9-tools-achieve" target="_blank" rel="noopener">Help Kids Visualize Victory: 9 Tools to Achieve Sports Success</a></li>
+                        <li><a href="https://appliedsportpsych.org/resources/resources-for-athletes/the-3-c-s-of-being-a-captain/" target="_blank" rel="noopener">The 3 C's of Being a Captain</a></li>
+                        <li><a href="https://appliedsportpsych.org/resources/resources-for-athletes/glass-is-half-full-thinking/" target="_blank" rel="noopener">Glass is Half-Full Thinking</a></li>
+                        <li><a href="https://appliedsportpsych.org/resources/resources-for-athletes/dealing-with-anger-in-competition/" target="_blank" rel="noopener">Dealing With Anger in Competition</a></li>
+                        <li><a href="https://www.apa.org/monitor/2012/04/sport" target="_blank" rel="noopener">America's First Sport Psychologist</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=52hsHIkDt-k&ab_channel=BenWilliams" target="_blank" rel="noopener">Kobe Bryant Mental Toughness (Video)</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=_MqVd8XlShM&ab_channel=NBA" target="_blank" rel="noopener">The Power of the Mind (Video)</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=QEaWv0SBp3A&ab_channel=tceliano" target="_blank" rel="noopener">Tiger Zone (Video)</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=WO8imsZl1F8&ab_channel=TheFRSHealthyEnergy" target="_blank" rel="noopener">FRS Energy Fuels Tim Tebow (Video)</a></li>
+                    </ul>
+
+                    <button class="link-list__more">View More</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="link-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
+                <h2>Radio Interviews</h2>
+                <p>Informative radio interviews that Elliott has appeared in.</p>
+
+                <div class="mbl-2 bg-grey-100 p-2">
+                    <ul>
+                        <li><a href="https://soundcloud.com/elliott-waksman/mental-toughness-tips-to-stay-present-in-the-moment" target="_blank" rel="noopener">Mental Toughness Tips to Stay Present in the Moment</a></li>
+                        <li><a href="https://soundcloud.com/elliott-waksman/waksmans-8202019-podcast " target="_blank" rel="noopener">Stress, Performance Strategies, & Mindset</a></li>
+                        <li><a href="https://soundcloud.com/elliott-waksman/elliott-waksmans-radio-interview-about-simone-biles-at-the-2021-olympics" target="_blank" rel="noopener">Discussing Simone Biles at the 2021 Olympics</a></li>
+                        <li><a href="https://soundcloud.com/elliott-waksman/elliott-waksman_9122020" target="_blank" rel="noopener">Elliott appears on 1080 The Fan in 2020</a></li>
+                        <li><a href="https://soundcloud.com/elliott-waksman/waksmans-golf-interview-may-2018" target="_blank" rel="noopener">Elliott appears on 1080 The Fan in 2018</a></li>
+                        <li><a href="https://soundcloud.com/elliott-waksman/waksmans-radio-interview" target="_blank" rel="noopener">Elliott appears on 1080 The Fan in 2015</a></li>
+                        <li><a href="https://anchor.fm/providence0/episodes/You-Have-the-Heart-to-Start-e1ap5h7/a-a6veqn4" target="_blank" rel="noopener">Elliott appears on Heart to Start by Providence Heart Institute</a></li>
+                        <li><a href="https://soundcloud.com/elliott-waksman/elliott-waksmans-kpam-radio-interview" target="_blank" rel="noopener">The Portland Trail Blazers on KPAM Radio</a></li>
+                        <li><a href="https://anchor.fm/eric-runge/episodes/Portland-Sports-Psychology---Elliott-Waksman-eko7qj" target="_blank" rel="noopener">Elliott discusses his business on The Veritas Perspective</a></li>
+                    </ul>
+
+                    <button class="link-list__more">View More</button>
+                </div>
+            </div>
+
+            <div class="link-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
+                <h2>Email Newsletter Archive</h2>
                 <p>An archive of Elliott's email newsletter which contains tons of useful tips and ideas!</p>
             
                 <div class="mbl-2 bg-grey-100 p-2">
@@ -97,50 +145,6 @@ get_template_part( 'template-parts/content', 'masthead' );
                         <li><a href="/newsletter-archive/from-la-streets-to-college-courts.html">From L.A. Streets to College Courts</a></li>
 
                         <li><a href="/newsletter-archive/a-unique-interview-about-preparing-for-the-big-stage.html">A Unique Interview About Preparing for the Big Stage</a></li>
-                    </ul>
-
-                    <button class="link-list__more">View More</button>
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <div class="link-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
-                <h2>Radio Interviews</h2>
-                <p>Informative radio interviews that Elliott has appeared in.</p>
-
-                <div class="mbl-2 bg-grey-100 p-2">
-                    <ul>
-                        <li><a href="https://soundcloud.com/elliott-waksman/mental-toughness-tips-to-stay-present-in-the-moment" target="_blank" rel="noopener">Mental Toughness Tips to Stay Present in the Moment</a></li>
-                        <li><a href="https://soundcloud.com/elliott-waksman/waksmans-8202019-podcast " target="_blank" rel="noopener">Stress, Performance Strategies, & Mindset</a></li>
-                        <li><a href="https://soundcloud.com/elliott-waksman/elliott-waksmans-radio-interview-about-simone-biles-at-the-2021-olympics" target="_blank" rel="noopener">Discussing Simone Biles at the 2021 Olympics</a></li>
-                        <li><a href="https://soundcloud.com/elliott-waksman/elliott-waksman_9122020" target="_blank" rel="noopener">Elliott appears on 1080 The Fan in 2020</a></li>
-                        <li><a href="https://soundcloud.com/elliott-waksman/waksmans-golf-interview-may-2018" target="_blank" rel="noopener">Elliott appears on 1080 The Fan in 2018</a></li>
-                        <li><a href="https://soundcloud.com/elliott-waksman/waksmans-radio-interview" target="_blank" rel="noopener">Elliott appears on 1080 The Fan in 2015</a></li>
-                        <li><a href="https://anchor.fm/providence0/episodes/You-Have-the-Heart-to-Start-e1ap5h7/a-a6veqn4" target="_blank" rel="noopener">Elliott appears on Heart to Start by Providence Heart Institute</a></li>
-                        <li><a href="https://soundcloud.com/elliott-waksman/elliott-waksmans-kpam-radio-interview" target="_blank" rel="noopener">The Portland Trail Blazers on KPAM Radio</a></li>
-                        <li><a href="https://anchor.fm/eric-runge/episodes/Portland-Sports-Psychology---Elliott-Waksman-eko7qj" target="_blank" rel="noopener">Elliott discusses his business on The Veritas Perspective</a></li>
-                    </ul>
-
-                    <button class="link-list__more">View More</button>
-                </div>
-            </div>
-
-            <div class="link-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
-                <h2>Additional Articles</h2>
-                <p>Sport psychology related articles that Elliott recommends.</p>
-
-                <div class="mbl-2 bg-grey-100 p-2">
-                    <ul>
-                        <li><a href="https://appliedsportpsych.org/resources/resources-for-parents/eight-tips-for-communicating-with-adolescent-athletes-immediately-after-the-game-win-or-loss/" target="_blank" rel="noopener">8 Tips for Communicating with Adolescent Athletes Immediately after the Game</a></li>
-                        <li><a href="https://appliedsportpsych.org/resources/resources-for-parents/keeping-perspective-in-youth-sport/" target="_blank" rel="noopener">Keeping Perspective in Youth Sports</a></li>
-                        <li><a href="https://athletesacceleration.com/six-life-skills-child-always-learn-playing-sports/" target="_blank" rel="noopener">Six Life Skills your Child Should Always Learn from Playing Sports</a></li>
-                        <li><a href="https://www.ncaa.org/sports/2013/12/17/probability-of-competing-beyond-high-school.aspx" target="_blank" rel="noopener">Probability of Competing Beyond High School</a></li>
-                        <li><a href="https://www.psychologytoday.com/us/blog/the-power-imagination/201003/help-kids-visualize-victory-olympic-athletes-9-tools-achieve" target="_blank" rel="noopener">Help Kids Visualize Victory: 9 Tools to Achieve Sports Success</a></li>
-                        <li><a href="https://appliedsportpsych.org/resources/resources-for-athletes/the-3-c-s-of-being-a-captain/" target="_blank" rel="noopener">The 3 C's of Being a Captain</a></li>
-                        <li><a href="https://appliedsportpsych.org/resources/resources-for-athletes/glass-is-half-full-thinking/" target="_blank" rel="noopener">Glass is Half-Full Thinking</a></li>
-                        <li><a href="https://appliedsportpsych.org/resources/resources-for-athletes/dealing-with-anger-in-competition/" target="_blank" rel="noopener">Dealing With Anger in Competition</a></li>
-                        <li><a href="https://www.apa.org/monitor/2012/04/sport" target="_blank" rel="noopener">America's First Sport Psychologist</a></li>
                     </ul>
 
                     <button class="link-list__more">View More</button>

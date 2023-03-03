@@ -780,7 +780,20 @@ const linkListReduce = () => {
         })
     })
 }
-linkListReduce();
+linkListReduce()
+
+
+
+
+// ***********************************
+//  Display a Random Quote
+// ***********************************
+const randomQuote = () => {
+    const figures = document.querySelectorAll('.footer__quotes figure')
+    const randomFigureIndex = Math.floor(Math.random() * figures.length)
+    figures[randomFigureIndex].classList.add('quote__visible')
+}
+randomQuote()
 
 
 

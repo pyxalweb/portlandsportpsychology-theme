@@ -26,6 +26,25 @@
 			</div>
 		</div>
 
+		<div class="footer__quotes">
+			<div class="content width-df">
+				<figure>
+					<blockquote>Being nervous is not something you should be ashamed of.<br>Nervous means you care, you really want to do well.</blockquote>
+					<figcaption>Paula Creamer, <cite>LGPA Player</cite></figcaption>
+				</figure>
+
+				<figure>
+					<blockquote>Attention to detail. Being Responsible. Being on time.<br>All of those super basic life things that really anybody in any industry would appreciate and welcome, dancers [athletes] have over and over.</blockquote>
+					<figcaption>Bonnie Kim, <cite>Former Top Five Dancer in Toronto</cite></figcaption>
+				</figure>
+
+				<figure>
+					<blockquote>Arrogance and confidence are different. Confident is leading by example and knowing it's not about you.</blockquote>
+					<figcaption>Tom Dillard, <cite>Retired Navy Seal</cite></figcaption>
+				</figure>
+			</div>
+		</div>
+
 		<div class="footer__links">
 			<div class="footer__links__container | content width-md">
 				<p><a href="/accessibility">Web Accessibility</a><span> • </span><br><a href="/site-map">Site Map</a><span> • </span><br><a href="https://www.alxwntr.com" target="_blank"> Website by AW © <?php echo date('Y'); ?></a></p>

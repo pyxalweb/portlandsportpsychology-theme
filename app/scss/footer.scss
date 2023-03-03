@@ -58,16 +58,6 @@
 .footer__container {
   display: flex;
   flex-direction: column;
-  gap: 5em;
-  padding-top: 5em;
-
-  @media (max-width: $vw-700) {
-    gap: 2em;
-  }
-
-  @media (max-width: $vw-400) {
-    gap: 0;
-  }
 }
 
 
@@ -79,6 +69,7 @@
 .footer__main {
   display: flex;
   justify-content: space-between;
+  padding-block: 5em;
 
   @media (max-width: $vw-700) {
     flex-direction: column;
@@ -167,18 +158,71 @@
 
 
 // ***********************************
+//  Container
+// ***********************************
+.footer__quotes {
+  background-color: var(--c-black);
+  text-align: center;
+  padding-block: 5em;
+  border-bottom: 4px solid var(--c-grey-500);
+  overflow: hidden;
+
+  figure {
+    display: none;
+    margin: 0;
+    margin-inline: auto;
+    position: relative;
+    width: fit-content;
+
+    &.quote__visible {
+      display: block;
+    }
+    
+    &:before, &:after {
+      position: absolute;
+      font-family: 'icons';
+      font-size: 8rem;
+      font-style: normal;
+      color: var(--c-white);
+      opacity: 0.1;
+    }
+
+    &:before {
+      content: "\E80B";
+      inset: 50% auto auto 0;
+      transform: translateY(-50%);
+    }
+    
+    &:after {
+        content: "\E80C";
+        inset: 50% 0 auto auto;
+        transform: translateY(-50%);
+    }
+  }
+  
+  blockquote {
+    font-size: clamp(var(--fs-800), 5vw, var(--fs-900));
+    font-style: italic;
+    margin-inline: auto;
+    margin-bottom: 0.5em;
+  }
+
+  figcaption {
+    color: var(--c-primary);
+    font-size: var(--fs-500);
+    font-weight: var(--fw-600)
+  }
+}
+
+
+
+
+// ***********************************
 //  Links
 // ***********************************
 .footer__links {
   background-color: var(--c-black);
   text-align: center;
-
-  @media (max-width: $vw-400) {
-    background-color: var(--c-grey-500);
-  }
-}
-
-.footer__links__container {
   padding-block: 2em;
 
   @media (max-width: $vw-400) {
@@ -189,6 +233,12 @@
     padding-bottom: 11em;
   }
 
+  @media (max-width: $vw-400) {
+    background-color: var(--c-grey-500);
+  }
+}
+
+.footer__links__container {
   span {
     @media (max-width: $vw-100) {
       display: none;

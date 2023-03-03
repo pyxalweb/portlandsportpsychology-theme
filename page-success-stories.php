@@ -71,6 +71,18 @@ get_template_part( 'template-parts/content', 'masthead' );
                 <blockquote>Scott read and filled out your workbook and said it changed his life. He takes it with him to all his tournaments.</blockquote>
                 <figcaption>Alice, <cite>Sport Mother, La Salle High School, Milwaukie, Oregon</cite></figcaption>
             </figure>
+
+            <figure>
+                <h2>We now have a much calmer and more supportive sideline.</h2>
+                <blockquote>Elliott's approach to parent education provides immediate rewards to those in attendance. By teaching our parents how to best promote the success of their children, we now have a much calmer and more supportive sideline.</blockquote>
+                <figcaption>Sean Janson, <cite>Executive Director, Washington Timbers Soccer Club</cite></figcaption>
+            </figure>
+
+            <figure>
+                <h2>You did a terrific job!</h2>
+                <blockquote>We had a great evening with you - engaging presentation and lively conversation. It was everything we hope for in our Teen Topic Talks. I really appreciate the time you took to prepare and the extra touches you provided. You did a terrific job!</blockquote>
+                <figcaption>Brian Devine, <cite>Vice Principal, La Salle High School</cite></figcaption>
+            </figure>
         </div>
     </section>
 </main>
