@@ -15,14 +15,14 @@ get_template_part( 'template-parts/content', 'masthead' );
 <main id="site-content" <?php post_class($class = 'site-content interior | mb-1--h2'); ?>>
     <?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-    <section class="content width-df | split-content even-columns even-columns--two even-columns--prioritize-text--vw800 even-columns--one-vw500 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="split-content__text">
+    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-66-33-vw800 | gtc-1-vw500 | mbl-4 ta-c-vw200 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="df fd-c jc-c">
             <div>
                 <?php echo get_field('split_content_text_1'); ?>
             </div>
         </div>
 
-        <div class="split-content__image split-content__image--rounded split-content__image--circle--vw200 split-content__image--top--vw200 ">
+        <div class="image--maxheight-760 image--rounded | image--size-50--vw500 mi-center-child-vw500 | image--circle--vw200 image--top--vw200 image--size-100--vw200">
             <?php
             $image = get_field('split_content_image_1');
             if ($image):
@@ -34,21 +34,21 @@ get_template_part( 'template-parts/content', 'masthead' );
         </div>
     </section>
 
-    <section class="content width-df | split-content even-columns even-columns--two even-columns--two--reverse even-columns--prioritize-text-reverse--vw800 even-columns--one-vw500 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="split-content__text">
+    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="df fd-c jc-c | o-2 | o-1-vw500">
             <div>
                 <?php echo get_field('split_content_text_2'); ?>
             </div>
         </div>
 
-        <div class="split-content__video split-content--bg">
+        <div class="df fd-c jc-c p-clamp-1-5-2 | bg-grey-100 br-2 | o-1 | o-2-vw500">
             <div class="video-embed">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/5LVy1iWk54o" title="YouTube video player" frameallow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     </section>
 
-    <section class="content width-df | even-columns even-columns--two even-columns--one-vw500 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 mbl-2-vw500 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="border-box">
             <?php echo get_field('box_1'); ?>
         </div>
@@ -57,7 +57,7 @@ get_template_part( 'template-parts/content', 'masthead' );
         </div>
     </section>
 
-    <section class="content width-df | even-columns even-columns--two even-columns--one-vw500 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 mbl-2-vw500 mb-4-vw500 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="border-box">
             <?php echo get_field('box_3'); ?>
         </div>
