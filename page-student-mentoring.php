@@ -40,7 +40,7 @@ get_template_part( 'template-parts/content', 'masthead' );
             </div>
         </div>
 
-        <div class="split-content__image split-content__image--rounded split-content__image--circle--mobile | pb-3-vw200">
+        <div class="split-content__image split-content__image--rounded split-content__image--circle--vw300 | pb-3-vw200">
             <?php
             $image = get_field('split_content_image_1');
             if ($image):

@@ -24,7 +24,7 @@ get_template_part( 'template-parts/content', 'masthead' );
         </div>
     </section>
 
-    <section class="content width-df | horizontal-content__item | list-boxes list-boxes--4 list-boxes--rounded | mt-6 mt-3-vw400 mb-7 mb-3-vw400">
+    <section class="content width-df | mbl-7 mbl-3-vw400 | horizontal-content__item | list-boxes list-boxes--4 list-boxes--rounded | mt-6 mt-3-vw400 mb-7 mb-3-vw400">
         <div class="mb-1 ta-c">
             <p>Elliott Waksman is a well-renowned sport pyschologist in the Portland metro area. A few organizations he's worked with include:</p>
         </div>
@@ -88,7 +88,7 @@ get_template_part( 'template-parts/content', 'masthead' );
         </ul>
     </section>
 
-    <section class="content width-df | quotes | mt-7 mt-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | quotes | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <figure>
             <h2>Elliott immediately made an impact.</h2>
             <blockquote>I've been coaching for 15 years, and the number one thing athletes lack in their training is the practice of their mental game. Elliott immediately made an impact on how our players perceived sport psychology and how they worked on their mental toughness. Without a doubt, Elliott was a major part of our success this year. We set a school record with seven wins and four top five finishes.</blockquote>

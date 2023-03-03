@@ -15,14 +15,14 @@ get_template_part( 'template-parts/content', 'masthead' );
 <main id="site-content" <?php post_class($class = 'site-content interior | mb-1--h2'); ?>>
     <?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-    <section class="content width-df | split-content even-columns even-columns--two even-columns--one-vw200 even-columns--gap-2-vw200 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | split-content even-columns even-columns--two even-columns--prioritize-text--vw800 even-columns--one-vw500 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="split-content__text">
             <div>
                 <?php echo get_field('split_content_text_1'); ?>
             </div>
         </div>
 
-        <div class="split-content__image split-content__image--circle--mobile split-content__image--rounded">
+        <div class="split-content__image split-content__image--rounded split-content__image--circle--vw200 split-content__image--top--vw200 ">
             <?php
             $image = get_field('split_content_image_1');
             if ($image):
@@ -34,7 +34,7 @@ get_template_part( 'template-parts/content', 'masthead' );
         </div>
     </section>
 
-    <section class="content width-df | split-content even-columns even-columns--two even-columns--two--reverse even-columns--one-vw200 even-columns--gap-2-vw200 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | split-content even-columns even-columns--two even-columns--two--reverse even-columns--prioritize-text-reverse--vw800 even-columns--one-vw500 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="split-content__text">
             <div>
                 <?php echo get_field('split_content_text_2'); ?>
