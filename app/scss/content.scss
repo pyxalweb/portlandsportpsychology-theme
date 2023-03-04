@@ -102,6 +102,15 @@ main.site-content {
   }
 }
 
+// *****************
+//  Object Fit
+// *****************
+.image--objectfit--scaledown {
+  img {
+    object-fit: scale-down;
+  }
+}
+
 
 
 

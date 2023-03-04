@@ -15,7 +15,7 @@ get_template_part( 'template-parts/content', 'masthead' );
 <main id="site-content" <?php post_class($class = 'site-content interior'); ?>>
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
-    <section class="content width-df | callout-ctas even-columns even-columns--three even-columns--two--vw500 even-columns--one-vw500 even-columns--gap-2-vw200 even-columns--center-vw500 | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | dg gtc-3 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 | ta-c-vw500 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="callout-ctas__item">
             <div class="callout-ctas__text callout-ctas__text--box">
                 <div class="svg svg--57h | mi-center-vw500">
@@ -44,12 +44,12 @@ get_template_part( 'template-parts/content', 'masthead' );
         </div>
     </section>
 
-    <section class="content width-df | split-content even-columns even-columns--two even-columns--prioritize-text--vw800 even-columns--one-vw500 | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="split-content__text | mb-1--h2">
+    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-66-33-vw800 | gtc-1-vw500 | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="df fd-c jc-c | mb-1--h2">
             <div>
                 <?php echo get_field('split_content_text_1'); ?>
                 
-                <div class="contain | mt-2">
+                <div class="df jc-sb | jc-s-vw500 g-2-vw500 | fd-c-vw300 ai-c-vw300 | mt-2">
                     <div class="list">
                         <?php echo get_field('list_items'); ?>
                     </div>
@@ -69,7 +69,7 @@ get_template_part( 'template-parts/content', 'masthead' );
             </div>
         </div>
 
-        <div class="split-content__image split-content__image--rounded split-content__image--circle--vw200">
+        <div class="image--maxheight-760 image--rounded image--circle--vw200">
             <?php
             $image = get_field('split_content_image_1');
             if ($image):

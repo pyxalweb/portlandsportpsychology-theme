@@ -24,7 +24,7 @@ get_template_part( 'template-parts/content', 'masthead' );
         </div>
     </section>
 
-    <section class="content width-df | mbl-7 mbl-3-vw400 | horizontal-content__item | list-boxes list-boxes--4 list-boxes--rounded | mt-6 mt-3-vw400 mb-7 mb-3-vw400">
+    <section class="content width-df | mbl-7 mbl-3-vw400 | ta-c-vw200 | list-boxes list-boxes--4 list-boxes--rounded | mt-6 mt-3-vw400 mb-7 mb-3-vw400">
         <div class="mb-1 ta-c">
             <p>Elliott Waksman is a well-renowned sport pyschologist in the Portland metro area. A few organizations he's worked with include:</p>
         </div>
