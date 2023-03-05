@@ -49,19 +49,19 @@ get_template_part( 'template-parts/content', 'masthead' );
     </section>
 
     <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 mbl-2-vw500 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="border-box">
+        <div class="b-2px-grey-100 br-2 p-2">
             <?php echo get_field('box_1'); ?>
         </div>
-        <div class="border-box">
+        <div class="b-2px-grey-100 br-2 p-2">
             <?php echo get_field('box_2'); ?>
         </div>
     </section>
 
     <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 mbl-2-vw500 mb-4-vw500 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="border-box">
+        <div class="b-2px-grey-100 br-2 p-2">
             <?php echo get_field('box_3'); ?>
         </div>
-        <div class="border-box">
+        <div class="b-2px-grey-100 br-2 p-2">
             <?php echo get_field('box_4'); ?>
         </div>
     </section>

@@ -22,7 +22,7 @@ get_template_part( 'template-parts/content', 'masthead' );
         <p>Elliott Waksman's Sport Psychology Program teaches mental skills, which when consistently incorporated, lead to success on and off the field. Upon completion of the workbook, the student-athlete will be able to proficiently complete the following tasks: improve self-confidence, maintain a more mentally tough approach throughout training and competition, and describe how life skills are learned through sport.</p>
     </section>
 
-    <section class="content-wide | bg-grey-swoop-02 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content-wide | bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw200">
             <div class="df fd-c jc-c | o-2 | o-1-vw500 | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                 <div class="df fd-c g-1 | text-6--h2">
@@ -77,7 +77,7 @@ get_template_part( 'template-parts/content', 'masthead' );
             <p>Free Shipping!</p>
         </div>
 
-        <div class="df g-clamp-2-5-5 | fd-c-vw500 | gtc-1-vw500">
+        <div class="df g-clamp-2-5-5 | fd-c-vw500">
             <div class="fg-1 fs-1 fb-50 | pt-3 ta-c">
                 <p><strong>28 worksheets to serve as learning tools for student-athletes.</strong></p>
                 

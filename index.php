@@ -28,64 +28,64 @@ get_header();
 </section>
 
 <main id="site-content" class="site-content">
-    <section class="content width-df | callout-ctas even-columns even-columns--four even-columns--two--vw500 even-columns--one-vw200 even-columns--gap-5-vw200 even-columns--center-vw200 | mbl-7 mbl-3-vw400 | text-4--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="callout-ctas__item">
-            <div class="callout-ctas__text callout-ctas__text--underline">
+    <section class="content width-df | dg gtc-4 g-clamp-1-3-3 | gtc-2-vw500 | gtc-1-vw200 g-5-vw200 ta-c-vw200 | mbl-7 mbl-3-vw400 | text-4--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="df fd-c g-1">
+            <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100">
                 <div class="svg svg--57h | mi-center-vw200">
                     <?php load_inline_svg('icon-brain.svg'); ?>
                 </div>
                 <h2>Individual Sessions</h2>
                 <p>Individual sessions are one-on-one coaching for athletes to develop a personalized mental game plan for peak performance.</p>
             </div>
-            <div class="callout-ctas__link">
+            <div class="mi-center-child-vw200">
                 <a href="/individual-sessions" aria-label="Learn more about Individual Sessions" class="button">Learn More</a>
             </div>
         </div>
 
-        <div class="callout-ctas__item">
-            <div class="callout-ctas__text callout-ctas__text--underline">
+        <div class="df fd-c g-1">
+            <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100">
                 <div class="svg svg--57h | mi-center-vw200">
                     <?php load_inline_svg('icon-clipboard.svg'); ?>
                 </div>
                 <h2>Team Workshops</h2>
                 <p>Team workshops are dynamic presentations with interactive activities to strengthen the team's culture, resolve issues, and improve communication.</p>
             </div>
-            <div class="callout-ctas__link">
+            <div class="mi-center-child-vw200">
                 <a href="/team-workshops" aria-label="Learn more about Team Workshops" class="button">Learn More</a>
             </div>
         </div>
 
-        <div class="callout-ctas__item">
-            <div class="callout-ctas__text callout-ctas__text--underline">
+        <div class="df fd-c g-1">
+            <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100">
                 <div class="svg svg--57h | mi-center-vw200">
                     <?php load_inline_svg('icon-parents.svg'); ?>
                 </div>
                 <h2>Parenting Workshops</h2>
                 <p>Parenting workshops provide practical tips for communicating before and after games, and introduce success strategies to support student-athletes.</p>
             </div>
-            <div class="callout-ctas__link">
+            <div class="mi-center-child-vw200">
                 <a href="/parenting-workshops" aria-label="Learn more about Parenting Workshops" class="button">Learn More</a>
             </div>
         </div>
 
-        <div class="callout-ctas__item">
-            <div class="callout-ctas__text callout-ctas__text--underline">
+        <div class="df fd-c g-1">
+            <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100">
                 <div class="svg svg--57h | mi-center-vw200">
                     <?php load_inline_svg('icon-mentor.svg'); ?>
                 </div>
                 <h2>Student Mentoring</h2>
                 <p>Student mentoring is approved mentorship to earn certified consultant status through the Association for Applied Sport Psychology (AASP).</p>
             </div>
-            <div class="callout-ctas__link">
+            <div class="mi-center-child-vw200">
                 <a href="/student-mentoring" aria-label="Learn more about Student Mentoring" class="button">Learn More</a>
             </div>
         </div>
     </section>
 
-    <section class="content-wide | mbl-7 mbl-3-vw400 bg-grey-swoop-01 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="content width-df | split-content even-columns even-columns--two even-columns--one-vw200 even-columns--gap-0-vw200">
-            <div class="split-content__text | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
-                <div class="split-content__text__flex | text-6--h2">
+    <section class="content-wide | mbl-7 mbl-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw200 g-0-vw200">
+            <div class="df fd-c jc-c | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
+                <div class="df fd-c g-1 | text-6--h2">
                     <div class="svg svg--57h | mi-center-vw200">
                         <?php load_inline_svg('icon-light-bulb.svg'); ?>
                     </div>
@@ -98,19 +98,19 @@ get_header();
                 </div>
             </div>
 
-            <div class="split-content__image split-content__image--circle--vw200 split-content__image--top--vw200 | pb-3-vw200 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
+            <div class="image--maxheight-760 image--circle--vw200 image--top--vw200 | pb-3-vw200 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                 <img src="<?php echo get_template_directory_uri(); ?>/photos/elliott-waksman.jpg" alt="Elliott Waksman - Sport Psychologist in Portland, Oregon">
             </div>
         </div>
     </section>
 
     <section class="content width-df | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="horizontal-content horizontal-content--1-2 horizontal-content--1-vw300">
-            <div class="horizontal-content__item | gap-line | text-6--h2">
+        <div class="dg g-clamp-1-5-5 gtc-25-75 gtc-1-vw300">
+            <div class="ta-c-vw200 | gap-line | text-6--h2">
                 <h2>Experienced & Trusted</h2>
             </div>
 
-            <div class="horizontal-content__item | list-boxes list-boxes--4 list-boxes--rounded">
+            <div class="ta-c-vw200 | list-boxes list-boxes--4 list-boxes--rounded">
                 <div class="mb-1">
                     <p>Elliott Waksman is a well-renowned sport pyschologist in the Portland metro area. A few organizations he's worked with include:</p>
                 </div>
@@ -159,7 +159,7 @@ get_header();
         </div>
     </section>
 
-    <section class="content-wide | mt-7 mt-3-vw400 bg-grey-swoop-02 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content-wide | mt-7 mt-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw200">
             <div class="df fd-c jc-c | o-2 | o-1-vw500 | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                 <div class="df fd-c g-1 | text-6--h2">

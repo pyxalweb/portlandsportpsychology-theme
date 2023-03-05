@@ -16,31 +16,25 @@ get_template_part( 'template-parts/content', 'masthead' );
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
     <section class="content width-df | dg gtc-3 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 | ta-c-vw500 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="callout-ctas__item">
-            <div class="callout-ctas__text callout-ctas__text--box">
-                <div class="svg svg--57h | mi-center-vw500">
-                    <?php load_inline_svg('icon-light-bulb.svg'); ?>
-                </div>
-                <?php echo get_field('box_1'); ?>
+        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2">
+            <div class="svg svg--57h | mi-center-vw500">
+                <?php load_inline_svg('icon-light-bulb.svg'); ?>
             </div>
+            <?php echo get_field('box_1'); ?>
         </div>
 
-        <div class="callout-ctas__item">
-            <div class="callout-ctas__text callout-ctas__text--box">
-                <div class="svg svg--57h | mi-center-vw500">
-                    <?php load_inline_svg('icon-light-bulb.svg'); ?>
-                </div>
-                <?php echo get_field('box_2'); ?>
+        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2">
+            <div class="svg svg--57h | mi-center-vw500">
+                <?php load_inline_svg('icon-light-bulb.svg'); ?>
             </div>
+            <?php echo get_field('box_2'); ?>
         </div>
 
-        <div class="callout-ctas__item">
-            <div class="callout-ctas__text callout-ctas__text--box">
-                <div class="svg svg--57h | mi-center-vw500">
-                    <?php load_inline_svg('icon-light-bulb.svg'); ?>
-                </div>
-                <?php echo get_field('box_3'); ?>
+        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2">
+            <div class="svg svg--57h | mi-center-vw500">
+                <?php load_inline_svg('icon-light-bulb.svg'); ?>
             </div>
+            <?php echo get_field('box_3'); ?>
         </div>
     </section>
 
