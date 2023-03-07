@@ -2,7 +2,7 @@
 //  Layout Scripts
 // ***********************************
 // Created by Alex Winter for LET Group
-// Last Modified: 2023-02-13 by AW
+// Last Modified: 2023-03-06 by AW
 
 
 
@@ -34,7 +34,7 @@ const mastheadContainer = document.querySelector('#site-masthead')
 const navTraditional = document.querySelector('.nav-traditional');
 const navTraditionalListItem = document.querySelectorAll('.nav-traditional > ul > li');
 const navTraditionalLink = document.querySelectorAll('.nav-traditional > ul > li > a');
-const navTraditionalSub = document.querySelectorAll('.nav-traditional .nav-sub');
+const navTraditionalSub = document.querySelectorAll('.nav-traditional .sub-menu');
 
 /**** nav overlay ****/
 const navOverlayToggle = document.querySelector('.overlay-nav-toggle')
@@ -267,7 +267,7 @@ toggleNav()
 const overlayDropdowns = () => {
     // apply 'has-dropdown' classes and create 'dropdown-toggle' elements
     navOverlayItem.forEach((element) => {
-        const navOverlaySub = element.querySelector('.nav-sub')
+        const navOverlaySub = element.querySelector('.sub-menu')
         const navOverlayLink = element.querySelector('.nav-link')
 
         if (navOverlaySub !== null) {
@@ -280,7 +280,7 @@ const overlayDropdowns = () => {
     // toggle is clicked
     navOverlay.querySelectorAll('.has-dropdown').forEach((element) => {
         const dropdownToggle = element.querySelector('.dropdown-toggle');
-        const navOverlaySub = element.querySelector('.nav-sub');
+        const navOverlaySub = element.querySelector('.sub-menu');
 
         if (dropdownToggle) {
             // note:  do not use arrow functions here!
@@ -794,6 +794,28 @@ const randomQuote = () => {
     figures[randomFigureIndex].classList.add('quote__visible')
 }
 randomQuote()
+
+
+
+
+// ***********************************
+//  Empty Nav Links
+// ***********************************
+const emptyNavLinks = () => {
+    const links = document.querySelectorAll('.nav-link')
+    const linkAttribute = '#'
+
+    for (let i = 0; i < links.length; i++) {
+        const link = links[i]
+
+        link.addEventListener('click', (event) => {
+            if (link.getAttribute('href') === linkAttribute) {
+                event.preventDefault()
+            }
+        })
+    }
+}
+emptyNavLinks()
 
 
 

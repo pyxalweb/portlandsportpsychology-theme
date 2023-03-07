@@ -1,42 +1,10 @@
-<!-- temp file until integrated into Wordpress -->
-
-<li class="nav-item">
-    <a href="/waksmans-workbook" class="nav-link">Waksman's Workbook</a>
-</li>
-<li class="nav-item">
-    <a href="#" class="nav-link">Services</a>
-    <ul class="nav-sub">
-        <li class="nav-item">
-            <a href="/individual-sessions" class="nav-link">Individual Sessions</a>
-        </li>
-        <li class="nav-item">
-            <a href="/team-workshops" class="nav-link">Team Workshops</a>
-        </li>
-        <li class="nav-item">
-            <a href="/parenting-workshops" class="nav-link">Parenting Workshops</a>
-        </li>
-        <li class="nav-item">
-            <a href="/student-mentoring" class="nav-link">Student Mentoring</a>
-        </li>
-    </ul>
-</li>
-<li class="nav-item">
-    <a href="#" class="nav-link">Resources</a>
-    <ul class="nav-sub">
-        <li class="nav-item">
-            <a href="/parent-info" class="nav-link">Parent Info</a>
-        </li>
-        <li class="nav-item">
-            <a href="/success-stories" class="nav-link">Success Stories</a>
-        </li>
-        <li class="nav-item">
-            <a href="/more-resources" class="nav-link">More Resources</a>
-        </li>
-    </ul>
-</li>
-<li class="nav-item">
-    <a href="/about-elliott" class="nav-link">About</a>
-</li>
-<li class="nav-item">
-    <a href="/contact" class="nav-link">Contact</a>
-</li>
+<?php
+  wp_nav_menu( array(
+    'theme_location' => 'menu-1', // Replace with the location of your menu
+    'container' => 'false', // Remove the <div> wrapper
+    'menu_class' => '', // Add a class to the parent <ul> wrapper
+    'list_item_class' => 'nav-item', // Add a class to all <li> elements
+    'link_class' => 'nav-link' // Add a class to all <a> elements
+        // TODO: Figure out how to add a class to the second level (dropdown) <ul> element
+  ));
+?>

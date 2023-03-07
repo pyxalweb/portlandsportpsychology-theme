@@ -1,4 +1,7 @@
 <?php
+// ***********************************
+//  Styles & Scripts
+// ***********************************
 function theme_files() {
     wp_enqueue_style('main-styles', get_theme_file_uri('/dist/styles.css'));
 
@@ -10,7 +13,9 @@ add_action('wp_enqueue_scripts', 'theme_files');
 
 
 
-// scripts.js with type="module" attribute
+// ***********************************
+//  Scripts with type="module" attribute
+// ***********************************
 function enqueue_module_script() {
     wp_enqueue_script( 'main-scripts', get_template_directory_uri() . '/dist/scripts.js', array(), '1.0', true );
 }
@@ -27,7 +32,34 @@ add_filter( 'script_loader_tag', 'set_module_script_type', 10, 2 );
 
 
 
-// load inline SVG images
+// ***********************************
+//  Ability to add custom classes to 'wp_nav_menu' <li> elements
+// ***********************************
+function add_menu_list_item_class($classes, $item, $args) {
+  if (property_exists($args, 'list_item_class')) {
+      $classes[] = $args->list_item_class;
+  }
+  return $classes;
+}
+add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
+
+// ***********************************
+//  Ability to add custom classes to 'wp_nav_menu' <a> elements
+// ***********************************
+function add_menu_link_class( $atts, $item, $args ) {
+  if (property_exists($args, 'link_class')) {
+    $atts['class'] = $args->link_class;
+  }
+  return $atts;
+}
+add_filter( 'nav_menu_link_attributes', 'add_menu_link_class', 1, 3 );
+
+
+
+
+// ***********************************
+//  Load inline SVG images
+// ***********************************
 // credit: https://enshrined.co.uk/2018/09/19/how-to-properly-include-inline-svgs-in-a-wordpress-theme/
 function load_inline_svg( $filename ) {
     // Add the path to your SVG directory inside your theme.
@@ -42,5 +74,4 @@ function load_inline_svg( $filename ) {
     // Return a blank string if we can't find the file.
     return '';
 }
-
 ?>
