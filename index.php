@@ -172,7 +172,7 @@ get_header();
                             </div>
                             <div class="points__text">
                                 <h3>Improve Self-Confidence</h3>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.</p>
+                                <p>Learn practical techniques to bounce back from mistakes and build self-confidence.</p>
                             </div>
                         </div>
 
@@ -182,7 +182,7 @@ get_header();
                             </div>
                             <div class="points__text">
                                 <h3>Increase Motivation Levels</h3>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.</p>
+                                <p>Fun exercises, like Waksman's "bag-tag" technique spark persistence and motivation.</p>
                             </div>
                         </div>
 
@@ -192,7 +192,7 @@ get_header();
                             </div>
                             <div class="points__text">
                                 <h3>Success On & Off the Field</h3>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce.</p>
+                                <p>Grit and mental toughness are life skills every student-athlete can learn to improve their game and quality of life.</p>
                             </div>
                         </div>
                     </div>

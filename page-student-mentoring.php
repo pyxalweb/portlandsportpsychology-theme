@@ -20,12 +20,12 @@ get_template_part( 'template-parts/content', 'masthead' );
             <div>
                 <?php echo get_field('split_content_text_1'); ?>
                 
-                <div class="df jc-sb | jc-s-vw500 g-2-vw500 | fd-c-vw300 ai-c-vw300 | mt-2">
-                    <div class="list">
+                <div class="df jc-sb g-1 | jc-s-vw500 g-2-vw500 | fd-c-vw300 ai-c-vw300 | mt-2">
+                    <div class="fg-1 fs-1 fb-auto | list">
                         <?php echo get_field('list_items'); ?>
                     </div>
 
-                    <div class="sale">
+                    <div class="fg-0 fs-0 fb-auto | sale">
                         <div class="text-2">
                             <p><?php echo get_field('cost'); ?></p>
                         </div>
