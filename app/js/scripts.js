@@ -421,11 +421,16 @@ const glideElement = document.querySelector('.glide__slide')
 if (glideElement) {
     // content slider
     document.querySelectorAll('.content-slider .glide').forEach((glide) => {
+        let glideAutoplay = glide.getAttribute('data-autoplay')
+        if (glideAutoplay == null) {
+            glideAutoplay = 5000
+        }
+
         let slideshow = new Glide(glide, {
             type: 'slider', // 'slideshow'
             bound: true,
             perView: 1,
-            autoplay: 10000,
+            autoplay: glideAutoplay,
             swipeThreshold: 40
         })
 

@@ -16,10 +16,25 @@ get_template_part( 'template-parts/content', 'masthead' );
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
     <section class="content width-df | mbl-7 mbl-3-vw400 ta-c | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <h2>Waksman's Sport Psychology Program</h2>
-        <p><strong>A Practical Mental Skills Workbook for Student-Athletes</strong></p>
-        <p>This workbook is a resource for student-athletes looking to improve sport performance and learn valuable life skills.</p>
-        <p>Elliott Waksman's Sport Psychology Program teaches mental skills, which when consistently incorporated, lead to success on and off the field. Upon completion of the workbook, the student-athlete will be able to proficiently complete the following tasks: improve self-confidence, maintain a more mentally tough approach throughout training and competition, and describe how life skills are learned through sport.</p>
+        <h2>A Practical Mental Skills Workbook for Student-Athletes</h2>
+        <p>Elliott Waksman's Sport Psychology Program teaches mental skills, which when consistently incorporated, lead to success on and off the field.</p>
+
+        <div class="list-slideshow | content-slider pagination-text | mbl-5 mbl-3-vw400 | text-4 ta-c">
+            <div class="glide" data-autoplay="5000">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">Improve your self-confidence.</li>
+                        <li class="glide__slide">Maintain a more mentally tough approach throughout training and competition.</li>
+                        <li class="glide__slide">Describe how life skills are learned through sport.</li>
+                    </ul>
+
+                    <div class="glide__bullets" data-glide-el="controls[nav]">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#order-now" class="button button--highlight | mi-center mt-2">Order Now</a>
     </section>
 
     <section class="content-wide | bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
@@ -68,13 +83,14 @@ get_template_part( 'template-parts/content', 'masthead' );
         </div>
     </section>
 
-    <section class="content width-df | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%" id="order-now">
         <div class="mb-2 ta-c">
             <h2>Order Now!</h2>
             <div class="text-3 text-strike">
                 <p><span>$30</span></p>
             </div>
             <p>Free Shipping!</p>
+            <p>This workbook is a resource for student-athletes looking to improve sport performance and learn valuable life skills.</p>
         </div>
 
         <div class="df g-clamp-2-5-5 | fd-c-vw500">

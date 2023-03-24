@@ -47,7 +47,7 @@
 
 		<div class="footer__links">
 			<div class="footer__links__container | content width-md">
-				<p><a href="/accessibility">Web Accessibility</a><span> • </span><br><a href="/site-map">Site Map</a><span> • </span><br><a href="https://www.alxwntr.com" target="_blank"> Website by AW © <?php echo date('Y'); ?></a></p>
+				<p><a href="/accessibility">Web Accessibility</a><span> • </span><br><a href="/site-map">Site Map</a><span> • </span><br><a href="https://alxwntr.com" target="_blank"> Website by AW © <?php echo date('Y'); ?></a></p>
 			</div>
 		</div>
 	</div>

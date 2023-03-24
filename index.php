@@ -128,7 +128,7 @@ get_header();
         </div>
 
         <div class="testimonials | content-slider pagination-text | mbl-5 mbl-3-vw400 | text-4 ta-c">
-            <div class="glide">
+            <div class="glide" data-autoplay="10000">
                 <div class="glide__track" data-glide-el="track">
                     <div class="glide__slides">
                         <figure class="testimonials__item | glide__slide">
