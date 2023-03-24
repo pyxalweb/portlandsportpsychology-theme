@@ -9,11 +9,20 @@ while ( have_posts() ) :
 	the_post();
 endwhile;
 
-get_template_part( 'template-parts/content', 'masthead' );
+// get_template_part( 'template-parts/content', 'masthead' );
 ?>
 
-<main id="site-content" <?php post_class($class = 'site-content interior'); ?>>
+<main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
+
+    <section class="content width-df | mbl-7 mbl-3-vw400 ta-c text-11--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <h2>Individual Sessions</h2>
+        <div class="mt-1">
+            <p>Maximize your athletic potential with our tailored and confidential sports psychology services.</p>
+        </div>
+
+        <a href="contact" class="button button--highlight | mi-center mt-2">Schedule Consultation</a>
+    </section>
 
     <section class="content width-df | dg gtc-3 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 | ta-c-vw500 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2">
@@ -53,7 +62,7 @@ get_template_part( 'template-parts/content', 'masthead' );
                             <p><?php echo get_field('cost'); ?></p>
                         </div>
 
-                        <a href="/contact" class="button button--highlight">Schedule Consultation</a>
+                        <a href="contact" class="button button--highlight">Schedule Consultation</a>
 
                         <div class="text-10">
                             <p><?php echo get_field('travel_fees'); ?></p>
