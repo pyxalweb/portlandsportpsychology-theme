@@ -32,7 +32,7 @@ get_template_part( 'template-parts/content', 'masthead' );
 
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2">
             <div class="svg svg--57h | mi-center-vw500">
-                <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                <?php load_inline_svg('icon-confidential.svg'); ?>
             </div>
             <?php echo get_field('box_3'); ?>
         </div>
