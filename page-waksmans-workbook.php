@@ -16,23 +16,25 @@ get_template_part( 'template-parts/content', 'masthead' );
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
     <section class="content width-df | mbl-7 mbl-3-vw400 ta-c | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <h2>A Practical Mental Skills Workbook for Student-Athletes</h2>
-        <p>Elliott Waksman's Sport Psychology Program teaches mental skills, which when consistently incorporated, lead to success on and off the field.</p>
-
-        <div class="list-slideshow | content-slider pagination-text | mbl-5 mbl-3-vw400 | text-4 ta-c">
+        <div class="list-slideshow | content-slider pagination-text | ta-c">
             <div class="glide" data-autoplay="5000">
                 <div class="glide__track" data-glide-el="track">
                     <ul class="glide__slides">
-                        <li class="glide__slide">Improve your self-confidence.</li>
-                        <li class="glide__slide">Maintain a more mentally tough approach throughout training and competition.</li>
-                        <li class="glide__slide">Describe how life skills are learned through sport.</li>
+                        <li class="glide__slide"><h2>A Practical Mental Skills Workbook for Student-Athletes</h2></li>
+                        <li class="glide__slide"><p>Improve your self-confidence.</p></li>
+                        <li class="glide__slide"><p>Maintain a more mentally tough approach throughout training and competition.</p></li>
+                        <li class="glide__slide"><p>Realize how life skills are learned through sport.</p></li>
                     </ul>
 
+                    <!--
                     <div class="glide__bullets" data-glide-el="controls[nav]">
                     </div>
+                    -->
                 </div>
             </div>
         </div>
+
+        <p>Elliott Waksman's Sport Psychology Program teaches mental skills, which when consistently incorporated, lead to success on and off the field.</p>
 
         <a href="#order-now" class="button button--highlight | mi-center mt-2">Order Now</a>
     </section>

@@ -143,6 +143,19 @@ body {
 .text-10--h2 h2 { @extend %text-10; }
 .text-10--h3 h3 { @extend %text-10; }
 
+// heading - large font-size
+%text-11 {
+  font-family: var(--ff-primary);
+  font-size: clamp(var(--fs-800), 5vw, var(--fs-1100));
+  font-weight: var(--fw-800);
+  line-height: var(--lh-200);
+  color: var(--c-black);
+}
+.text-11 { @extend %text-11; }
+.text-11--h1 h1 { @extend %text-11; }
+.text-11--h2 h2 { @extend %text-11; }
+.text-11--h3 h3 { @extend %text-11; }
+
 //  Body
 // ***********************************
 

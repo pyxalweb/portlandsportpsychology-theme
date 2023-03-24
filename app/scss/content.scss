@@ -432,27 +432,24 @@ main.site-content {
 
 
 // ***********************************
-//  List Split
+//  List Slideshow
 // ***********************************
-.list-split {
+.list-slideshow {
   ul {
-    display: flex;
-    justify-content: center;
     list-style: none;
-    width: fit-content;
     margin: 0;
 
-    li {
-      background-color: var(--c-grey-100);
-      border-radius: 2em;
-      padding: 2em;
+    p,
+    h2 {
+      @extend %text-11;
+      padding-block: 0.1em;
+    }
 
-      &:before {
-        content: '\E802';
-        font-family: 'icons';
-        color: var(--c-primary);
-        margin-right: 0.5em;
-      }
+    li {
+      height: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
     }
   }
 }

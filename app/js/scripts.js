@@ -435,15 +435,17 @@ if (glideElement) {
         })
 
         // generate pagination bullet for each slide
-        let glideIndex = glide.querySelectorAll('.glide__slide').length
-        let glideCount = 0;
-        while (glideCount < glideIndex) {
-            const bullet = document.createElement('button')
-            bullet.classList.add('glide__bullet')
-            bullet.setAttribute("data-glide-dir", '=' + glideCount)
-            const glideBullets = glide.querySelector('.glide__bullets')
-            glideBullets.appendChild(bullet)
-            glideCount++
+        if (glide.querySelector('.glide__bullets') !== null) {
+            let glideIndex = glide.querySelectorAll('.glide__slide').length
+            let glideCount = 0;
+            while (glideCount < glideIndex) {
+                const bullet = document.createElement('button')
+                bullet.classList.add('glide__bullet')
+                bullet.setAttribute("data-glide-dir", '=' + glideCount)
+                const glideBullets = glide.querySelector('.glide__bullets')
+                glideBullets.appendChild(bullet)
+                glideCount++
+            }
         }
 
         slideshow.mount({ Autoplay, Controls, Swipe })
