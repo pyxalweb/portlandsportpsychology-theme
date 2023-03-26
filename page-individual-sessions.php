@@ -18,7 +18,7 @@ endwhile;
     <section class="content width-df | mbl-7 mbl-3-vw400 ta-c text-11--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <h2>Individual Sessions</h2>
         <div class="mt-1">
-            <p>Maximize your athletic potential with our tailored and confidential sports psychology services.</p>
+            <p>Maximize your athletic potential with tailored and confidential sports psychology services.</p>
         </div>
 
         <a href="contact" class="button button--highlight | mi-center mt-2">Schedule Consultation</a>
