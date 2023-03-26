@@ -9,20 +9,23 @@ while ( have_posts() ) :
 	the_post();
 endwhile;
 
-get_template_part( 'template-parts/content', 'masthead' );
+// get_template_part( 'template-parts/content', 'masthead' );
 ?>
 
-<main id="site-content" <?php post_class($class = 'site-content interior'); ?>>
+<main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
-    <section class="content width-df | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="ta-c">
-            <h2>How to Support Your Student-Athlete</h2>
-            <div class="text-3 text-strike text-strike--hide-vw100">
-                <p><span>Success Strategies for Parents</span></p>
-            </div>
+    <section class="content width-df | mbl-7 mbl-3-vw400 ta-c text-11--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="svg svg--57h | mb-1 mi-center-child">
+            <?php load_inline_svg('icon-parents.svg'); ?>
         </div>
+        <h1>How to Support Your Student-Athlete</h1>
+        <div class="mt-1">
+            <p>Support your young athlete's emotional well-being and performance with these five essential parenting strategies.</p>
+        </div>
+    </section>
 
+    <section class="content width-sm | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="mt-7 mt-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
             <ul class="numbered-items">
                 <li>
