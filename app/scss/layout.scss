@@ -15,10 +15,20 @@ body {
 //  Text Style Guide
 // ***********************************
 
+// text - default but smaller
+%text-0 {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-400);
+  line-height: var(--lh-500);
+  color: var(--c-grey-400);
+}
+.text-0 { @extend %text-1; }
+
 // text - default
 %text-1 {
   font-family: var(--ff-primary);
-  font-size: var(--fs-400);
+  font-size: var(--fs-500);
   font-weight: var(--fw-400);
   line-height: var(--lh-500);
   color: var(--c-grey-400);
