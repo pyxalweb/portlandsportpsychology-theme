@@ -30,7 +30,7 @@ get_header();
 <main id="site-content" class="site-content">
     <section class="content width-df | dg gtc-4 g-clamp-1-3-3 | gtc-2-vw500 | gtc-1-vw200 g-5-vw200 ta-c-vw200 | mbl-7 mbl-3-vw400 | text-4--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="df fd-c g-1">
-            <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100">
+            <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100 | text-0">
                 <div class="svg svg--57h | mi-center-vw200">
                     <?php load_inline_svg('icon-brain.svg'); ?>
                 </div>
@@ -43,7 +43,7 @@ get_header();
         </div>
 
         <div class="df fd-c g-1">
-            <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100">
+            <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100 | text-0">
                 <div class="svg svg--57h | mi-center-vw200">
                     <?php load_inline_svg('icon-clipboard.svg'); ?>
                 </div>
@@ -56,7 +56,7 @@ get_header();
         </div>
 
         <div class="df fd-c g-1">
-            <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100">
+            <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100 | text-0">
                 <div class="svg svg--57h | mi-center-vw200">
                     <?php load_inline_svg('icon-parents.svg'); ?>
                 </div>
@@ -69,7 +69,7 @@ get_header();
         </div>
 
         <div class="df fd-c g-1">
-            <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100">
+            <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100 | text-0">
                 <div class="svg svg--57h | mi-center-vw200">
                     <?php load_inline_svg('icon-mentor.svg'); ?>
                 </div>
@@ -112,7 +112,7 @@ get_header();
 
             <div class="ta-c-vw200 | list-boxes list-boxes--4 list-boxes--rounded">
                 <div class="mb-1">
-                    <p>Elliott Waksman is a well-renowned sport pyschologist in the Portland metro area. A few organizations he's worked with include:</p>
+                    <p>Elliott Waksman is a well-renowned sport pyschologist in the Portland metro area.<br>A few organizations he's worked with include:</p>
                 </div>
                 <ul>
                     <li>Nike</li>

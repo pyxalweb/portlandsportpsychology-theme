@@ -15,16 +15,18 @@ endwhile;
 <main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
-    <section class="content width-df | mbl-7 mbl-3-vw400 ta-c text-11--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | pbl-7 pbl-3-vw400 ta-c text-11--h2 | content-bg | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <h2>Parenting Workshops</h2>
         <div class="mt-1">
             <p>Equip yourself with success strategies and healthy communication techniques for your student-athlete.</p>
         </div>
 
         <a href="contact" class="button button--highlight | mi-center mt-2">Schedule Consultation</a>
+
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/logo-icon.svg" alt="" class="content-bg__circle">
     </section>
 
-    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-66-33-vw800 | gtc-1-vw500 | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-66-33-vw800 | gtc-1-vw500 | mb-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="df fd-c jc-c | mb-1--h2">
             <div>
                 <?php echo get_field('split_content_text_1'); ?>
