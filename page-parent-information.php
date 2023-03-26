@@ -1,4 +1,4 @@
-<?php /* Template Name: Waksman's Workbook */ ?>
+<?php /* Template Name: Parent Information */ ?>
 
 <?php
 get_header();
@@ -15,18 +15,29 @@ endwhile;
 <main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
-    <section class="content width-df | mbl-7 mbl-3-vw400 ta-c text-11--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="svg svg--57h | mb-1 mi-center-child">
-            <?php load_inline_svg('icon-parents.svg'); ?>
+    <section class="pbl-7 pbl-3-vw400 mb-7 mb-3-vw400 ta-c | content-bg | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="content width-df">
+            <div class="svg svg--57h | mb-1 mi-center-child">
+                <?php load_inline_svg('icon-parents.svg'); ?>
+            </div>
+            <h1>How to Support Your Student-Athlete</h1>
+            <div class="mt-1">
+                <p>Support your young athlete's emotional well-being and performance with these five essential parenting strategies.</p>
+            </div>
         </div>
-        <h1>How to Support Your Student-Athlete</h1>
-        <div class="mt-1">
-            <p>Support your young athlete's emotional well-being and performance with these five essential parenting strategies.</p>
-        </div>
+
+        <?php
+		$image = get_field('masthead');
+		if ($image):
+			$url = $image['url'];
+			$alt = $image['alt'];
+		?>
+		<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="1920" height="500" class="content-bg__photo">
+        <?php endif; ?>
     </section>
 
-    <section class="content width-sm | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="mt-7 mt-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-sm | mb-7 mb-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
             <ul class="numbered-items">
                 <li>
                     <div class="numbered-item">
