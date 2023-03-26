@@ -15,8 +15,8 @@ endwhile;
 <main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
-    <section class="content width-df | pbl-7 pbl-3-vw400 ta-c text-11--h2 | content-bg | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <h2>Parenting Workshops</h2>
+    <section class="content width-df | pbl-7 pbl-3-vw400 ta-c | content-bg | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <h1>Parenting Workshops</h1>
         <div class="mt-1">
             <p>Equip yourself with success strategies and healthy communication techniques for your student-athlete.</p>
         </div>
