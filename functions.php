@@ -33,7 +33,8 @@ add_filter( 'script_loader_tag', 'set_module_script_type', 10, 2 );
 
 
 // ***********************************
-//  Ability to add custom classes to 'wp_nav_menu' <li> elements
+//  Add custom classes to 'wp_nav_menu' <li> elements
+//  template-parts/site-navigation.php
 // ***********************************
 function add_menu_list_item_class($classes, $item, $args) {
   if (property_exists($args, 'list_item_class')) {
@@ -44,7 +45,8 @@ function add_menu_list_item_class($classes, $item, $args) {
 add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
 
 // ***********************************
-//  Ability to add custom classes to 'wp_nav_menu' <a> elements
+//  Add custom classes to 'wp_nav_menu' <a> elements
+//  template-parts/site-navigation.php
 // ***********************************
 function add_menu_link_class( $atts, $item, $args ) {
   if (property_exists($args, 'link_class')) {

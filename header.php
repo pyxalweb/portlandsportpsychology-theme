@@ -27,7 +27,7 @@
         </div>
 
 		<nav class="nav-traditional" aria-label="Main Navigation">
-			<?php include('inc-navigation.php'); ?>
+			<?php get_template_part( 'template-parts/site', 'navigation' ); ?>
         </nav>
 
 		<div class="header__nav">
@@ -39,7 +39,7 @@
 
 	<div class="overlay-nav">
         <nav class="mobile-nav" aria-label="Main Navigation Mobile">
-			<?php include('inc-navigation.php'); ?>
+			<?php get_template_part( 'template-parts/site', 'navigation' ); ?>
         </nav>
     </div>
 </header>
