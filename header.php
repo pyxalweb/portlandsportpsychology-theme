@@ -19,7 +19,7 @@
 <?php wp_body_open(); ?>
 
 <header id="site-header" class="header">
-	<div class="header__container | content width-lg">
+	<div class="header__container | content width-df">
 		<div class="header__logo">
             <a href="/">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/logo.svg" width="283" height="73" alt="Portland Sport Psychology">
