@@ -358,6 +358,12 @@ main.site-content {
 //  Link List
 // ***********************************
 .link-list {
+  margin-bottom: 5em;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
   ul {
     list-style: none;
     margin: 0;
@@ -386,8 +392,8 @@ main.site-content {
     border-radius: 2em;
     cursor: pointer;
     transition: all var(--t-fast);
-    color: var(--c-grey-400);
-    background-color: var(--c-grey-200);
+    color: var(--c-white);
+    background-color: var(--c-primary);
     position: relative;
     padding-block: 0.5em;
     padding-inline: 2em;
@@ -396,7 +402,7 @@ main.site-content {
     &:hover,
     &:focus {
       color: var(--c-white);
-      background-color: var(--c-primary);
+      background-color: var(--c-black);
     }
   }
 }

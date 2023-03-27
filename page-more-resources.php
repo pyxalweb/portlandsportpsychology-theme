@@ -42,7 +42,7 @@ endwhile;
                 <h2>Video Interviews</h2>
                 <p>Informative video interviews that Elliott has appeared in.</p>
 
-                <div class="mbl-2 bg-grey-100 p-2">
+                <div class="mbl-2 bg-grey-100 p-2 br-2 bs-400">
                     <ul>
                         <li><a href="https://www.youtube.com/watch?v=zfriDyGCYLo" target="_blank" rel="noopener">Building Mental Toughness w/ Elliott Waksman - The LubDub</a></li>
                         <li><a href="https://katu.com/afternoon-live/books-authors/sports-parenting-tips" target="_blank" rel="noopener">Sports Parenting Tips - KATU Afternoon Live</a></li>
@@ -58,7 +58,7 @@ endwhile;
                 <h2>Published Articles</h2>
                 <p>Informative articles that Elliott has appeared in.</p>
 
-                <div class="mbl-2 bg-grey-100 p-2">
+                <div class="mbl-2 bg-grey-100 p-2 br-2 bs-400">
                     <ul>
                         <li><a href="https://katu.com/news/local/sports-psychology-coach-impressed-with-blazers-gutsy-game-7-win" target="_blank" rel="noopener">Sports psychology coach impressed with Blazers' gutsy game 7 win</a></li>
                         <li><a href="https://goviks.com/news/2012/3/26/WGOLF_0326125341.aspx?path=wgolf" target="_blank" rel="noopener">Elliott Waksman Aids Golf Team's Mental Approach To The Game</a></li>
@@ -77,7 +77,7 @@ endwhile;
                 <h2>More Articles & Videos</h2>
                 <p>Sport psychology related articles and videos that Elliott recommends.</p>
 
-                <div class="mbl-2 bg-grey-100 p-2">
+                <div class="mbl-2 bg-grey-100 p-2 br-2 bs-400">
                     <ul>
                         <li><a href="https://appliedsportpsych.org/resources/resources-for-parents/eight-tips-for-communicating-with-adolescent-athletes-immediately-after-the-game-win-or-loss/" target="_blank" rel="noopener">8 Tips for Communicating with Adolescent Athletes Immediately after the Game</a></li>
                         <li><a href="https://appliedsportpsych.org/resources/resources-for-parents/keeping-perspective-in-youth-sport/" target="_blank" rel="noopener">Keeping Perspective in Youth Sports</a></li>
@@ -104,7 +104,7 @@ endwhile;
                 <h2>Radio Interviews</h2>
                 <p>Informative radio interviews that Elliott has appeared in.</p>
 
-                <div class="mbl-2 bg-grey-100 p-2">
+                <div class="mbl-2 bg-grey-100 p-2 br-2 bs-400">
                     <ul>
                         <li><a href="https://soundcloud.com/elliott-waksman/mental-toughness-tips-to-stay-present-in-the-moment" target="_blank" rel="noopener">Mental Toughness Tips to Stay Present in the Moment</a></li>
                         <li><a href="https://soundcloud.com/elliott-waksman/waksmans-8202019-podcast " target="_blank" rel="noopener">Stress, Performance Strategies, & Mindset</a></li>
@@ -123,9 +123,9 @@ endwhile;
 
             <div class="link-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
                 <h2>Email Newsletter Archive</h2>
-                <p>An archive of Elliott's email newsletter which contains tons of useful tips and ideas!</p>
+                <p>Elliott's email newsletter archive which contains tons of useful tips and ideas!</p>
             
-                <div class="mbl-2 bg-grey-100 p-2">
+                <div class="mbl-2 bg-grey-100 p-2 br-2 bs-400">
                     <ul>
                         <li><a href="/newsletter-archive/what-helps-student-athletes-thrive-long-term.html">What Helps Student-Athletes Thrive Long-Term</a></li>
 
