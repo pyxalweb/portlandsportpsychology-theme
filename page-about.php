@@ -15,7 +15,7 @@ endwhile;
 <main id="site-content" <?php post_class($class = 'site-content interior no-masthead | mb-1--h2'); ?>>
     <?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
-    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 ta-c-vw200 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 ta-c-vw200 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="df fd-c jc-c">
             <div>
                 <h1>Empowering Athletes</h1>
@@ -35,7 +35,7 @@ endwhile;
         </div>
     </section>
 
-    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="df fd-c jc-c | o-2 | o-1-vw500">
             <div>
                 <?php echo get_field('split_content_text_2'); ?>
@@ -49,7 +49,7 @@ endwhile;
         </div>
     </section>
 
-    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 mbl-2-vw500 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 mbl-2-vw500 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="b-2px-grey-100 br-2 p-2">
             <?php echo get_field('box_1'); ?>
         </div>
@@ -58,7 +58,7 @@ endwhile;
         </div>
     </section>
 
-    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 mbl-2-vw500 mb-4-vw500 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 mbl-2-vw500 mb-4-vw500 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="b-2px-grey-100 br-2 p-2">
             <?php echo get_field('box_3'); ?>
         </div>

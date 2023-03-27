@@ -15,7 +15,7 @@ endwhile;
 <main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
 	<?php // get_template_part( 'template-parts/content', 'page' ); ?>
 
-    <section class="content width-df | mbl-7 mbl-3-vw400 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | mbl-7 mbl-3-vw400 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="df g-clamp-2-5-5 | fd-c-vw500">
             <div class="fg-1 fs-1 fb-50">
                 <h2>Contact Elliott</h2>

@@ -15,7 +15,7 @@ endwhile;
 <main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
-    <section class="content width-df | pbl-7 pbl-3-vw400 ta-c | content-bg | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | pbl-7 pbl-3-vw400 ta-c | content-bg | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <h1>Individual Sessions</h1>
         <div class="mt-1">
             <p>Maximize your athletic potential with tailored and confidential sports psychology services.</p>
@@ -27,21 +27,21 @@ endwhile;
     </section>
 
     <section class="content width-df | dg gtc-3 g-clamp-1-3-3 | gtc-1-vw500 | mb-4 | ta-c-vw500 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2">
+        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
             <div class="svg svg--57h | mi-center-vw500">
                 <?php load_inline_svg('icon-light-bulb.svg'); ?>
             </div>
             <?php echo get_field('box_1'); ?>
         </div>
 
-        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2">
+        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
             <div class="svg svg--57h | mi-center-vw500">
                 <?php load_inline_svg('icon-calendar.svg'); ?>
             </div>
             <?php echo get_field('box_2'); ?>
         </div>
 
-        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2">
+        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
             <div class="svg svg--57h | mi-center-vw500">
                 <?php load_inline_svg('icon-confidential.svg'); ?>
             </div>
@@ -50,7 +50,7 @@ endwhile;
     </section>
 
     <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-66-33-vw800 | gtc-1-vw500 | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="df fd-c jc-c | mb-1--h2">
+        <div class="df fd-c jc-c | mb-1--h2" style="opacity:0;">
             <div>
                 <?php echo get_field('split_content_text_1'); ?>
                 
@@ -74,7 +74,7 @@ endwhile;
             </div>
         </div>
 
-        <div class="image--maxheight-760 image--rounded image--circle--vw200">
+        <div class="image--maxheight-760 image--rounded image--circle--vw200" style="opacity:0;">
             <?php
             $image = get_field('split_content_image_1');
             if ($image):

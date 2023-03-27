@@ -3,7 +3,7 @@ get_header();
 ?>
 
 <section id="site-masthead" class="masthead" role="complementary" aria-label="Page heading and decorative looping video">
-    <div class="masthead__overlay homepage | animate-scroll-fade-in" data-delay="0.5">
+    <div class="masthead__overlay homepage | animate-scroll-fade-in" data-delay="0.5" style="opacity:0;">
         <div class="masthead__overlay__box">
             <div class="masthead__overlay__heading">
                 <h1>Elliott Waksman</h1>
@@ -29,7 +29,7 @@ get_header();
 
 <main id="site-content" class="site-content">
     <section class="content width-df | dg gtc-4 g-clamp-1-3-3 | gtc-2-vw500 | gtc-1-vw200 g-5-vw200 ta-c-vw200 | mbl-7 mbl-3-vw400 | text-4--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="df fd-c g-1">
+        <div class="df fd-c g-1" style="opacity:0;">
             <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100 | text-0">
                 <div class="svg svg--57h | mi-center-vw200">
                     <?php load_inline_svg('icon-brain.svg'); ?>
@@ -42,7 +42,7 @@ get_header();
             </div>
         </div>
 
-        <div class="df fd-c g-1">
+        <div class="df fd-c g-1" style="opacity:0;">
             <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100 | text-0">
                 <div class="svg svg--57h | mi-center-vw200">
                     <?php load_inline_svg('icon-clipboard.svg'); ?>
@@ -55,7 +55,7 @@ get_header();
             </div>
         </div>
 
-        <div class="df fd-c g-1">
+        <div class="df fd-c g-1" style="opacity:0;">
             <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100 | text-0">
                 <div class="svg svg--57h | mi-center-vw200">
                     <?php load_inline_svg('icon-parents.svg'); ?>
@@ -68,7 +68,7 @@ get_header();
             </div>
         </div>
 
-        <div class="df fd-c g-1">
+        <div class="df fd-c g-1" style="opacity:0;">
             <div class="df fd-c g-1 | pb-1 mb-05 bb-2px-grey-100 | text-0">
                 <div class="svg svg--57h | mi-center-vw200">
                     <?php load_inline_svg('icon-mentor.svg'); ?>
@@ -82,7 +82,7 @@ get_header();
         </div>
     </section>
 
-    <section class="content-wide | mbl-7 mbl-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content-wide | mbl-7 mbl-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw200 g-0-vw200">
             <div class="df fd-c jc-c | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
                 <div class="df fd-c g-1 | text-6--h2">
@@ -104,7 +104,7 @@ get_header();
         </div>
     </section>
 
-    <section class="content width-df | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content width-df | mbl-7 mbl-3-vw400 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="dg g-clamp-1-5-5 gtc-25-75 gtc-1-vw300">
             <div class="ta-c-vw200 | gap-line | text-6--h2">
                 <h2>Experienced & Trusted</h2>
@@ -159,7 +159,7 @@ get_header();
         </div>
     </section>
 
-    <section class="content-wide | mt-7 mt-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="content-wide | mt-7 mt-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw200 pt-3-vw200">
             <div class="df fd-c jc-c | o-2 | o-1-vw500 | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                 <div class="df fd-c g-1 | ta-c-vw200 | text-6--h2">
