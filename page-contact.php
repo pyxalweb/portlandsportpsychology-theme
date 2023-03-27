@@ -9,10 +9,10 @@ while ( have_posts() ) :
 	the_post();
 endwhile;
 
-get_template_part( 'template-parts/content', 'masthead' );
+// get_template_part( 'template-parts/content', 'masthead' );
 ?>
 
-<main id="site-content" <?php post_class($class = 'site-content interior'); ?>>
+<main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
 	<?php // get_template_part( 'template-parts/content', 'page' ); ?>
 
     <section class="content width-df | mbl-7 mbl-3-vw400 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%">

@@ -526,7 +526,7 @@ animateChildrenScrollFadeIn.forEach((element) => {
 //  GSAP - Scroll - Fade In (Selected element only)
 // ***********************************
 // Class:       animate-scroll-fade-in
-// Description: Fade in from opacity 0
+// Description: Fade in to opacity 1 - NOTE: You must set the element's CSS to be 'opacity: 0;'
 // data-delay    = number (float)      - default is 0
 // data-duration = number (float)      - default is 1
 // data-trigger  = top, center, bottom - default is top
@@ -569,8 +569,8 @@ animateScrollFadeIn.forEach((element) => {
         }
     })
 
-    timeline.from(element, {
-        opacity: 0,
+    timeline.to(element, {
+        opacity: 1,
         delay: dataDelay,
         duration: dataDuration
     })

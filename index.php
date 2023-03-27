@@ -98,7 +98,7 @@ get_header();
                 </div>
             </div>
 
-            <div class="image--maxheight-760 image--circle--vw200 image--top--vw200 | pb-3-vw200 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
+            <div class="image--maxheight-760 image--circle--vw200 image--position-top--vw200 | pb-3-vw200 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                 <img src="<?php echo get_template_directory_uri(); ?>/photos/elliott-waksman.jpg" alt="Elliott Waksman - Sport Psychologist in Portland, Oregon">
             </div>
         </div>

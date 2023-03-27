@@ -94,10 +94,18 @@ main.site-content {
 // *****************
 //  Image Position
 // *****************
-.image--top--vw200 {
+.image--position-down--vw200 {
   img {
     @media (max-width: $vw-200) {
-      object-position: center -3em; // top
+      object-position: 0 3em;
+    }
+  }
+}
+
+.image--position-top--vw200 {
+  img {
+    @media (max-width: $vw-200) {
+      object-position: center -3em;
     }
   }
 }

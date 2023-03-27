@@ -436,7 +436,7 @@
 // .jc-se { justify-content: space-evenly; }
 .jc-c { justify-content: center; }
 // .jc-s { justify-content: start; }
-// .jc-e { justify-content: end; }
+.jc-e { justify-content: end; }
 
 @media (max-width: $vw-500) {
   .jc-s-vw500 { justify-content: start; }

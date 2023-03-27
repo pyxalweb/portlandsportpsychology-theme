@@ -645,3 +645,7 @@ a {
   object-fit: cover;
   opacity: 0.1;
 }
+
+.bg-gradient {
+  background: linear-gradient(180deg, rgba(239,239,239,1) 0%, rgba(255,255,255,1) 100%);
+}

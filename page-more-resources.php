@@ -9,19 +9,31 @@ while ( have_posts() ) :
 	the_post();
 endwhile;
 
-get_template_part( 'template-parts/content', 'masthead' );
+// get_template_part( 'template-parts/content', 'masthead' );
 ?>
 
-<main id="site-content" <?php post_class($class = 'site-content interior'); ?>>
+<main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
-    <section class="content width-df | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="ta-c">
-            <h2>Videos, Radio Shows, Articles, etc!</h2>
-            <div class="text-3 text-strike text-strike--hide-vw100">
-                <p><span>Learn More About Sport Psychology</span></p>
+    <section class="pbl-7 pbl-3-vw400 mb-7 mb-3-vw400 ta-c | content-bg | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="content width-df">
+            <div class="svg svg--57h | mb-1 mi-center-child">
+                <?php load_inline_svg('icon-parents.svg'); ?>
+            </div>
+            <h1>Learn More About Sport Psychology</h1>
+            <div class="mt-1">
+                <p>Videos, Radio Shows, Articles, etc!</p>
             </div>
         </div>
+
+        <?php
+		$image = get_field('masthead');
+		if ($image):
+			$url = $image['url'];
+			$alt = $image['alt'];
+		?>
+		<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="1920" height="500" class="content-bg__photo">
+        <?php endif; ?>
     </section>
 
     <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
