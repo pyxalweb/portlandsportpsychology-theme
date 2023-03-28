@@ -43,28 +43,28 @@ endwhile;
     
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
             <div class="svg svg--57h | mi-center-vw500">
-                <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                <?php load_inline_svg('icon-brain-visualization.svg'); ?>
             </div>
             <?php echo get_field('box_3'); ?>
         </div>
 
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
             <div class="svg svg--57h | mi-center-vw500">
-                <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                <?php load_inline_svg('icon-brain-tough.svg'); ?>
             </div>
             <?php echo get_field('box_4'); ?>
         </div>
 
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
             <div class="svg svg--57h | mi-center-vw500">
-                <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                <?php load_inline_svg('icon-smile.svg'); ?>
             </div>
             <?php echo get_field('box_5'); ?>
         </div>
 
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
             <div class="svg svg--57h | mi-center-vw500">
-                <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                <?php load_inline_svg('icon-mentor.svg'); ?>
             </div>
             <?php echo get_field('box_6'); ?>
         </div>
