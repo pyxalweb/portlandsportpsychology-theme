@@ -32,9 +32,36 @@ add_filter( 'script_loader_tag', 'set_module_script_type', 10, 2 );
 
 
 
+// *****************************************************************
+//
+//  Register your navigation menus
+//
+//  Enables 'Menus' within the WordPress Admin Dashboard's 'Appearance' menu
+//
+//  Required for the 'wp_nav_menu' function to work
+//
+//  Used in the 'template-parts/site-navigation.php'
+//  and 'template-parts/site-navigation-footer.php' files
+//
+// *****************************************************************
+function register_navigation() {
+  register_nav_menus( array(
+    'menu-1' => __( 'Primary Navigation', 'psp' ),
+    'menu-2' => __( 'Footer Navigation', 'psp' )
+  ) );
+}
+add_action( 'after_setup_theme', 'register_navigation' );
+
+
+
+
 // ***********************************
+// 
 //  Add custom classes to 'wp_nav_menu' <li> elements
-//  template-parts/site-navigation.php
+// 
+//  Used in the 'template-parts/site-navigation.php'
+//  and 'template-parts/site-navigation-footer.php' files
+// 
 // ***********************************
 function add_menu_list_item_class($classes, $item, $args) {
   if (property_exists($args, 'list_item_class')) {
@@ -44,9 +71,16 @@ function add_menu_list_item_class($classes, $item, $args) {
 }
 add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
 
+
+
+
 // ***********************************
+// 
 //  Add custom classes to 'wp_nav_menu' <a> elements
-//  template-parts/site-navigation.php
+//
+//  Used in the 'template-parts/site-navigation.php'
+//  and 'template-parts/site-navigation-footer.php' files
+// 
 // ***********************************
 function add_menu_link_class( $atts, $item, $args ) {
   if (property_exists($args, 'link_class')) {
