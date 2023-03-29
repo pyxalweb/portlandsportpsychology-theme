@@ -342,12 +342,16 @@ main.site-content {
 .list-highlight {
   ul {
     list-style: none;
-    margin: 0;
+    margin: 1em 0 0 0;
   }
 
   li {
-    padding: 0.35em;
+    padding: 1em 0.35em;
     border-bottom: 1px solid var(--c-white);
+
+    &:last-of-type {
+      border-bottom: none;
+    }
   }
 }
 

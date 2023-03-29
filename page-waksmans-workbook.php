@@ -20,8 +20,8 @@ endwhile;
             <div class="glide" data-autoplay="5000">
                 <div class="glide__track" data-glide-el="track">
                     <ul class="glide__slides">
-                        <li class="glide__slide"><h2>A Practical Mental Skills Workbook for Student-Athletes</h2></li>
-                        <li class="glide__slide"><p>Improve your self-confidence.</p></li>
+                        <li class="glide__slide"><h1>A Practical Mental Skills Workbook for Student-Athletes</h1></li>
+                        <li class="glide__slide"><p>Improve your self-confidence, motivation, and success.</p></li>
                         <li class="glide__slide"><p>Maintain a more mentally tough approach throughout training and competition.</p></li>
                         <li class="glide__slide"><p>Realize how life skills are learned through sport.</p></li>
                     </ul>
@@ -43,7 +43,7 @@ endwhile;
         <div class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw200 pt-3-vw200">
             <div class="df fd-c jc-c | o-2 | o-1-vw500 | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                 <div class="df fd-c g-1 | ta-c-vw200 | text-6--h2">
-                    <h2>Waksman's Workbook</h2>
+                    <h2>Beyond Physical Training</h2>
                     
                     <div class="points | text-4--h3 | mt-1">
                         <div class="points__item">
@@ -85,63 +85,56 @@ endwhile;
         </div>
     </section>
 
-    <section class="content width-df | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%" id="order-now">
-        <div class="mb-2 ta-c" style="opacity:0;">
-            <h2>Order Now!</h2>
+    <section class="content width-xs | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%" id="order-now">
+        <div class="mb-2 ta-c | text-6--h2" style="opacity:0;">
+            <h2>Waksman's Workbook</h2>
             <div class="text-3 text-strike">
                 <p><span>$30</span></p>
             </div>
-            <p>Free Shipping!</p>
-            <p>This workbook is a resource for student-athletes looking to improve sport performance and learn valuable life skills.</p>
+            <div class="text-background text-background--grey-100 | mt-05 mb-1 b-2px-grey-200 bs-400 br-1">
+                <p>Free Shipping!</p>
+            </div>
+            <p>This workbook is a resource for student-athletes looking to improve their sport performance and learn valuable life skills.</p>
         </div>
+    </section>
 
+    <section class="content width-df | mb-7 mb-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%" id="order-now">
         <div class="df g-clamp-2-5-5 | fd-c-vw500" style="opacity:0;">
-            <div class="fg-1 fs-1 fb-50 | pt-3 ta-c">
-                <p><strong>28 worksheets to serve as learning tools for student-athletes.</strong></p>
+            <div class="fg-1 fs-1 fb-50 | pt-4 ta-c bt-2px-grey-100 | text-4--h3">
+                <h3>28 worksheets to serve as learning tools for student-athletes.</h3>
                 
-                <div class="mbl-2 pbl-2 bt-2px-grey-100 bb-2px-grey-100">
+                <div class="mt-1 mb-4 pb-4 bb-2px-grey-100">
                     <p>Most sport psychology books provide only text. The philosophy behind this workbook is much different. This workbook provides the student-athletes opportunities to write down his/her own experiences, apply the material to his/her unique situation, and learn in a fun, applicable process.</p>
                 </div>
 
-                <p>Upon completion of the workbook, the student-athlete will be able to proficiently complete the following tasks:</p>
+                <div class="list-highlight | mt-2 bg-grey-100 pbl-4 pi-2 br-2">
+                    <h3>What You'll Gain From This Workbook:</h3>
 
-                <div class="list-highlight | mt-2 bg-grey-100 p-2">
                     <ul>
-                        <li>Generate positive self-talk statements</li>
-                        <li>Create both outcome and process goals</li>
-                        <li>Develop a more healthy, positive perspective regarding sport injury</li>
-                        <li>Incorporate visualization into his/her sport game plan</li>
                         <li>Improve self-confidence</li>
-                        <li>Maintain a more mentally tough approach throughout training and competition</li>
                         <li>Increase motivation levels</li>
+                        <li>Create both outcome and process goals</li>
+                        <li>Generate positive self-talk statements</li>
                         <li>Describe how life skills are learned through sport</li>
+                        <li>Incorporate visualization into his/her sport game plan</li>
+                        <li>Maintain a mentally tough approach during training and competition</li>
+                        <li>Develop a more healthy, positive perspective regarding sport injury</li>
+                        
+                        
+                        
+                        
+                        
+                        
                     </ul>
-                </div>
-
-                <div class="mt-2 mi-center-child">
-                    <?php
-                    $image = get_field('contact_image_1');
-                    if ($image):
-                        $url = $image['url'];
-                        $alt = $image['alt'];
-                    ?>
-                    <img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="230" height="230">
-                    <?php endif; ?>
                 </div>
             </div>
 
             <div class="fg-1 fs-1 fb-50">
-                <div class="mt-1">
-                    <script type="text/javascript" src="https://form.jotform.com/jsform/230560584312147"></script>
+                <div class="mb-2 ta-c | text-6--h2">
+                    <h2>Order Now!</h2>
                 </div>
+                <script type="text/javascript" src="https://form.jotform.com/jsform/230560584312147"></script>
             </div>
-        </div>
-
-        <div class="testimonials | content-slider pagination-text | mbl-5 mbl-3-vw400 | text-4 ta-c" style="opacity:0;">
-            <figure class="testimonials__item">
-                <blockquote>Scott read and filled out your workbook and said it changed his life. He takes it with him to all his tournaments.</blockquote>
-                <figcaption>Alice, <cite>Sport Mother, La Salle High School, Milwaukie, Oregon</cite></figcaption>
-            </figure>
         </div>
     </section>
 </main>

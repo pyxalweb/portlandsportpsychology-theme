@@ -224,6 +224,10 @@ a {
   }
 }
 
+
+
+
+// ***********************************
 //  Buttons
 // ***********************************
 %text-button-1 {
@@ -270,6 +274,13 @@ a {
   }
 }
 
+
+
+
+// ***********************************
+//  Link Underline
+// ***********************************
+
 %link-underline {
   content: '';
   display: block;
@@ -284,6 +295,13 @@ a {
   transform: scaleX(1);
   // opacity: 1;
 }
+
+
+
+
+// ***********************************
+//  Text Strike
+// ***********************************
 
 .text-strike {
   p {
@@ -325,6 +343,28 @@ a {
         }
       }
     }
+  }
+}
+
+
+
+
+// ***********************************
+//  Text Background
+// ***********************************
+.text-background {
+  padding-block: 0;
+  padding-inline: 4em;
+  display: inline-block;
+
+  &--primary {
+    background-color: var(--c-primary);
+    color: var(--c-white);
+  }
+
+  &--grey-100 {
+    background-color: var(--c-grey-100);
+    color: var(--c-black);
   }
 }
 

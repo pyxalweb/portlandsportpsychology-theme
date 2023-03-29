@@ -125,6 +125,7 @@
 //  border-radius
 // ***********************************
 .br-2 { border-radius: 2em; }
+.br-1 { border-radius: 1em; }
 
 
 
@@ -170,6 +171,7 @@
 // .mt-3 { margin-top: 3em; }
 .mt-2 { margin-top: 2em; }
 .mt-1 { margin-top: 1em; }
+.mt-05 { margin-top: 0.5em; }
 // .mt-0 { margin-top: 0em; }
 
 @media (max-width: $vw-400) {
@@ -262,7 +264,7 @@
 .pbl-7 { padding-block: 7em; }
 // .pbl-6 { padding-block: 6em; }
 .pbl-5 { padding-block: 5em; }
-// .pbl-4 { padding-block: 4em; }
+.pbl-4 { padding-block: 4em; }
 // .pbl-3 { padding-block: 3em; }
 .pbl-2 { padding-block: 2em; }
 .pbl-1 { padding-block: 1em; }
@@ -291,7 +293,7 @@
 // .pt-7 { padding-top: 7em; }
 // .pt-6 { padding-top: 6em; }
 // .pt-5 { padding-top: 5em; }
-// .pt-4 { padding-top: 4em; }
+.pt-4 { padding-top: 4em; }
 .pt-3 { padding-top: 3em; }
 .pt-2 { padding-top: 2em; }
 // .pt-1 { padding-top: 1em; }
@@ -313,7 +315,7 @@
 // .pb-7 { padding-bottom: 7em; }
 // .pb-6 { padding-bottom: 6em; }
 .pb-5 { padding-bottom: 5em; }
-// .pb-4 { padding-bottom: 4em; }
+.pb-4 { padding-bottom: 4em; }
 .pb-3 { padding-bottom: 3em; }
 .pb-2 { padding-bottom: 2em; }
 .pb-1 { padding-bottom: 1em; }
@@ -342,7 +344,7 @@
 // .pi-5 { padding-inline: 5em; }
 // .pi-4 { padding-inline: 4em; }
 // .pi-3 { padding-inline: 3em; }
-// .pi-2 { padding-inline: 2em; }
+.pi-2 { padding-inline: 2em; }
 // .pi-1 { padding-inline: 1em; }
 // .pi-0 { padding-inline: 0em; }
 
