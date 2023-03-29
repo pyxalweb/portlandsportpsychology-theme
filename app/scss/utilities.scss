@@ -175,14 +175,11 @@
 // .mt-0 { margin-top: 0em; }
 
 @media (max-width: $vw-400) {
-// .mt-vw400-7 { margin-top: 7em; }
-// .mt-vw400-6 { margin-top: 6em; }
-// .mt-vw400-5 { margin-top: 5em; }
-// .mt-vw400-4 { margin-top: 4em; }
 .mt-3-vw400 { margin-top: 3em; }
-// .mt-vw400-2 { margin-top: 2em; }
-// .mt-vw400-1 { margin-top: 1em; }
-// .mt-vw400-0 { margin-top: 0em; }
+}
+
+@media (max-width: $vw-200) {
+.mt-2-vw200 { margin-top: 2em; }
 }
 
 

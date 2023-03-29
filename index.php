@@ -85,7 +85,7 @@ get_header();
     <section class="content-wide | mbl-7 mbl-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw200 g-0-vw200">
             <div class="df fd-c jc-c | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
-                <div class="df fd-c g-1 | text-6--h2">
+                <div class="df fd-c g-1 | text-6--h2 | ta-c-vw200">
                     <div class="svg svg--57h | mi-center-vw200">
                         <?php load_inline_svg('icon-light-bulb.svg'); ?>
                     </div>
@@ -94,7 +94,7 @@ get_header();
                         <p>Waksman helps student-athletes play better and find more enjoyment in their sport.</p>
                     </div>
                     <p>Sport psychology techniques are life skills that every student-athlete can apply to improve their game and quality of life. Confidence, commitment, composure, courage, teamwork, and goal setting are arguably the most important aspects of youth sports and are topics Waksman often addresses in his sessions.</p>
-                    <a href="/about-elliott" aria-label="Learn more about Elliott Waksman" class="button">About Elliott</a>
+                    <a href="/about-elliott" aria-label="Learn more about Elliott Waksman" class="button | mi-center-vw200">About Elliott</a>
                 </div>
             </div>
 
@@ -197,7 +197,7 @@ get_header();
                         </div>
                     </div>
 
-                    <a href="/waksmans-workbook" aria-label="Order Waksman's Workbook Now" class="button button--highlight">Order Now</a>
+                    <a href="/waksmans-workbook" aria-label="Order Waksman's Workbook Now" class="button button--highlight | mt-2-vw200 mi-center-vw200">Order Now</a>
                 </div>
             </div>
 
