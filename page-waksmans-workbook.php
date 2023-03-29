@@ -48,7 +48,7 @@ endwhile;
                     <div class="points | text-4--h3 | mt-1">
                         <div class="points__item">
                             <div class="svg svg--57h | mi-center-vw200">
-                                <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                                <?php load_inline_svg('icon-smile.svg'); ?>
                             </div>
                             <div class="points__text">
                                 <h3>Improve Self-Confidence</h3>
@@ -58,7 +58,7 @@ endwhile;
 
                         <div class="points__item">
                             <div class="svg svg--57h | mi-center-vw200">
-                                <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                                <?php load_inline_svg('icon-trophy.svg'); ?>
                             </div>
                             <div class="points__text">
                                 <h3>Increase Motivation Levels</h3>
@@ -68,7 +68,7 @@ endwhile;
 
                         <div class="points__item">
                             <div class="svg svg--57h | mi-center-vw200">
-                                <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                                <?php load_inline_svg('icon-graph.svg'); ?>
                             </div>
                             <div class="points__text">
                                 <h3>Success On & Off the Field</h3>
@@ -119,12 +119,6 @@ endwhile;
                         <li>Incorporate visualization into his/her sport game plan</li>
                         <li>Maintain a mentally tough approach during training and competition</li>
                         <li>Develop a more healthy, positive perspective regarding sport injury</li>
-                        
-                        
-                        
-                        
-                        
-                        
                     </ul>
                 </div>
             </div>
