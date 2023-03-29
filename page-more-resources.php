@@ -18,7 +18,7 @@ endwhile;
     <section class="pbl-7 pbl-3-vw400 mb-7 mb-3-vw400 ta-c | content-bg | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content width-df">
             <div class="svg svg--57h | mb-1 mi-center-child">
-                <?php load_inline_svg('icon-parents.svg'); ?>
+                <?php load_inline_svg('icon-light-bulb.svg'); ?>
             </div>
             <h1>Learn More About Sport Psychology</h1>
             <div class="mt-1">
