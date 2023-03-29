@@ -127,7 +127,7 @@ get_header();
             </div>
         </div>
 
-        <div class="testimonials | content-slider pagination-text | mbl-5 mbl-3-vw400 | text-4 ta-c">
+        <div class="testimonials | content-slider pagination-text | mbl-5 mbl-3-vw400 | text-12 ta-c">
             <div class="glide" data-autoplay="10000">
                 <div class="glide__track" data-glide-el="track">
                     <div class="glide__slides">
@@ -161,7 +161,7 @@ get_header();
 
     <section class="content-wide | mt-7 mt-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw200 pt-3-vw200">
-            <div class="df fd-c jc-c | o-2 | o-1-vw500 | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
+            <div class="df fd-c jc-c | o-2 | o-1-vw500 | pbl-5 pbl-3-vw400 pt-0-vw200 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                 <div class="df fd-c g-1 | ta-c-vw200 | text-6--h2">
                     <h2>Waksman's Workbook</h2>
                     
@@ -201,7 +201,7 @@ get_header();
                 </div>
             </div>
 
-            <div class="df fd-c | image--maxheight-760 image--objectfit--scaledown | pb-3-vw200 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
+            <div class="df fd-c | image--maxheight-760 image--objectfit--scaledown | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
                 <img src="<?php echo get_template_directory_uri(); ?>/photos/waksmans-sport-psychology-workbook.png" alt="Waksman's Sport Psychology Program: A Practical Mental Skills Workbook for Student Athletes">
             </div>
         </div>

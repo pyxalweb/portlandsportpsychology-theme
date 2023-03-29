@@ -166,6 +166,19 @@ body {
 .text-11--h2 h2 { @extend %text-11; }
 .text-11--h3 h3 { @extend %text-11; }
 
+// medium font-size on larger viewports, small font-size on small viewports
+%text-12 {
+  font-family: var(--ff-primary);
+  font-size: clamp(var(--fs-400), 2vw, var(--fs-700));
+  font-weight: var(--fw-600);
+  line-height: var(--lh-400);
+  color: var(--c-black);
+}
+.text-12 { @extend %text-12; }
+.text-12--h1 h1 { @extend %text-12; }
+.text-12--h2 h2 { @extend %text-12; }
+.text-12--h3 h3 { @extend %text-12; }
+
 //  Body
 // ***********************************
 

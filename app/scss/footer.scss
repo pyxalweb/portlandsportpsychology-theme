@@ -76,6 +76,10 @@
     text-align: center;
     gap: 3em;
   }
+
+  @media (max-width: $vw-400) {
+    padding-block: 3em;
+  }
 }
 
 
@@ -167,6 +171,10 @@
   border-bottom: 4px solid var(--c-grey-500);
   overflow: hidden;
 
+  @media (max-width: $vw-400) {
+    padding-block: 3em;
+  }
+
   figure {
     display: none;
     margin: 0;
@@ -201,7 +209,7 @@
   }
   
   blockquote {
-    font-size: clamp(var(--fs-800), 5vw, var(--fs-900));
+    font-size: clamp(var(--fs-400), 2vw, var(--fs-900));
     font-style: italic;
     margin-inline: auto;
     margin-bottom: 0.5em;
