@@ -20,7 +20,7 @@ endwhile;
             <div class="svg svg--57h | mb-1 mi-center-child">
                 <?php load_inline_svg('icon-parents.svg'); ?>
             </div>
-            <h1>How to Support Your Student-Athlete</h1>
+            <h1>Waksman's Parenting Tips</h1>
             <div class="mt-1">
                 <p>Support your young athlete's emotional well-being and performance with these five essential parenting strategies.</p>
             </div>
