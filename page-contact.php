@@ -26,7 +26,7 @@ endwhile;
             </div>
         </div>
 
-        <div class="df fd-c jc-e">
+        <div class="df fd-c">
             <div>
                 <div class="df g-clamp-1-3-3 | fd-c-vw200 | text-9--h2 text-9--h3 | mb-2 pb-2 bb-2px-grey-100">
                     <div class="fg-0 fs-1 fb-auto">
