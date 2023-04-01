@@ -36,7 +36,7 @@ endwhile;
         <?php endif; ?>
     </section>
 
-    <section class="content width-df | mb-7 mb-3-vw400 | ta-c-vw200 | list-boxes list-boxes--4 list-boxes--rounded | mt-6 mt-3-vw400 mb-7 mb-3-vw400 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
+    <section class="link-list content width-df | mb-7 mb-3-vw400 | ta-c-vw200 | list-boxes list-boxes--4 list-boxes--rounded | mt-6 mt-3-vw400 mb-7 mb-3-vw400 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;" data-reduce="12">
         <div class="mb-1 ta-c">
             <p>Elliott Waksman is a well-renowned sport pyschologist in the Portland metro area. A few organizations he's worked with include:</p>
         </div>
@@ -98,6 +98,8 @@ endwhile;
             <li>Westview High School</li>
             <li>Willamette University</li>
         </ul>
+
+        <button class="link-list__more">View More</button>
     </section>
 
     <section class="content width-df | quotes | mbl-7 mbl-3-vw400 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
