@@ -30,7 +30,7 @@ endwhile;
                 $url = $image['url'];
                 $alt = $image['alt'];
             ?>
-            <img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="1920" height="500">
+            <img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="676" height="744">
             <?php endif; ?>
         </div>
     </section>
