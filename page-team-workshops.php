@@ -103,41 +103,47 @@ endwhile;
     </section>
 
     <section class="mbl-4 pbl-4 bg-grey-100 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-        <div class="content width-df | text-6--h2 | mb-4 ta-c">
+        <div class="content width-df | text-6--h2 | mb-4 pb-4 ta-c bb-2px-white">
             <h2>Choose A Workshop</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit gravida justo, a aliquet est eleifend id.<br>Suspendisse fermentum leo at turpis ultrices pretium.</p>
+
+            <a href="contact" class="button button--highlight | mi-center mt-2">Schedule Consultation</a>
         </div>
 
-        <div class="content width-df | dg gtc-3 g-clamp-1-3-3 | gtc-1-vw500 | ta-c-vw500 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-            <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+        <div class="content width-df | numbered-content | boxed-content | mb-4 pb-4 ta-c bb-2px-white | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+            <div class="boxed-content__item | bg-white b-2px-grey-100 br-2 bs-300" style="opacity:0;">
                 <h2>Goal Setting</h2>
                 <p>Players will learn the importance of process goals, outline the team's goals for the season, and complete individual S.M.A.R.T. goals. Goal setting locker room posters included.</p>
             </div>
 
-            <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+            <div class="boxed-content__item | bg-white b-2px-grey-100 br-2 bs-300" style="opacity:0;">
                 <h2>Motivation</h2>
                 <p>Learn to dig deep during crunch time by sharing personal, outside-of-the-box motivational stories and designing the visual aid “bag tag”. Individual bag tags included.</p>
             </div>
         
-            <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+            <div class="boxed-content__item | bg-white b-2px-grey-100 br-2 bs-300" style="opacity:0;">
                 <h2>Visualization</h2>
                 <p>Learn to visualize like an Olympian! Players will learn about and practice the five senses of visualization. Personal audio tracks included.</p>
             </div>
 
-            <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+            <div class="boxed-content__item | bg-white b-2px-grey-100 br-2 bs-300" style="opacity:0;">
                 <h2>Mental Toughness</h2>
                 <p>Play to win, as opposed to making mistakes out of fear by defining mental toughness and developing mental toughness strategies. Mental toughness mini posters included.</p>
             </div>
 
-            <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+            <div class="boxed-content__item | bg-white b-2px-grey-100 br-2 bs-300" style="opacity:0;">
                 <h2>Staying Positive</h2>
                 <p>Players will learn to better recognize negative self-talk and learn reframing techniques. Positive affirmation mini posters included.</p>
             </div>
 
-            <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+            <div class="boxed-content__item | bg-white b-2px-grey-100 br-2 bs-300" style="opacity:0;">
                 <h2>Team Building</h2>
                 <p>The group will compete in the strength photo challenge and other hands-on team chemistry activities, which help to unify teams and recognize player roles.</p>
             </div>
+        </div>
+
+        <div class="content width-df | text-6--h2 | ta-c">
+            <a href="contact" class="button button--highlight | mi-center mt-2">Schedule Consultation</a>
         </div>
     </section>
 
@@ -183,30 +189,6 @@ endwhile;
             <img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="1920" height="500">
             <?php endif; ?>
         </div>
-    </section>
-
-    <section class="content width-df | ta-c-vw200 | list-boxes list-boxes--4 list-boxes--rounded | mt-6 mt-3-vw400 mb-7 mb-3-vw400 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-        <div class="mb-1 ta-c">
-            <p>Elliott Waksman is a well-renowned sport pyschologist in the Portland metro area. A few organizations he's worked with include:</p>
-        </div>
-        <ul>
-            <li>Portland State University</li>
-            <li>Nike</li>
-            <li>Willamette University</li>
-            <li>Lewis & Clark College</li>
-            <li>Portland City United Soccer Club</li>
-            <li>Vancouver Tennis Center</li>
-            <li>Skating Club of Oregon High School</li>
-            <li>Concordia University</li>
-            <li>Lakeridge High School</li>
-            <li>Athletes In Motion Baseball Club</li>
-            <li>Multnomah Athletic Club</li>
-            <li>Irvington Tennis Club</li>
-            <li>Lincoln High School</li>
-            <li>Glendale Community College</li>
-            <li>La Salle High School</li>
-            <li><a href="/success-stories">And Many More...</a></li>
-        </ul>
     </section>
 </main>
 

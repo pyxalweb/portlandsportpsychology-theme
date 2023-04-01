@@ -551,6 +551,61 @@ main.site-content {
 
 
 // ***********************************
+//  Numbered Content
+// ***********************************
+.numbered-content {
+  counter-reset: count;
+
+  >div {
+    counter-increment: count;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+
+    &::before {
+      content: counter(count);
+      position: absolute;
+      inset: 50% auto auto 50%;
+      transform: translate(-50%, -50%);
+      color: var(--c-primary);
+      opacity: 0.05;
+      font-family: var(--ff-secondary);
+      font-size: 20rem;
+      font-weight: var(--fw-700);
+      line-height: 1;
+      z-index: -1;
+    }
+  }
+}
+
+
+
+
+// ***********************************
+//  Boxed Content
+// ***********************************
+.boxed-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1em, 3vw, 3em);
+
+  @media (max-width: $vw-500) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.boxed-content__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 2em;
+  height: 100%;
+}
+
+
+
+
+// ***********************************
 //  Quotes
 // ***********************************
 .quotes {
