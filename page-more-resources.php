@@ -38,7 +38,7 @@ endwhile;
 
     <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-7 mbl-3-vw400 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div>
-            <div class="link-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
+            <div class="expandable-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
                 <h2>Video Interviews</h2>
                 <p>Informative video interviews that Elliott has appeared in.</p>
 
@@ -50,11 +50,11 @@ endwhile;
                         <li><a href="https://www.youtube.com/watch?v=ugjqvfG4r2g" target="_blank" rel="noopener">Pro Soccer Player Explains the Life Lessons That Changed Everything</a></li>
                     </ul>
 
-                    <button class="link-list__more">View More</button>
+                    <button class="expandable-list__more">View More</button>
                 </div>
             </div>
 
-            <div class="link-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
+            <div class="expandable-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
                 <h2>Published Articles</h2>
                 <p>Informative articles that Elliott has appeared in.</p>
 
@@ -69,11 +69,11 @@ endwhile;
                         <li><a href="https://www.southeastexaminer.com/2021/05/summer-is-time-to-bust-out-your-pickleball/" target="_blank" rel="noopener">Summer is Time to Bust Out Your Pickleball</a></li>
                     </ul>
 
-                    <button class="link-list__more">View More</button>
+                    <button class="expandable-list__more">View More</button>
                 </div>
             </div>
 
-            <div class="link-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
+            <div class="expandable-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
                 <h2>More Articles & Videos</h2>
                 <p>Sport psychology related articles and videos that Elliott recommends.</p>
 
@@ -94,13 +94,13 @@ endwhile;
                         <li><a href="https://www.youtube.com/watch?v=WO8imsZl1F8&ab_channel=TheFRSHealthyEnergy" target="_blank" rel="noopener">FRS Energy Fuels Tim Tebow (Video)</a></li>
                     </ul>
 
-                    <button class="link-list__more">View More</button>
+                    <button class="expandable-list__more">View More</button>
                 </div>
             </div>
         </div>
 
         <div>
-            <div class="link-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
+            <div class="expandable-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
                 <h2>Radio Interviews</h2>
                 <p>Informative radio interviews that Elliott has appeared in.</p>
 
@@ -117,11 +117,11 @@ endwhile;
                         <li><a href="https://anchor.fm/eric-runge/episodes/Portland-Sports-Psychology---Elliott-Waksman-eko7qj" target="_blank" rel="noopener">Elliott discusses his business on The Veritas Perspective</a></li>
                     </ul>
 
-                    <button class="link-list__more">View More</button>
+                    <button class="expandable-list__more">View More</button>
                 </div>
             </div>
 
-            <div class="link-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
+            <div class="expandable-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
                 <h2>Email Newsletter Archive</h2>
                 <p>Elliott's email newsletter archive which contains tons of useful tips and ideas!</p>
             
@@ -168,7 +168,7 @@ endwhile;
                         <li><a href="/newsletter-archive/a-unique-interview-about-preparing-for-the-big-stage.html">A Unique Interview About Preparing for the Big Stage</a></li>
                     </ul>
 
-                    <button class="link-list__more">View More</button>
+                    <button class="expandable-list__more">View More</button>
                 </div>
             </div>
         </div>

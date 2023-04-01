@@ -359,9 +359,9 @@ main.site-content {
 
 
 // ***********************************
-//  Link List
+//  Expandable List
 // ***********************************
-.link-list {
+.expandable-list {
   margin-bottom: 5em;
 
   &:last-of-type {
@@ -379,12 +379,12 @@ main.site-content {
   }
 }
 
-.link-list {
-  .link-list__hide {
+.expandable-list {
+  .expandable-list__hide {
     display: none;
   }
 
-  .link-list__more {
+  .expandable-list__more {
     @extend %text-button-1;
     text-transform: none;
     margin-inline: auto;

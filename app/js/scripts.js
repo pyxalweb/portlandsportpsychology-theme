@@ -742,10 +742,10 @@ animateScrollSlideVertical.forEach((element) => {
 //  Link List - Reduce
 // ***********************************
 const linkListReduce = () => {
-    // get all '.link-list' elements
-    const linkLists = document.querySelectorAll('.link-list')
+    // get all '.expandable-list' elements
+    const linkLists = document.querySelectorAll('.expandable-list')
 
-    // iterate over each '.link-list' element
+    // iterate over each '.expandable-list' element
     linkLists.forEach((linkList) => {
         // get the number of items to display
         const dataReduce = linkList.dataset.reduce
@@ -756,20 +756,20 @@ const linkListReduce = () => {
         // hide list items that exceed the display limit
         listItems.forEach((item, index) => {
             if (index >= dataReduce) {
-                item.classList.add('link-list__hide')
+                item.classList.add('expandable-list__hide')
             }
         })
 
-        // get all '.link-list__more' elements
-        const moreButtons = linkList.querySelectorAll('.link-list__more')
+        // get all '.expandable-list__more' elements
+        const moreButtons = linkList.querySelectorAll('.expandable-list__more')
 
-        // add click event listener to each '.link-list__more' element
+        // add click event listener to each '.expandable-list__more' element
         moreButtons.forEach((button) => {
             button.addEventListener('click', () => {
                 // show or hide additional list items depending on their current visibility
                 listItems.forEach((item, index) => {
                     if (index >= dataReduce) {
-                        item.classList.toggle('link-list__hide')
+                        item.classList.toggle('expandable-list__hide')
                     }
                 })
 
@@ -779,7 +779,7 @@ const linkListReduce = () => {
                     button.innerHTML = 'View More'
                 }
 
-                // smooth scroll to the top of the link-list element, accounting for the fixed header height
+                // smooth scroll to the top of the expandable-list element, accounting for the fixed header height
                 const headerHeight = parseInt(getComputedStyle(document.querySelector('.header')).getPropertyValue('--header-height')) * 16 // the '.header' height uses the 'em' unit which doesn't work when we use parseInt, so we must multiply by 16 (1em = 16px)
                 const linkListTop = linkList.getBoundingClientRect().top + window.pageYOffset - headerHeight - 32 // subtract a little extra so it isn't flush to the top
                 window.scrollTo({ top: linkListTop, behavior: 'smooth' })
