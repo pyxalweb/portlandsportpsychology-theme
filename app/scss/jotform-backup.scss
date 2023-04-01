@@ -63,12 +63,16 @@
 .form-line .form-label {
     margin: 0;
     padding-left: 1em;
-
+    float: none;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 2;
     color: #000;
+}
+
+[data-type="control_dropdown"] .form-input-wide {
+    width: 100% !important;
 }
 
 div[data-wrapper-react="true"] {
