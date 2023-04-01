@@ -29,66 +29,144 @@ endwhile;
     <section class="content width-df | dg gtc-3 g-clamp-1-3-3 | gtc-1-vw500 | mb-4 | ta-c-vw500 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
             <div class="svg svg--57h | mi-center-vw500">
-                <?php load_inline_svg('icon-graph.svg'); ?>
+                <?php load_inline_svg('icon-light-bulb.svg'); ?>
             </div>
-            <?php echo get_field('box_1'); ?>
-        </div>
-
-        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
-            <div class="svg svg--57h | mi-center-vw500">
-                <?php load_inline_svg('icon-trophy.svg'); ?>
-            </div>
-            <?php echo get_field('box_2'); ?>
-        </div>
-    
-        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
-            <div class="svg svg--57h | mi-center-vw500">
-                <?php load_inline_svg('icon-brain-visualization.svg'); ?>
-            </div>
-            <?php echo get_field('box_3'); ?>
+            <h2>Dynamic Presentations</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit gravida justo, a aliquet est eleifend id. Suspendisse fermentum leo at turpis ultrices pretium.</p>
         </div>
 
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
             <div class="svg svg--57h | mi-center-vw500">
                 <?php load_inline_svg('icon-brain-tough.svg'); ?>
             </div>
-            <?php echo get_field('box_4'); ?>
+            <h2>Mental Skill Techniques</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit gravida justo, a aliquet est eleifend id. Suspendisse fermentum leo at turpis ultrices pretium.</p>
         </div>
 
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
             <div class="svg svg--57h | mi-center-vw500">
-                <?php load_inline_svg('icon-smile.svg'); ?>
+                <?php load_inline_svg('icon-clipboard.svg'); ?>
             </div>
-            <?php echo get_field('box_5'); ?>
+            <h2>Collaboration w/ Coaching Staff</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit gravida justo, a aliquet est eleifend id. Suspendisse fermentum leo at turpis ultrices pretium.</p>
+        </div>
+
+        <!--
+        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+            <div class="svg svg--57h | mi-center-vw500">
+                <?php //load_inline_svg('icon-graph.svg'); ?>
+            </div>
+            <h2>Goal Setting</h2>
+            <p>Players will learn the importance of process goals, outline the team's goals for the season, and complete individual S.M.A.R.T. goals. Goal setting locker room posters included.</p>
         </div>
 
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
             <div class="svg svg--57h | mi-center-vw500">
-                <?php load_inline_svg('icon-mentor.svg'); ?>
+                <?php //load_inline_svg('icon-trophy.svg'); ?>
             </div>
-            <?php echo get_field('box_6'); ?>
+            <h2>Motivation</h2>
+            <p>Learn to dig deep during crunch time by sharing personal, outside-of-the-box motivational stories and designing the visual aid “bag tag”. Individual bag tags included.</p>
+        </div>
+    
+        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+            <div class="svg svg--57h | mi-center-vw500">
+                <?php //load_inline_svg('icon-brain-visualization.svg'); ?>
+            </div>
+            <h2>Visualization</h2>
+            <p>Learn to visualize like an Olympian! Players will learn about and practice the five senses of visualization. Personal audio tracks included.</p>
+        </div>
+
+        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+            <div class="svg svg--57h | mi-center-vw500">
+                <?php //load_inline_svg('icon-brain-tough.svg'); ?>
+            </div>
+            <h2>Mental Toughness</h2>
+            <p>Play to win, as opposed to making mistakes out of fear by defining mental toughness and developing mental toughness strategies. Mental toughness mini posters included.</p>
+        </div>
+
+        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+            <div class="svg svg--57h | mi-center-vw500">
+                <?php //load_inline_svg('icon-smile.svg'); ?>
+            </div>
+            <h2>Staying Positive</h2>
+            <p>Players will learn to better recognize negative self-talk and learn reframing techniques. Positive affirmation mini posters included.</p>
+        </div>
+
+        <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+            <div class="svg svg--57h | mi-center-vw500">
+                <?php //load_inline_svg('icon-mentor.svg'); ?>
+            </div>
+            <h2>Team Building</h2>
+            <p>The group will compete in the strength photo challenge and other hands-on team chemistry activities, which help to unify teams and recognize player roles.</p>
+        </div>
+        -->
+    </section>
+
+    <section class="mbl-4 pbl-4 bg-grey-100 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
+        <div class="content width-df | text-6--h2 | mb-4 ta-c">
+            <h2>Choose A Workshop</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit gravida justo, a aliquet est eleifend id.<br>Suspendisse fermentum leo at turpis ultrices pretium.</p>
+        </div>
+
+        <div class="content width-df | dg gtc-3 g-clamp-1-3-3 | gtc-1-vw500 | ta-c-vw500 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+            <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+                <h2>Goal Setting</h2>
+                <p>Players will learn the importance of process goals, outline the team's goals for the season, and complete individual S.M.A.R.T. goals. Goal setting locker room posters included.</p>
+            </div>
+
+            <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+                <h2>Motivation</h2>
+                <p>Learn to dig deep during crunch time by sharing personal, outside-of-the-box motivational stories and designing the visual aid “bag tag”. Individual bag tags included.</p>
+            </div>
+        
+            <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+                <h2>Visualization</h2>
+                <p>Learn to visualize like an Olympian! Players will learn about and practice the five senses of visualization. Personal audio tracks included.</p>
+            </div>
+
+            <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+                <h2>Mental Toughness</h2>
+                <p>Play to win, as opposed to making mistakes out of fear by defining mental toughness and developing mental toughness strategies. Mental toughness mini posters included.</p>
+            </div>
+
+            <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+                <h2>Staying Positive</h2>
+                <p>Players will learn to better recognize negative self-talk and learn reframing techniques. Positive affirmation mini posters included.</p>
+            </div>
+
+            <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
+                <h2>Team Building</h2>
+                <p>The group will compete in the strength photo challenge and other hands-on team chemistry activities, which help to unify teams and recognize player roles.</p>
+            </div>
         </div>
     </section>
 
     <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-66-33-vw800 | gtc-1-vw500 | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="df fd-c jc-c | mb-1--h2" style="opacity:0;">
             <div>
-                <?php echo get_field('split_content_text_1'); ?>
+                <h2>Building a Winning Team: Workshops for Mental Toughness and Team Culture</h2>
+                <p>Team workshops are dynamic presentations, which introduce mental toughness techniques, strengthen team culture, and improve group communication. Collaboration with the coaching staff on a custom agenda ensures the specific concepts most important to the team are covered. Player folders, mini posters, and audio tracks are provided, which reinforce the workshop's takeaways and remind players to apply the techniques they learned during the workshop. Players learn how to celebrate differences, eliminate jealousy, and recognize that their own unique skills contribute to the team's success.</p>
 
                 <div class="df jc-sb g-1 | jc-s-vw500 g-2-vw500 | fd-c-vw300 ai-c-vw300 | mt-2">
                     <div class="fg-1 fs-1 fb-auto | list">
-                        <?php echo get_field('list_items'); ?>
+                        <ul>
+                            <li>Dynamic presentations</li>
+                            <li>Mental skill techniques</li>
+                            <li>Collaboration w/ coaching staff</li>
+                            <li>Celebrate differences</li>
+                            <li>Eliminate jealousy</li>
+                        </ul>
                     </div>
 
                     <div class="fg-0 fs-0 fb-auto | sale">
                         <div class="text-2">
-                            <p><?php echo get_field('cost'); ?></p>
+                            <p>$350 per workshop</p>
                         </div>
 
                         <a href="/contact" class="button button--highlight">Schedule Consultation</a>
 
                         <div class="text-10">
-                            <p><?php echo get_field('travel_fees'); ?></p>
+                            <p>Additional travel fees may apply</p>
                         </div>
                     </div>
                 </div>
