@@ -565,6 +565,38 @@ main.site-content {
     border: 2px solid var(--c-grey-100);
     border-radius: 2em;
     padding: 2em;
+    position: relative;
+
+    &:before, &:after {
+      position: absolute;
+      font-family: 'icons';
+      font-size: 8rem;
+      font-style: normal;
+      color: var(--c-grey-100);
+      opacity: 1;
+      line-height: 1;
+      z-index: -1;
+    }
+
+    &:before {
+      content: "\E80B";
+      inset: -50px auto auto -50px;
+    }
+    
+    &:after {
+      content: "\E80C";
+      inset: auto -50px -50px auto;
+    }
+
+    @media (max-width: 1520px) {
+      &:before {
+        inset: -10px auto auto -10px;
+      }
+      
+      &:after {
+        inset: auto -10px -10px auto;
+      }
+    }
   }
 
   figcaption {
