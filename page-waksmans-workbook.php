@@ -17,7 +17,7 @@ endwhile;
 
     <section class="content width-df | mbl-7 mbl-3-vw400 ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="list-slideshow | content-slider pagination-text | ta-c">
-            <div class="glide" data-autoplay="5000">
+            <div class="glide" data-autoplay="4000">
                 <div class="glide__track" data-glide-el="track">
                     <ul class="glide__slides">
                         <li class="glide__slide"><h1>A Practical Mental Skills Workbook for Student-Athletes</h1></li>
