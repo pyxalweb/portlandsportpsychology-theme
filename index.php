@@ -82,7 +82,7 @@ get_header();
         </div>
     </section>
 
-    <section class="content-wide | mbl-7 mbl-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
+    <section class="mbl-7 mbl-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw200 g-0-vw200">
             <div class="df fd-c jc-c | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
                 <div class="df fd-c g-1 | text-6--h2 | ta-c-vw200">
