@@ -42,6 +42,65 @@ main.site-content {
 
 
 // ***********************************
+//  Callouts
+// ***********************************
+.callouts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(1em, 3vw, 3em);
+
+  @media (max-width: $vw-500) {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3em;
+    text-align: center;
+  }
+
+  @media (max-width: $vw-200) {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+// callout container
+.callout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+// callout icon
+.callout {
+  .svg {
+    @media (max-width: $vw-500) {
+      margin-inline: auto;
+    }
+  }
+}
+
+// callout text (top)
+.callout__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid var(--c-grey-100);
+}
+
+// callout button
+.callout__button {
+  a {
+    @media (max-width: $vw-500) {
+      margin-inline: auto;
+    }
+  }
+}
+
+
+
+
+// ***********************************
 //  Images
 // ***********************************
 
