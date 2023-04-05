@@ -85,20 +85,20 @@ get_header();
     <section class="mbl-7 mbl-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content-photo | content-photo--gtc-1-vw300 | content width-df">
             <div class="content-photo__container | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
-                <div class="content-photo__text | text-6--h2 | ta-c-vw200">
+                <div class="content-photo__text | text-6--h2 | ta-c-vw300">
                     <div class="svg svg--57h | svg--mi-center-vw300">
                         <?php load_inline_svg('icon-light-bulb.svg'); ?>
                     </div>
                     <h2>Elliott Waksman</h2>
-                    <div class="gap-line | text-7">
+                    <div class="gap-line | gap-line--vw300 | text-7">
                         <p>Waksman helps student-athletes play better and find more enjoyment in their sport.</p>
                     </div>
                     <p>Sport psychology techniques are life skills that every student-athlete can apply to improve their game and quality of life. Confidence, commitment, composure, courage, teamwork, and goal setting are arguably the most important aspects of youth sports and are topics Waksman often addresses in his sessions.</p>
-                    <a href="/about-elliott" aria-label="Learn more about Elliott Waksman" class="button | mi-center-vw200">About Elliott</a>
+                    <a href="/about-elliott" aria-label="Learn more about Elliott Waksman" class="button | mi-center-vw300">About Elliott</a>
                 </div>
             </div>
 
-            <div class="image--maxheight-760 image--circle--vw300 image--position-top--vw200 | pb-3-vw200 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
+            <div class="image--maxheight-760 image--circle--vw300 image--position-top--vw200 | pb-3-vw300 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                 <img src="<?php echo get_template_directory_uri(); ?>/photos/elliott-waksman.jpg" alt="Elliott Waksman - Sport Psychologist in Portland, Oregon">
             </div>
         </div>
@@ -106,7 +106,7 @@ get_header();
 
     <section class="content width-df | mbl-7 mbl-3-vw400 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="dg g-clamp-1-5-5 gtc-25-75 gtc-1-vw300">
-            <div class="ta-c-vw200 | gap-line | text-6--h2">
+            <div class="ta-c-vw200 | gap-line | gap-line--vw200 | text-6--h2">
                 <h2>Experienced & Trusted</h2>
             </div>
 

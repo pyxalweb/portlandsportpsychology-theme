@@ -245,27 +245,6 @@ main.site-content {
 
 
 // ***********************************
-//  Sub Text
-// ***********************************
-.gap-line {
-  &:after {
-    content: '';
-    display: block;
-    width: 30px;
-    height: 1px;
-    background-color: var(--c-black);
-    margin-top: 1.5em;
-
-    @media (max-width: $vw-200) {
-      margin-inline: auto;
-    }
-  }
-}
-
-
-
-
-// ***********************************
 //  Points
 // ***********************************
 .points {

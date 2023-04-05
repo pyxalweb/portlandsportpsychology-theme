@@ -363,6 +363,34 @@ a {
 
 
 // ***********************************
+//  Gap Line
+// ***********************************
+.gap-line {
+  &:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 1px;
+    background-color: var(--c-black);
+    margin-top: 1.5em;
+  }
+
+  @mixin gap-line($vw) {
+    @media (max-width: $vw) {
+      &:after {
+        margin-inline: auto;
+      }
+    }
+  }
+
+  &--vw200 { @include gap-line($vw-200); }
+  &--vw300 { @include gap-line($vw-300); }
+}
+
+
+
+
+// ***********************************
 //  Text Background
 // ***********************************
 .text-background {
