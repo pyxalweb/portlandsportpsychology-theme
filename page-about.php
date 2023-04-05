@@ -15,15 +15,13 @@ endwhile;
 <main id="site-content" <?php post_class($class = 'site-content interior no-masthead | mb-1--h2'); ?>>
     <?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
-    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-7 mbl-3-vw400 ta-c-vw200 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-        <div class="df fd-c">
-            <div>
-                <h1>Empowering Athletes</h1>
-                <?php echo get_field('split_content_text_1'); ?>
-            </div>
+    <section class="content-photo | content-photo--gtc-1-vw500 | content width-df | mt-7 mb-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div style="opacity:0;">
+            <h1>Empowering Athletes</h1>
+            <?php echo get_field('split_content_text_1'); ?>
         </div>
 
-        <div class="image--maxheight-760 image--rounded | image--size-50--vw500 mi-center-child-vw500 | image--circle--vw200 image--position-down--vw200 image--size-100--vw200">
+        <div class="image--maxheight-760 image--rounded | image--size-50--vw500 | mi-center-child-vw500 | image--circle--vw200 image--position-down--vw200 image--size-100--vw200">
             <?php
             $image = get_field('split_content_image_1');
             if ($image):

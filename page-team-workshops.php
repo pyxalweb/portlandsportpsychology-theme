@@ -147,8 +147,8 @@ endwhile;
         </div>
     </section>
 
-    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-66-33-vw800 | gtc-1-vw500 | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="df fd-c jc-c | mb-1--h2" style="opacity:0;">
+    <section class="content-photo | content-photo--gtc-66-33-vw800 | content-photo--gtc-1-vw500 | content width-df | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="content-photo__container | mb-2-vw500 mb-1--h2" style="opacity:0;">
             <div>
                 <h2>Building a Winning Team: Workshops for Mental Toughness and Team Culture</h2>
                 <p>Team workshops are dynamic presentations, which introduce mental toughness techniques, strengthen team culture, and improve group communication. Collaboration with the coaching staff on a custom agenda ensures the specific concepts most important to the team are covered. Player folders, mini posters, and audio tracks are provided, which reinforce the workshop's takeaways and remind players to apply the techniques they learned during the workshop. Players learn how to celebrate differences, eliminate jealousy, and recognize that their own unique skills contribute to the team's success.</p>

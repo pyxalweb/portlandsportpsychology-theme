@@ -198,6 +198,12 @@ main.site-content {
   grid-template-columns: repeat(2, 1fr);
   gap: clamp(1em, 3vw, 3em);
 
+  &--gtc-66-33-vw800 {
+    @media (max-width: $vw-800) {
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+
   @mixin content-photo($vw) {
     @media (max-width: $vw) {
       grid-template-columns: 1fr;
@@ -205,13 +211,12 @@ main.site-content {
     }
   }
 
-  &--gtc-1-vw300 {
-    @include content-photo($vw-300);
-  }
+  &--gtc-1-vw500 { @include content-photo($vw-500); }
 
-  &--gtc-1-vw200 {
-    @include content-photo($vw-200);
-  }
+  &--gtc-1-vw300 { @include content-photo($vw-300); }
+
+  &--gtc-1-vw200 { @include content-photo($vw-200); }
+
 }
 
 // text container

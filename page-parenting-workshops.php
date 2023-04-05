@@ -26,8 +26,8 @@ endwhile;
         <img src="<?php echo get_template_directory_uri(); ?>/assets/logo-icon.svg" alt="" class="content-bg__circle">
     </section>
 
-    <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-66-33-vw800 | gtc-1-vw500 | mb-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="df fd-c jc-c | mb-1--h2" style="opacity:0;">
+    <section class="content-photo | content-photo--gtc-66-33-vw800 | content-photo--gtc-1-vw500 | content width-df | mb-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+        <div class="content-photo__container | mb-2-vw500 mb-1--h2" style="opacity:0;">
             <div>
                 <?php echo get_field('split_content_text_1'); ?>
                 
