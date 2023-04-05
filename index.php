@@ -31,7 +31,7 @@ get_header();
     <section class="callouts | content width-df | mbl-7 mbl-3-vw400 | text-4--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="callout" style="opacity:0;">
             <div class="callout__text | text-0">
-                <div class="svg svg--57h | mi-center-vw200">
+                <div class="svg svg--57h | svg--mi-center-vw800">
                     <?php load_inline_svg('icon-brain.svg'); ?>
                 </div>
                 <h2>Individual Sessions</h2>
@@ -44,7 +44,7 @@ get_header();
 
         <div class="callout" style="opacity:0;">
             <div class="callout__text | text-0">
-                <div class="svg svg--57h | mi-center-vw200">
+                <div class="svg svg--57h | svg--mi-center-vw800">
                     <?php load_inline_svg('icon-clipboard.svg'); ?>
                 </div>
                 <h2>Team Workshops</h2>
@@ -57,7 +57,7 @@ get_header();
 
         <div class="callout" style="opacity:0;">
             <div class="callout__text | text-0">
-                <div class="svg svg--57h | mi-center-vw200">
+                <div class="svg svg--57h | svg--mi-center-vw800">
                     <?php load_inline_svg('icon-parents.svg'); ?>
                 </div>
                 <h2>Parenting Workshops</h2>
@@ -70,7 +70,7 @@ get_header();
 
         <div class="callout" style="opacity:0;">
             <div class="callout__text | text-0">
-                <div class="svg svg--57h | mi-center-vw200">
+                <div class="svg svg--57h | svg--mi-center-vw800">
                     <?php load_inline_svg('icon-mentor.svg'); ?>
                 </div>
                 <h2>Student Mentoring</h2>
@@ -83,10 +83,10 @@ get_header();
     </section>
 
     <section class="mbl-7 mbl-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-        <div class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw200 g-0-vw200">
-            <div class="df fd-c jc-c | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
-                <div class="df fd-c g-1 | text-6--h2 | ta-c-vw200">
-                    <div class="svg svg--57h | mi-center-vw200">
+        <div class="content-photo | content-photo--gtc-1-vw300 | content width-df">
+            <div class="content-photo__container | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
+                <div class="content-photo__text | text-6--h2 | ta-c-vw200">
+                    <div class="svg svg--57h | svg--mi-center-vw300">
                         <?php load_inline_svg('icon-light-bulb.svg'); ?>
                     </div>
                     <h2>Elliott Waksman</h2>
@@ -98,7 +98,7 @@ get_header();
                 </div>
             </div>
 
-            <div class="image--maxheight-760 image--circle--vw200 image--position-top--vw200 | pb-3-vw200 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
+            <div class="image--maxheight-760 image--circle--vw300 image--position-top--vw200 | pb-3-vw200 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                 <img src="<?php echo get_template_directory_uri(); ?>/photos/elliott-waksman.jpg" alt="Elliott Waksman - Sport Psychologist in Portland, Oregon">
             </div>
         </div>

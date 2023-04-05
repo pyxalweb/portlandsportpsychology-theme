@@ -405,6 +405,30 @@ a {
       height: 57px;
     }
   }
+
+  &--mi-center-vw800 {
+    @media (max-width: $vw-800) {
+      svg {
+        margin-inline: auto;
+      }
+    }
+  }
+
+  &--mi-center-vw300 {
+    @media (max-width: $vw-300) {
+      svg {
+        margin-inline: auto;
+      }
+    }
+  }
+
+  &--mi-center-vw200 {
+    @media (max-width: $vw-200) {
+      svg {
+        margin-inline: auto;
+      }
+    }
+  }
 }
 
 
