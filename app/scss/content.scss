@@ -49,7 +49,11 @@ main.site-content {
   grid-template-columns: repeat(4, 1fr);
   gap: clamp(1em, 3vw, 3em);
 
-  @media (max-width: $vw-500) {
+  @media (max-width: $vw-800) {
+    text-align: center;
+  }
+
+  @media (max-width: $vw-600) {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 3em;
     text-align: center;
@@ -72,7 +76,7 @@ main.site-content {
 // callout icon
 .callout {
   .svg {
-    @media (max-width: $vw-500) {
+    @media (max-width: $vw-800) {
       margin-inline: auto;
     }
   }
@@ -91,7 +95,7 @@ main.site-content {
 // callout button
 .callout__button {
   a {
-    @media (max-width: $vw-500) {
+    @media (max-width: $vw-800) {
       margin-inline: auto;
     }
   }
