@@ -48,12 +48,20 @@ main.site-content {
 // *****************
 //  Image Size
 // *****************
-.image--maxheight-760 {
-  img {
-    width: 100%;
-    height: 100%;
-    max-height: 760px;
-    object-fit: cover;
+.image {
+  &--maxheight-760 {
+    img {
+      width: 100%;
+      height: 100%;
+      max-height: 760px;
+      object-fit: cover;
+    }
+  }
+
+  &--maxheight-reset {
+    img {
+      width: auto;
+    }
   }
 }
 
@@ -261,9 +269,8 @@ main.site-content {
 .points__item {
   display: flex;
   gap: clamp(1em, 3vw, 3em);
-  align-items: start;
 
-  @media (max-width: $vw-200) {
+  @media (max-width: $vw-300) {
     flex-direction: column;
   }
 
