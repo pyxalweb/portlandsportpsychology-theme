@@ -54,17 +54,17 @@ endwhile;
             <div>
                 <?php echo get_field('split_content_text_1'); ?>
                 
-                <div class="df jc-sb g-1 | jc-s-vw500 g-2-vw500 | fd-c-vw300 ai-c-vw300 | mt-2">
-                    <div class="fg-1 fs-1 fb-auto | list">
+                <div class="box | mt-2">
+                    <div class="box__item | box__list">
                         <?php echo get_field('list_items'); ?>
                     </div>
 
-                    <div class="fg-0 fs-0 fb-auto | sale">
+                    <div class="box__item | box__sale">
                         <div class="text-2">
                             <p><?php echo get_field('cost'); ?></p>
                         </div>
 
-                        <a href="contact" class="button button--highlight">Schedule Consultation</a>
+                        <a href="contact" class="button button--highlight | mi-center">Schedule Consultation</a>
 
                         <div class="text-10">
                             <p><?php echo get_field('travel_fees'); ?></p>

@@ -153,8 +153,8 @@ endwhile;
                 <h2>Building a Winning Team: Workshops for Mental Toughness and Team Culture</h2>
                 <p>Team workshops are dynamic presentations, which introduce mental toughness techniques, strengthen team culture, and improve group communication. Collaboration with the coaching staff on a custom agenda ensures the specific concepts most important to the team are covered. Player folders, mini posters, and audio tracks are provided, which reinforce the workshop's takeaways and remind players to apply the techniques they learned during the workshop. Players learn how to celebrate differences, eliminate jealousy, and recognize that their own unique skills contribute to the team's success.</p>
 
-                <div class="df jc-sb g-1 | jc-s-vw500 g-2-vw500 | fd-c-vw300 ai-c-vw300 | mt-2">
-                    <div class="fg-1 fs-1 fb-auto | list">
+                <div class="box | mt-2">
+                    <div class="box__item | box__list">
                         <ul>
                             <li>Dynamic presentations</li>
                             <li>Mental skill techniques</li>
@@ -164,12 +164,12 @@ endwhile;
                         </ul>
                     </div>
 
-                    <div class="fg-0 fs-0 fb-auto | sale">
+                    <div class="box__item | box__sale">
                         <div class="text-2">
                             <p>$350 per workshop</p>
                         </div>
 
-                        <a href="/contact" class="button button--highlight">Schedule Consultation</a>
+                        <a href="/contact" class="button button--highlight | mi-center">Schedule Consultation</a>
 
                         <div class="text-10">
                             <p>Additional travel fees may apply</p>
