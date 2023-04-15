@@ -19,7 +19,7 @@ body {
 %text-100 {
   font-family: var(--ff-primary);
   font-size: var(--fs-400);
-  font-weight: var(--fw-400);
+  font-weight: var(--fw-regular);
   line-height: var(--lh-500);
   color: var(--c-grey-400);
 }
@@ -29,7 +29,7 @@ body {
 %text-200 {
   font-family: var(--ff-primary);
   font-size: var(--fs-500);
-  font-weight: var(--fw-400);
+  font-weight: var(--fw-regular);
   line-height: var(--lh-500);
   color: var(--c-grey-400);
 }
@@ -39,7 +39,7 @@ body {
 %text-300 {
   font-family: var(--ff-primary);
   font-size: var(--fs-200);
-  font-weight: var(--fw-400);
+  font-weight: var(--fw-regular);
   line-height: var(--lh-400);
   color: var(--c-grey-300);
   text-transform: uppercase;
@@ -53,7 +53,7 @@ body {
 %text-400 {
   font-family: var(--ff-primary);
   font-size: var(--fs-400);
-  font-weight: var(--fw-700);
+  font-weight: var(--fw-bold);
   line-height: var(--lh-400);
   color: var(--c-black);
   text-transform: uppercase;
@@ -67,7 +67,7 @@ body {
 %text-500 {
   font-family: var(--ff-primary);
   font-size: clamp(var(--fs-500), 5vw, var(--fs-700));
-  font-weight: var(--fw-600);
+  font-weight: var(--fw-semi-bold);
   line-height: var(--lh-400);
   color: var(--c-black);
 }
@@ -80,7 +80,7 @@ body {
 %text-600 {
   font-family: var(--ff-primary);
   font-size: clamp(var(--fs-400), 2vw, var(--fs-700));
-  font-weight: var(--fw-600);
+  font-weight: var(--fw-semi-bold);
   line-height: var(--lh-400);
   color: var(--c-black);
 }
@@ -93,7 +93,7 @@ body {
 %text-700 {
   font-family: var(--ff-primary);
   font-size: var(--fs-500);
-  font-weight: var(--fw-400);
+  font-weight: var(--fw-regular);
   line-height: var(--lh-400);
   font-style: italic;
   color: var(--c-secondary);
@@ -104,7 +104,7 @@ body {
 %text-800 {
   font-family: var(--ff-primary);
   font-size: var(--fs-400);
-  font-weight: var(--fw-700);
+  font-weight: var(--fw-bold);
   line-height: var(--lh-400);
   color: var(--c-secondary);
   text-transform: uppercase;
@@ -118,7 +118,7 @@ body {
 %text-900 {
   font-family: var(--ff-primary);
   font-size: clamp(var(--fs-800), 5vw, var(--fs-1000));
-  font-weight: var(--fw-500);
+  font-weight: var(--fw-medium);
   line-height: var(--lh-400);
   color: var(--c-primary);
 }
@@ -131,7 +131,7 @@ body {
 %text-1000 {
   font-family: var(--ff-primary);
   font-size: clamp(var(--fs-900), 5vw, var(--fs-1100));
-  font-weight: var(--fw-800);
+  font-weight: var(--fw-extra-bold);
   line-height: var(--lh-300);
   color: var(--c-black);
 }
@@ -144,7 +144,7 @@ body {
 %text-1100 {
   font-family: var(--ff-primary);
   font-size: clamp(var(--fs-800), 5vw, var(--fs-1200));
-  font-weight: var(--fw-800);
+  font-weight: var(--fw-extra-bold);
   line-height: var(--lh-100);
   color: var(--c-black);
 }
@@ -159,7 +159,7 @@ body {
 body {
   font-family: var(--ff-primary);
   font-size: var(--root-font-size);
-  font-weight: var(--fw-400);
+  font-weight: var(--fw-regular);
   color: var(--c-black);
 }
 
@@ -183,7 +183,7 @@ h3 {
 }
 
 strong {
-  font-weight: var(--fw-700);
+  font-weight: var(--fw-bold);
 }
 
 em {
@@ -219,7 +219,7 @@ a {
 // ***********************************
 %text-button-1 {
   font-size: var(--fs-400);
-  font-weight: var(--fw-600);
+  font-weight: var(--fw-semi-bold);
   line-height: var(--lh-400);
   text-transform: uppercase;
 }
