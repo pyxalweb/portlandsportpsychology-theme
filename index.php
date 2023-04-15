@@ -28,9 +28,9 @@ get_header();
 </section>
 
 <main id="site-content" class="site-content">
-    <section class="callouts | content width-df | mbl-7 mbl-3-vw400 | text-4--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
+    <section class="callouts | content width-df | mbl-7 mbl-3-vw400 | text-500--h2 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="100%">
         <div class="callout" style="opacity:0;">
-            <div class="callout__text | text-0">
+            <div class="callout__text | text-100">
                 <div class="svg svg--57h | svg--mi-center-vw800">
                     <?php load_inline_svg('icon-brain.svg'); ?>
                 </div>
@@ -43,7 +43,7 @@ get_header();
         </div>
 
         <div class="callout" style="opacity:0;">
-            <div class="callout__text | text-0">
+            <div class="callout__text | text-100">
                 <div class="svg svg--57h | svg--mi-center-vw800">
                     <?php load_inline_svg('icon-clipboard.svg'); ?>
                 </div>
@@ -56,7 +56,7 @@ get_header();
         </div>
 
         <div class="callout" style="opacity:0;">
-            <div class="callout__text | text-0">
+            <div class="callout__text | text-100">
                 <div class="svg svg--57h | svg--mi-center-vw800">
                     <?php load_inline_svg('icon-parents.svg'); ?>
                 </div>
@@ -69,7 +69,7 @@ get_header();
         </div>
 
         <div class="callout" style="opacity:0;">
-            <div class="callout__text | text-0">
+            <div class="callout__text | text-100">
                 <div class="svg svg--57h | svg--mi-center-vw800">
                     <?php load_inline_svg('icon-mentor.svg'); ?>
                 </div>
@@ -85,12 +85,12 @@ get_header();
     <section class="mbl-7 mbl-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content-photo | content-photo--gtc-1-vw300 | content width-df">
             <div class="content-photo__container | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
-                <div class="content-photo__text | text-6--h2 | ta-c-vw300">
+                <div class="content-photo__text | text-1000--h2 | ta-c-vw300">
                     <div class="svg svg--57h | svg--mi-center-vw300">
                         <?php load_inline_svg('icon-light-bulb.svg'); ?>
                     </div>
                     <h2>Elliott Waksman</h2>
-                    <div class="gap-line | gap-line--vw300 | text-7">
+                    <div class="gap-line | gap-line--vw300 | text-700">
                         <p>Waksman helps student-athletes play better and find more enjoyment in their sport.</p>
                     </div>
                     <p>Sport psychology techniques are life skills that every student-athlete can apply to improve their game and quality of life. Confidence, commitment, composure, courage, teamwork, and goal setting are arguably the most important aspects of youth sports and are topics Waksman often addresses in his sessions.</p>
@@ -106,7 +106,7 @@ get_header();
 
     <section class="content width-df | mbl-7 mbl-3-vw400 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="dg g-clamp-1-5-5 gtc-25-75 gtc-1-vw300">
-            <div class="ta-c-vw200 | gap-line | gap-line--vw200 | text-6--h2">
+            <div class="ta-c-vw200 | gap-line | gap-line--vw200 | text-1000--h2">
                 <h2>Experienced & Trusted</h2>
             </div>
 
@@ -127,7 +127,7 @@ get_header();
             </div>
         </div>
 
-        <div class="testimonials | content-slider pagination-text | mbl-5 mbl-3-vw400 | text-12 ta-c">
+        <div class="testimonials | content-slider pagination-text | mbl-5 mbl-3-vw400 | text-600 ta-c">
             <div class="glide" data-autoplay="10000">
                 <div class="glide__track" data-glide-el="track">
                     <div class="glide__slides">
@@ -162,10 +162,10 @@ get_header();
     <section class="mt-7 mt-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content-photo | content-photo--gtc-1-vw300 | content width-df | pt-3-vw300">
             <div class="content-photo__container | o-2 | o-1-vw500 | pbl-5 pbl-3-vw300 pt-0-vw300 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
-                <div class="content-photo__text | ta-c-vw300 | text-6--h2">
+                <div class="content-photo__text | ta-c-vw300 | text-1000--h2">
                     <h2>Waksman's Workbook</h2>
                     
-                    <div class="points | text-4--h3 | mt-1">
+                    <div class="points | text-500--h3 | mt-1">
                         <div class="points__item">
                             <div class="svg svg--57h | mi-center-vw300">
                                 <?php load_inline_svg('icon-smile.svg'); ?>

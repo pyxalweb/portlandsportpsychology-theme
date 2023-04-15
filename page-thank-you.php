@@ -31,7 +31,7 @@ endwhile;
             // Waksman's Workbook - Thank You - Mail
             } elseif (is_page(164)) {
         ?>
-            <div class="text-7 | mb-1 pt-2 bt-2px-grey-100">
+            <div class="text-700 | mb-1 pt-2 bt-2px-grey-100">
                 Or you can pay via PayPal!
             </div>
 

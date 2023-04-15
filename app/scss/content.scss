@@ -7,7 +7,7 @@ main.site-content {
 
   &.interior {
     h1 {
-      @extend %text-6;
+      @extend %text-1000;
     }
   }
 
@@ -553,7 +553,7 @@ main.site-content {
   padding-right: 1em;
 
   ul {
-    @extend %text-0;
+    @extend %text-100;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -598,7 +598,7 @@ main.site-content {
 
     p,
     h2 {
-      @extend %text-11;
+      @extend %text-1000;
       padding-block: 0.1em;
     }
 

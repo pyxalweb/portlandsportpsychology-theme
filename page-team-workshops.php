@@ -103,7 +103,7 @@ endwhile;
     </section>
 
     <section class="mbl-4 pbl-4 bg-grey-100 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-        <div class="content width-df | text-6--h2 | mb-4 pb-4 ta-c bb-2px-white">
+        <div class="content width-df | text-1000--h2 | mb-4 pb-4 ta-c bb-2px-white">
             <h2>Choose A Workshop</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit gravida justo, a aliquet est eleifend id.<br>Suspendisse fermentum leo at turpis ultrices pretium.</p>
 
@@ -142,7 +142,7 @@ endwhile;
             </div>
         </div>
 
-        <div class="content width-df | text-6--h2 | ta-c">
+        <div class="content width-df | text-1000--h2 | ta-c">
             <a href="contact" class="button button--highlight | mi-center mt-2">Schedule Consultation</a>
         </div>
     </section>
@@ -165,13 +165,13 @@ endwhile;
                     </div>
 
                     <div class="box__item | box__sale">
-                        <div class="text-2">
+                        <div class="text-800">
                             <p>$350 per workshop</p>
                         </div>
 
                         <a href="/contact" class="button button--highlight | mi-center">Schedule Consultation</a>
 
-                        <div class="text-10">
+                        <div class="text-300">
                             <p>Additional travel fees may apply</p>
                         </div>
                     </div>

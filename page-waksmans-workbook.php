@@ -42,10 +42,10 @@ endwhile;
     <section class="mt-7 mt-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content-photo | content-photo--gtc-1-vw300 | content width-df | pt-3-vw300">
             <div class="content-photo__container | o-2 | o-1-vw500 | pbl-5 pbl-3-vw400 pt-0-vw300 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
-                <div class="content-photo__text | ta-c-vw300 | text-6--h2">
+                <div class="content-photo__text | ta-c-vw300 | text-1000--h2">
                     <h2>Beyond Physical Training</h2>
                     
-                    <div class="points | text-4--h3 | mt-1">
+                    <div class="points | text-500--h3 | mt-1">
                         <div class="points__item">
                             <div class="svg svg--57h | mi-center-vw300">
                                 <?php load_inline_svg('icon-smile.svg'); ?>
@@ -89,9 +89,9 @@ endwhile;
     </section>
 
     <section class="content width-xs | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%" id="order-now">
-        <div class="mb-2 ta-c | text-6--h2" style="opacity:0;">
+        <div class="mb-2 ta-c | text-1000--h2" style="opacity:0;">
             <h2>Waksman's Workbook</h2>
-            <div class="text-3 text-strike">
+            <div class="text-900 text-strike">
                 <p><span>$30</span></p>
             </div>
             <div class="text-background text-background--grey-100 | mt-05 mb-1 b-2px-grey-200 bs-400 br-1">
@@ -103,7 +103,7 @@ endwhile;
 
     <section class="content width-df | mb-7 mb-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%" id="order-now">
         <div class="df g-clamp-2-5-5 | fd-c-vw500" style="opacity:0;">
-            <div class="fg-1 fs-1 fb-50 | pt-4 ta-c bt-2px-grey-100 | text-4--h3">
+            <div class="fg-1 fs-1 fb-50 | pt-4 ta-c bt-2px-grey-100 | text-500--h3">
                 <h3>28 worksheets to serve as learning tools for student-athletes.</h3>
                 
                 <div class="mt-1 mb-4 pb-4 bb-2px-grey-100">
@@ -127,7 +127,7 @@ endwhile;
             </div>
 
             <div class="fg-1 fs-1 fb-50">
-                <div class="mb-2 ta-c | text-6--h2">
+                <div class="mb-2 ta-c | text-1000--h2">
                     <h2>Order Now!</h2>
                 </div>
                 <script type="text/javascript" src="https://form.jotform.com/jsform/230560584312147"></script>

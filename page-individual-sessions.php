@@ -60,13 +60,13 @@ endwhile;
                     </div>
 
                     <div class="box__item | box__sale">
-                        <div class="text-2">
+                        <div class="text-800">
                             <p><?php echo get_field('cost'); ?></p>
                         </div>
 
                         <a href="contact" class="button button--highlight | mi-center">Schedule Consultation</a>
 
-                        <div class="text-10">
+                        <div class="text-300">
                             <p><?php echo get_field('travel_fees'); ?></p>
                         </div>
                     </div>

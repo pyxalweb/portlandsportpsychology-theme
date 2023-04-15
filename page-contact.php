@@ -25,7 +25,7 @@ endwhile;
         </div>
 
         <div class="df fd-c">
-            <div class="df g-clamp-1-3-3 | fd-c-vw200 | text-9--h2 text-9--h3 | mb-2 pb-2 bb-2px-grey-100">
+            <div class="df g-clamp-1-3-3 | fd-c-vw200 | text-400--h2 text-400--h3 | mb-2 pb-2 bb-2px-grey-100">
                 <div class="fg-0 fs-1 fb-auto">
                     <?php get_template_part( 'template-parts/content', 'info' ); ?>
                 </div>
@@ -39,7 +39,7 @@ endwhile;
             <div class="bb-vw500-2px-grey-100 | mb-2 pb-2 bb-2px-grey-100">
                 <h2>Looking to buy Waksman's Workbook?</h2>
 
-                <div class="df cg-1 | text-9--h2 text-9--h3">
+                <div class="df cg-1 | text-400--h2 text-400--h3">
                     <div class="fg-1 fs-1 fb-auto">
                         <p>A practical mental skills workbook for student-athletes by Elliott Waksman. Improve self-confidence, increase motivation levels, and find success on & off the field!</p>
                         <div class="mt-1">
