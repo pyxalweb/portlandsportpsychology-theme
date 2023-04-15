@@ -42,16 +42,12 @@ body {
   @include text(var(--ff-primary), var(--fs-200), var(--fw-regular), var(--lh-400), var(--c-grey-300), uppercase, normal);
 }
 .text-300 { @extend %text-300; }
-.text-300--h1 h1 { @extend %text-300; }
-.text-300--h2 h2 { @extend %text-300; }
-.text-300--h3 h3 { @extend %text-300; }
 
 // text - black color and bold
 %text-400 {
   @include text(var(--ff-primary), var(--fs-400), var(--fw-bold), var(--lh-400), var(--c-black), uppercase, normal);
 }
 .text-400 { @extend %text-400; }
-.text-400--h1 h1 { @extend %text-400; }
 .text-400--h2 h2 { @extend %text-400; }
 .text-400--h3 h3 { @extend %text-400; }
 
@@ -60,24 +56,14 @@ body {
   @include text(var(--ff-primary), clamp(var(--fs-500), 5vw, var(--fs-700)), var(--fw-semi-bold), var(--lh-400), var(--c-black), none, normal);
 }
 .text-500 { @extend %text-500; }
-.text-500--h1 h1 { @extend %text-500; }
 .text-500--h2 h2 { @extend %text-500; }
 .text-500--h3 h3 { @extend %text-500; }
 
 // medium font-size on larger viewports, small font-size on small viewports
 %text-600 {
   @include text(var(--ff-primary), clamp(var(--fs-400), 2vw, var(--fs-700)), var(--fw-semi-bold), var(--lh-400), var(--c-black), none, normal);
-
-  font-family: var(--ff-primary);
-  font-size: clamp(var(--fs-400), 2vw, var(--fs-700));
-  font-weight: var(--fw-semi-bold);
-  line-height: var(--lh-400);
-  color: var(--c-black);
 }
 .text-600 { @extend %text-600; }
-.text-600--h1 h1 { @extend %text-600; }
-.text-600--h2 h2 { @extend %text-600; }
-.text-600--h3 h3 { @extend %text-600; }
 
 // text - secondary color and italic
 %text-700 {
@@ -90,24 +76,12 @@ body {
   @include text(var(--ff-primary), var(--fs-400), var(--fw-bold), var(--lh-400), var(--c-secondary), uppercase, normal);
 }
 .text-800 { @extend %text-800; }
-.text-800--h1 h1 { @extend %text-800; }
-.text-800--h2 h2 { @extend %text-800; }
-.text-800--h3 h3 { @extend %text-800; }
 
 // heading - large font-size
 %text-900 {
   @include text(var(--ff-primary), clamp(var(--fs-800), 5vw, var(--fs-1000)), var(--fw-medium), var(--lh-400), var(--c-primary), none, normal);
-
-  font-family: var(--ff-primary);
-  font-size: clamp(var(--fs-800), 5vw, var(--fs-1000));
-  font-weight: var(--fw-medium);
-  line-height: var(--lh-400);
-  color: var(--c-primary);
 }
 .text-900 { @extend %text-900; }
-.text-900--h1 h1 { @extend %text-900; }
-.text-900--h2 h2 { @extend %text-900; }
-.text-900--h3 h3 { @extend %text-900; }
 
 // text - medium font-size and bold
 %text-1000 {
@@ -120,9 +94,7 @@ body {
   color: var(--c-black);
 }
 .text-1000 { @extend %text-1000; }
-.text-1000--h1 h1 { @extend %text-1000; }
 .text-1000--h2 h2 { @extend %text-1000; }
-.text-1000--h3 h3 { @extend %text-1000; }
 
 // heading - very large font-size
 %text-1100 {
@@ -135,9 +107,6 @@ body {
   color: var(--c-black);
 }
 .text-1100 { @extend %text-1100; }
-.text-1100--h1 h1 { @extend %text-1100; }
-.text-1100--h2 h2 { @extend %text-1100; }
-.text-1100--h3 h3 { @extend %text-1100; }
 
 //  Body
 // ***********************************
