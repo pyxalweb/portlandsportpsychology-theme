@@ -15,34 +15,31 @@ body {
 //  Text Style Guide
 // ***********************************
 
+@mixin text($family, $size, $weight, $lineHeight, $color, $textTransform, $fontStyle) {
+  font-family: $family;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $lineHeight;
+  color: $color;
+  text-transform: $textTransform;
+  font-style: $fontStyle;
+}
+
 // text - default but smaller
 %text-100 {
-  font-family: var(--ff-primary);
-  font-size: var(--fs-400);
-  font-weight: var(--fw-regular);
-  line-height: var(--lh-500);
-  color: var(--c-grey-400);
+  @include text(var(--ff-primary), var(--fs-400), var(--fw-regular), var(--lh-500), var(--c-grey-400), none, normal);
 }
 .text-100 { @extend %text-100; }
 
 // text - default
 %text-200 {
-  font-family: var(--ff-primary);
-  font-size: var(--fs-500);
-  font-weight: var(--fw-regular);
-  line-height: var(--lh-500);
-  color: var(--c-grey-400);
+  @include text(var(--ff-primary), var(--fs-500), var(--fw-regular), var(--lh-500), var(--c-grey-400), none, normal);
 }
 .text-200 { @extend %text-200; }
 
 // text - grey color and very small
 %text-300 {
-  font-family: var(--ff-primary);
-  font-size: var(--fs-200);
-  font-weight: var(--fw-regular);
-  line-height: var(--lh-400);
-  color: var(--c-grey-300);
-  text-transform: uppercase;
+  @include text(var(--ff-primary), var(--fs-200), var(--fw-regular), var(--lh-400), var(--c-grey-300), uppercase, normal);
 }
 .text-300 { @extend %text-300; }
 .text-300--h1 h1 { @extend %text-300; }
@@ -51,12 +48,7 @@ body {
 
 // text - black color and bold
 %text-400 {
-  font-family: var(--ff-primary);
-  font-size: var(--fs-400);
-  font-weight: var(--fw-bold);
-  line-height: var(--lh-400);
-  color: var(--c-black);
-  text-transform: uppercase;
+  @include text(var(--ff-primary), var(--fs-400), var(--fw-bold), var(--lh-400), var(--c-black), uppercase, normal);
 }
 .text-400 { @extend %text-400; }
 .text-400--h1 h1 { @extend %text-400; }
@@ -65,11 +57,7 @@ body {
 
 // heading - small font-size
 %text-500 {
-  font-family: var(--ff-primary);
-  font-size: clamp(var(--fs-500), 5vw, var(--fs-700));
-  font-weight: var(--fw-semi-bold);
-  line-height: var(--lh-400);
-  color: var(--c-black);
+  @include text(var(--ff-primary), clamp(var(--fs-500), 5vw, var(--fs-700)), var(--fw-semi-bold), var(--lh-400), var(--c-black), none, normal);
 }
 .text-500 { @extend %text-500; }
 .text-500--h1 h1 { @extend %text-500; }
@@ -78,6 +66,8 @@ body {
 
 // medium font-size on larger viewports, small font-size on small viewports
 %text-600 {
+  @include text(var(--ff-primary), clamp(var(--fs-400), 2vw, var(--fs-700)), var(--fw-semi-bold), var(--lh-400), var(--c-black), none, normal);
+
   font-family: var(--ff-primary);
   font-size: clamp(var(--fs-400), 2vw, var(--fs-700));
   font-weight: var(--fw-semi-bold);
@@ -91,23 +81,13 @@ body {
 
 // text - secondary color and italic
 %text-700 {
-  font-family: var(--ff-primary);
-  font-size: var(--fs-500);
-  font-weight: var(--fw-regular);
-  line-height: var(--lh-400);
-  font-style: italic;
-  color: var(--c-secondary);
+  @include text(var(--ff-primary), var(--fs-500), var(--fw-regular), var(--lh-400), var(--c-secondary), none, italic);
 }
 .text-700 { @extend %text-700; }
 
 // text - secondary color and bold
 %text-800 {
-  font-family: var(--ff-primary);
-  font-size: var(--fs-400);
-  font-weight: var(--fw-bold);
-  line-height: var(--lh-400);
-  color: var(--c-secondary);
-  text-transform: uppercase;
+  @include text(var(--ff-primary), var(--fs-400), var(--fw-bold), var(--lh-400), var(--c-secondary), uppercase, normal);
 }
 .text-800 { @extend %text-800; }
 .text-800--h1 h1 { @extend %text-800; }
@@ -116,6 +96,8 @@ body {
 
 // heading - large font-size
 %text-900 {
+  @include text(var(--ff-primary), clamp(var(--fs-800), 5vw, var(--fs-1000)), var(--fw-medium), var(--lh-400), var(--c-primary), none, normal);
+
   font-family: var(--ff-primary);
   font-size: clamp(var(--fs-800), 5vw, var(--fs-1000));
   font-weight: var(--fw-medium);
@@ -129,6 +111,8 @@ body {
 
 // text - medium font-size and bold
 %text-1000 {
+  @include text(var(--ff-primary), clamp(var(--fs-900), 5vw, var(--fs-1100)), var(--fw-extra-bold), var(--lh-300), var(--c-black), none, normal);
+
   font-family: var(--ff-primary);
   font-size: clamp(var(--fs-900), 5vw, var(--fs-1100));
   font-weight: var(--fw-extra-bold);
@@ -142,6 +126,8 @@ body {
 
 // heading - very large font-size
 %text-1100 {
+  @include text(var(--ff-primary), clamp(var(--fs-800), 5vw, var(--fs-1200)), var(--fw-extra-bold), var(--lh-100), var(--c-black), none, normal);
+
   font-family: var(--ff-primary);
   font-size: clamp(var(--fs-800), 5vw, var(--fs-1200));
   font-weight: var(--fw-extra-bold);
