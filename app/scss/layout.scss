@@ -663,6 +663,9 @@ a {
   inset: 0 50% auto auto;
   transform: translateX(50%);
   width: 440px;
+  height: -moz-available;
+  height: -webkit-fill-available;
+  height: fill-available;
   opacity: 0.05;
   z-index: -1;
 }
