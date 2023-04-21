@@ -19,6 +19,8 @@
 <body <?php body_class('preload'); ?>>
 <?php wp_body_open(); ?>
 
+<?php get_template_part( 'template-parts/site', 'skip-nav' ); ?>
+
 <header id="site-header" class="header">
 	<div class="header__container | content width-df">
 		<div class="header__logo">
