@@ -10,7 +10,7 @@
 	<div class="footer__container">
 		<div class="footer__main | content width-df">
 			<div class="footer__address footer__flex">
-				<?php get_template_part( 'template-parts/content', 'info' ); ?>
+				<?php get_template_part( 'template-parts/content', 'contact-info' ); ?>
 			</div>
 
 			<div class="footer__nav footer__flex">
