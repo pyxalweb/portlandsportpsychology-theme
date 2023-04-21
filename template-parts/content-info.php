@@ -1,8 +1,8 @@
-<h2>Elliott Waksman, MA, CMPC</h2>
-<p>Certified Mental Performance Consultant</p>
+<h2><?php echo contact_info_title(); ?></h2>
+<p><?php echo contact_info_tagline(); ?></p>
 <div class="icon icon--address">
-    <address>PO BOX 14044 Portland, OR 97293</address>
+    <address><?php echo contact_info_address(); ?></address>
 </div>
 <div class="icon icon--phone">
-    <a href="tel:15033097215" aria-label="Phone: 5 0 3 3 0 9 7 2 1 5">(503) 309-7215</a>
+    <?php echo contact_info_phone(); ?>
 </div>
