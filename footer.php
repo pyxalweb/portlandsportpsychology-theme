@@ -15,11 +15,6 @@
 
 			<div class="footer__nav footer__flex">
 				<h2>Helpful Links</h2>
-				<!--
-				<ul>
-					<?php // include('inc-navigation-footer.php'); ?>
-				</ul>
-				-->
 				<?php get_template_part( 'template-parts/site', 'navigation-footer' ); ?>
 			</div>
 
