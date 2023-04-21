@@ -48,6 +48,6 @@
 </header>
 
 <div class="thumb-cta">
-    <a href="/contact">Schedule Consultation</a>
-	<a href="/waksmans-workbook">Waksman's Workbook</a>
+    <a href="contact">Schedule Consultation</a>
+	<a href="waksmans-workbook">Waksman's Workbook</a>
 </div>
