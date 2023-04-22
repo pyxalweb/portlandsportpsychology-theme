@@ -1,3 +1,5 @@
+<?php /* Template Name: Homepage */ ?>
+
 <?php
 get_header();
 ?>
@@ -210,6 +212,11 @@ get_header();
         </div>
     </section>
 </main>
+
+<?php
+get_template_part( 'template-parts/admin', 'meta' );
+get_template_part( 'template-parts/admin', 'edit' );
+?>
 
 <?php
 get_footer();
