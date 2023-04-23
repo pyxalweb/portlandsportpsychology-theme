@@ -8,14 +8,14 @@ get_header();
     <div class="masthead__overlay homepage | animate-scroll-fade-in" data-delay="0.5" style="opacity:0;">
         <div class="masthead__overlay__box">
             <div class="masthead__overlay__heading">
-                <h1>Elliott Waksman</h1>
+                <h1><?php echo get_the_title(); ?></h1>
             </div>
             <div class="masthead__overlay__subtext">
-                <p>MA, CMPC</p>
-                <p>Speaker • Author • Consultant</p>
+                <p><?php echo get_field('credentials'); ?></p>
+                <p><?php echo get_field('titles'); ?></p>
             </div>
             <div class="masthead__overlay__text">
-                <p>Improve your focus, confidence, and performance on the field. Schedule your sport psychology consultation today!</p>
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
             </div>
             <div class="masthead__overlay__buttons">
                 <a href="/contact" class="button button--highlight">Schedule Consultation</a>
@@ -36,8 +36,8 @@ get_header();
                 <div class="svg svg--57h | svg--mi-center-vw800">
                     <?php load_inline_svg('icon-brain.svg'); ?>
                 </div>
-                <h2>Individual Sessions</h2>
-                <p>Individual sessions are one-on-one coaching for athletes to develop a personalized mental game plan for peak performance.</p>
+                <h2><?php echo get_field('callout_1_heading'); ?></h2>
+                <p><?php echo get_field('callout_1_paragraph'); ?></p>
             </div>
             <div class="callout__button">
                 <a href="/individual-sessions" aria-label="Learn more about Individual Sessions" class="button">Learn More</a>
@@ -49,8 +49,8 @@ get_header();
                 <div class="svg svg--57h | svg--mi-center-vw800">
                     <?php load_inline_svg('icon-clipboard.svg'); ?>
                 </div>
-                <h2>Team Workshops</h2>
-                <p>Team workshops are dynamic presentations with interactive activities to strengthen the team's culture, resolve issues, and improve communication.</p>
+                <h2><?php echo get_field('callout_2_heading'); ?></h2>
+                <p><?php echo get_field('callout_2_paragraph'); ?></p>
             </div>
             <div class="callout__button">
                 <a href="/team-workshops" aria-label="Learn more about Team Workshops" class="button">Learn More</a>
@@ -62,8 +62,8 @@ get_header();
                 <div class="svg svg--57h | svg--mi-center-vw800">
                     <?php load_inline_svg('icon-parents.svg'); ?>
                 </div>
-                <h2>Parenting Workshops</h2>
-                <p>Parenting workshops provide practical tips for communicating before and after games, and introduce success strategies to support student-athletes.</p>
+                <h2><?php echo get_field('callout_3_heading'); ?></h2>
+                <p><?php echo get_field('callout_3_paragraph'); ?></p>
             </div>
             <div class="callout__button">
                 <a href="/parenting-workshops" aria-label="Learn more about Parenting Workshops" class="button">Learn More</a>
@@ -75,8 +75,8 @@ get_header();
                 <div class="svg svg--57h | svg--mi-center-vw800">
                     <?php load_inline_svg('icon-mentor.svg'); ?>
                 </div>
-                <h2>Student Mentoring</h2>
-                <p>Student mentoring is approved mentorship to earn certified consultant status through the Association for Applied Sport Psychology (AASP).</p>
+                <h2><?php echo get_field('callout_4_heading'); ?></h2>
+                <p><?php echo get_field('callout_4_paragraph'); ?></p>
             </div>
             <div class="callout__button">
                 <a href="/student-mentoring" aria-label="Learn more about Student Mentoring" class="button">Learn More</a>
@@ -91,11 +91,11 @@ get_header();
                     <div class="svg svg--57h | svg--mi-center-vw300">
                         <?php load_inline_svg('icon-light-bulb.svg'); ?>
                     </div>
-                    <h2>Elliott Waksman</h2>
+                    <h2><?php echo get_field('bio_heading'); ?></h2>
                     <div class="gap-line | gap-line--vw300 | text-700">
-                        <p>Waksman helps student-athletes play better and find more enjoyment in their sport.</p>
+                        <p><?php echo get_field('bio_tagline'); ?></p>
                     </div>
-                    <p>Sport psychology techniques are life skills that every student-athlete can apply to improve their game and quality of life. Confidence, commitment, composure, courage, teamwork, and goal setting are arguably the most important aspects of youth sports and are topics Waksman often addresses in his sessions.</p>
+                    <p><?php echo get_field('bio_paragraph'); ?></p>
                     <a href="/about-elliott" aria-label="Learn more about Elliott Waksman" class="button | mi-center-vw300">About Elliott</a>
                 </div>
             </div>
@@ -109,13 +109,14 @@ get_header();
     <section class="content width-df | mbl-7 mbl-3-vw400 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="dg g-clamp-1-5-5 gtc-25-75 gtc-1-vw300">
             <div class="ta-c-vw200 | gap-line | gap-line--vw200 | text-1000--h2">
-                <h2>Experienced & Trusted</h2>
+                <h2><?php echo get_field('testimonials_heading'); ?></h2>
             </div>
 
             <div class="ta-c-vw200 | list-boxes list-boxes--4 list-boxes--rounded">
                 <div class="mb-1">
-                    <p>Elliott Waksman is a well-renowned sport pyschologist in the Portland metro area.<br>A few organizations he's worked with include:</p>
+                    <p><?php echo get_field('testimonials_intro'); ?></p>
                 </div>
+                <?php /*
                 <ul>
                     <li>Nike</li>
                     <li>University of Portland</li>
@@ -124,8 +125,10 @@ get_header();
                     <li>Willamette University</li>
                     <li>Lincoln High School</li>
                     <li>Oregon Athletic Coaches</li>
-                    <li><a href="/success-stories">And Many More...</a></li>
+                    <li><a href="success-stories">And Many More...</a></li>
                 </ul>
+                */ ?>
+                <?php echo get_field('testimonials_list'); ?>
             </div>
         </div>
 
