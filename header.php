@@ -25,7 +25,7 @@
 	<div class="header__container | content width-df">
 		<div class="header__logo">
             <a href="/">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/logo.svg" width="283" height="73" alt="Portland Sport Psychology">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/logo@1x.png" srcset="<?php echo get_template_directory_uri(); ?>/assets/logo@1x.png, <?php echo get_template_directory_uri(); ?>/assets/logo@2x.png 2x" alt="Portland Sport Psychology" width="291" height="60">
             </a>
         </div>
 

@@ -9,9 +9,12 @@ get_header();
         <div class="masthead__overlay__box">
             <div class="masthead__overlay__heading">
                 <h1><?php echo get_the_title(); ?></h1>
+                <div>
+                    <span><?php echo get_field('credentials'); ?></span>
+                </div>
             </div>
             <div class="masthead__overlay__subtext">
-                <p><?php echo get_field('credentials'); ?></p>
+                <p>He / Him</p>
                 <p><?php echo get_field('titles'); ?></p>
             </div>
             <div class="masthead__overlay__text">
@@ -73,7 +76,7 @@ get_header();
         <div class="callout" style="opacity:0;">
             <div class="callout__text | text-100">
                 <div class="svg svg--57h | svg--mi-center-vw800">
-                    <?php load_inline_svg('icon-mentor.svg'); ?>
+                    <?php load_inline_svg('icon-graduation.svg'); ?>
                 </div>
                 <h2><?php echo get_field('callout_4_heading'); ?></h2>
                 <p><?php echo get_field('callout_4_paragraph'); ?></p>
@@ -88,15 +91,12 @@ get_header();
         <div class="content-photo | content-photo--gtc-1-vw300 | content width-df">
             <div class="content-photo__container | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
                 <div class="content-photo__text | text-1000--h2 | ta-c-vw300">
-                    <div class="svg svg--57h | svg--mi-center-vw300">
-                        <?php load_inline_svg('icon-light-bulb.svg'); ?>
-                    </div>
                     <h2><?php echo get_field('bio_heading'); ?></h2>
                     <div class="gap-line | gap-line--vw300 | text-700">
                         <p><?php echo get_field('bio_tagline'); ?></p>
                     </div>
                     <p><?php echo get_field('bio_paragraph'); ?></p>
-                    <a href="/about-elliott" aria-label="Learn more about Elliott Waksman" class="button | mi-center-vw300">About Elliott</a>
+                    <a href="/about-elliott" aria-label="Learn more about Elliott Waksman" class="button | mi-center">About Waksman</a>
                 </div>
             </div>
 
@@ -172,8 +172,8 @@ get_header();
                     
                     <div class="points | text-500--h3 | mt-1">
                         <div class="points__item">
-                            <div class="svg svg--57h | mi-center-vw300">
-                                <?php load_inline_svg('icon-smile.svg'); ?>
+                            <div class="points__icon">
+                                <?php load_inline_svg('icon-dot.svg'); ?>
                             </div>
                             <div class="points__text">
                                 <h3>Improve Self-Confidence</h3>
@@ -182,8 +182,8 @@ get_header();
                         </div>
 
                         <div class="points__item">
-                            <div class="svg svg--57h | mi-center-vw300">
-                                <?php load_inline_svg('icon-trophy.svg'); ?>
+                            <div class="points__icon">
+                                <?php load_inline_svg('icon-dot.svg'); ?>
                             </div>
                             <div class="points__text">
                                 <h3>Increase Motivation Levels</h3>
@@ -192,8 +192,8 @@ get_header();
                         </div>
 
                         <div class="points__item">
-                            <div class="svg svg--57h | mi-center-vw300">
-                                <?php load_inline_svg('icon-graph.svg'); ?>
+                            <div class="points__icon">
+                                <?php load_inline_svg('icon-dot.svg'); ?>
                             </div>
                             <div class="points__text">
                                 <h3>Success On & Off the Field</h3>
@@ -202,7 +202,7 @@ get_header();
                         </div>
                     </div>
 
-                    <a href="/waksmans-workbook" aria-label="Order Waksman's Workbook Now" class="button button--highlight | mt-2-vw300 mi-center-vw300">Order Now</a>
+                    <a href="/waksmans-workbook" aria-label="Order Waksman's Workbook Now" class="button button--highlight | mt-2-vw300 mi-center">Order Now</a>
                 </div>
             </div>
 

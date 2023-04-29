@@ -34,7 +34,7 @@ endwhile;
             </div>
         </div>
 
-        <p>Elliott Waksman's Sport Psychology Program teaches mental skills, which when consistently incorporated, lead to success on and off the field.</p>
+        <p>Waksman's Sport Psychology Program introduces mental skills for success on and off the field.</p>
 
         <a href="#order-now" class="button button--highlight | mi-center mt-2">Order Now</a>
     </section>
@@ -43,12 +43,12 @@ endwhile;
         <div class="content-photo | content-photo--gtc-1-vw300 | content width-df | pt-3-vw300">
             <div class="content-photo__container | o-2 | o-1-vw500 | pbl-5 pbl-3-vw400 pt-0-vw300 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                 <div class="content-photo__text | ta-c-vw300 | text-1000--h2">
-                    <h2>Beyond Physical Training</h2>
+                    <h2>Improve sport performance and learn valuable life skills.</h2>
                     
                     <div class="points | text-500--h3 | mt-1">
                         <div class="points__item">
-                            <div class="svg svg--57h | mi-center-vw300">
-                                <?php load_inline_svg('icon-smile.svg'); ?>
+                            <div class="points__icon">
+                                <?php load_inline_svg('icon-dot.svg'); ?>
                             </div>
                             <div class="points__text">
                                 <h3>Improve Self-Confidence</h3>
@@ -57,8 +57,8 @@ endwhile;
                         </div>
 
                         <div class="points__item">
-                            <div class="svg svg--57h | mi-center-vw300">
-                                <?php load_inline_svg('icon-trophy.svg'); ?>
+                            <div class="points__icon">
+                                <?php load_inline_svg('icon-dot.svg'); ?>
                             </div>
                             <div class="points__text">
                                 <h3>Increase Motivation Levels</h3>
@@ -67,8 +67,8 @@ endwhile;
                         </div>
 
                         <div class="points__item">
-                            <div class="svg svg--57h | mi-center-vw300">
-                                <?php load_inline_svg('icon-graph.svg'); ?>
+                            <div class="points__icon">
+                                <?php load_inline_svg('icon-dot.svg'); ?>
                             </div>
                             <div class="points__text">
                                 <h3>Success On & Off the Field</h3>
@@ -119,7 +119,7 @@ endwhile;
                         <li>Create both outcome and process goals</li>
                         <li>Generate positive self-talk statements</li>
                         <li>Describe how life skills are learned through sport</li>
-                        <li>Incorporate visualization into his/her sport game plan</li>
+                        <li>Incorporate visualization into their sport game plan</li>
                         <li>Maintain a mentally tough approach during training and competition</li>
                         <li>Develop a more healthy, positive perspective regarding sport injury</li>
                     </ul>

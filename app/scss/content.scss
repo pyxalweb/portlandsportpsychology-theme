@@ -268,17 +268,30 @@ main.site-content {
 
 .points__item {
   display: flex;
-  gap: clamp(1em, 3vw, 3em);
+  gap: 1em;
 
   @media (max-width: $vw-300) {
     flex-direction: column;
   }
+}
 
-  .svg {
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 57px;
+.points__icon {
+  flex-grow: 1;
+  flex-shrink: 0;
+  align-self: center;
+
+  svg {
+    width: 12px;
+    height: 12px;
+    
+    fill: var(--c-primary);
   }
+}
+
+.points__text {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%;
 }
 
 

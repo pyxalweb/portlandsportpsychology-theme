@@ -86,12 +86,6 @@ body {
 // text - medium font-size and bold
 %text-1000 {
   @include text(var(--ff-primary), clamp(var(--fs-900), 5vw, var(--fs-1100)), var(--fw-extra-bold), var(--lh-300), var(--c-black), none, normal);
-
-  font-family: var(--ff-primary);
-  font-size: clamp(var(--fs-900), 5vw, var(--fs-1100));
-  font-weight: var(--fw-extra-bold);
-  line-height: var(--lh-300);
-  color: var(--c-black);
 }
 .text-1000 { @extend %text-1000; }
 .text-1000--h2 h2 { @extend %text-1000; }
@@ -99,14 +93,16 @@ body {
 // heading - very large font-size
 %text-1100 {
   @include text(var(--ff-primary), clamp(var(--fs-800), 5vw, var(--fs-1200)), var(--fw-extra-bold), var(--lh-100), var(--c-black), none, normal);
-
-  font-family: var(--ff-primary);
-  font-size: clamp(var(--fs-800), 5vw, var(--fs-1200));
-  font-weight: var(--fw-extra-bold);
-  line-height: var(--lh-100);
-  color: var(--c-black);
 }
 .text-1100 { @extend %text-1100; }
+
+// heading - small font-size
+%text-1200 {
+  @include text(var(--ff-primary), var(--fs-500), var(--fw-semi-bold), var(--lh-400), var(--c-black), none, normal);
+}
+.text-1200 { @extend %text-1200; }
+.text-1200--h2 h2 { @extend %text-1200; }
+.text-1200--h3 h3 { @extend %text-1200; }
 
 //  Body
 // ***********************************
@@ -545,27 +541,34 @@ a {
     }
 
     .masthead__overlay__heading {
-      text-align: center;
+      display: flex;
+      justify-content: center;
+      gap: 0.5em;
 
       h1 {
         @extend %text-1100;
+      }
+
+      span {
+        @extend %text-800;
+        line-height: 1;
+      }
+      
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
       }
     }
 
     .masthead__overlay__subtext {
       @extend %text-800;
-      display: flex;
-      justify-content: space-between;
       padding-inline: 0.25em;
-
-      @media (max-width: $vw-400) {
-        flex-direction: column;
-        align-items: center;
-      }
+      text-align: center;
     }
 
     .masthead__overlay__text {
-      @extend %text-500;
+      @extend %text-1200;
       text-align: center;
       padding-inline: 0.25em;
       margin-block: 1em;
