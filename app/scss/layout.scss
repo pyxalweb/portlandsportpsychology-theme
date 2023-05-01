@@ -27,7 +27,7 @@ body {
 
 // text - default but smaller
 %text-100 {
-  @include text(var(--ff-primary), var(--fs-400), var(--fw-regular), var(--lh-500), var(--c-grey-400), none, normal);
+  @include text(var(--ff-primary), var(--fs-400), var(--fw-regular), var(--lh-400), var(--c-grey-400), none, normal);
 }
 .text-100 { @extend %text-100; }
 
@@ -103,6 +103,13 @@ body {
 .text-1200 { @extend %text-1200; }
 .text-1200--h2 h2 { @extend %text-1200; }
 .text-1200--h3 h3 { @extend %text-1200; }
+
+// text - medium font-size (slightly smaller) and bold
+%text-1300 {
+  @include text(var(--ff-primary), clamp(var(--fs-800), 5vw, var(--fs-900)), var(--fw-semi-bold), var(--lh-300), var(--c-black), none, normal);
+}
+.text-1300 { @extend %text-1300; }
+.text-1300--h2 h2 { @extend %text-1300; }
 
 //  Body
 // ***********************************
@@ -332,6 +339,21 @@ a {
     background-color: var(--c-grey-100);
     color: var(--c-black);
   }
+}
+
+
+
+
+// ***********************************
+//  Stripe Background
+// ***********************************
+.bg--stripe {
+  background: repeating-linear-gradient(0deg, 
+  #E0E0E0 0, #E0E0E0 25%,
+  #E5E5E5 0, #E5E5E5 50%,
+  #EAEAEA 0, #EAEAEA 75%,
+  #EFEFEF 0, #EFEFEF 100%
+  );
 }
 
 

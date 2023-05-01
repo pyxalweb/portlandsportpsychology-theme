@@ -1,4 +1,4 @@
-<?php /* Template Name: Student Mentoring */ ?>
+<?php /* Template Name: Mentoring */ ?>
 
 <?php
 get_header();
@@ -16,9 +16,9 @@ endwhile;
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
     <section class="content width-df | pbl-7 pbl-3-vw400 ta-c | content-bg | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-        <h1>Student Mentoring</h1>
+        <h1>Mentoring</h1>
         <div class="mt-1">
-            <p>Elevate your mental performance consulting career with AASP-certified mentoring services, specializing in student-athletics and leadership development.</p>
+            <p>Waksman's mentoring services are approved mentorship to earn certified consultant status through the Association for Applied Sport Psychology (AASP).</p>
         </div>
 
         <a href="contact" class="button button--highlight | mi-center mt-2">Schedule Consultation</a>
@@ -32,7 +32,8 @@ endwhile;
                 <?php echo get_field('split_content_text_1'); ?>
                 
                 <div class="box | mt-2">
-                    <div class="box__item | box__list">
+                    <div class="box__item | box__list | list--dots">
+                        <h2>Learn More</h2>
                         <?php echo get_field('list_items'); ?>
                     </div>
 
@@ -42,10 +43,6 @@ endwhile;
                         </div>
 
                         <a href="/contact" class="button button--highlight | mi-center">Schedule Consultation</a>
-
-                        <div class="text-300">
-                            <p><?php echo get_field('travel_fees'); ?></p>
-                        </div>
                     </div>
                 </div>
             </div>

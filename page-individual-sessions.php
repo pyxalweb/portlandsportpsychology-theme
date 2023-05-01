@@ -18,33 +18,24 @@ endwhile;
     <section class="content width-df | pbl-7 pbl-3-vw400 ta-c | content-bg | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <h1>Individual Sessions</h1>
         <div class="mt-1">
-            <p>Maximize your athletic potential with tailored and confidential sports psychology services.</p>
+            <p>Individual sessions are one-on-one coaching for athletes & performers to develop a personalized mental game plan for peak performance.</p>
         </div>
 
-        <a href="contact" class="button button--highlight | mi-center mt-2">Schedule Consultation</a>
+        <a href="contact" class="button button--highlight | mi-center mt-2">Schedule your complimentary initial consult today!</a>
 
         <img src="<?php echo get_template_directory_uri(); ?>/assets/logo-icon.svg" alt="" class="content-bg__circle">
     </section>
 
     <section class="content width-df | dg gtc-3 g-clamp-1-3-3 | gtc-1-vw500 | mb-4 | ta-c-vw500 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
-            <div class="svg svg--57h | mi-center-vw500">
-                <?php load_inline_svg('icon-light-bulb.svg'); ?>
-            </div>
             <?php echo get_field('box_1'); ?>
         </div>
 
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
-            <div class="svg svg--57h | mi-center-vw500">
-                <?php load_inline_svg('icon-calendar.svg'); ?>
-            </div>
             <?php echo get_field('box_2'); ?>
         </div>
 
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
-            <div class="svg svg--57h | mi-center-vw500">
-                <?php load_inline_svg('icon-confidential.svg'); ?>
-            </div>
             <?php echo get_field('box_3'); ?>
         </div>
     </section>
@@ -55,7 +46,7 @@ endwhile;
                 <?php echo get_field('split_content_text_1'); ?>
                 
                 <div class="box | mt-2">
-                    <div class="box__item | box__list">
+                    <div class="box__item | box__list | list--dots">
                         <?php echo get_field('list_items'); ?>
                     </div>
 
@@ -65,10 +56,6 @@ endwhile;
                         </div>
 
                         <a href="contact" class="button button--highlight | mi-center">Schedule Consultation</a>
-
-                        <div class="text-300">
-                            <p><?php echo get_field('travel_fees'); ?></p>
-                        </div>
                     </div>
                 </div>
             </div>

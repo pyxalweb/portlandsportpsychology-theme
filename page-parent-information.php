@@ -20,9 +20,9 @@ endwhile;
             <div class="svg svg--57h | mb-1 mi-center-child">
                 <?php load_inline_svg('icon-parents.svg'); ?>
             </div>
-            <h1>Waksman's Parenting Tips</h1>
+            <h1>Waksman's Top Five Parenting Tips</h1>
             <div class="mt-1">
-                <p>Support your young athlete's emotional well-being and performance with these five essential parenting strategies.</p>
+                <p>Sports are a great opportunity to help shape well-rounded young people. Countless positive memories and life lessons are gained every season. Teams and coaches come and go, but parents are often the constant factor. Using these five success strategies, work to support your child this season, as they learn all the wonderful lessons sports offer.</p>
             </div>
         </div>
 
@@ -60,7 +60,7 @@ endwhile;
                 <div class="numbered-item">
                     <h2>Avoid comparing your child to other teammates.</h2>
                     <div class="numbered-item__content">
-                        <p>Every player brings his/her own unique strengths to a team. Even high-level professional teams outline clear player roles and try to highlight what each player brings to the team. Players and coaches often comment on how championship seasons stem from the combination of every player's contributions. Player comparisons create hurt feelings and added pressure, especially at the youth level.</p>
+                        <p>Every player brings their own unique strengths. Even high-level professional teams outline clear player roles and try to highlight what each player brings to the team. Players and coaches often comment on how championship seasons stem from the combination of every player's contributions. Player comparisons create hurt feelings and added pressure, especially at the youth level.</p>
                     </div>
                 </div>
             </li>
@@ -78,8 +78,7 @@ endwhile;
                 <div class="numbered-item">
                     <h2>Use basic, healthy statements.</h2>
                     <div class="numbered-item__content">
-                        <p>Based on psychological research, the three healthiest statements moms and dads can make are: (Before the competition) “Have fun. Play hard. I love you.” (After the competition) “Did you have fun? I'm proud of you. I love you.”</p>
-                        <p>Sports are a great opportunity to help shape well-rounded young people. Countless positive memories and life lessons are gained every season. Teams and coaches come and go, but parents are often the constant factor. Using these five success strategies, work to support your child this season, as they learn all the wonderful lessons sports offer.</p>
+                        <p>Based on psychological research, the three healthiest statements parents can make: (Before the competition) “Have fun. Play hard. I love you.” (After the competition) “Did you have fun? I'm proud of you. I love you.”</p>
                     </div>
                 </div>
             </li>

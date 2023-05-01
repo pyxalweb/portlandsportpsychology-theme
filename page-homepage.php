@@ -21,8 +21,8 @@ get_header();
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
             </div>
             <div class="masthead__overlay__buttons">
-                <a href="/contact" class="button button--highlight">Schedule Consultation</a>
-                <a href="/waksmans-workbook" class="button button--highlight">Waksman's Workbook</a>
+                <a href="contact" class="button button--highlight">Schedule your complimentary initial consult today!</a>
+                <!-- <a href="waksmans-workbook" class="button button--highlight">Waksman's Workbook</a> -->
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@ get_header();
                 <p><?php echo get_field('callout_1_paragraph'); ?></p>
             </div>
             <div class="callout__button">
-                <a href="/individual-sessions" aria-label="Learn more about Individual Sessions" class="button">Learn More</a>
+                <a href="individual-sessions" aria-label="Learn more about Individual Sessions" class="button">Learn More</a>
             </div>
         </div>
 
@@ -56,7 +56,7 @@ get_header();
                 <p><?php echo get_field('callout_2_paragraph'); ?></p>
             </div>
             <div class="callout__button">
-                <a href="/team-workshops" aria-label="Learn more about Team Workshops" class="button">Learn More</a>
+                <a href="team-workshops" aria-label="Learn more about Team Workshops" class="button">Learn More</a>
             </div>
         </div>
 
@@ -69,7 +69,7 @@ get_header();
                 <p><?php echo get_field('callout_3_paragraph'); ?></p>
             </div>
             <div class="callout__button">
-                <a href="/parenting-workshops" aria-label="Learn more about Parenting Workshops" class="button">Learn More</a>
+                <a href="parenting-workshops" aria-label="Learn more about Parenting Workshops" class="button">Learn More</a>
             </div>
         </div>
 
@@ -82,7 +82,7 @@ get_header();
                 <p><?php echo get_field('callout_4_paragraph'); ?></p>
             </div>
             <div class="callout__button">
-                <a href="/student-mentoring" aria-label="Learn more about Student Mentoring" class="button">Learn More</a>
+                <a href="student-mentoring" aria-label="Learn more about Student Mentoring" class="button">Learn More</a>
             </div>
         </div>
     </section>
@@ -96,7 +96,7 @@ get_header();
                         <p><?php echo get_field('bio_tagline'); ?></p>
                     </div>
                     <p><?php echo get_field('bio_paragraph'); ?></p>
-                    <a href="/about-elliott" aria-label="Learn more about Elliott Waksman" class="button | mi-center">About Waksman</a>
+                    <a href="about-elliott" aria-label="Learn more about Elliott Waksman" class="button | mi-center">About Waksman</a>
                 </div>
             </div>
 
@@ -202,7 +202,7 @@ get_header();
                         </div>
                     </div>
 
-                    <a href="/waksmans-workbook" aria-label="Order Waksman's Workbook Now" class="button button--highlight | mt-2-vw300 mi-center">Order Now</a>
+                    <a href="waksmans-workbook" aria-label="Order Waksman's Workbook Now" class="button button--highlight | mt-2-vw300 mi-center">Order Now</a>
                 </div>
             </div>
 

@@ -18,11 +18,11 @@ endwhile;
     <section class="pbl-7 pbl-3-vw400 mb-7 mb-3-vw400 ta-c | content-bg | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content width-df">
             <div class="svg svg--57h | mb-1 mi-center-child">
-                <?php load_inline_svg('icon-smile.svg'); ?>
+                <?php load_inline_svg('icon-graph.svg'); ?>
             </div>
-            <h1>Success Stories & Testimonials</h1>
+            <h1>Success Stories</h1>
             <div class="mt-1">
-                <p>See What Others Are Saying</p>
+                <p>What clients are saying</p>
             </div>
         </div>
 
@@ -38,7 +38,7 @@ endwhile;
 
     <section class="expandable-list content width-df | mb-7 mb-3-vw400 | ta-c-vw200 | list-boxes list-boxes--4 list-boxes--rounded | mt-6 mt-3-vw400 mb-7 mb-3-vw400 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;" data-reduce="12">
         <div class="mb-1 ta-c">
-            <p>Elliott Waksman is a well-renowned sport pyschologist in the Portland metro area. A few organizations he's worked with include:</p>
+            <p>Waksman has presented various mental toughness workshops throughout the Pacific Northwest. Here are the organizations he has presented workshops for.</p>
         </div>
         <ul>
             <li>Advantage Basketball Camps</li>
@@ -78,9 +78,10 @@ endwhile;
             <li>Pan American Taekwondo Union</li>
             <li>Portland City United Soccer</li>
             <li>Portland Community College</li>
-            <li>Portland Jr Hawks Hockey</li>
             <li>Portland Golf Club</li>
+            <li>Portland Jr Hawks Hockey</li>
             <li>Portland State University</li>
+            <li>Portland Thorns</li>
             <li>The Practice Facility</li>
             <li>Providence Hospital</li>
             <li>Skating Club of Oregon</li>
@@ -118,7 +119,8 @@ endwhile;
         <figure>
             <h2>A major role helping us become State Champions.</h2>
             <blockquote>Elliott played a major role helping Jesuit become the 2016 State Champions. We used his visualization audio track as a routine to mentally prepare for games. It was just as valuable as our pregame infield/outfield drills.</blockquote>
-            <figcaption>Colin Griffin, <cite>Head Baseball Coach, Jesuit High School, 2016 Oregon Coach of the Year</cite></figcaption>
+            <figcaption>Colin Griffin, <cite>Head Baseball Coach, Jesuit High School, 2016 and 2019 Oregon coach of the year and 2019 National Coach of the Year
+</cite></figcaption>
         </figure>
 
         <figure>
