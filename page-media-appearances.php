@@ -1,4 +1,4 @@
-<?php /* Template Name: More Resources */ ?>
+<?php /* Template Name: Media Appearances */ ?>
 
 <?php
 get_header();
@@ -18,11 +18,11 @@ endwhile;
     <section class="pbl-7 pbl-3-vw400 mb-7 mb-3-vw400 ta-c | content-bg | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content width-df">
             <div class="svg svg--57h | mb-1 mi-center-child">
-                <?php load_inline_svg('icon-light-bulb.svg'); ?>
+                <?php load_inline_svg('icon-trophy.svg'); ?>
             </div>
-            <h1>Learn More About Sport Psychology</h1>
+            <h1>Waksman's Media Appearances</h1>
             <div class="mt-1">
-                <p>Videos, Radio Shows, Articles, etc!</p>
+                <p>Waksman has been an expert guest on various news outlets, providing insight on student-athletics, sport performance, and sport parenting.<br>Below is a list of his recent media appearances.</p>
             </div>
         </div>
 
@@ -38,46 +38,43 @@ endwhile;
 
     <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-7 mbl-3-vw400 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div>
-            <div class="expandable-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
-                <h2>Video Interviews</h2>
-                <p>Informative video interviews that Elliott has appeared in.</p>
+            <div class="expandable-list | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
+                <h2>TV Interviews</h2>
 
-                <div class="mbl-2 bg-grey-100 p-2 br-2 bs-400">
+                <div class="list--dots | mbl-2 bg-grey-100 p-2 br-2 bs-400">
                     <ul>
-                        <li><a href="https://www.youtube.com/watch?v=zfriDyGCYLo" target="_blank" rel="noopener">Building Mental Toughness w/ Elliott Waksman - The LubDub</a></li>
-                        <li><a href="https://katu.com/afternoon-live/books-authors/sports-parenting-tips" target="_blank" rel="noopener">Sports Parenting Tips - KATU Afternoon Live</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=WVqVSkwj650&ab_channel=ElliottWaksman" target="_blank" rel="noopener">Sports Parenting Tips - KATU AM Northwest</a></li>
+                        <li><a href="https://katu.com/afternoon-live/books-authors/sports-parenting-tips" target="_blank" rel="noopener">KATU Afternoon Live: How to talk to your child's coach</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=WVqVSkwj650&ab_channel=ElliottWaksman" target="_blank" rel="noopener">KATU AM Northwest: Sport Parenting Tips</a></li>
                         <li><a href="https://www.youtube.com/watch?v=ugjqvfG4r2g" target="_blank" rel="noopener">Pro Soccer Player Explains the Life Lessons That Changed Everything</a></li>
-                    </ul>
-
-                    <button class="expandable-list__more">View More</button>
-                </div>
-            </div>
-
-            <div class="expandable-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
-                <h2>Published Articles</h2>
-                <p>Informative articles that Elliott has appeared in.</p>
-
-                <div class="mbl-2 bg-grey-100 p-2 br-2 bs-400">
-                    <ul>
+                        <li><a href="https://katu.com/news/local/sports-psychology-coach-impressed-with-blazers-gutsy-game-7-win" target="_blank" rel="noopener">KATU News: Blazers' Gutsy Game 7 Win</a></li>
+                        <li><a href="https://katu.com/news/local/blazers-fans-stressed-out-after-two-close-games-at-home" target="_blank" rel="noopener">KATU News: Blazers fans stressed out after two close games at home</a></li>
                         <li><a href="https://katu.com/news/local/sports-psychology-coach-impressed-with-blazers-gutsy-game-7-win" target="_blank" rel="noopener">Sports psychology coach impressed with Blazers' gutsy game 7 win</a></li>
-                        <li><a href="https://goviks.com/news/2012/3/26/WGOLF_0326125341.aspx?path=wgolf" target="_blank" rel="noopener">Elliott Waksman Aids Golf Team's Mental Approach To The Game</a></li>
-                        <li><a href="https://katu.com/news/local/blazers-fans-stressed-out-after-two-close-games-at-home" target="_blank" rel="noopener">Blazers fans stressed out after two close games at home</a></li>
-                        <li><a href="https://www.outsideonline.com/health/training-performance/why-you-should-curse-and-scream/" target="_blank" rel="noopener">Why You Should Curse and Scream</a></li>
-                        <li><a href="https://lasallefalconer.com/2015/12/first-year-of-athlete-leadership-team-at-la-salle/" target="_blank" rel="noopener">Athlete Leadership Team Begins Its First Year</a></li>
-                        <li><a href="https://www.oregonlive.com/timbers/2013/11/the_home_field_is_a_real_advan.html" target="_blank" rel="noopener">For the Portland Timbers, home field is a real advantage</a></li>
-                        <li><a href="https://www.southeastexaminer.com/2021/05/summer-is-time-to-bust-out-your-pickleball/" target="_blank" rel="noopener">Summer is Time to Bust Out Your Pickleball</a></li>
                     </ul>
 
                     <button class="expandable-list__more">View More</button>
                 </div>
             </div>
 
-            <div class="expandable-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
-                <h2>More Articles & Videos</h2>
-                <p>Sport psychology related articles and videos that Elliott recommends.</p>
+            <div class="expandable-list | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
+                <h2>Podcast Interviews</h2>
 
-                <div class="mbl-2 bg-grey-100 p-2 br-2 bs-400">
+                <div class="list--dots | mbl-2 bg-grey-100 p-2 br-2 bs-400">
+                    <ul>
+                        <li><a href="https://www.youtube.com/watch?v=zfriDyGCYLo" target="_blank" rel="noopener">The LubDub Podcast: Building Mental Toughness</a></li>
+                        <li><a href="https://anchor.fm/providence0/episodes/You-Have-the-Heart-to-Start-e1ap5h7/a-a6veqn4" target="_blank" rel="noopener">Providence Hospital: Staying Motivated</a></li>
+                        <li><a href="https://anchor.fm/eric-runge/episodes/Portland-Sports-Psychology---Elliott-Waksman-eko7qj" target="_blank" rel="noopener">The Veritas Perspective: Entrepreneurial Lessons</a></li>
+                        <li><a href="https://soundcloud.com/elliott-waksman/waksmans-8202019-podcast " target="_blank" rel="noopener">The Dog Show Mentor: Stress, Performance Strategies, & Mindset</a></li>
+                    </ul>
+
+                    <button class="expandable-list__more">View More</button>
+                </div>
+            </div>
+
+            <div class="expandable-list | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
+                <h2>Additional Sport Psychology Content</h2>
+                <p>Additional content, unaffiliated with Waksman, for enjoyment and learning.</p>
+
+                <div class="list--dots | mbl-2 bg-grey-100 p-2 br-2 bs-400">
                     <ul>
                         <li><a href="https://appliedsportpsych.org/resources/resources-for-parents/eight-tips-for-communicating-with-adolescent-athletes-immediately-after-the-game-win-or-loss/" target="_blank" rel="noopener">8 Tips for Communicating with Adolescent Athletes Immediately after the Game</a></li>
                         <li><a href="https://appliedsportpsych.org/resources/resources-for-parents/keeping-perspective-in-youth-sport/" target="_blank" rel="noopener">Keeping Perspective in Youth Sports</a></li>
@@ -100,40 +97,51 @@ endwhile;
         </div>
 
         <div>
-            <div class="expandable-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
+            <div class="expandable-list | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
                 <h2>Radio Interviews</h2>
-                <p>Informative radio interviews that Elliott has appeared in.</p>
 
-                <div class="mbl-2 bg-grey-100 p-2 br-2 bs-400">
+                <div class="list--dots | mbl-2 bg-grey-100 p-2 br-2 bs-400">
                     <ul>
-                        <li><a href="https://soundcloud.com/elliott-waksman/mental-toughness-tips-to-stay-present-in-the-moment" target="_blank" rel="noopener">Mental Toughness Tips to Stay Present in the Moment</a></li>
-                        <li><a href="https://soundcloud.com/elliott-waksman/waksmans-8202019-podcast " target="_blank" rel="noopener">Stress, Performance Strategies, & Mindset</a></li>
-                        <li><a href="https://soundcloud.com/elliott-waksman/elliott-waksmans-radio-interview-about-simone-biles-at-the-2021-olympics" target="_blank" rel="noopener">Discussing Simone Biles at the 2021 Olympics</a></li>
-                        <li><a href="https://soundcloud.com/elliott-waksman/elliott-waksman_9122020" target="_blank" rel="noopener">Elliott appears on 1080 The Fan in 2020</a></li>
-                        <li><a href="https://soundcloud.com/elliott-waksman/waksmans-golf-interview-may-2018" target="_blank" rel="noopener">Elliott appears on 1080 The Fan in 2018</a></li>
-                        <li><a href="https://soundcloud.com/elliott-waksman/waksmans-radio-interview" target="_blank" rel="noopener">Elliott appears on 1080 The Fan in 2015</a></li>
-                        <li><a href="https://anchor.fm/providence0/episodes/You-Have-the-Heart-to-Start-e1ap5h7/a-a6veqn4" target="_blank" rel="noopener">Elliott appears on Heart to Start by Providence Heart Institute</a></li>
-                        <li><a href="https://soundcloud.com/elliott-waksman/elliott-waksmans-kpam-radio-interview" target="_blank" rel="noopener">The Portland Trail Blazers on KPAM Radio</a></li>
-                        <li><a href="https://anchor.fm/eric-runge/episodes/Portland-Sports-Psychology---Elliott-Waksman-eko7qj" target="_blank" rel="noopener">Elliott discusses his business on The Veritas Perspective</a></li>
+                        <li><a href="https://soundcloud.com/elliott-waksman/mental-toughness-tips-to-stay-present-in-the-moment" target="_blank" rel="noopener">ESPN Radio: Staying Present in the Moment</a></li>
+                        <li><a href="https://soundcloud.com/elliott-waksman/elliott-waksmans-radio-interview-about-simone-biles-at-the-2021-olympics" target="_blank" rel="noopener">The Wolf Radio: Simone Biles 2021 Olympics</a></li>
+                        <li><a href="https://soundcloud.com/elliott-waksman/elliott-waksman_9122020" target="_blank" rel="noopener">ESPN Radio: Mental Toughness Golf</a></li>
+                        <li><a href="https://soundcloud.com/elliott-waksman/waksmans-golf-interview-may-2018" target="_blank" rel="noopener">ESPN Radio: Enjoying sports again</a></li>
+                        <li><a href="https://soundcloud.com/elliott-waksman/waksmans-radio-interview" target="_blank" rel="noopener">ESPN Radio: Pre-Performance Routines</a></li>
+                        <li><a href="https://soundcloud.com/elliott-waksman/elliott-waksmans-kpam-radio-interview" target="_blank" rel="noopener">The Answer Radio: The Blazers' Playoff Mindset</a></li>
                     </ul>
 
                     <button class="expandable-list__more">View More</button>
                 </div>
             </div>
 
-            <div class="expandable-list | ta-c | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
-                <h2>Email Newsletter Archive</h2>
-                <p>Elliott's email newsletter archive which contains tons of useful tips and ideas!</p>
+            <div class="expandable-list | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
+                <h2>Published Articles</h2>
+
+                <div class="list--dots | mbl-2 bg-grey-100 p-2 br-2 bs-400">
+                    <ul>
+                        <li><a href="https://katu.com/news/local/blazers-fans-stressed-out-after-two-close-games-at-home" target="_blank" rel="noopener">Blazers fans stressed out after two close games at home</a></li>
+                        <li><a href="https://www.outsideonline.com/health/training-performance/why-you-should-curse-and-scream/" target="_blank" rel="noopener">Outside Magazine: Why You Should Curse and Scream</a></li>
+                        <li><a href="https://lasallefalconer.com/2015/12/first-year-of-athlete-leadership-team-at-la-salle/" target="_blank" rel="noopener">The LaSalle Falconer: Athlete Leadership Team Begins Its First Year</a></li>
+                        <li><a href="https://goviks.com/news/2012/3/26/WGOLF_0326125341.aspx?path=wgolf" target="_blank" rel="noopener">The Portland State University Vanguard: Waksman Aids Golf Team's Mental Approach To The Game</a></li>
+                        <li><a href="https://www.oregonlive.com/timbers/2013/11/the_home_field_is_a_real_advan.html" target="_blank" rel="noopener">The Oregonian: For the Portland Timbers, home field is a real advantage</a></li>
+                        <li><a href="https://www.southeastexaminer.com/2021/05/summer-is-time-to-bust-out-your-pickleball/" target="_blank" rel="noopener">The Southeast Examiner: Summer is Time to Bust Out Your Pickleball</a></li>
+                    </ul>
+
+                    <button class="expandable-list__more">View More</button>
+                </div>
+            </div>
+
+            <div class="expandable-list | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
+                <h2>Newsletter Archive</h2>
+                <p>Waksman's archive of monthly newsletters introduce mental toughness tips, sport parenting success strategies, and more!</p>
             
-                <div class="mbl-2 bg-grey-100 p-2 br-2 bs-400">
+                <div class="list--dots | mbl-2 bg-grey-100 p-2 br-2 bs-400">
                     <ul>
                         <li><a href="/newsletter-archive/what-helps-student-athletes-thrive-long-term.html">What Helps Student-Athletes Thrive Long-Term</a></li>
 
                         <li><a href="/newsletter-archive/identifying-our-values.html">Identifying Our Values</a></li>
 
                         <li><a href="/newsletter-archive/how-phones-impact-our-performance-and-goals.html">How Phones Impact Our Performance & Goals</a></li>
-
-                        <li><a href="/newsletter-archive/pro-soccer-player-explains-the-life-lessons-that-changed-everything.html">Pro Soccer Player Explains the Life Lessons That Changed Everything</a></li>
 
                         <li><a href="/newsletter-archive/have-we-misconstrued-productivity.html">Have we misconstrued productivity?</a></li>
 

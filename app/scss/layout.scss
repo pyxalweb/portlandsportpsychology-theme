@@ -349,10 +349,9 @@ a {
 // ***********************************
 .bg--stripe {
   background: repeating-linear-gradient(0deg, 
-  #E0E0E0 0, #E0E0E0 25%,
-  #E5E5E5 0, #E5E5E5 50%,
-  #EAEAEA 0, #EAEAEA 75%,
-  #EFEFEF 0, #EFEFEF 100%
+  #E0E0E0 0, #E0E0E0 33.333%,
+  #E5E5E5 0, #E5E5E5 66.666%,
+  #EAEAEA 0, #EAEAEA 99.999%
   );
 }
 
