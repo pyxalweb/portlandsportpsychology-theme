@@ -58,6 +58,7 @@ body {
 .text-500 { @extend %text-500; }
 .text-500--h2 h2 { @extend %text-500; }
 .text-500--h3 h3 { @extend %text-500; }
+.text-500--h4 h4 { @extend %text-500; }
 
 // medium font-size on larger viewports, small font-size on small viewports
 %text-600 {
@@ -93,6 +94,14 @@ body {
 // heading - very large font-size
 %text-1100 {
   @include text(var(--ff-primary), clamp(var(--fs-800), 5vw, var(--fs-1200)), var(--fw-extra-bold), var(--lh-100), var(--c-black), none, normal);
+
+  @media (max-width: $vw-900) {
+    font-size: clamp(var(--fs-900), 4vw, var(--fs-1100));
+  }
+
+  @media (max-width: $vw-400) {
+    font-size: clamp(var(--fs-900), 3vw, var(--fs-1100));
+  }
 }
 .text-1100 { @extend %text-1100; }
 

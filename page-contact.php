@@ -18,8 +18,7 @@ endwhile;
     <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-7 mbl-3-vw400 ta-c-vw200 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="df fd-c">
             <div class="mb-4">
-                <h1>Contact Elliott 👋</h1>
-                <h2>Let's discuss your Sport Psychology needs...</h2>
+                <h1>Contact Elliott Waksman, MA, CMPC today</h1>
             </div>
             <script type="text/javascript" src="https://form.jotform.com/jsform/230519508961056"></script>
         </div>
@@ -37,11 +36,11 @@ endwhile;
             </div>
 
             <div class="bb-vw500-2px-grey-100 | mb-2 pb-2 bb-2px-grey-100">
-                <h2>Looking to buy Waksman's Workbook?</h2>
+                <h2>Improve sport performance and learn valuable life skills</h2>
 
                 <div class="df cg-1 | text-400--h2 text-400--h3">
                     <div class="fg-1 fs-1 fb-auto">
-                        <p>A practical mental skills workbook for student-athletes by Elliott Waksman. Improve self-confidence, increase motivation levels, and find success on & off the field!</p>
+                        <p>Waksman's workbook makes the perfect gift for student-athletes</p>
                         <div class="mt-1">
                             <a href="/waksmans-workbook" aria-label="Order Waksman's Workbook Now" class="button">Order Now</a>
                         </div>
@@ -54,7 +53,14 @@ endwhile;
             </div>
 
             <div class="image--maxheight-760 image--rounded image--circle--vw200">
-                <img src="<?php echo get_template_directory_uri(); ?>/photos/contact.jpg" alt="" width="676" height="280">
+                <?php
+                $image = get_field('image_1');
+                if ($image):
+                    $url = $image['url'];
+                    $alt = $image['alt'];
+                ?>
+                <img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="676" height="280">
+                <?php endif; ?>
             </div>
         </div>
     </section>
