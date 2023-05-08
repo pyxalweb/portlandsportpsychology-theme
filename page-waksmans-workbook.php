@@ -116,7 +116,14 @@ endwhile;
                 <div class="mb-2 ta-c | text-1000--h2">
                     <h2>Order Now!</h2>
                 </div>
+
+                <!-- EW jotform -->
+                <script type="text/javascript" src="https://form.jotform.com/jsform/231268550096155"></script>
+                
+                <!-- AW jotform -->
+                <!--
                 <script type="text/javascript" src="https://form.jotform.com/jsform/230560584312147"></script>
+                -->
             </div>
         </div>
     </section>
