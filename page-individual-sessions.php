@@ -4,21 +4,13 @@
 get_header();
 ?>
 
-<?php
-while ( have_posts() ) :
-	the_post();
-endwhile;
-
-// get_template_part( 'template-parts/content', 'masthead' );
-?>
-
 <main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
     <section class="content width-df | pbl-7 pbl-3-vw400 ta-c | content-bg | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-        <h1>Individual Sessions</h1>
+        <h1><?php echo get_field('heading'); ?></h1>
         <div class="mt-1">
-            <p>Individual sessions are one-on-one coaching for athletes & performers to develop a personalized mental game plan for peak performance.</p>
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
         </div>
 
         <a href="contact" class="button button--highlight | mi-center mt-2">Schedule your complimentary initial consult today!</a>
@@ -28,22 +20,26 @@ endwhile;
 
     <section class="content width-df | dg gtc-3 g-clamp-1-3-3 | gtc-1-vw500 | mb-4 | ta-c-vw500 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
-            <?php echo get_field('box_1'); ?>
+            <h2><?php echo get_field('callout_heading_1'); ?></h2>
+            <p><?php echo get_field('callout_paragraph_1'); ?></p>
         </div>
 
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
-            <?php echo get_field('box_2'); ?>
+            <h2><?php echo get_field('callout_heading_2'); ?></h2>
+            <p><?php echo get_field('callout_paragraph_2'); ?></p>
         </div>
 
         <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
-            <?php echo get_field('box_3'); ?>
+            <h2><?php echo get_field('callout_heading_3'); ?></h2>
+            <p><?php echo get_field('callout_paragraph_3'); ?></p>
         </div>
     </section>
 
     <section class="content-photo | content-photo--gtc-66-33-vw800 | content-photo--gtc-1-vw500 | content width-df | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="content-photo__container | mb-2-vw500 mb-1--h2" style="opacity:0;">
             <div>
-                <?php echo get_field('split_content_text_1'); ?>
+                <h2><?php echo get_field('main_content_heading'); ?></h2>
+                <?php echo get_field('main_content'); ?>
                 
                 <div class="box | mt-2">
                     <div class="box__item | box__list | list--dots">
@@ -73,11 +69,6 @@ endwhile;
         </div>
     </section>
 </main>
-
-<?php
-get_template_part( 'template-parts/admin', 'meta' );
-get_template_part( 'template-parts/admin', 'edit' );
-?>
 
 <?php
 get_footer();

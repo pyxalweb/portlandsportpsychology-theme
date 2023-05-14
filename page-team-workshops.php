@@ -4,21 +4,13 @@
 get_header();
 ?>
 
-<?php
-while ( have_posts() ) :
-	the_post();
-endwhile;
-
-// get_template_part( 'template-parts/content', 'masthead' );
-?>
-
 <main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
 	<?php //get_template_part( 'template-parts/content', 'page' ); ?>
 
     <section class="content width-df | pbl-7 pbl-3-vw400 ta-c | content-bg | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-        <h1>Team Workshops</h1>
+        <h1><?php echo get_field('heading'); ?></h1>
         <div class="mt-1">
-            <p>Team workshops are dynamic presentations with interactive activities to strengthen the team's culture, resolve issues, and improve communication.</p>
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
         </div>
 
         <a href="contact" class="button button--highlight | mi-center mt-2">Schedule your complimentary initial consult today!</a>
@@ -28,7 +20,7 @@ endwhile;
 
     <section class="content width-df | text-1300--h2 text-500--h3 | mb-4">
         <div class="ta-c mb-1 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-            <h2>Team Workshop Objectives</h2>
+            <h2><?php echo get_field('callout_group_heading'); ?></h2>
         </div>
 
         <div class="dg gtc-3 g-clamp-1-3-3 | gtc-1-vw500 | ta-c-vw500 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
@@ -37,64 +29,64 @@ endwhile;
                 <div class="svg svg--57h | mi-center-vw500">
                     <?php load_inline_svg('icon-light-bulb.svg'); ?>
                 </div>
-                <h3>Dynamic Presentations</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit gravida justo, a aliquet est eleifend id. Suspendisse fermentum leo at turpis ultrices pretium.</p>
+                <h3><?php echo get_field('callout_heading_1'); ?></h3>
+                <p><?php echo get_field('callout_paragraph_1'); ?></p>
             </div>
 
             <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
                 <div class="svg svg--57h | mi-center-vw500">
                     <?php load_inline_svg('icon-brain-tough.svg'); ?>
                 </div>
-                <h3>Mental Skill Techniques</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit gravida justo, a aliquet est eleifend id. Suspendisse fermentum leo at turpis ultrices pretium.</p>
+                <h3><?php echo get_field('callout_heading_2'); ?></h3>
+                <p><?php echo get_field('callout_paragraph_2'); ?></p>
             </div>
 
             <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
                 <div class="svg svg--57h | mi-center-vw500">
                     <?php load_inline_svg('icon-clipboard.svg'); ?>
                 </div>
-                <h3>Collaboration w/ Coaching Staff</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit gravida justo, a aliquet est eleifend id. Suspendisse fermentum leo at turpis ultrices pretium.</p>
+                <h3><?php echo get_field('callout_heading_3'); ?></h3>
+                <p><?php echo get_field('callout_paragraph_3'); ?></p>
             </div>
         </div>
     </section>
 
     <section class="mbl-4 pbl-4 bg-grey-100 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content width-df | text-1300--h2 | mb-4 pb-4 ta-c bb-2px-white">
-            <h2>Waksman's Top 6 Workshop Topics to Consider</h2>
+            <h2><?php echo get_field('workshop_topics_group_heading'); ?></h2>
 
             <a href="contact" class="button button--highlight | mi-center mt-2">Schedule Consultation</a>
         </div>
 
         <div class="content width-df | numbered-content | boxed-content | mb-4 pb-4 ta-c bb-2px-white | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
             <div class="boxed-content__item | bg-white b-2px-grey-100 br-2 bs-300" style="opacity:0;">
-                <h2>Goal Setting</h2>
-                <p>Players will learn the importance of process goals, outline the team's goals for the season, and complete individual S.M.A.R.T. goals. Goal setting locker room posters included.</p>
+                <h2><?php echo get_field('workshop_topic_heading_1'); ?></h2>
+                <p><?php echo get_field('workshop_topic_paragraph_1'); ?></p>
             </div>
 
             <div class="boxed-content__item | bg-white b-2px-grey-100 br-2 bs-300" style="opacity:0;">
-                <h2>Motivation</h2>
-                <p>Learn to dig deep during crunch time by sharing personal, outside-of-the-box motivational stories and designing the visual aid “bag tag”. Individual bag tags included.</p>
+                <h2><?php echo get_field('workshop_topic_heading_2'); ?></h2>
+                <p><?php echo get_field('workshop_topic_paragraph_2'); ?></p>
             </div>
         
             <div class="boxed-content__item | bg-white b-2px-grey-100 br-2 bs-300" style="opacity:0;">
-                <h2>Visualization</h2>
-                <p>Learn to visualize like an Olympian! Players will learn about and practice the five senses of visualization. Personal audio tracks included.</p>
+                <h2><?php echo get_field('workshop_topic_heading_3'); ?></h2>
+                <p><?php echo get_field('workshop_topic_paragraph_3'); ?></p>
             </div>
 
             <div class="boxed-content__item | bg-white b-2px-grey-100 br-2 bs-300" style="opacity:0;">
-                <h2>Mental Toughness</h2>
-                <p>Play to win, as opposed to making mistakes out of fear by defining mental toughness and developing mental toughness strategies. Mental toughness mini posters included.</p>
+                <h2><?php echo get_field('workshop_topic_heading_4'); ?></h2>
+                <p><?php echo get_field('workshop_topic_paragraph_4'); ?></p>
             </div>
 
             <div class="boxed-content__item | bg-white b-2px-grey-100 br-2 bs-300" style="opacity:0;">
-                <h2>Staying Positive</h2>
-                <p>Players will learn to better recognize negative self-talk and learn reframing techniques. Positive affirmation mini posters included.</p>
+                <h2><?php echo get_field('workshop_topic_heading_5'); ?></h2>
+                <p><?php echo get_field('workshop_topic_paragraph_5'); ?></p>
             </div>
 
             <div class="boxed-content__item | bg-white b-2px-grey-100 br-2 bs-300" style="opacity:0;">
-                <h2>Team Building</h2>
-                <p>The group will compete in the strength photo challenge and other hands-on team chemistry activities, which help to unify teams and recognize player roles.</p>
+                <h2><?php echo get_field('workshop_topic_heading_6'); ?></h2>
+                <p><?php echo get_field('workshop_topic_paragraph_6'); ?></p>
             </div>
         </div>
 
@@ -106,29 +98,23 @@ endwhile;
     <section class="content-photo | content-photo--gtc-66-33-vw800 | content-photo--gtc-1-vw500 | content width-df | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
         <div class="content-photo__container | mb-2-vw500 mb-1--h2" style="opacity:0;">
             <div>
-                <h2>Getting started is easy!</h2>
-                <p>Team workshops are dynamic presentations, which introduce mental toughness techniques, strengthen team culture, and improve group communication. Collaboration with the coaching staff on a custom agenda ensures the specific concepts most important to the team are covered. Player folders, mini posters, and audio tracks are provided, which reinforce the workshop's takeaways and remind players to apply the techniques they learned during the workshop. Players learn how to celebrate differences, eliminate jealousy, and recognize how their own unique skills contribute to the team's success.</p>
+                <h2><?php echo get_field('main_content_heading'); ?></h2>
+                <?php echo get_field('main_content'); ?>
 
                 <div class="box | mt-2">
                     <div class="box__item | box__list | list--dots">
-                        <ul>
-                            <li>Dynamic presentations</li>
-                            <li>Mental skill techniques</li>
-                            <li>Collaboration w/ coaching staff</li>
-                            <li>Celebrate differences</li>
-                            <li>Eliminate jealousy</li>
-                        </ul>
+                        <?php echo get_field('list_items'); ?>
                     </div>
 
                     <div class="box__item | box__sale">
                         <div class="text-800">
-                            <p>$350 per 60-minute workshop</p>
+                            <p><?php echo get_field('cost'); ?></p>
                         </div>
 
                         <a href="/contact" class="button button--highlight | mi-center">Schedule Consultation</a>
 
                         <div class="text-300">
-                            <p>Additional travel fees may apply</p>
+                            <p><?php echo get_field('travel_fees'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -137,7 +123,7 @@ endwhile;
 
         <div class="image--maxheight-760 image--rounded image--circle--vw200" style="opacity:0;">
             <?php
-            $image = get_field('split_content_image_1');
+            $image = get_field('main_content_image');
             if ($image):
                 $url = $image['url'];
                 $alt = $image['alt'];
@@ -147,11 +133,6 @@ endwhile;
         </div>
     </section>
 </main>
-
-<?php
-get_template_part( 'template-parts/admin', 'meta' );
-get_template_part( 'template-parts/admin', 'edit' );
-?>
 
 <?php
 get_footer();

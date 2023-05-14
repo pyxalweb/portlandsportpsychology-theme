@@ -14,7 +14,7 @@ get_header();
                 </div>
             </div>
             <div class="masthead__overlay__subtext">
-                <p>He / Him</p>
+                <p></p>
                 <p><?php echo get_field('titles'); ?></p>
             </div>
             <div class="masthead__overlay__text">
@@ -116,18 +116,6 @@ get_header();
                 <div class="mb-1">
                     <p><?php echo get_field('testimonials_intro'); ?></p>
                 </div>
-                <?php /*
-                <ul>
-                    <li>Nike</li>
-                    <li>University of Portland</li>
-                    <li>Portland State University</li>
-                    <li>Jesuit High School</li>
-                    <li>Willamette University</li>
-                    <li>Lincoln High School</li>
-                    <li>Oregon Athletic Coaches</li>
-                    <li><a href="success-stories">And Many More...</a></li>
-                </ul>
-                */ ?>
                 <?php echo get_field('testimonials_list'); ?>
             </div>
         </div>
@@ -137,23 +125,23 @@ get_header();
                 <div class="glide__track" data-glide-el="track">
                     <div class="glide__slides">
                         <figure class="testimonials__item | glide__slide">
-                            <blockquote>I've been coaching for 15 years, and the number one thing athletes lack in their training is the practice of their mental game. Elliott immediately made an impact on how our players perceived sport psychology and how they worked on their mental toughness. Without a doubt, Elliott was a major part of our success this year. We set a school record with seven wins and four top five finishes.</blockquote>
-                            <figcaption>Patrick Daugherty, <cite>Head Golf Coach, Willamette University</cite></figcaption>
+                            <blockquote><?php echo get_field('testimonial_quote_1'); ?></blockquote>
+                            <figcaption><?php echo get_field('testimonial_name_1'); ?>, <cite><?php echo get_field('testimonial_organization_1'); ?></cite></figcaption>
                         </figure>
 
                         <figure class="testimonials__item | glide__slide">
-                            <blockquote>Elliott played a direct and significant role in our success this past season by helping to create a strong chemistry and providing our players with the tools to build their confidence and be prepared to face adversity.</blockquote>
-                            <figcaption>Pat Coons, <cite>Head Boys Basketball Coach, Westview High School, 2010 Oregon Coach of the Year</cite></figcaption>
+                            <blockquote><?php echo get_field('testimonial_quote_2'); ?></blockquote>
+                            <figcaption><?php echo get_field('testimonial_name_2'); ?>, <cite><?php echo get_field('testimonial_organization_2'); ?></cite></figcaption>
                         </figure>
 
                         <figure class="testimonials__item | glide__slide">
-                            <blockquote>Elliott played a major role helping Jesuit become the 2016 State Champions. We used his visualization audio track as a routine to mentally prepare for games. It was just as valuable as our pregame infield/outfield drills.</blockquote>
-                            <figcaption>Colin Griffin, <cite>Head Baseball Coach, Jesuit High School, 2016 Oregon Coach of the Year</cite></figcaption>
+                            <blockquote><?php echo get_field('testimonial_quote_3'); ?></blockquote>
+                            <figcaption><?php echo get_field('testimonial_name_3'); ?>, <cite><?php echo get_field('testimonial_organization_3'); ?></cite></figcaption>
                         </figure>
 
                         <figure class="testimonials__item | glide__slide">
-                            <blockquote>Scott read and filled out your workbook and said it changed his life. He takes it with him to all his tournaments.</blockquote>
-                            <figcaption>Alice, <cite>Sport Mother, La Salle High School, Milwaukie, Oregon</cite></figcaption>
+                            <blockquote><?php echo get_field('testimonial_quote_4'); ?></blockquote>
+                            <figcaption><?php echo get_field('testimonial_name_4'); ?>, <cite><?php echo get_field('testimonial_organization_4'); ?></cite></figcaption>
                         </figure>
                     </div>
 
@@ -168,7 +156,7 @@ get_header();
         <div class="content-photo | content-photo--gtc-1-vw300 | content width-df | pt-3-vw300">
             <div class="content-photo__container | o-2 | o-1-vw500 | pbl-5 pbl-3-vw300 pt-0-vw300 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                 <div class="content-photo__text | ta-c-vw300 | text-1000--h2">
-                    <h2>Waksman's Workbook</h2>
+                    <h2><?php echo get_field('product_heading'); ?></h2>
                     
                     <div class="points | text-500--h3 | mt-1">
                         <div class="points__item">
@@ -176,8 +164,8 @@ get_header();
                                 <?php load_inline_svg('icon-dot.svg'); ?>
                             </div>
                             <div class="points__text">
-                                <h3>Improve Self-Confidence</h3>
-                                <p>Learn practical techniques to bounce back from mistakes and build self-confidence.</p>
+                                <h3><?php echo get_field('product_bullet_heading_1'); ?></h3>
+                                <p><?php echo get_field('product_bullet_description_1'); ?></p>
                             </div>
                         </div>
 
@@ -186,8 +174,8 @@ get_header();
                                 <?php load_inline_svg('icon-dot.svg'); ?>
                             </div>
                             <div class="points__text">
-                                <h3>Increase Motivation Levels</h3>
-                                <p>Fun exercises, like Waksman's "bag-tag" technique spark persistence and motivation.</p>
+                                <h3><?php echo get_field('product_bullet_heading_2'); ?></h3>
+                                <p><?php echo get_field('product_bullet_description_2'); ?></p>
                             </div>
                         </div>
 
@@ -196,8 +184,8 @@ get_header();
                                 <?php load_inline_svg('icon-dot.svg'); ?>
                             </div>
                             <div class="points__text">
-                                <h3>Success On & Off the Field</h3>
-                                <p>Grit and mental toughness are life skills every student-athlete can learn to improve their game and quality of life.</p>
+                                <h3><?php echo get_field('product_bullet_heading_3'); ?></h3>
+                                <p><?php echo get_field('product_bullet_description_3'); ?></p>
                             </div>
                         </div>
                     </div>
@@ -215,11 +203,6 @@ get_header();
         </div>
     </section>
 </main>
-
-<?php
-get_template_part( 'template-parts/admin', 'meta' );
-get_template_part( 'template-parts/admin', 'edit' );
-?>
 
 <?php
 get_footer();

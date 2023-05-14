@@ -4,26 +4,16 @@
 get_header();
 ?>
 
-<?php
-while ( have_posts() ) :
-	the_post();
-endwhile;
-
-// get_template_part( 'template-parts/content', 'masthead' );
-?>
-
 <main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
-    <?php //get_template_part( 'template-parts/content', 'page' ); ?>
-
     <section class="content-photo | content-photo--gtc-1-vw500 | content width-df | mbl-7 mbl-4 mb-1--h2 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div>
-            <h1>Waksman has worked in the field of sport psychology since 2010, helping individuals and groups boost their mental toughness.</h1>
-            <?php echo get_field('split_content_text_1'); ?>
+            <h1><?php echo get_field('heading'); ?></h1>
+            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
         </div>
 
         <div class="image--maxheight-936 image--rounded | image--size-50--vw500 | mi-center-child-vw500 | image--circle--vw200 image--position-down--vw200 image--size-100--vw200">
             <?php
-            $image = get_field('split_content_image_1');
+            $image = get_field('image_1');
             if ($image):
                 $url = $image['url'];
                 $alt = $image['alt'];
@@ -36,7 +26,7 @@ endwhile;
     <section class="content width-df | dg gtc-2 g-clamp-1-3-3 | gtc-1-vw500 | mbl-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="df fd-c jc-c | o-2 | o-1-vw500">
             <div>
-                <?php echo get_field('split_content_text_2'); ?>
+                <?php echo get_field('content_1'); ?>
             </div>
         </div>
 
@@ -66,14 +56,13 @@ endwhile;
     </section>
 
     <div class="content width-df | mbl-4 animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-        <p>If you are not meeting with Waksman in a professional setting, you will most likely find him on his yoga mat, cheering on the Blazers, defending his co-ed kickball championship, or laughing alongside his playful dog, Paisley, and wonderful wife, Camille, in Portland, Oregon.</p>
+        <?php echo get_field('content_2'); ?>
     </div>
 
     <section class="content width-df | mbl-4 animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="text-500--h4 | dg gtc-3 g-clamp-1-3-3 | gtc-1-vw500">
             <div class="text-1000--h2">
-                <h2>Meet Waksman's Office Manager</h2>
-                <h3>Paisley - Ball is life since 2017</h3>
+                <?php echo get_field('content_3'); ?>
             </div>
             <div class="image--rounded | mi-center-child-vw500">
                 <?php
@@ -86,31 +75,13 @@ endwhile;
                 <?php endif; ?>
             </div>
             <div class="list--color | bg-grey-100 bs-400 br-2 p-2">
-                <h4>Likes</h4>
-                <ul>
-                    <li>Peanut butter</li>
-                    <li>Brooms</li>
-                    <li>Mid-morning naps</li>
-                    <li>Fetch</li>
-                </ul>
+                <?php echo get_field('box_5_a'); ?>
                 <br>
-
-                <h4>Dislikes</h4>
-                <ul>
-                    <li>Fireworks</li>
-                    <li>Swimming</li>
-                    <li>Motorcycles</li>
-                    <li>Monday morning alarms</li>
-                </ul>
+                <?php echo get_field('box_5_b'); ?>
             </div>
         </div>
     </section>
 </main>
-
-<?php
-get_template_part( 'template-parts/admin', 'meta' );
-get_template_part( 'template-parts/admin', 'edit' );
-?>
 
 <?php
 get_footer();
