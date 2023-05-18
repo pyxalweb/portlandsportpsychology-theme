@@ -82,12 +82,12 @@ get_header();
                 <p><?php echo get_field('callout_4_paragraph'); ?></p>
             </div>
             <div class="callout__button">
-                <a href="student-mentoring" aria-label="Learn more about Student Mentoring" class="button">Learn More</a>
+                <a href="mentoring" aria-label="Learn more about Student Mentoring" class="button">Learn More</a>
             </div>
         </div>
     </section>
 
-    <section class="mbl-7 mbl-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
+    <section class="mbl-7 mbl-3-vw400 bg--stripe | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content-photo | content-photo--gtc-1-vw300 | content width-df">
             <div class="content-photo__container | pbl-5 pbl-3-vw400 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
                 <div class="content-photo__text | text-1000--h2 | ta-c-vw300">
@@ -100,8 +100,15 @@ get_header();
                 </div>
             </div>
 
-            <div class="image--maxheight-760 image--circle--vw300 image--position-top--vw200 | pb-3-vw300 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
-                <img src="<?php echo get_template_directory_uri(); ?>/photos/elliott-waksman.jpg" alt="Elliott Waksman - Sport Psychologist in Portland, Oregon">
+            <div class="image image--circle--vw300 image--position-top--vw200 | pb-3-vw300 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
+                <?php
+                $image = get_field('image_1');
+                if ($image):
+                    $url = $image['url'];
+                    $alt = $image['alt'];
+                ?>
+                <img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="680" height="640">
+                <?php endif; ?>
             </div>
         </div>
     </section>
@@ -152,7 +159,7 @@ get_header();
         </div>
     </section>
 
-    <section class="mt-7 mt-3-vw400 bg-grey-swoop | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
+    <section class="mt-7 mt-3-vw400 bg--stripe | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content-photo | content-photo--gtc-1-vw300 | content width-df | pt-3-vw300">
             <div class="content-photo__container | o-2 | o-1-vw500 | pbl-5 pbl-3-vw300 pt-0-vw300 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                 <div class="content-photo__text | ta-c-vw300 | text-1000--h2">
@@ -196,8 +203,8 @@ get_header();
 
             <div class="content-photo__container | image--maxheight-760 | image--maxheight-reset | image--objectfit--scaledown | animate-scroll-slide-horizontal | mi-center-child | pt-4-vw300" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
                 <picture>
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/photos/waksmans-sport-psychology-workbook-no-shadow.png" type="image/png" media="(max-width: 800px)">
-                    <img src="<?php echo get_template_directory_uri(); ?>/photos/waksmans-sport-psychology-workbook.png" alt="Waksman's Sport Psychology Program: A Practical Mental Skills Workbook for Student Athletes">
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/waksmans-sport-psychology-workbook-no-shadow.png" type="image/png" media="(max-width: 800px)">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/waksmans-sport-psychology-workbook.png" alt="Waksman's Sport Psychology Program: A Practical Mental Skills Workbook for Student Athletes">
                 </picture>
             </div>
         </div>

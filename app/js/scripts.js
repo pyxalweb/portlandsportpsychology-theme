@@ -442,6 +442,8 @@ if (glideElement) {
                 const bullet = document.createElement('button')
                 bullet.classList.add('glide__bullet')
                 bullet.setAttribute("data-glide-dir", '=' + glideCount)
+                // add aria-label attribute to bullet with value of 'Slide X'
+                bullet.setAttribute("aria-label", 'Slide ' + (glideCount + 1))
                 const glideBullets = glide.querySelector('.glide__bullets')
                 glideBullets.appendChild(bullet)
                 glideCount++

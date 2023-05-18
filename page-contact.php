@@ -44,7 +44,7 @@ get_header();
                     </div>
 
                     <div class="fg-1 fs-0 fb-auto">
-                        <img src="<?php echo get_template_directory_uri(); ?>/photos/waksmans-sport-psychology-workbook.png" alt="Waksman's Sport Psychology Program: A Practical Mental Skills Workbook for Student Athletes" width="144" height="190">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/waksmans-sport-psychology-workbook-small.png" alt="Waksman's Sport Psychology Program: A Practical Mental Skills Workbook for Student Athletes" width="144" height="189">
                     </div>
                 </div>
             </div>
