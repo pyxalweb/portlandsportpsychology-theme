@@ -43,7 +43,7 @@ get_header();
                 <p><?php echo get_field('callout_1_paragraph'); ?></p>
             </div>
             <div class="callout__button">
-                <a href="individual-sessions" aria-label="Learn more about Individual Sessions" class="button">Learn More</a>
+                <a href="individual-sessions" aria-label="Learn more about Individual Sessions" class="button">Get Started</a>
             </div>
         </div>
 
@@ -56,7 +56,7 @@ get_header();
                 <p><?php echo get_field('callout_2_paragraph'); ?></p>
             </div>
             <div class="callout__button">
-                <a href="team-workshops" aria-label="Learn more about Team Workshops" class="button">Learn More</a>
+                <a href="team-workshops" aria-label="Learn more about Team Workshops" class="button">Get Started</a>
             </div>
         </div>
 
@@ -69,7 +69,7 @@ get_header();
                 <p><?php echo get_field('callout_3_paragraph'); ?></p>
             </div>
             <div class="callout__button">
-                <a href="parenting-workshops" aria-label="Learn more about Parenting Workshops" class="button">Learn More</a>
+                <a href="parenting-workshops" aria-label="Learn more about Parenting Workshops" class="button">Get Started</a>
             </div>
         </div>
 
@@ -82,7 +82,7 @@ get_header();
                 <p><?php echo get_field('callout_4_paragraph'); ?></p>
             </div>
             <div class="callout__button">
-                <a href="mentoring" aria-label="Learn more about Student Mentoring" class="button">Learn More</a>
+                <a href="mentoring" aria-label="Learn more about Student Mentoring" class="button">Get Started</a>
             </div>
         </div>
     </section>
@@ -204,7 +204,7 @@ get_header();
             <div class="content-photo__container | image--maxheight-760 | image--maxheight-reset | image--objectfit--scaledown | animate-scroll-slide-horizontal | mi-center-child | pt-4-vw300" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
                 <picture>
                     <source srcset="<?php echo get_template_directory_uri(); ?>/assets/waksmans-sport-psychology-workbook-no-shadow.png" type="image/png" media="(max-width: 800px)">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/waksmans-sport-psychology-workbook.png" alt="Waksman's Sport Psychology Program: A Practical Mental Skills Workbook for Student Athletes">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/waksmans-sport-psychology-workbook.png" alt="Waksman's Sport Psychology Program: A Practical Mental Skills Workbook for Student Athletes" width="676" height="760">
                 </picture>
             </div>
         </div>
