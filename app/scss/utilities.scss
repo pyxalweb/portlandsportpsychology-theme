@@ -397,6 +397,10 @@
 .df { display: flex; }
 .dg { display: grid; }
 
+@media (max-width: $vw-500) {
+  .dn-vw500 { display: none; }
+}
+
 
 
 
@@ -418,6 +422,7 @@
 
 @media (max-width: $vw-500) {
   .fd-c-vw500 { flex-direction: column; }
+  .fd-cr-vw500 { flex-direction: column-reverse; }
 }
 
 @media (max-width: $vw-300) {

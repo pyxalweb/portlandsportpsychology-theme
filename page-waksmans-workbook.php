@@ -64,22 +64,36 @@ get_header();
         </div>
     </section>
 
-    <section class="content width-xs | mbl-7 mbl-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%" id="order-now">
-        <div class="mb-2 ta-c | text-1000--h2" style="opacity:0;">
-            <h2><?php echo get_field('info_heading'); ?></h2>
-            <div class="text-900 text-strike">
-                <p><span><?php echo get_field('info_price'); ?></span></p>
+
+    <section class="content-photo | content-photo--gtc-66-33-vw800 | content-photo--gtc-1-vw500 | content width-df | mbl-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%" id="order-now">
+        <div class="content-photo__container | mb-2-vw500 mb-1--h2" style="opacity:0;">
+            <div class="mb-2 ta-c | text-1000--h2">
+                <h2><?php echo get_field('info_heading'); ?></h2>
+                <div class="text-900 text-strike">
+                    <p><span><?php echo get_field('info_price'); ?></span></p>
+                </div>
+                <div class="text-background text-background--grey-100 | mt-05 mb-1 b-2px-grey-200 bs-400 br-1">
+                    <p><?php echo get_field('info_highlight'); ?></p>
+                </div>
+                <p><?php echo get_field('info_description'); ?></p>
             </div>
-            <div class="text-background text-background--grey-100 | mt-05 mb-1 b-2px-grey-200 bs-400 br-1">
-                <p><?php echo get_field('info_highlight'); ?></p>
-            </div>
-            <p><?php echo get_field('info_description'); ?></p>
+        </div>
+
+        <div class="image--maxheight-760 image--rounded | dn-vw500" style="opacity:0;">
+            <?php
+            $image = get_field('main_content_image');
+            if ($image):
+                $url = $image['url'];
+                $alt = $image['alt'];
+            ?>
+            <img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="676" height="760">
+            <?php endif; ?>
         </div>
     </section>
 
     <section class="content width-df | mb-7 mb-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%" id="order-now">
-        <div class="df g-clamp-2-5-5 | fd-c-vw500" style="opacity:0;">
-            <div class="fg-1 fs-1 fb-50 | pt-4 bt-2px-grey-100 | text-500--h3">
+        <div class="df g-clamp-2-5-5 | fd-cr-vw500" style="opacity:0;">
+            <div class="fg-1 fs-1 fb-50 | text-500--h3">
                 <h3><?php echo get_field('about_heading'); ?></h3>
                 
                 <div class="mt-1 mb-4 pb-4 bb-2px-grey-100">

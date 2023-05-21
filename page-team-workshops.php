@@ -18,39 +18,6 @@ get_header();
         <img src="<?php echo get_template_directory_uri(); ?>/assets/logo-icon.svg" alt="" class="content-bg__circle">
     </section>
 
-    <section class="content width-df | text-1300--h2 text-500--h3 | mb-4">
-        <div class="ta-c mb-1 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-            <h2><?php echo get_field('callout_group_heading'); ?></h2>
-        </div>
-
-        <div class="dg gtc-3 g-clamp-1-3-3 | gtc-1-vw500 | ta-c-vw500 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-
-            <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
-                <div class="svg svg--57h | mi-center-vw500">
-                    <?php load_inline_svg('icon-light-bulb.svg'); ?>
-                </div>
-                <h3><?php echo get_field('callout_heading_1'); ?></h3>
-                <p><?php echo get_field('callout_paragraph_1'); ?></p>
-            </div>
-
-            <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
-                <div class="svg svg--57h | mi-center-vw500">
-                    <?php load_inline_svg('icon-brain-tough.svg'); ?>
-                </div>
-                <h3><?php echo get_field('callout_heading_2'); ?></h3>
-                <p><?php echo get_field('callout_paragraph_2'); ?></p>
-            </div>
-
-            <div class="df fd-c g-1 p-2 h-100 | b-2px-grey-100 br-2" style="opacity:0;">
-                <div class="svg svg--57h | mi-center-vw500">
-                    <?php load_inline_svg('icon-clipboard.svg'); ?>
-                </div>
-                <h3><?php echo get_field('callout_heading_3'); ?></h3>
-                <p><?php echo get_field('callout_paragraph_3'); ?></p>
-            </div>
-        </div>
-    </section>
-
     <section class="mbl-4 pbl-4 bg-grey-100 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content width-df | text-1300--h2 | mb-4 pb-4 ta-c bb-2px-white">
             <h2><?php echo get_field('workshop_topics_group_heading'); ?></h2>

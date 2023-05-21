@@ -27,7 +27,7 @@ body {
 
 // text - default but smaller
 %text-100 {
-  @include text(var(--ff-primary), var(--fs-400), var(--fw-regular), var(--lh-400), var(--c-grey-400), none, normal);
+  @include text(var(--ff-primary), var(--fs-500), var(--fw-regular), var(--lh-400), var(--c-grey-400), none, normal);
 }
 .text-100 { @extend %text-100; }
 

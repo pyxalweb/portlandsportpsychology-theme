@@ -21,8 +21,8 @@ get_header();
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
             </div>
             <div class="masthead__overlay__buttons">
-                <a href="contact" class="button button--highlight">Schedule your complimentary initial consult today!</a>
-                <!-- <a href="waksmans-workbook" class="button button--highlight">Waksman's Workbook</a> -->
+                <a href="contact" class="button button--highlight">Schedule Consultation</a>
+                <a href="waksmans-workbook" class="button button--highlight">Buy Workbook</a>
             </div>
         </div>
     </div>
