@@ -55,29 +55,31 @@ get_header();
         </div>
     </section>
 
-    <div class="content width-df | mbl-4 animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-        <?php echo get_field('content_2'); ?>
-    </div>
-
-    <section class="content width-df | mbl-4 animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-        <div class="text-500--h4 | dg gtc-3 g-clamp-1-3-3 | gtc-1-vw500">
-            <div class="text-1000--h2">
-                <?php echo get_field('content_3'); ?>
+    <section class="content width-xs | mbl-4 animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
+        <div class="text-1000--h2 | ta-c">
+            <h2><?php echo get_field('content_2'); ?></h2>
+        </div>
+        <div class="image--rounded | mi-center-child mbl-2">
+            <?php
+            $image = get_field('paisley');
+            if ($image):
+                $url = $image['url'];
+                $alt = $image['alt'];
+            ?>
+            <img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="360" height="504">
+            <?php endif; ?>
+        </div>
+        <div class="list--style-none | paragraph-mb-0 | ta-c bg-grey-100 bs-400 br-2 p-2">
+            <div class="mb-2">
+                <h2><?php echo get_field('box_5_c'); ?></h2>
             </div>
-            <div class="image--rounded | mi-center-child-vw500">
-                <?php
-                $image = get_field('paisley');
-                if ($image):
-                    $url = $image['url'];
-                    $alt = $image['alt'];
-                ?>
-                <img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="360" height="504">
-                <?php endif; ?>
-            </div>
-            <div class="list--color | bg-grey-100 bs-400 br-2 p-2">
-                <?php echo get_field('box_5_a'); ?>
-                <br>
-                <?php echo get_field('box_5_b'); ?>
+            <div class="dg gtc-2 g-1 | gtc-1-vw300">
+                <div>
+                    <?php echo get_field('box_5_a'); ?>
+                </div>
+                <div>
+                    <?php echo get_field('box_5_b'); ?>
+                </div>
             </div>
         </div>
     </section>

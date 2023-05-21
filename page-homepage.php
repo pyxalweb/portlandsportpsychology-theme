@@ -8,10 +8,7 @@ get_header();
     <div class="masthead__overlay homepage | animate-scroll-fade-in" data-delay="0.5" style="opacity:0;">
         <div class="masthead__overlay__box">
             <div class="masthead__overlay__heading">
-                <h1><?php echo get_the_title(); ?></h1>
-                <div>
-                    <span><?php echo get_field('credentials'); ?></span>
-                </div>
+                <h1><?php echo get_the_title(); ?> <?php echo get_field('credentials'); ?></h1>
             </div>
             <div class="masthead__overlay__subtext">
                 <p></p>
@@ -201,10 +198,10 @@ get_header();
                 </div>
             </div>
 
-            <div class="content-photo__container | image--maxheight-760 | image--maxheight-reset | image--objectfit--scaledown | animate-scroll-slide-horizontal | mi-center-child | pt-4-vw300" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
+            <div class="content-photo__container | animate-scroll-slide-horizontal | mi-center-child | pt-4-vw300" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="-300">
                 <picture>
                     <source srcset="<?php echo get_template_directory_uri(); ?>/assets/waksmans-sport-psychology-workbook-no-shadow.png" type="image/png" media="(max-width: 800px)">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/waksmans-sport-psychology-workbook.png" alt="Waksman's Sport Psychology Program: A Practical Mental Skills Workbook for Student Athletes" width="676" height="760">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/waksmans-sport-psychology-workbook.png" alt="Waksman's Sport Psychology Program: A Practical Mental Skills Workbook for Student Athletes" width="460" height="604">
                 </picture>
             </div>
         </div>

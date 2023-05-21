@@ -5,7 +5,7 @@ get_header();
 ?>
 
 <main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
-    <section class="pbl-7 pbl-3-vw400 mb-7 mb-3-vw400 ta-c | content-bg | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
+    <section class="masthead-interior | pbl-7 pbl-3-vw400 mb-4 mb-3-vw400 ta-c | content-bg | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content width-df">
             <h1><?php echo get_field('heading'); ?></h1>
             <div class="mt-1">
@@ -23,7 +23,7 @@ get_header();
         <?php endif; ?>
     </section>
 
-    <section class="content width-sm | mb-7 mb-3-vw400 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
+    <section class="content width-sm | mb-4 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <ul class="numbered-items">
             <li>
                 <div class="numbered-item">

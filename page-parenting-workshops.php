@@ -5,19 +5,27 @@ get_header();
 ?>
 
 <main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
-    <section class="content width-df | pbl-7 pbl-3-vw400 ta-c | content-bg | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-        <h1><?php echo get_field('heading'); ?></h1>
-        <div class="mt-1">
-            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
+    <section class="masthead-interior | pbl-7 pbl-3-vw400 mb-4 mb-3-vw400 ta-c | content-bg | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
+        <div class="content width-df">
+            <h1><?php echo get_field('heading'); ?></h1>
+            <div class="mt-1">
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
+            </div>
+            <a href="contact" class="button button--highlight | mi-center mt-2">Schedule Consultation</a>
         </div>
 
-        <a href="contact" class="button button--highlight | mi-center mt-2">Schedule your complimentary initial consult today!</a>
-
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/logo-icon.svg" alt="" class="content-bg__circle">
+        <?php
+		$image = get_field('masthead');
+		if ($image):
+			$url = $image['url'];
+			$alt = $image['alt'];
+		?>
+		<img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="1920" height="500" class="content-bg__photo">
+        <?php endif; ?>
     </section>
 
     <section class="content-photo | content-photo--gtc-66-33-vw800 | content-photo--gtc-1-vw500 | content width-df | mb-4 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%">
-        <div class="content-photo__container | mb-2-vw500 mb-1--h2" style="opacity:0;">
+        <div class="content-photo__container | mb-4-vw500 mb-1--h2" style="opacity:0;">
             <div>
                 <h2><?php echo get_field('main_content_heading'); ?></h2>
                 <?php echo get_field('main_content'); ?>
@@ -42,7 +50,7 @@ get_header();
             </div>
         </div>
 
-        <div class="image--maxheight-760 image--rounded image--circle--vw200" style="opacity:0;">
+        <div class="image image--rounded image--center--vw500 image--circle--vw500 image--size-50--vw500 image--size-100--vw200" style="opacity:0;">
             <?php
             $image = get_field('main_content_image');
             if ($image):
@@ -54,7 +62,7 @@ get_header();
         </div>
     </section>
 
-    <section class="mt-7 mt-3-vw400 pbl-7 pbl-3-vw400 | bg--stripe | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
+    <section class="mt-4 pbl-7 pbl-3-vw400 | bg--stripe | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content width-df | ta-c text-1000--h2">
             <h2>What clients are saying</h2>
 

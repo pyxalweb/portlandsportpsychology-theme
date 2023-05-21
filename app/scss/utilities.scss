@@ -206,6 +206,8 @@
 @media (max-width: $vw-500) {
 .mb-4-vw500 { margin-bottom: 4em; }
 .mb-2-vw500 { margin-bottom: 2em; }
+.mb-1-vw500 { margin-bottom: 1em; }
+.mb-0-vw500 { margin-bottom: 0em; }
 }
 
 
@@ -399,6 +401,7 @@
 
 @media (max-width: $vw-500) {
   .dn-vw500 { display: none; }
+  .db-vw500 { display: block; }
 }
 
 
@@ -546,7 +549,7 @@
 // .g-6 { gap: 6em; }
 // .g-5 { gap: 5em; }
 // .g-4 { gap: 4em; }
-// .g-3 { gap: 3em; }
+.g-3 { gap: 3em; }
 // .g-2 { gap: 2em; }
 .g-1 { gap: 1em; }
 // .g-0 { gap: 0; }

@@ -39,7 +39,7 @@ body {
 
 // text - grey color and very small
 %text-300 {
-  @include text(var(--ff-primary), var(--fs-200), var(--fw-regular), var(--lh-400), var(--c-grey-300), uppercase, normal);
+  @include text(var(--ff-primary), var(--fs-200), var(--fw-regular), var(--lh-400), var(--c-grey-400), uppercase, normal);
 }
 .text-300 { @extend %text-300; }
 
@@ -93,7 +93,7 @@ body {
 
 // heading - very large font-size
 %text-1100 {
-  @include text(var(--ff-primary), clamp(var(--fs-800), 5vw, var(--fs-1200)), var(--fw-extra-bold), var(--lh-100), var(--c-black), none, normal);
+  @include text(var(--ff-primary), clamp(var(--fs-800), 5vw, var(--fs-1100)), var(--fw-extra-bold), var(--lh-100), var(--c-black), none, normal);
 
   @media (max-width: $vw-900) {
     font-size: clamp(var(--fs-900), 4vw, var(--fs-1100));
@@ -115,7 +115,7 @@ body {
 
 // text - medium font-size (slightly smaller) and bold
 %text-1300 {
-  @include text(var(--ff-primary), clamp(var(--fs-800), 5vw, var(--fs-900)), var(--fw-semi-bold), var(--lh-300), var(--c-black), none, normal);
+  @include text(var(--ff-primary), clamp(var(--fs-800), 5vw, var(--fs-900)), var(--fw-semi-bold), var(--lh-300), var(--c-black), uppercase, normal);
 }
 .text-1300 { @extend %text-1300; }
 .text-1300--h2 h2 { @extend %text-1300; }
@@ -175,6 +175,14 @@ a {
 .mb-1--h2 {
   h2 {
     margin-bottom: 1em;
+  }
+}
+
+.content {
+  .paragraph-mb-0 {
+    p {
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -344,7 +352,7 @@ a {
     color: var(--c-white);
   }
 
-  &--grey-100 {
+  &--grey-200 {
     background-color: var(--c-grey-100);
     color: var(--c-black);
   }
@@ -512,6 +520,10 @@ a {
   display: flex;
   column-gap: 0.5em;
 
+  @media (max-width: $vw-500) {
+    justify-content: center;
+  }
+
   &:before {
     content: '';
     font-family: 'icons';
@@ -571,23 +583,10 @@ a {
     }
 
     .masthead__overlay__heading {
-      display: flex;
-      justify-content: center;
-      gap: 0.5em;
+      text-align: center;
 
       h1 {
         @extend %text-1100;
-      }
-
-      span {
-        @extend %text-800;
-        line-height: 1;
-      }
-      
-      div {
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
       }
     }
 
@@ -641,7 +640,7 @@ a {
   height: var(--masthead-height);
   object-fit: cover;
   opacity: 0.5;
-  background-color: var(--c-grey-200);
+  background-color: var(--c-grey-300);
 
   &.photo {
     max-height: 500px;
@@ -658,6 +657,19 @@ a {
       margin-inline: auto;
     }
   }
+}
+
+
+
+
+// ***********************************
+//  Masthead Interior
+// ***********************************
+.masthead-interior {
+  min-height: 454px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
@@ -691,15 +703,6 @@ a {
   overflow: hidden;
 }
 
-.content-bg__circle {
-  position: absolute;
-  inset: 0 50% auto auto;
-  transform: translateX(50%);
-  width: 440px;
-  opacity: 0.05;
-  z-index: -1;
-}
-
 .content-bg__photo {
   position: absolute;
   inset: 0 0 auto 0;
@@ -707,6 +710,7 @@ a {
   height: 100%;
   object-fit: cover;
   opacity: 0.1;
+  z-index: -1;
 }
 
 .bg-gradient {
