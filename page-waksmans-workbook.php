@@ -92,7 +92,7 @@ get_header();
 
     <section class="content width-df | mb-7 mb-3-vw400 | animate-children-scroll-fade-in" data-delay="0.5" data-scroller="90%" id="order-now">
         <div class="df g-clamp-1-3-3 | fd-c-vw500" style="opacity:0;">
-            <div class="fg-1 fs-1 fb-50">
+            <div class="white-rectangle | fg-1 fs-1 fb-50">
                 <!-- EW jotform -->
                 <script type="text/javascript" src="https://form.jotform.com/jsform/231268550096155"></script>
                 

@@ -35,7 +35,7 @@ get_header();
             </div>
         </div>
 
-        <div class="mb-4">
+        <div class="white-rectangle">
             <!-- EW jotform -->
             <script type="text/javascript" src="https://form.jotform.com/jsform/231270849695164"></script>
 
