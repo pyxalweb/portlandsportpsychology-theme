@@ -27,19 +27,19 @@ body {
 
 // text - default but smaller
 %text-100 {
-  @include text(var(--ff-primary), var(--fs-500), var(--fw-regular), var(--lh-400), var(--c-grey-400), none, normal);
+  @include text(var(--ff-secondary), var(--fs-500), var(--fw-regular), var(--lh-500), var(--c-grey-500), none, normal);
 }
 .text-100 { @extend %text-100; }
 
 // text - default
 %text-200 {
-  @include text(var(--ff-primary), var(--fs-500), var(--fw-regular), var(--lh-500), var(--c-grey-400), none, normal);
+  @include text(var(--ff-secondary), var(--fs-500), var(--fw-regular), var(--lh-500), var(--c-grey-500), none, normal);
 }
 .text-200 { @extend %text-200; }
 
 // text - grey color and very small
 %text-300 {
-  @include text(var(--ff-primary), var(--fs-200), var(--fw-regular), var(--lh-400), var(--c-grey-400), uppercase, normal);
+  @include text(var(--ff-secondary), var(--fs-200), var(--fw-regular), var(--lh-400), var(--c-grey-400), uppercase, normal);
 }
 .text-300 { @extend %text-300; }
 
@@ -62,19 +62,19 @@ body {
 
 // medium font-size on larger viewports, small font-size on small viewports
 %text-600 {
-  @include text(var(--ff-primary), clamp(var(--fs-400), 2vw, var(--fs-700)), var(--fw-semi-bold), var(--lh-400), var(--c-black), none, normal);
+  @include text(var(--ff-secondary), clamp(var(--fs-400), 2vw, var(--fs-700)), var(--fw-semi-bold), var(--lh-400), var(--c-black), none, normal);
 }
 .text-600 { @extend %text-600; }
 
 // text - secondary color and italic
 %text-700 {
-  @include text(var(--ff-primary), var(--fs-500), var(--fw-regular), var(--lh-400), var(--c-secondary), none, italic);
+  @include text(var(--ff-secondary), var(--fs-500), var(--fw-regular), var(--lh-400), var(--c-secondary), none, italic);
 }
 .text-700 { @extend %text-700; }
 
 // text - secondary color and bold
 %text-800 {
-  @include text(var(--ff-primary), var(--fs-400), var(--fw-bold), var(--lh-400), var(--c-secondary), uppercase, normal);
+  @include text(var(--ff-secondary), var(--fs-400), var(--fw-bold), var(--lh-400), var(--c-secondary), uppercase, normal);
 }
 .text-800 { @extend %text-800; }
 
@@ -93,21 +93,13 @@ body {
 
 // heading - very large font-size
 %text-1100 {
-  @include text(var(--ff-primary), clamp(var(--fs-800), 5vw, var(--fs-1100)), var(--fw-extra-bold), var(--lh-100), var(--c-black), none, normal);
-
-  @media (max-width: $vw-900) {
-    font-size: clamp(var(--fs-900), 4vw, var(--fs-1100));
-  }
-
-  @media (max-width: $vw-400) {
-    font-size: clamp(var(--fs-900), 3vw, var(--fs-1100));
-  }
+  @include text(var(--ff-primary), clamp(var(--fs-800), 5vw, var(--fs-1100)), var(--fw-extra-bold), var(--lh-300), var(--c-black), none, normal);
 }
 .text-1100 { @extend %text-1100; }
 
 // heading - small font-size
 %text-1200 {
-  @include text(var(--ff-primary), var(--fs-500), var(--fw-semi-bold), var(--lh-400), var(--c-black), none, normal);
+  @include text(var(--ff-secondary), var(--fs-500), var(--fw-semi-bold), var(--lh-400), var(--c-black), none, normal);
 }
 .text-1200 { @extend %text-1200; }
 .text-1200--h2 h2 { @extend %text-1200; }
@@ -124,7 +116,7 @@ body {
 // ***********************************
 
 body {
-  font-family: var(--ff-primary);
+  font-family: var(--ff-secondary);
   font-size: var(--root-font-size);
   font-weight: var(--fw-regular);
   color: var(--c-black);
@@ -587,6 +579,24 @@ a {
 
       h1 {
         @extend %text-1100;
+
+        @media (max-width: $vw-900) {
+          font-size: clamp(var(--fs-900), 4vw, var(--fs-1000));
+        }
+
+        @media (max-width: $vw-400) {
+          font-size: clamp(var(--fs-900), 3vw, var(--fs-1000));
+        }
+
+        span {
+          @media (max-width: $vw-700) {
+            display: block;
+          }
+
+          @media (max-width: $vw-300) {
+            font-size: var(--fs-700);
+          }
+        }
       }
     }
 
@@ -729,7 +739,7 @@ a {
   &:before {
     content: '';
     display: block;
-    width: 100%;
+    width: 101%;
     height: 50px;
     position: absolute;
     inset: auto auto 0 auto;

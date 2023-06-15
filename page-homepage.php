@@ -8,7 +8,7 @@ get_header();
     <div class="masthead__overlay homepage | animate-scroll-fade-in" data-delay="0.5" style="opacity:0;">
         <div class="masthead__overlay__box">
             <div class="masthead__overlay__heading">
-                <h1><?php echo get_the_title(); ?> <?php echo get_field('credentials'); ?></h1>
+                <h1><?php echo get_the_title(); ?> <span><?php echo get_field('credentials'); ?></span></h1>
             </div>
             <div class="masthead__overlay__subtext">
                 <p></p>
@@ -159,39 +159,41 @@ get_header();
     <section class="mt-7 mt-3-vw400 bg--stripe | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content-photo | content-photo--gtc-1-vw300 | content width-df | pt-3-vw300">
             <div class="content-photo__container | o-2 | o-1-vw500 | pbl-5 pbl-3-vw300 pt-0-vw300 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
-                <div class="content-photo__text | ta-c-vw300 | text-1000--h2">
-                    <h2><?php echo get_field('product_heading'); ?></h2>
+                <div class="content-photo__text text-1000--h2">
+                    <div class="ta-c-vw300">
+                        <h2><?php echo get_field('product_heading'); ?></h2>
+                    </div>
                     
-                    <div class="points | text-500--h3 | mt-1">
-                        <div class="points__item">
-                            <div class="points__icon">
+                    <div class="list--style-none | text-500--h3 | mt-1">
+                        <li class="list--svg | mbl-2">
+                            <div class="list--svg--icon">
                                 <?php load_inline_svg('icon-dot.svg'); ?>
                             </div>
-                            <div class="points__text">
+                            <div class="list--svg--text">
                                 <h3><?php echo get_field('product_bullet_heading_1'); ?></h3>
                                 <p><?php echo get_field('product_bullet_description_1'); ?></p>
                             </div>
-                        </div>
+                        </li>
 
-                        <div class="points__item">
-                            <div class="points__icon">
+                        <li class="list--svg | mbl-2">
+                            <div class="list--svg--icon">
                                 <?php load_inline_svg('icon-dot.svg'); ?>
                             </div>
-                            <div class="points__text">
+                            <div class="list--svg--text">
                                 <h3><?php echo get_field('product_bullet_heading_2'); ?></h3>
                                 <p><?php echo get_field('product_bullet_description_2'); ?></p>
                             </div>
-                        </div>
+                        </li>
 
-                        <div class="points__item">
-                            <div class="points__icon">
+                        <li class="list--svg | mbl-2">
+                            <div class="list--svg--icon">
                                 <?php load_inline_svg('icon-dot.svg'); ?>
                             </div>
-                            <div class="points__text">
+                            <div class="list--svg--text">
                                 <h3><?php echo get_field('product_bullet_heading_3'); ?></h3>
                                 <p><?php echo get_field('product_bullet_description_3'); ?></p>
                             </div>
-                        </div>
+                        </li>
                     </div>
 
                     <a href="waksmans-workbook" aria-label="Order Waksman's Workbook Now" class="button button--highlight | mt-2-vw300 mi-center">Order Now</a>

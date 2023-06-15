@@ -6,19 +6,21 @@ get_header();
 
 <main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
     <section class="content-photo | content-photo--gtc-1-vw500 | content width-df | mbl-7 mbl-4 mb-1--h2 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-        <div>
-            <h1><?php echo get_field('heading'); ?></h1>
+        <div class="mb-1-vw500">
+            <div class="mb-1">
+                <h1><?php echo get_field('heading'); ?></h1>
+            </div>
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
         </div>
 
-        <div class="image--maxheight-936 image--rounded | image--size-50--vw500 | mi-center-child-vw500 | image--circle--vw200 image--position-down--vw200 image--size-100--vw200">
+        <div class="image--rounded | image--size-50--vw500 | mi-center-child-vw500 | image--size-100--vw200">
             <?php
             $image = get_field('image_1');
             if ($image):
                 $url = $image['url'];
                 $alt = $image['alt'];
             ?>
-            <img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="676" height="936">
+            <img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="676" height="770">
             <?php endif; ?>
         </div>
     </section>
@@ -55,29 +57,30 @@ get_header();
         </div>
     </section>
 
-    <section class="content width-xs | mbl-4 animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
-        <div class="text-1000--h2 | ta-c">
+    <section class="content width-sm | mbl-4 animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
+        <div class="text-1000--h2 | mb-1 ta-c">
             <h2><?php echo get_field('content_2'); ?></h2>
         </div>
-        <div class="image--rounded | mi-center-child mbl-2">
-            <?php
-            $image = get_field('paisley');
-            if ($image):
-                $url = $image['url'];
-                $alt = $image['alt'];
-            ?>
-            <img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="360" height="504">
-            <?php endif; ?>
-        </div>
-        <div class="list--style-none | paragraph-mb-0 | ta-c bg-grey-100 bs-400 br-2 p-2">
-            <div class="mb-2">
-                <h2><?php echo get_field('box_5_c'); ?></h2>
+        <div class="df jc-c g-1 fd-c-vw300">
+            <div class="image--rounded | mi-center-child">
+                <?php
+                $image = get_field('paisley');
+                if ($image):
+                    $url = $image['url'];
+                    $alt = $image['alt'];
+                ?>
+                <img src="<?php echo $url ?>" alt="<?php echo $alt ?>" width="360" height="504">
+                <?php endif; ?>
             </div>
-            <div class="dg gtc-2 g-1 | gtc-1-vw300">
-                <div>
+
+            <div class="paragraph-mb-0 bg-grey-100 bs-400 br-2 p-2 mi-center-vw300">
+                <div class="mb-1">
+                    <h2><?php echo get_field('box_5_c'); ?></h2>
+                </div>
+                <div class="list--color | mb-1">
                     <?php echo get_field('box_5_a'); ?>
                 </div>
-                <div>
+                <div class="list--color">
                     <?php echo get_field('box_5_b'); ?>
                 </div>
             </div>

@@ -37,11 +37,11 @@ get_header();
             </div>
 
             <div class="expandable-list | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
-                <h2><?php echo get_field('media_heading_2'); ?></h2>
-                <?php echo get_field('media_description_2'); ?>
+                <h2><?php echo get_field('media_heading_5'); ?></h2>
+                <?php echo get_field('media_description_5'); ?>
 
                 <div class="list--dots | mbl-2 bg-grey-100 p-2 br-2 bs-400">
-                    <?php echo get_field('media_content_2'); ?>
+                    <?php echo get_field('media_content_5'); ?>
 
                     <button class="expandable-list__more">View More</button>
                 </div>
@@ -72,11 +72,11 @@ get_header();
             </div>
 
             <div class="expandable-list | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" data-reduce="3">
-                <h2><?php echo get_field('media_heading_5'); ?></h2>
-                <?php echo get_field('media_description_5'); ?>
+                <h2><?php echo get_field('media_heading_2'); ?></h2>
+                <?php echo get_field('media_description_2'); ?>
 
                 <div class="list--dots | mbl-2 bg-grey-100 p-2 br-2 bs-400">
-                    <?php echo get_field('media_content_5'); ?>
+                    <?php echo get_field('media_content_2'); ?>
 
                     <button class="expandable-list__more">View More</button>
                 </div>
