@@ -4,7 +4,7 @@
 get_header();
 ?>
 
-<main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
+<main id="site-content" <?php post_class($class = 'site-content interior push'); ?>>
     <section class="content-photo | content-photo--gtc-1-vw500 | content width-df | mbl-7 mbl-4 mb-1--h2 | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="mb-1-vw500">
             <div class="mb-1">

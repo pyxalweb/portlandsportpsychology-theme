@@ -1,11 +1,3 @@
-<?php
-/**
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package psp
- */
-?>
 <footer id="site-footer" class="footer">
 	<div class="footer__container">
 		<div class="footer__main | content width-df">
@@ -49,10 +41,7 @@
 			</div>
 		</div>
 	</div>
-
-
 </footer>
-
 
 <?php wp_footer(); ?>
 

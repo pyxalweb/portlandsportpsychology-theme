@@ -4,7 +4,7 @@
 get_header();
 ?>
 
-<main id="site-content" <?php post_class($class = 'site-content interior no-masthead'); ?>>
+<main id="site-content" <?php post_class($class = 'site-content interior push'); ?>>
     <section class="masthead-interior | pbl-7 pbl-3-vw400 mb-4 mb-3-vw400 ta-c | content-bg | animate-scroll-fade-in" data-delay="0.5" data-scroller="90%" style="opacity:0;">
         <div class="content width-df">
             <h1><?php echo get_field('heading'); ?></h1>

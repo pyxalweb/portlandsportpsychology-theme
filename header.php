@@ -1,19 +1,22 @@
-<?php
-/*
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package psp
- */
-?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- prefetch -->
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//www.googletagmanager.com">
+
 	<title><?php wp_title('-', 'echo', 'right'); ?></title>
 	<?php wp_head(); ?>
+
+    <!-- icons -->
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/favicon.png">
+    <!-- <link rel="icon" href="<?php // echo get_template_directory_uri(); ?>/assets/favicon-dark-mode.png" media="(prefers-color-scheme: dark)"> -->
+    <!-- <link rel="icon" href="<?php // echo get_template_directory_uri(); ?>/assets/favicon-light-mode.png" media="(prefers-color-scheme: light)"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/apple-touch-icon.png">
+    <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/site.webmanifest">
 </head>
 
 <body <?php body_class('preload'); ?>>
