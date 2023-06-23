@@ -17,7 +17,23 @@
     <!-- <link rel="icon" href="<?php // echo get_template_directory_uri(); ?>/assets/favicon-light-mode.png" media="(prefers-color-scheme: light)"> -->
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/apple-touch-icon.png">
     <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/site.webmanifest">
+    <meta property="og:image" content="http://portlandsportpsychology.local/wp-content/themes/psp/assets/logo-schema.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="680">
+
+    <!-- other -->
+    <meta name="google-site-verification" content="QtqxUx5tZdF2ZfUpohgrciG_P2k0WffU8G4w6fJQQEQ">
 </head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C83XW0630B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C83XW0630B');
+</script>
 
 <body <?php body_class('preload'); ?>>
 <?php wp_body_open(); ?>

@@ -97,7 +97,7 @@ get_header();
                 </div>
             </div>
 
-            <div class="image image--circle--vw300 image--position-top--vw200 | pb-3-vw300 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
+            <div class="image image--circle--vw300 | pb-3-vw300 | animate-scroll-slide-horizontal" data-delay="0.5" data-scroller="90%" data-duration="0.75" data-position="300">
                 <?php
                 $image = get_field('image_1');
                 if ($image):

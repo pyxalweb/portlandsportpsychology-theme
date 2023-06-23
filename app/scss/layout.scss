@@ -99,7 +99,7 @@ body {
 
 // heading - small font-size
 %text-1200 {
-  @include text(var(--ff-secondary), var(--fs-500), var(--fw-semi-bold), var(--lh-400), var(--c-black), none, normal);
+  @include text(var(--ff-secondary), clamp(var(--fs-400), 3vw, var(--fs-500)), var(--fw-semi-bold), var(--lh-400), var(--c-black), none, normal);
 }
 .text-1200 { @extend %text-1200; }
 .text-1200--h2 h2 { @extend %text-1200; }
@@ -580,7 +580,7 @@ a {
       h1 {
         @extend %text-1100;
 
-        @media (max-width: $vw-900) {
+        @media (max-width: 1500px) {
           font-size: clamp(var(--fs-900), 4vw, var(--fs-1000));
         }
 

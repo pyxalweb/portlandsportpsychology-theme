@@ -9,7 +9,7 @@ get_header();
         <div class="content width-df">
             <h1><?php echo get_field('heading'); ?></h1>
             <div class="mt-1">
-                <p><?php echo get_field('heading'); ?></p>
+                <p><?php echo get_field('masthead_text'); ?></p>
             </div>
         </div>
 
