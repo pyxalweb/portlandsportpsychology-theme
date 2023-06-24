@@ -25,7 +25,9 @@ get_header();
     </div>
 
     <video class="masthead__media video" autoplay muted loop playsinline>
-        <source src="<?php echo get_template_directory_uri(); ?>/videos/homepage.mp4" type="video/mp4" />
+        <source src="<?php echo get_template_directory_uri(); ?>/videos/homepage.webm" type="video/webm">
+        <source src="<?php echo get_template_directory_uri(); ?>/videos/homepage.mp4" type="video/mp4">
+        Your browser does not support the video tag.
     </video>
 </section>
 

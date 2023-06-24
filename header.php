@@ -1,3 +1,5 @@
+<?php include_once('function-getimage.php'); ?>
+
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -17,7 +19,7 @@
     <!-- <link rel="icon" href="<?php // echo get_template_directory_uri(); ?>/assets/favicon-light-mode.png" media="(prefers-color-scheme: light)"> -->
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/apple-touch-icon.png">
     <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/site.webmanifest">
-    <meta property="og:image" content="http://portlandsportpsychology.local/wp-content/themes/psp/assets/logo-schema.png">
+    <meta property="og:image" content="https://www.portlandsportpsychology.com/wp-content/themes/psp/assets/logo-schema.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="680">
 
