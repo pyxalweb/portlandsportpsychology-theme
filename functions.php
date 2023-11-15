@@ -19,15 +19,15 @@ add_action('wp_enqueue_scripts', 'theme_files', 10);
 function enqueue_module_script() {
     wp_enqueue_script('main-scripts', get_template_directory_uri() . '/dist/scripts.js', array(), '1.0', true);
 }
+
 add_action('wp_enqueue_scripts', 'enqueue_module_script', 10);
 
-function set_module_script_type($tag, $handle) {
-    if ('main-scripts' === $handle) {
-        $tag = str_replace('type=\'text/javascript\'', 'type=\'module\'', $tag);
+add_filter('script_loader_tag', function ($tag, $handle, $src) {
+    if ($handle === 'main-scripts') {
+        $tag = '<script type="module" src="' . esc_url($src) . '"></script>';
     }
     return $tag;
-}
-add_filter('script_loader_tag', 'set_module_script_type', 10, 3);
+}, 10, 3);
 
 
 
