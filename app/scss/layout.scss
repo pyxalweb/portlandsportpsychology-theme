@@ -741,7 +741,7 @@ a {
     content: '';
     display: block;
     width: 101%;
-    height: 50px;
+    height: 68px; // 50px when using <script>
     position: absolute;
     inset: auto auto 0 auto;
     background: var(--c-white);
